@@ -1,0 +1,10 @@
+{
+  "id": "q_b5034a203b3b",
+  "question": "Tu dau thang nay toi het hom nay doanh thu tang hay giam bao nhieu % so voi cung ky thang truoc?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_b5034a203b3b"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

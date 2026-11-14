@@ -1,0 +1,17 @@
+{
+  "id": "q_67412073e116",
+  "question": "Tính đến hết ngày 22/07/2026, 5 khách nào đang nợ nhiều nhất, mỗi người còn nợ bao nhiêu?",
+  "answer": {
+    "id": "q_67412073e116",
+    "type": "table",
+    "answer": {
+      "columns": [
+        "khach_hang",
+        "so_tien_no"
+      ],
+      "rows": []
+    }
+  },
+  "elapsed_sec": 0.3733,
+  "extra": "{'intent': 'top_debt_table', 'parsed': {'intent': 'top_debt_table', 'ans_type': 'table', 'k': 5}}"
+}

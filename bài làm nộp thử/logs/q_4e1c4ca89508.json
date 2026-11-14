@@ -1,0 +1,10 @@
+{
+  "id": "q_4e1c4ca89508",
+  "question": "Dịp Tết Nguyên đán 2026 mặt hàng chi bán chạy nhất rứa?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_4e1c4ca89508"
+  },
+  "elapsed_sec": 0.0055,
+  "extra": "{'intent': 'best_sellers', 'parsed': {'intent': 'best_sellers', 'ans_type': 'string', 'k': 1, 'item_group': None, 'time_info': {'start_date': '2026-02-10', 'end_date': '2026-02-26', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'tet'}}}"
+}

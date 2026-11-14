@@ -1,0 +1,10 @@
+{
+  "id": "q_735ea0888aab",
+  "question": "Tháng 3/2025, trong các khách hàng, ai trung thành nhất?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_735ea0888aab"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

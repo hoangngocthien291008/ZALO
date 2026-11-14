@@ -1,0 +1,10 @@
+{
+  "id": "q_bf178ff24ac3",
+  "question": "doanh thu lần lượt các tháng 10, 11, 12 năm 2025 là bao nhiêu",
+  "answer": {
+    "type": "abstain",
+    "id": "q_bf178ff24ac3"
+  },
+  "elapsed_sec": 0.0479,
+  "extra": "{'intent': 'item_revenue', 'parsed': {'intent': 'item_revenue', 'ans_type': 'number', 'item_query': 'lần lượt các', 'time_info': {'start_date': '2025-10-01', 'end_date': '2025-10-31', 'compare_start_date': '2025-09-01', 'compare_end_date': '2025-09-30', 'shift': None, 'raw_type': 'specific_month'}}}"
+}

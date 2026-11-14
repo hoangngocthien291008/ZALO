@@ -1,0 +1,10 @@
+{
+  "id": "q_f4e0630ebcb1",
+  "question": "Bữa nay quán bán được bao nhiêu tiền rồi?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_f4e0630ebcb1"
+  },
+  "elapsed_sec": 0.0356,
+  "extra": "{'intent': 'item_qty_sold', 'parsed': {'intent': 'item_qty_sold', 'ans_type': 'number', 'item_query': 'rồi', 'unit_name': 'tiền', 'time_info': {'start_date': '2025-07-26', 'end_date': '2025-07-26', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'default_today'}}}"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "q_be3f968523bf",
+  "question": "T6/2026 số đơn ca chiều chênh ca sáng bnhiu %?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_be3f968523bf"
+  },
+  "elapsed_sec": 0.001,
+  "extra": "{'intent': 'revenue_diff', 'parsed': {'intent': 'revenue_diff', 'ans_type': 'percent', 'is_percent': True, 'time_info': {'start_date': '2026-09-19', 'end_date': '2026-09-19', 'compare_start_date': None, 'compare_end_date': None, 'shift': 'morning', 'raw_type': 'default_today'}}}"
+}

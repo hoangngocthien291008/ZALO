@@ -1,0 +1,11 @@
+{
+  "id": "q_599dbed4790f",
+  "question": "Hôm qua tiệm có bao nhiêu đơn hàng?",
+  "answer": {
+    "id": "q_599dbed4790f",
+    "type": "number",
+    "answer": 39
+  },
+  "elapsed_sec": 0.01,
+  "extra": "{'intent': 'order_count', 'parsed': {'intent': 'order_count', 'ans_type': 'number', 'min_revenue': 0, 'time_info': {'start_date': '2026-04-04', 'end_date': '2026-04-04', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'yesterday'}}}"
+}

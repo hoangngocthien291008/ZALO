@@ -1,0 +1,10 @@
+{
+  "id": "q_0a3308eb76bb",
+  "question": "Hom qua tiem ban dc may don?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_0a3308eb76bb"
+  },
+  "elapsed_sec": 0.7805,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

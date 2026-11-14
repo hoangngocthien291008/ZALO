@@ -1,0 +1,10 @@
+{
+  "id": "q_403bdc83bc9c",
+  "question": "Top 5 khách hàng có công nợ lớn nhất đến hết ngày 12/05/2026 và số nợ của từng người?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_403bdc83bc9c"
+  },
+  "elapsed_sec": 0.3695,
+  "extra": "{'intent': 'top_debt_table', 'parsed': {'intent': 'top_debt_table', 'ans_type': 'table', 'k': 5}}"
+}

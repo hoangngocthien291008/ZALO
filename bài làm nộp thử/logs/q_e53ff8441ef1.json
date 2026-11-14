@@ -1,0 +1,10 @@
+{
+  "id": "q_e53ff8441ef1",
+  "question": "Tiem ban th7/2025 duoc tong cong bao nhieu tien nhi?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_e53ff8441ef1"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "q_9b5377726889",
+  "question": "Quý 2/2025 quán có mấy đơn rứa?",
+  "answer": {
+    "id": "q_9b5377726889",
+    "type": "number",
+    "answer": 9935
+  },
+  "elapsed_sec": 0.1039,
+  "extra": "{'intent': 'order_count', 'parsed': {'intent': 'order_count', 'ans_type': 'number', 'min_revenue': 0, 'time_info': {'start_date': '2025-04-01', 'end_date': '2025-06-30', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'quarter'}}}"
+}

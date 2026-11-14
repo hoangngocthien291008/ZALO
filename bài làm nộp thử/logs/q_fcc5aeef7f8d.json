@@ -1,0 +1,11 @@
+{
+  "id": "q_fcc5aeef7f8d",
+  "question": "Tháng 9/2025 có bao nhiêu đơn mua hàng nhóm điện?",
+  "answer": {
+    "id": "q_fcc5aeef7f8d",
+    "type": "number",
+    "answer": 838
+  },
+  "elapsed_sec": 0.038,
+  "extra": "{'intent': 'order_count', 'parsed': {'intent': 'order_count', 'ans_type': 'number', 'min_revenue': 0, 'time_info': {'start_date': '2025-09-01', 'end_date': '2025-09-30', 'compare_start_date': '2025-08-01', 'compare_end_date': '2025-08-31', 'shift': None, 'raw_type': 'specific_month'}}}"
+}

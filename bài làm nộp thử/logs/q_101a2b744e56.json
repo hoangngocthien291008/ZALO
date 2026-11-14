@@ -1,0 +1,10 @@
+{
+  "id": "q_101a2b744e56",
+  "question": "Hết hnay, khách Tạ Dũng Long góp tới hạn mấy kỳ rồi, tính luôn kỳ hạn hôm nay nha?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_101a2b744e56"
+  },
+  "elapsed_sec": 0.001,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

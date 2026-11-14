@@ -1,0 +1,10 @@
+{
+  "id": "q_099a18d1ed60",
+  "question": "Nho xem 8/2025 doanh thu tiem minh duoc bao nhieu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_099a18d1ed60"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

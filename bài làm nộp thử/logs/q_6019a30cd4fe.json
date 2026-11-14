@@ -1,0 +1,11 @@
+{
+  "id": "q_6019a30cd4fe",
+  "question": "Tu dau nam toi nay duoc bnhiu don?",
+  "answer": {
+    "id": "q_6019a30cd4fe",
+    "type": "number",
+    "answer": 8881
+  },
+  "elapsed_sec": 0.1256,
+  "extra": "{'intent': 'order_count', 'parsed': {'intent': 'order_count', 'ans_type': 'number', 'min_revenue': 0, 'time_info': {'start_date': '2025-01-01', 'end_date': '2025-10-05', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'ytd'}}}"
+}

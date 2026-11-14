@@ -1,0 +1,11 @@
+{
+  "id": "q_fc8cdf9ab156",
+  "question": "Tháng 10 năm 2025 có mấy đơn tiền hàng từ 280.000đ trở lên vậy?",
+  "answer": {
+    "id": "q_fc8cdf9ab156",
+    "type": "number",
+    "answer": 0
+  },
+  "elapsed_sec": 0.0011,
+  "extra": "{'intent': 'order_count', 'parsed': {'intent': 'order_count', 'ans_type': 'number', 'min_revenue': 280000.0, 'time_info': {'start_date': '2025-10-01', 'end_date': '2025-10-31', 'compare_start_date': '2025-09-01', 'compare_end_date': '2025-09-30', 'shift': None, 'raw_type': 'specific_month'}}}"
+}

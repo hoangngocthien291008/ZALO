@@ -1,0 +1,10 @@
+{
+  "id": "q_78126a171991",
+  "question": "Doanh thu bữa ni của tiệm được bao nhiêu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_78126a171991"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

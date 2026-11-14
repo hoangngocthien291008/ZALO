@@ -1,0 +1,10 @@
+{
+  "id": "q_1bd68f25b288",
+  "question": "Tiệm mình thường đông khách nhất dào mấy giờ z?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_1bd68f25b288"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

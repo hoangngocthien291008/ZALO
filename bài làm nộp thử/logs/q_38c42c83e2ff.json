@@ -1,0 +1,10 @@
+{
+  "id": "q_38c42c83e2ff",
+  "question": "Nhóm đá xay th5/2025 chiếm bao nhiêu phần trăm doanh thu của quán ạ?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_38c42c83e2ff"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

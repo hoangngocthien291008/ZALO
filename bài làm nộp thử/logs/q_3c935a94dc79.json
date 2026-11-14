@@ -1,0 +1,10 @@
+{
+  "id": "q_3c935a94dc79",
+  "question": "Đến hết 17/12/2025 chia tiền nợ còn lại theo tuổi nợ 0–7 ngày, 8–15 ngày và trên 15 ngày, từng nhóm có bao nhiêu tiền?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_3c935a94dc79"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

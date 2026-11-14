@@ -1,0 +1,10 @@
+{
+  "id": "q_a13017cca903",
+  "question": "Quý 1/2026 tiệm có tổng doanh thu bao nhiêu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_a13017cca903"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

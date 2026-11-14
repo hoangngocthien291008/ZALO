@@ -1,0 +1,11 @@
+{
+  "id": "q_c2ba3823e50f",
+  "question": "Ti le huy don T2/2025 bao nhieu %?",
+  "answer": {
+    "id": "q_c2ba3823e50f",
+    "type": "percent",
+    "answer": 1.49
+  },
+  "elapsed_sec": 0.012,
+  "extra": "{'intent': 'cancellation_rate', 'parsed': {'intent': 'cancellation_rate', 'ans_type': 'percent', 'time_info': {'start_date': '2026-05-24', 'end_date': '2026-05-24', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'default_today'}}}"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "q_4807f35b3b8c",
+  "question": "07/2025 bán được bao nhiêu miếng Băng cá nhân Urgo Transparent hộp 100 miếng?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_4807f35b3b8c"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'item_qty_sold', 'parsed': {'intent': 'item_qty_sold', 'ans_type': 'number', 'item_query': 'băng cá nhân urgo transparent hộp 100 miếng', 'unit_name': 'miếng', 'time_info': {'start_date': '2026-08-08', 'end_date': '2026-08-08', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'default_today'}}}"
+}

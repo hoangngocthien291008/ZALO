@@ -1,0 +1,10 @@
+{
+  "id": "q_15711c61bb0d",
+  "question": "Quán mình bạn nhân viên nào phục vụ khách thân thiện nhất nhỉ?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_15711c61bb0d"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

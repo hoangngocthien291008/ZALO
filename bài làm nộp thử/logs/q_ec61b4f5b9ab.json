@@ -1,0 +1,10 @@
+{
+  "id": "q_ec61b4f5b9ab",
+  "question": "tuần trước số đơn ca chiều cao hay thấp hơn ca sáng bao nhiêu phần trăm?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_ec61b4f5b9ab"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

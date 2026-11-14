@@ -1,0 +1,10 @@
+{
+  "id": "q_86a32a09633a",
+  "question": "8-2025 cộng tiền thu máy cũ của khách được bnhiu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_86a32a09633a"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

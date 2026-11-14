@@ -1,0 +1,11 @@
+{
+  "id": "q_0088f7a0afc5",
+  "question": "Tháng 7/2025 mặt hàng Otrivin 0,1% xịt mũi chai 10ml bán được tổng cộng bao nhiêu chai?",
+  "answer": {
+    "id": "q_0088f7a0afc5",
+    "type": "number",
+    "answer": 77
+  },
+  "elapsed_sec": 28.7128,
+  "extra": "{'intent': 'item_qty_sold', 'parsed': {'intent': 'item_qty_sold', 'ans_type': 'number', 'item_query': 'otrivin 0,1% xịt mũi chai 10ml', 'unit_name': 'chai', 'time_info': {'start_date': '2025-07-01', 'end_date': '2025-07-31', 'compare_start_date': '2025-06-01', 'compare_end_date': '2025-06-30', 'shift': None, 'raw_type': 'specific_month'}}}"
+}

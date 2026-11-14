@@ -1,0 +1,10 @@
+{
+  "id": "q_0bee4ad8f965",
+  "question": "Tuần trước bình quân một đơn có doanh thu bao nhiêu ha?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_0bee4ad8f965"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

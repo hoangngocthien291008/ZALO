@@ -1,0 +1,10 @@
+{
+  "id": "q_ba875ec0872f",
+  "question": "Dthu th 8/26 tính tất cả bnhiu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_ba875ec0872f"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

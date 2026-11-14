@@ -1,0 +1,10 @@
+{
+  "id": "q_caba1ee84f03",
+  "question": "Dthu từng tháng từ 02/2025 tới 04/2025 lần lượt bnhiu giùm?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_caba1ee84f03"
+  },
+  "elapsed_sec": 0.0396,
+  "extra": "{'intent': 'item_revenue', 'parsed': {'intent': 'item_revenue', 'ans_type': 'number', 'item_query': 'từng', 'time_info': {'start_date': '2026-07-08', 'end_date': '2026-07-08', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'default_today'}}}"
+}

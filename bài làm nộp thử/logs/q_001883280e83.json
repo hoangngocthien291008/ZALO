@@ -1,0 +1,11 @@
+{
+  "id": "q_001883280e83",
+  "question": "tháng này tổng giá trị các phiếu nhập hàng là bao nhiu",
+  "answer": {
+    "id": "q_001883280e83",
+    "type": "number",
+    "answer": 89526400
+  },
+  "elapsed_sec": 32.0586,
+  "extra": "{'intent': 'purchase_total', 'parsed': {'intent': 'purchase_total', 'ans_type': 'number', 'time_info': {'start_date': '2026-09-01', 'end_date': '2026-09-07', 'compare_start_date': '2026-08-01', 'compare_end_date': '2026-08-07', 'shift': None, 'raw_type': 'this_month'}}}"
+}

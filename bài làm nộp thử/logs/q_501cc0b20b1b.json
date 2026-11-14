@@ -1,0 +1,10 @@
+{
+  "id": "q_501cc0b20b1b",
+  "question": "Kể từ ngày Acyclovir Stella kem 5% tuýp 5g tăng giá lên 18.000đ/tuýp, số tuýp bán trong 30 ngày đầu so với 30 ngày ngay trước đó nhiều hơn hay ít hơn bao nhiêu phần trăm?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_501cc0b20b1b"
+  },
+  "elapsed_sec": 0.001,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

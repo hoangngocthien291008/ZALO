@@ -1,0 +1,10 @@
+{
+  "id": "q_3b30972705b7",
+  "question": "T1/2025 ban duoc bao nhieu tien?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_3b30972705b7"
+  },
+  "elapsed_sec": 0.0012,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "q_d9f743469198",
+  "question": "Sua dac Ong Tho 380g len 26k tu 13/11/2025, so hop ban 30 ngay tu hom do so voi 30 ngay truoc tang hay giam bnhiu % nhi?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_d9f743469198"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'revenue_diff', 'parsed': {'intent': 'revenue_diff', 'ans_type': 'percent', 'is_percent': True, 'time_info': {'start_date': '2025-11-13', 'end_date': '2025-11-13', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'exact_date'}}}"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "q_00c4e64fe706",
+  "question": "Tháng 5/2025 cửa hàng bán đc tổng cộng bao nhiêu tiền?",
+  "answer": {
+    "id": "q_00c4e64fe706",
+    "type": "number",
+    "answer": 271896000
+  },
+  "elapsed_sec": 57.4122,
+  "extra": "{'intent': 'revenue_total', 'parsed': {'intent': 'revenue_total', 'ans_type': 'number', 'time_info': {'start_date': '2025-05-01', 'end_date': '2025-05-31', 'compare_start_date': '2025-04-01', 'compare_end_date': '2025-04-30', 'shift': None, 'raw_type': 'specific_month'}}}"
+}

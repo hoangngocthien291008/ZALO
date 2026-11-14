@@ -1,0 +1,10 @@
+{
+  "id": "q_f9fee7c180b4",
+  "question": "1-2026 tru chi phi xong quan loi that duoc bao nhieu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_f9fee7c180b4"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "q_ff354156a3c4",
+  "question": "Dthu nhóm khách sỉ chiếm mấy % tổng dthu tháng 6/26?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_ff354156a3c4"
+  },
+  "elapsed_sec": 0.001,
+  "extra": "{'intent': 'revenue_diff', 'parsed': {'intent': 'revenue_diff', 'ans_type': 'percent', 'is_percent': True, 'time_info': {'start_date': '2026-06-01', 'end_date': '2026-06-30', 'compare_start_date': '2026-05-01', 'compare_end_date': '2026-05-31', 'shift': None, 'raw_type': 'specific_month'}}}"
+}

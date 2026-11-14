@@ -1,0 +1,10 @@
+{
+  "id": "q_8a1878ffe6e6",
+  "question": "06/2026 ban dc bnhiu may Samsung Galaxy A56 5G?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_8a1878ffe6e6"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

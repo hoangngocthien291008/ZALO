@@ -1,0 +1,10 @@
+{
+  "id": "q_51b767a7dd05",
+  "question": "Từ ngày 07/06/2025, Pho mát Con Bò Cười hộp 8 miếng tăng giá lên 38.000đ. So 30 ngày kể từ ngày 07/06/2025 với 30 ngày ngay trước đó, số hộp bán ra thay đổi bao nhiêu phần trăm?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_51b767a7dd05"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

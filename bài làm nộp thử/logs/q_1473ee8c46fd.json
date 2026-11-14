@@ -1,0 +1,10 @@
+{
+  "id": "q_1473ee8c46fd",
+  "question": "So với cùng số ngày đầu tháng trước, dthu tháng này hơn hay kém bao nhiêu phần trăm ha?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_1473ee8c46fd"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "q_0f7d15097a8c",
+  "question": "Quý 3/2025 quán bán được bnhiu đh?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_0f7d15097a8c"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

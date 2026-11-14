@@ -1,0 +1,10 @@
+{
+  "id": "q_6ed01172bd03",
+  "question": "3/26 khách đường Lý Thường Kiệt với khách đường Nguyễn Văn Nghi, bên nào mua nhiều tiền hơn z?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_6ed01172bd03"
+  },
+  "elapsed_sec": 0.001,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

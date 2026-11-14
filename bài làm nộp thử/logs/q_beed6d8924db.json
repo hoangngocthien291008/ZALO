@@ -1,0 +1,10 @@
+{
+  "id": "q_beed6d8924db",
+  "question": "Tiền bán hàng của nhân viên mã NV002 trong tháng 8 năm 2025 là bao nhiêu vậy?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_beed6d8924db"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

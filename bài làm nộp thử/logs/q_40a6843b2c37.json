@@ -1,0 +1,10 @@
+{
+  "id": "q_40a6843b2c37",
+  "question": "Tong tien ban hang hom qua?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_40a6843b2c37"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

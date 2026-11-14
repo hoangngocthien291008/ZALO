@@ -1,0 +1,10 @@
+{
+  "id": "q_b3c75e9f2c97",
+  "question": "Tuần trước tổng bnhiu đh z?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_b3c75e9f2c97"
+  },
+  "elapsed_sec": 0.0009,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

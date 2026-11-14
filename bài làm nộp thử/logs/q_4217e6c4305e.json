@@ -1,0 +1,10 @@
+{
+  "id": "q_4217e6c4305e",
+  "question": "Th11/2025 Bánh tiramisu bán đc mấy cái?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_4217e6c4305e"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

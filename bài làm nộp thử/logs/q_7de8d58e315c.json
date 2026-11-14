@@ -1,0 +1,10 @@
+{
+  "id": "q_7de8d58e315c",
+  "question": "Tháng 9/2025 tiệm thay dầu láp cho bao nhiêu lượt xe?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_7de8d58e315c"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

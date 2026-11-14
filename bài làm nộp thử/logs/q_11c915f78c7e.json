@@ -1,0 +1,10 @@
+{
+  "id": "q_11c915f78c7e",
+  "question": "Tuần này tiệm có bnhiu đh rồi?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_11c915f78c7e"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

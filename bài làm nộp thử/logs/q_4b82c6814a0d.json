@@ -1,0 +1,10 @@
+{
+  "id": "q_4b82c6814a0d",
+  "question": "Bỏ phụ kiện ra thì dthu máy mới th này chiếm bnhiu % tổng dthu máy?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_4b82c6814a0d"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'revenue_diff', 'parsed': {'intent': 'revenue_diff', 'ans_type': 'percent', 'is_percent': True, 'time_info': {'start_date': '2026-09-30', 'end_date': '2026-09-30', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'default_today'}}}"
+}

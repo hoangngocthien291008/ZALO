@@ -1,0 +1,10 @@
+{
+  "id": "q_1205eaa6091a",
+  "question": "Doanh thu T8/2025 so thang lien truoc, cao hay thap hon bao nhieu % nhi?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_1205eaa6091a"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "q_113d86c3eb6a",
+  "question": "Dthu th8/2025 hơn hay kém tháng trước mấy %?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_113d86c3eb6a"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'revenue_diff', 'parsed': {'intent': 'revenue_diff', 'ans_type': 'percent', 'is_percent': True, 'time_info': {'start_date': '2026-08-08', 'end_date': '2026-08-08', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'default_today'}}}"
+}

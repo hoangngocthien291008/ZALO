@@ -1,0 +1,10 @@
+{
+  "id": "q_1e3b66ee62f2",
+  "question": "Thang ni doanh thu ban tai quay voi ban qua dien thoai lan luot la bao nhieu dong vay?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_1e3b66ee62f2"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

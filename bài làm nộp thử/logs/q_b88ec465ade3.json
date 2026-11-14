@@ -1,0 +1,10 @@
+{
+  "id": "q_b88ec465ade3",
+  "question": "Th7/2025 có mấy món có mặt trong ít nhất 128 đơn vậy?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_b88ec465ade3"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

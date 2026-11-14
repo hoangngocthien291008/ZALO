@@ -1,0 +1,10 @@
+{
+  "id": "q_29efb04a938b",
+  "question": "Khach nu 5-2025 dong gop may phan tram tong doanh thu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_29efb04a938b"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

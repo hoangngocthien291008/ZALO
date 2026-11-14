@@ -1,0 +1,10 @@
+{
+  "id": "q_fda16d2c768c",
+  "question": "Doanh thu thuốc hoạt chất Paracetamol + Phenylephrin + Clorpheniramin tháng này là bao nhiêu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_fda16d2c768c"
+  },
+  "elapsed_sec": 0.0703,
+  "extra": "{'intent': 'active_ingredient_rev', 'parsed': {'intent': 'active_ingredient_rev', 'ans_type': 'number', 'active_name': 'paracetamol + phenylephrin + clorpheniramin', 'time_info': {'start_date': '2026-05-01', 'end_date': '2026-05-10', 'compare_start_date': '2026-04-01', 'compare_end_date': '2026-04-10', 'shift': None, 'raw_type': 'this_month'}}}"
+}

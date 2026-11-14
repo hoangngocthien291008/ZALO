@@ -1,0 +1,10 @@
+{
+  "id": "q_cf5c5dac1b20",
+  "question": "Tháng 7/2026 bán Topping Trân châu đen được bao nhiêu tiền?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_cf5c5dac1b20"
+  },
+  "elapsed_sec": 0.001,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

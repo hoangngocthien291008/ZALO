@@ -1,0 +1,10 @@
+{
+  "id": "q_0c62d2078959",
+  "question": "Thang 6 nam 2025 quan co may don bi huy?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_0c62d2078959"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

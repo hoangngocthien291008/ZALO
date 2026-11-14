@@ -1,0 +1,10 @@
+{
+  "id": "q_9ff971a2b435",
+  "question": "Th5/2025 có bnhiu đơn tiền hàng từ 130.000đ trở lên?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_9ff971a2b435"
+  },
+  "elapsed_sec": 0.037,
+  "extra": "{'intent': 'order_count', 'parsed': {'intent': 'order_count', 'ans_type': 'number', 'min_revenue': 130000.0, 'time_info': {'start_date': '2026-08-21', 'end_date': '2026-08-21', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'default_today'}}}"
+}

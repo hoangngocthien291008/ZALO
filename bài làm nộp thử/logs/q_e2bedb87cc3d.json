@@ -1,0 +1,10 @@
+{
+  "id": "q_e2bedb87cc3d",
+  "question": "Tổng dthu quý 1/2026, bnhiu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_e2bedb87cc3d"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

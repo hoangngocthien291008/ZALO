@@ -1,0 +1,10 @@
+{
+  "id": "q_97a88c5a5568",
+  "question": "Mình đang tính nhập thêm máy cũ, tháng này bán ra được bao nhiêu điện thoại cũ gồi?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_97a88c5a5568"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

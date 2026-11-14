@@ -1,0 +1,10 @@
+{
+  "id": "q_42f82d1abde5",
+  "question": "Th1/2026 so don ca chieu cao hay thap hon ca sang bao nhieu %?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_42f82d1abde5"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

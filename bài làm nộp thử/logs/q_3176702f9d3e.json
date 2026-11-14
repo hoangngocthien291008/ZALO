@@ -1,0 +1,11 @@
+{
+  "id": "q_3176702f9d3e",
+  "question": "Tháng 1/26 sp nào bán chạy nhất?",
+  "answer": {
+    "id": "q_3176702f9d3e",
+    "type": "string",
+    "answer": "Ốp silicon IP"
+  },
+  "elapsed_sec": 0.006,
+  "extra": "{'intent': 'best_sellers', 'parsed': {'intent': 'best_sellers', 'ans_type': 'string', 'k': 1, 'item_group': None, 'time_info': {'start_date': '2026-01-01', 'end_date': '2026-01-31', 'compare_start_date': '2025-12-01', 'compare_end_date': '2025-12-31', 'shift': None, 'raw_type': 'specific_month'}}}"
+}

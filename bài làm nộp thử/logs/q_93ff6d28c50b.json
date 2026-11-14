@@ -1,0 +1,10 @@
+{
+  "id": "q_93ff6d28c50b",
+  "question": "ad ơi tíh tới hết ngày 9/6/2025 á, tien khach kòn nợ o nhug don dat hon 7 ngay chua tra het la bnhiu",
+  "answer": {
+    "type": "abstain",
+    "id": "q_93ff6d28c50b"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

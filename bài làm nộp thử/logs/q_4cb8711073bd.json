@@ -1,0 +1,10 @@
+{
+  "id": "q_4cb8711073bd",
+  "question": "Tuan truoc so don ca chieu hon hay kem ca sang bnhiu %?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_4cb8711073bd"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'revenue_diff', 'parsed': {'intent': 'revenue_diff', 'ans_type': 'percent', 'is_percent': True, 'time_info': {'start_date': '2025-02-03', 'end_date': '2025-02-09', 'compare_start_date': None, 'compare_end_date': None, 'shift': 'morning', 'raw_type': 'last_week'}}}"
+}

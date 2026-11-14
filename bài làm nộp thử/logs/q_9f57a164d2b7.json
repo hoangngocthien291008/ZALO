@@ -1,0 +1,10 @@
+{
+  "id": "q_9f57a164d2b7",
+  "question": "Doanh thu từng tháng của 3 tháng 1/2026, 2/2026, 3/2026 lần lượt là bao nhiêu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_9f57a164d2b7"
+  },
+  "elapsed_sec": 0.016,
+  "extra": "{'intent': 'item_revenue', 'parsed': {'intent': 'item_revenue', 'ans_type': 'number', 'item_query': 'từng', 'time_info': {'start_date': '2026-01-01', 'end_date': '2026-01-31', 'compare_start_date': '2025-12-01', 'compare_end_date': '2025-12-31', 'shift': None, 'raw_type': 'specific_month'}}}"
+}

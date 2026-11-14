@@ -1,0 +1,10 @@
+{
+  "id": "q_09e3efc66c68",
+  "question": "T5/2025 trung bình mỗi đơn giá trị bnhiu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_09e3efc66c68"
+  },
+  "elapsed_sec": 0.0013,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

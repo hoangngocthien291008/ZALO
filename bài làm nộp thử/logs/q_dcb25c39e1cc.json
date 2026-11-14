@@ -1,0 +1,10 @@
+{
+  "id": "q_dcb25c39e1cc",
+  "question": "02/2025 ca chieu len duoc bao nhieu don?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_dcb25c39e1cc"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

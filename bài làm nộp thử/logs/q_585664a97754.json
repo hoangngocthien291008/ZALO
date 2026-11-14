@@ -1,0 +1,11 @@
+{
+  "id": "q_585664a97754",
+  "question": "Hôm qua có mấy đơn rứa?",
+  "answer": {
+    "id": "q_585664a97754",
+    "type": "number",
+    "answer": 135
+  },
+  "elapsed_sec": 0.0415,
+  "extra": "{'intent': 'order_count', 'parsed': {'intent': 'order_count', 'ans_type': 'number', 'min_revenue': 0, 'time_info': {'start_date': '2025-11-01', 'end_date': '2025-11-01', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'yesterday'}}}"
+}

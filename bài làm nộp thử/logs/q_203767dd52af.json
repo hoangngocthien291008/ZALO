@@ -1,0 +1,10 @@
+{
+  "id": "q_203767dd52af",
+  "question": "Trong tháng 3/2026, giờ cao điểm trong ngày của cửa hàng là mấy giờ?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_203767dd52af"
+  },
+  "elapsed_sec": 0.0009,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

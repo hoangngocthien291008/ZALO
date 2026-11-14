@@ -1,0 +1,10 @@
+{
+  "id": "q_169a123623e6",
+  "question": "Trong so khach mua th6/2025, may % co tu 3 don tro len?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_169a123623e6"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

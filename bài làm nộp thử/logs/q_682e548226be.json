@@ -1,0 +1,10 @@
+{
+  "id": "q_682e548226be",
+  "question": "Doanh thu 3 thang lien nhau tinh toi 3-2026, tung thang bao nhieu, xep tu thang cu toi thang gan nhat?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_682e548226be"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

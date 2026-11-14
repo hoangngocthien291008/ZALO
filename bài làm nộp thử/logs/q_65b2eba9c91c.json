@@ -1,0 +1,10 @@
+{
+  "id": "q_65b2eba9c91c",
+  "question": "Laix gộp 5/2025 bnhiu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_65b2eba9c91c"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

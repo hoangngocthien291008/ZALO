@@ -1,0 +1,10 @@
+{
+  "id": "q_e734e6e62c7c",
+  "question": "Tới hôm nay, khoản trả góp của khách Lương Khoa Hoàng còn lại bao nhiêu tiền chưa góp, kể cả kỳ chưa tới hạn?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_e734e6e62c7c"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

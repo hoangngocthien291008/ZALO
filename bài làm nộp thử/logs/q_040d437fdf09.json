@@ -1,0 +1,10 @@
+{
+  "id": "q_040d437fdf09",
+  "question": "trung binh moi don shop mik th1/2025 gia tri dc bnhiu z nhi",
+  "answer": {
+    "type": "abstain",
+    "id": "q_040d437fdf09"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

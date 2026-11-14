@@ -1,0 +1,10 @@
+{
+  "id": "q_6066d5e1f466",
+  "question": "12-2025 có mấy khách mua từ 6 đơn trở lên nhỉ?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_6066d5e1f466"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

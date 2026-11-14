@@ -1,0 +1,10 @@
+{
+  "id": "q_b33016c0dd71",
+  "question": "Tính tới hôm nay, tiền góp quá hạn khách chưa trả là bao nhiêu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_b33016c0dd71"
+  },
+  "elapsed_sec": 0.001,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

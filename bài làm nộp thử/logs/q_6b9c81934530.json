@@ -1,0 +1,10 @@
+{
+  "id": "q_6b9c81934530",
+  "question": "T10/2025 quan ban duoc bao nhieu tien?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_6b9c81934530"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

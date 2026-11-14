@@ -1,0 +1,10 @@
+{
+  "id": "q_a77ff9dcc3e7",
+  "question": "be oi th10/2025 top 3 mon ban nhiu nhut la j z ha",
+  "answer": {
+    "type": "abstain",
+    "id": "q_a77ff9dcc3e7"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

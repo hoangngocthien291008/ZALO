@@ -1,0 +1,10 @@
+{
+  "id": "q_0ac818a0f5f2",
+  "question": "T2/2026 don huy chiem bao nhieu phan tram?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_0ac818a0f5f2"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

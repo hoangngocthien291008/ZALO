@@ -1,0 +1,10 @@
+{
+  "id": "q_7cba4252429f",
+  "question": "Trung bình mỗi đơn tuần trước mang về bao nhiêu doanh thu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_7cba4252429f"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

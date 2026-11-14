@@ -1,0 +1,10 @@
+{
+  "id": "q_82711851c76a",
+  "question": "Tháng 5 năm 2026 thợ Đoàn Bảo Phúc sửa được nhiêu lượt xe hè?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_82711851c76a"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

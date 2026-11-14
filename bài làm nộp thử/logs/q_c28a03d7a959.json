@@ -1,0 +1,10 @@
+{
+  "id": "q_c28a03d7a959",
+  "question": "Tính luôn hôm nay thì 7 ngày gần nhất quán bán ra được bao nhiêu ly z?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_c28a03d7a959"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

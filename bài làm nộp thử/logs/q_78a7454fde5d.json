@@ -1,0 +1,10 @@
+{
+  "id": "q_78a7454fde5d",
+  "question": "Từ đầu tháng này tới hết hôm nay, tiền bán so cùng kỳ tháng trước lên hay xuống mấy % z?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_78a7454fde5d"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'revenue_diff', 'parsed': {'intent': 'revenue_diff', 'ans_type': 'percent', 'is_percent': True, 'time_info': {'start_date': '2025-12-19', 'end_date': '2025-12-19', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'today'}}}"
+}

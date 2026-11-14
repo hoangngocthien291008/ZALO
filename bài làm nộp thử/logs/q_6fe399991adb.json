@@ -1,0 +1,10 @@
+{
+  "id": "q_6fe399991adb",
+  "question": "Tháng 8/2025 có bao nhiêu khách mua từ 4 đơn trở lên?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_6fe399991adb"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

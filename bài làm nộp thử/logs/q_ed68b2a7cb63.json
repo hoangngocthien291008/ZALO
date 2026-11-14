@@ -1,0 +1,10 @@
+{
+  "id": "q_ed68b2a7cb63",
+  "question": "Trong tổng số bịch bỉm bán tháng này, bỉm size M chiếm bao nhiêu %?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_ed68b2a7cb63"
+  },
+  "elapsed_sec": 0.0344,
+  "extra": "{'intent': 'revenue_diff', 'parsed': {'intent': 'revenue_diff', 'ans_type': 'percent', 'is_percent': True, 'time_info': {'start_date': '2026-06-01', 'end_date': '2026-06-30', 'compare_start_date': '2026-05-01', 'compare_end_date': '2026-05-30', 'shift': None, 'raw_type': 'this_month'}}}"
+}

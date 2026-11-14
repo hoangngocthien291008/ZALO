@@ -1,0 +1,10 @@
+{
+  "id": "q_b290d99f9130",
+  "question": "alo, dthu shop mik th4/2026 tăng hay giảm bnhiu % so vs th4/2025 zạ",
+  "answer": {
+    "type": "abstain",
+    "id": "q_b290d99f9130"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'revenue_diff', 'parsed': {'intent': 'revenue_diff', 'ans_type': 'percent', 'is_percent': True, 'time_info': {'start_date': '2026-06-10', 'end_date': '2026-06-10', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'default_today'}}}"
+}

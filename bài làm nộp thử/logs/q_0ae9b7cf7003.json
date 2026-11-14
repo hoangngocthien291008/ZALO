@@ -1,0 +1,10 @@
+{
+  "id": "q_0ae9b7cf7003",
+  "question": "Cho tôi biết doanh thu các đơn của khách nhóm sỉ tháng 4/2026.",
+  "answer": {
+    "type": "abstain",
+    "id": "q_0ae9b7cf7003"
+  },
+  "elapsed_sec": 0.0012,
+  "extra": "{'intent': 'item_revenue', 'parsed': {'intent': 'item_revenue', 'ans_type': 'number', 'item_query': 'các đơn của khách nhóm sỉ', 'time_info': {'start_date': '2026-04-01', 'end_date': '2026-04-30', 'compare_start_date': '2026-03-01', 'compare_end_date': '2026-03-31', 'shift': None, 'raw_type': 'specific_month'}}}"
+}

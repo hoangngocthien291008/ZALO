@@ -1,0 +1,10 @@
+{
+  "id": "q_76bdadbeb802",
+  "question": "Khách thân thiện nhất tháng 12/2025 là ai?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_76bdadbeb802"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "q_7d236c308111",
+  "question": "Bỉm Bobby tháng này chiếm bao nhiêu phần trăm tổng số bịch bỉm bán ra, gộp mọi size?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_7d236c308111"
+  },
+  "elapsed_sec": 0.0009,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

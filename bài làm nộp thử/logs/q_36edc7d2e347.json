@@ -1,0 +1,10 @@
+{
+  "id": "q_36edc7d2e347",
+  "question": "Th3/2026 thợ mô làm nhiều lựơt xe nhất?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_36edc7d2e347"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

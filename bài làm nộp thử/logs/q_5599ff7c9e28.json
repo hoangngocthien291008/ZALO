@@ -1,0 +1,11 @@
+{
+  "id": "q_5599ff7c9e28",
+  "question": "Từ đầu năm nay đến hôm nay, tổng doanh thu cửa hàng là bao nhiêu?",
+  "answer": {
+    "id": "q_5599ff7c9e28",
+    "type": "number",
+    "answer": 0
+  },
+  "elapsed_sec": 0.0135,
+  "extra": "{'intent': 'revenue_total', 'parsed': {'intent': 'revenue_total', 'ans_type': 'number', 'time_info': {'start_date': '2026-06-30', 'end_date': '2026-06-30', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'today'}}}"
+}

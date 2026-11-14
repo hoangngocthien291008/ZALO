@@ -1,0 +1,10 @@
+{
+  "id": "q_3a9665052018",
+  "question": "Đơn có thu lại máy cũ 4-2026 chiếm mấy % tổng đơn?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_3a9665052018"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'revenue_diff', 'parsed': {'intent': 'revenue_diff', 'ans_type': 'percent', 'is_percent': True, 'time_info': {'start_date': '2026-09-30', 'end_date': '2026-09-30', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'default_today'}}}"
+}

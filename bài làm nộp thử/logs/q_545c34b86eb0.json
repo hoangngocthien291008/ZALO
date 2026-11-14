@@ -1,0 +1,11 @@
+{
+  "id": "q_545c34b86eb0",
+  "question": "Chong quý 1/2025 tiệm bán được bao nhiêu đơn?",
+  "answer": {
+    "id": "q_545c34b86eb0",
+    "type": "number",
+    "answer": 4080
+  },
+  "elapsed_sec": 0.02,
+  "extra": "{'intent': 'order_count', 'parsed': {'intent': 'order_count', 'ans_type': 'number', 'min_revenue': 0, 'time_info': {'start_date': '2025-01-01', 'end_date': '2025-03-31', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'quarter'}}}"
+}

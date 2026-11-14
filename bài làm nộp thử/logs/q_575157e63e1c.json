@@ -1,0 +1,10 @@
+{
+  "id": "q_575157e63e1c",
+  "question": "5 khách mua nhiều tiền nhất th3/2025 là ai z?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_575157e63e1c"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

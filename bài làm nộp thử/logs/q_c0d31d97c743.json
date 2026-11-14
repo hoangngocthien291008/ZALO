@@ -1,0 +1,10 @@
+{
+  "id": "q_c0d31d97c743",
+  "question": "Trong dthu T11/2025, nhóm ho cảm cúm được bao nhiêu phần trăm?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_c0d31d97c743"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

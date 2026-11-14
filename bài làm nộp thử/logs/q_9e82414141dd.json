@@ -1,0 +1,10 @@
+{
+  "id": "q_9e82414141dd",
+  "question": "Th1/2025 khách nào mua nhiều đơn nhất z?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_9e82414141dd"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "q_c6bfd1c2506f",
+  "question": "Tat ca mat hang tinh theo goi, tuan truoc ban ra duoc may goi?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_c6bfd1c2506f"
+  },
+  "elapsed_sec": 0.001,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

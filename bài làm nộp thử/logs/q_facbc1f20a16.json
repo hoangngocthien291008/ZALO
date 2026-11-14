@@ -1,0 +1,10 @@
+{
+  "id": "q_facbc1f20a16",
+  "question": "Dthu th9, th10, th11/2025 lan luot bnhiu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_facbc1f20a16"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

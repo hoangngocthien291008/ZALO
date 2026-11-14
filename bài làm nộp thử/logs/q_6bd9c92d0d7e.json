@@ -1,0 +1,11 @@
+{
+  "id": "q_6bd9c92d0d7e",
+  "question": "Doanh thu tháng 2/2026 lên hay xuống mấy % so với cùng kỳ năm rồi?",
+  "answer": {
+    "id": "q_6bd9c92d0d7e",
+    "type": "percent",
+    "answer": 1497.62
+  },
+  "elapsed_sec": 0.0583,
+  "extra": "{'intent': 'revenue_diff', 'parsed': {'intent': 'revenue_diff', 'ans_type': 'percent', 'is_percent': True, 'time_info': {'start_date': '2026-02-01', 'end_date': '2026-02-28', 'compare_start_date': '2026-01-01', 'compare_end_date': '2026-01-31', 'shift': None, 'raw_type': 'specific_month'}}}"
+}

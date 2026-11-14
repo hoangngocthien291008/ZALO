@@ -1,0 +1,10 @@
+{
+  "id": "q_e2a2674f8f4d",
+  "question": "Doanh thu hom nay bao nhieu z?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_e2a2674f8f4d"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

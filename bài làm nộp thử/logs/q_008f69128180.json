@@ -1,0 +1,11 @@
+{
+  "id": "q_008f69128180",
+  "question": "trong thang 10/2025, ti le don huy la bnhiu %",
+  "answer": {
+    "id": "q_008f69128180",
+    "type": "percent",
+    "answer": 1.21
+  },
+  "elapsed_sec": 14.2472,
+  "extra": "{'intent': 'cancellation_rate', 'parsed': {'intent': 'cancellation_rate', 'ans_type': 'percent', 'time_info': {'start_date': '2025-10-01', 'end_date': '2025-10-31', 'compare_start_date': '2025-09-01', 'compare_end_date': '2025-09-30', 'shift': None, 'raw_type': 'specific_month'}}}"
+}

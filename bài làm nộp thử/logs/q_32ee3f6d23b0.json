@@ -1,0 +1,10 @@
+{
+  "id": "q_32ee3f6d23b0",
+  "question": "Doanh thu tháng 11/2025, 12/2025 và 1/2026 từng tháng là bao nhiêu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_32ee3f6d23b0"
+  },
+  "elapsed_sec": 0.033,
+  "extra": "{'intent': 'item_revenue', 'parsed': {'intent': 'item_revenue', 'ans_type': 'number', 'item_query': 'tháng 11/2025, 12/2025 và 1/2026 từng', 'time_info': {'start_date': '2025-11-01', 'end_date': '2025-11-30', 'compare_start_date': '2025-10-01', 'compare_end_date': '2025-10-31', 'shift': None, 'raw_type': 'specific_month'}}}"
+}

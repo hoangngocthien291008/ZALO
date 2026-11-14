@@ -1,0 +1,10 @@
+{
+  "id": "q_a33f5513b520",
+  "question": "Doanh thu trung bình trên một đơn tháng 11/25 là bao nhiêu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_a33f5513b520"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'item_revenue', 'parsed': {'intent': 'item_revenue', 'ans_type': 'number', 'item_query': 'trung bình trên một đơn', 'time_info': {'start_date': '2025-11-01', 'end_date': '2025-11-30', 'compare_start_date': '2025-10-01', 'compare_end_date': '2025-10-31', 'shift': None, 'raw_type': 'specific_month'}}}"
+}

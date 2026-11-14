@@ -1,0 +1,10 @@
+{
+  "id": "q_f20f4f3ec923",
+  "question": "5-2025 tiệm bán ra bnhiu viên Panadol 500mg hộp 10 vỉ x 12 viên?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_f20f4f3ec923"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

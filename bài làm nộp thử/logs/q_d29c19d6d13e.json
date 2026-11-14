@@ -1,0 +1,10 @@
+{
+  "id": "q_d29c19d6d13e",
+  "question": "Tiền bán hàng của cửa hàng trong quý 1 năm 2025 là bao nhiêu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_d29c19d6d13e"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

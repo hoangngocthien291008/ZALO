@@ -1,0 +1,10 @@
+{
+  "id": "q_05cde771f4c3",
+  "question": "Th2/2026 không tính xe quay lại bảo hành, bình quân 1 phiếu sửa hết bnhiu tiền?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_05cde771f4c3"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "q_18b0cb2e9c4c",
+  "question": "8/2025 đếm giùm mấy đh dthu từ 180.000đ trở lên",
+  "answer": {
+    "type": "abstain",
+    "id": "q_18b0cb2e9c4c"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

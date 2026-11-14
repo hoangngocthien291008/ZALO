@@ -1,0 +1,10 @@
+{
+  "id": "q_6d9ad1c46242",
+  "question": "Tuần trước tổng doanh thu được bao nhiêu nhỉ?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_6d9ad1c46242"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

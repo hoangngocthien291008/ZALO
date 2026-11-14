@@ -1,0 +1,13 @@
+{
+  "id": "q_8ef70e6d70f8",
+  "question": "Th5/2025 tóp 3 món chạy nhất là gì?",
+  "answer": {
+    "id": "q_8ef70e6d70f8",
+    "type": "list",
+    "answer": [
+      "nan"
+    ]
+  },
+  "elapsed_sec": 0.0527,
+  "extra": "{'intent': 'best_sellers', 'parsed': {'intent': 'best_sellers', 'ans_type': 'list', 'k': 3, 'item_group': None, 'time_info': {'start_date': '2026-09-19', 'end_date': '2026-09-19', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'default_today'}}}"
+}

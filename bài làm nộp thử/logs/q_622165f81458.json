@@ -1,0 +1,11 @@
+{
+  "id": "q_622165f81458",
+  "question": "Hôm nay tiệm bán được bao nhiêu đơn rồi nhỉ?",
+  "answer": {
+    "id": "q_622165f81458",
+    "type": "number",
+    "answer": 13
+  },
+  "elapsed_sec": 0.0033,
+  "extra": "{'intent': 'order_count', 'parsed': {'intent': 'order_count', 'ans_type': 'number', 'min_revenue': 0, 'time_info': {'start_date': '2025-09-27', 'end_date': '2025-09-27', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'today'}}}"
+}

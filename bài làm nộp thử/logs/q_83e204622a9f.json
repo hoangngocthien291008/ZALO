@@ -1,0 +1,10 @@
+{
+  "id": "q_83e204622a9f",
+  "question": "Tháng 7/2026 bán Cốc sạc nhanh 20W Type-C được bao nhiêu tiền?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_83e204622a9f"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

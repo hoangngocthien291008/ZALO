@@ -1,0 +1,10 @@
+{
+  "id": "q_48b77f4a1b30",
+  "question": "11/2025 khách Vương Chi Hà nợ thêm bnhiu tiền, trả bớt nợ được bnhiu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_48b77f4a1b30"
+  },
+  "elapsed_sec": 0.001,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

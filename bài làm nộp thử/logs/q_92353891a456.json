@@ -1,0 +1,10 @@
+{
+  "id": "q_92353891a456",
+  "question": "Dthu ca sáng tháng 3 năm 2025 đc bnhiu z?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_92353891a456"
+  },
+  "elapsed_sec": 0.1246,
+  "extra": "{'intent': 'item_revenue', 'parsed': {'intent': 'item_revenue', 'ans_type': 'number', 'item_query': 'ca sáng', 'time_info': {'start_date': '2025-03-01', 'end_date': '2025-03-31', 'compare_start_date': '2025-02-01', 'compare_end_date': '2025-02-28', 'shift': 'morning', 'raw_type': 'specific_month'}}}"
+}

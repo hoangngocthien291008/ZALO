@@ -1,0 +1,10 @@
+{
+  "id": "q_b3059f66db30",
+  "question": "Thợ nhận nhiều phiếu sửa nhất tháng ni là ai rứa?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_b3059f66db30"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

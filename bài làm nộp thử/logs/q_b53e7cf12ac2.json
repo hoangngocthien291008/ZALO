@@ -1,0 +1,10 @@
+{
+  "id": "q_b53e7cf12ac2",
+  "question": "Tháng 7/2025 top 5 hàng bán chạy nhất là gì?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_b53e7cf12ac2"
+  },
+  "elapsed_sec": 0.0844,
+  "extra": "{'intent': 'best_sellers', 'parsed': {'intent': 'best_sellers', 'ans_type': 'list', 'k': 5, 'item_group': None, 'time_info': {'start_date': '2025-07-01', 'end_date': '2025-07-31', 'compare_start_date': '2025-06-01', 'compare_end_date': '2025-06-30', 'shift': None, 'raw_type': 'specific_month'}}}"
+}

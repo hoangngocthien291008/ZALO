@@ -1,0 +1,10 @@
+{
+  "id": "q_b61b5951799d",
+  "question": "Trong th5/2026, nhóm ăn dặm đóng góp bao nhiêu phần trăm doanh thu cả cửa hàng?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_b61b5951799d"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

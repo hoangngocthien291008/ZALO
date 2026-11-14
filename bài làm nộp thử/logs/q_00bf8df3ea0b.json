@@ -1,0 +1,10 @@
+{
+  "id": "q_00bf8df3ea0b",
+  "question": "Rieng ngay hom nay doanh thu quan la bao nhieu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_00bf8df3ea0b"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

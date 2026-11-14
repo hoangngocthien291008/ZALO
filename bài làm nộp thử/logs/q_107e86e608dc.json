@@ -1,0 +1,11 @@
+{
+  "id": "q_107e86e608dc",
+  "question": "Th6/2025 hàng ko kê đơn bán đc bnhiu tiền ha?",
+  "answer": {
+    "id": "q_107e86e608dc",
+    "type": "percent",
+    "answer": 0.0
+  },
+  "elapsed_sec": 0.0636,
+  "extra": "{'intent': 'prescription_rate', 'parsed': {'intent': 'prescription_rate', 'ans_type': 'percent', 'time_info': {'start_date': '2026-05-10', 'end_date': '2026-05-10', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'default_today'}}}"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "q_d965d0bc2205",
+  "question": "03/2025 doanh thu tang hay giam may % so voi thang lien truoc?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_d965d0bc2205"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "q_049f0a34efdc",
+  "question": "02/2026 có mấy khách mua từ 4 đơn trở lên z?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_049f0a34efdc"
+  },
+  "elapsed_sec": 0.0009,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

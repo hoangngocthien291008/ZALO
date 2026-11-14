@@ -1,0 +1,11 @@
+{
+  "id": "q_1fafcc702c72",
+  "question": "Tháng 2 năm 2026, nhóm vitamin khoáng chất thì mặt hàng nào thu về nhiều tiền nhất?",
+  "answer": {
+    "id": "q_1fafcc702c72",
+    "type": "string",
+    "answer": "Vitamin C 500mg Quapharco hộp 10 vỉ x 10 viên"
+  },
+  "elapsed_sec": 0.0942,
+  "extra": "{'intent': 'best_sellers', 'parsed': {'intent': 'best_sellers', 'ans_type': 'string', 'k': 1, 'item_group': 'vitamin', 'time_info': {'start_date': '2026-02-01', 'end_date': '2026-02-28', 'compare_start_date': '2026-01-01', 'compare_end_date': '2026-01-31', 'shift': None, 'raw_type': 'specific_month'}}}"
+}

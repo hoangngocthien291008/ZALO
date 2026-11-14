@@ -1,0 +1,10 @@
+{
+  "id": "q_e768afaaf811",
+  "question": "Doanh thu cao nhất rơi vào tháng nào trong 3 tháng từ th12/2025 đến th2/2026?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_e768afaaf811"
+  },
+  "elapsed_sec": 0.0402,
+  "extra": "{'intent': 'item_revenue', 'parsed': {'intent': 'item_revenue', 'ans_type': 'number', 'item_query': 'cao nhất rơi vào', 'time_info': {'start_date': '2026-08-21', 'end_date': '2026-08-21', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'default_today'}}}"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "q_338d0179f66d",
+  "question": "nè, hết ngày 8/2/2026 shop mik kó mí ngừi trả góp kòn kỳ quá hạn chưa đóng",
+  "answer": {
+    "type": "abstain",
+    "id": "q_338d0179f66d"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "q_01ba91ff94c6",
+  "question": "Tuần rồi 5 món bán chạy nhất là những món nàoo?",
+  "answer": {
+    "id": "q_01ba91ff94c6",
+    "type": "list",
+    "answer": [
+      "Canh chua cá lóc",
+      "Lẩu Thái tôm cá (nhỏ)",
+      "Rau muống xào tỏi",
+      "Bia Tiger lon",
+      "Sụn gà rang muối"
+    ]
+  },
+  "elapsed_sec": 76.0045,
+  "extra": "{'intent': 'best_sellers', 'parsed': {'intent': 'best_sellers', 'ans_type': 'list', 'k': 5, 'item_group': None, 'time_info': {'start_date': '2025-11-03', 'end_date': '2025-11-09', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'last_week'}}}"
+}

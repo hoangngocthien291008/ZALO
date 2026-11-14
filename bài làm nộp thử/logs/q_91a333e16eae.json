@@ -1,0 +1,10 @@
+{
+  "id": "q_91a333e16eae",
+  "question": "Dthu tháng 3/26 cao hơn tháng 2/26 và tháng 4/26 cũng cao hơn tháng 3/26, phải ko?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_91a333e16eae"
+  },
+  "elapsed_sec": 0.035,
+  "extra": "{'intent': 'item_revenue', 'parsed': {'intent': 'item_revenue', 'ans_type': 'number', 'item_query': 'tháng 3/26 cao hơn', 'time_info': {'start_date': '2026-03-01', 'end_date': '2026-03-31', 'compare_start_date': '2026-02-01', 'compare_end_date': '2026-02-28', 'shift': None, 'raw_type': 'specific_month'}}}"
+}

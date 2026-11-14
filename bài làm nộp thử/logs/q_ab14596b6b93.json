@@ -1,0 +1,10 @@
+{
+  "id": "q_ab14596b6b93",
+  "question": "T10/2025 dthu hơn hay kém th trước nhiêu %?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_ab14596b6b93"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "q_bdbe8ca608ce",
+  "question": "Thang nao dthu cao nhat trong 3 thang 2/2026, 3/2026, 4/2026 ha?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_bdbe8ca608ce"
+  },
+  "elapsed_sec": 0.109,
+  "extra": "{'intent': 'item_revenue', 'parsed': {'intent': 'item_revenue', 'ans_type': 'number', 'item_query': 'cao nhat', 'time_info': {'start_date': '2026-02-01', 'end_date': '2026-02-28', 'compare_start_date': '2026-01-01', 'compare_end_date': '2026-01-31', 'shift': None, 'raw_type': 'specific_month'}}}"
+}

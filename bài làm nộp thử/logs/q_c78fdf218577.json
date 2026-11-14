@@ -1,0 +1,10 @@
+{
+  "id": "q_c78fdf218577",
+  "question": "T7/2025 tiem giao duoc bao nhieu dot hang?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_c78fdf218577"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

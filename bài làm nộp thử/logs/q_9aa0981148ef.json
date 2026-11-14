@@ -1,0 +1,10 @@
+{
+  "id": "q_9aa0981148ef",
+  "question": "1/26 ca sang doanh thu duoc bao nhieu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_9aa0981148ef"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

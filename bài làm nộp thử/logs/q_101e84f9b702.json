@@ -1,0 +1,10 @@
+{
+  "id": "q_101e84f9b702",
+  "question": "trog tháng 6 wán mik lãi gộp đc bnhiu dzạ 🤔",
+  "answer": {
+    "type": "abstain",
+    "id": "q_101e84f9b702"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

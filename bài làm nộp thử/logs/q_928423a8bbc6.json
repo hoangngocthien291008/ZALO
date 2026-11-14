@@ -1,0 +1,10 @@
+{
+  "id": "q_928423a8bbc6",
+  "question": "Dthu tháng 7/26 so với tháng 7/25 tăng hay giảm bnhiu %?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_928423a8bbc6"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'revenue_diff', 'parsed': {'intent': 'revenue_diff', 'ans_type': 'percent', 'is_percent': True, 'time_info': {'start_date': '2026-07-01', 'end_date': '2026-07-31', 'compare_start_date': '2026-06-01', 'compare_end_date': '2026-06-30', 'shift': None, 'raw_type': 'specific_month'}}}"
+}

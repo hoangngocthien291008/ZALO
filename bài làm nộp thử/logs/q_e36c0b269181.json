@@ -1,0 +1,10 @@
+{
+  "id": "q_e36c0b269181",
+  "question": "Số khách thành viên đăng ký mới th 5/26?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_e36c0b269181"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

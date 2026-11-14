@@ -1,0 +1,10 @@
+{
+  "id": "q_c64c6d29f583",
+  "question": "Tháng này quán bán ra tổng cộng mấy ly size M, cộng tất cả các món?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_c64c6d29f583"
+  },
+  "elapsed_sec": 0.0691,
+  "extra": "{'intent': 'item_qty_sold', 'parsed': {'intent': 'item_qty_sold', 'ans_type': 'number', 'item_query': 'size m, cộng tất cả các món', 'unit_name': 'ly', 'time_info': {'start_date': '2026-05-01', 'end_date': '2026-05-24', 'compare_start_date': '2026-04-01', 'compare_end_date': '2026-04-24', 'shift': None, 'raw_type': 'this_month'}}}"
+}

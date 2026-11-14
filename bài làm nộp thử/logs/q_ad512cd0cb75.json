@@ -1,0 +1,10 @@
+{
+  "id": "q_ad512cd0cb75",
+  "question": "3/26 thợ mô làm ra nhiều tiền nhất rứa?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_ad512cd0cb75"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

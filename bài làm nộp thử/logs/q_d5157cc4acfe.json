@@ -1,0 +1,10 @@
+{
+  "id": "q_d5157cc4acfe",
+  "question": "Tháng 10/25 nhóm mắt mũi họng thu được bnhiu tiền?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_d5157cc4acfe"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

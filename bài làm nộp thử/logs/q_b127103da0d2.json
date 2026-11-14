@@ -1,0 +1,10 @@
+{
+  "id": "q_b127103da0d2",
+  "question": "Luong Chi Duc thang 4/26 ban tong cong bnhiu tien?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_b127103da0d2"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

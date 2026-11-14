@@ -1,0 +1,10 @@
+{
+  "id": "q_3cd196c4dc4d",
+  "question": "7/2026 quan bi huy bao nhieu don?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_3cd196c4dc4d"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

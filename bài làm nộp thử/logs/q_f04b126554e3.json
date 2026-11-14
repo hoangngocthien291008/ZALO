@@ -1,0 +1,10 @@
+{
+  "id": "q_f04b126554e3",
+  "question": "Thang 5 nam 2025 quan co bao nhieu don bi huy?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_f04b126554e3"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

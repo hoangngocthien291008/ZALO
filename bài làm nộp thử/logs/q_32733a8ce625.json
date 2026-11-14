@@ -1,0 +1,10 @@
+{
+  "id": "q_32733a8ce625",
+  "question": "10/2025 dòng xe mô đem lại nhiều tiền sửa nhất?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_32733a8ce625"
+  },
+  "elapsed_sec": 0.001,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

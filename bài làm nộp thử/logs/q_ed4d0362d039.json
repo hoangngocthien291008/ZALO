@@ -1,0 +1,11 @@
+{
+  "id": "q_ed4d0362d039",
+  "question": "Mặt hàng có doanh thu cao nhất của nhóm sơn trong tháng 11/2025 là mặt hàng nào?",
+  "answer": {
+    "id": "q_ed4d0362d039",
+    "type": "string",
+    "answer": "Sơn Maxilite trong nhà 18L"
+  },
+  "elapsed_sec": 0.035,
+  "extra": "{'intent': 'best_sellers', 'parsed': {'intent': 'best_sellers', 'ans_type': 'string', 'k': 1, 'item_group': 'sơn', 'time_info': {'start_date': '2025-11-01', 'end_date': '2025-11-30', 'compare_start_date': '2025-10-01', 'compare_end_date': '2025-10-31', 'shift': None, 'raw_type': 'specific_month'}}}"
+}

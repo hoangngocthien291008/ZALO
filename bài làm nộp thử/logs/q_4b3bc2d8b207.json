@@ -1,0 +1,10 @@
+{
+  "id": "q_4b3bc2d8b207",
+  "question": "Den het ngay 13/12/2025 tiem con bao nhieu khach no chua tra xong?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_4b3bc2d8b207"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

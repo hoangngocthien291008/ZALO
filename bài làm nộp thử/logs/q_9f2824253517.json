@@ -1,0 +1,10 @@
+{
+  "id": "q_9f2824253517",
+  "question": "xem júp mik nha, tháng này thợ Đàm Lan An làm đc mí phiếu sửa xe hen",
+  "answer": {
+    "type": "abstain",
+    "id": "q_9f2824253517"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

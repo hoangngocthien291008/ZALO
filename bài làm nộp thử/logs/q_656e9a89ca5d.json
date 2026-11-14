@@ -1,0 +1,10 @@
+{
+  "id": "q_656e9a89ca5d",
+  "question": "Khach mua tu 12 don tro len trong thang 12 nam 2025, dem duoc bao nhieu nguoi?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_656e9a89ca5d"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

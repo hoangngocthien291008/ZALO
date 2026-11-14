@@ -1,0 +1,10 @@
+{
+  "id": "q_beeab8ab97fc",
+  "question": "Tuần trước trung bìh 1 đơn giá trị bao nhiêu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_beeab8ab97fc"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

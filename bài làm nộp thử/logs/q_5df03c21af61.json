@@ -1,0 +1,10 @@
+{
+  "id": "q_5df03c21af61",
+  "question": "Số đh ca chiều th4/2025 nhiều hay ít hơn ca sáng mấy %?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_5df03c21af61"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'revenue_diff', 'parsed': {'intent': 'revenue_diff', 'ans_type': 'percent', 'is_percent': True, 'time_info': {'start_date': '2026-07-22', 'end_date': '2026-07-22', 'compare_start_date': None, 'compare_end_date': None, 'shift': 'morning', 'raw_type': 'default_today'}}}"
+}

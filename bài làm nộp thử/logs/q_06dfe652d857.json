@@ -1,0 +1,10 @@
+{
+  "id": "q_06dfe652d857",
+  "question": "Lãi ròng của quán trong 10/2025 là bao nhiêu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_06dfe652d857"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "q_1c0046277ff9",
+  "question": "Bảng hoa hồng thợ th7/2026, ai nhiều tiền thì xếp lên trên nghe.",
+  "answer": {
+    "type": "abstain",
+    "id": "q_1c0046277ff9"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "q_f86ac4d1df98",
+  "question": "Trong tháng 7, quán đạt doanh thu cao nhất vào ngày nào ạ?",
+  "answer": {
+    "id": "q_f86ac4d1df98",
+    "type": "date",
+    "answer": "2026-07-26"
+  },
+  "elapsed_sec": 0.049,
+  "extra": "{'intent': 'highest_revenue_date', 'parsed': {'intent': 'highest_revenue_date', 'ans_type': 'date', 'time_info': {'start_date': '2026-07-01', 'end_date': '2026-07-31', 'compare_start_date': '2026-06-01', 'compare_end_date': '2026-06-30', 'shift': None, 'raw_type': 'specific_month'}}}"
+}

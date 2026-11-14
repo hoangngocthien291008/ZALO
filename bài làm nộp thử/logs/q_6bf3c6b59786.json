@@ -1,0 +1,10 @@
+{
+  "id": "q_6bf3c6b59786",
+  "question": "Thang 1 nam 2026 don ban tai quay chiem may % tong dthu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_6bf3c6b59786"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "q_ad782d8acb44",
+  "question": "Doanh thu tu dau thang den het hom nay so voi cung ky thang truoc chenh bao nhieu phan tram, tang hay giam?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_ad782d8acb44"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

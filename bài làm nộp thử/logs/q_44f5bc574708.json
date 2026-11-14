@@ -1,0 +1,10 @@
+{
+  "id": "q_44f5bc574708",
+  "question": "Tinh den het ngay 22/04/2026, khach con no o cac don dat qua 7 ngay tong bao nhieu tien?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_44f5bc574708"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

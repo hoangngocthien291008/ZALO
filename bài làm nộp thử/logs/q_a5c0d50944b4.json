@@ -1,0 +1,10 @@
+{
+  "id": "q_a5c0d50944b4",
+  "question": "Tháng 9/2025 số đơn có mua hàng nhóm bánh kẹo là bao nhiêu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_a5c0d50944b4"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

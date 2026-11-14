@@ -1,0 +1,10 @@
+{
+  "id": "q_647711394825",
+  "question": "10-2025 nhân viên Đinh Đạt Đức bán được bnhiu tiền vậy?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_647711394825"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

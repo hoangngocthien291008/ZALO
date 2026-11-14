@@ -1,0 +1,10 @@
+{
+  "id": "q_1019063a351e",
+  "question": "Tổng tiền thu máy cũ của khách 02/2026?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_1019063a351e"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

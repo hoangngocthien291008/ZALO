@@ -1,0 +1,10 @@
+{
+  "id": "q_a79c3c340077",
+  "question": "So voi T4/2025 thi T4/2026 doanh thu tang truong bao nhieu %?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_a79c3c340077"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

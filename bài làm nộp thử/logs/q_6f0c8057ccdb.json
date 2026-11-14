@@ -1,0 +1,10 @@
+{
+  "id": "q_6f0c8057ccdb",
+  "question": "Nhập hàng T8/2025 tốn nhiêu tiền z?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_6f0c8057ccdb"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "q_7c8c12f20aa2",
+  "question": "Máy bán ra tháng 8/2025, tới hnay có bao nhiêu máy đã mang lại bảo hành rồi?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_7c8c12f20aa2"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

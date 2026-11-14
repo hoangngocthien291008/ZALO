@@ -1,0 +1,11 @@
+{
+  "id": "q_49b8346acb90",
+  "question": "Th11/2025 doanh thu tiệm được bao nhiêu vậy?",
+  "answer": {
+    "id": "q_49b8346acb90",
+    "type": "number",
+    "answer": 8516800
+  },
+  "elapsed_sec": 0.0409,
+  "extra": "{'intent': 'revenue_total', 'parsed': {'intent': 'revenue_total', 'ans_type': 'number', 'time_info': {'start_date': '2026-07-08', 'end_date': '2026-07-08', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'default_today'}}}"
+}

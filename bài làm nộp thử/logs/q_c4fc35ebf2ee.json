@@ -1,0 +1,10 @@
+{
+  "id": "q_c4fc35ebf2ee",
+  "question": "Mặt hàng có chất lượng tốt nhất tháng 10/2025 là gì?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_c4fc35ebf2ee"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

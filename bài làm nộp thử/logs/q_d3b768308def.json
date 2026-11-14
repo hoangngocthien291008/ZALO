@@ -1,0 +1,10 @@
+{
+  "id": "q_d3b768308def",
+  "question": "Doanh thu tháng 4/2026 tăng dảm bao nhiêu % xo với tháng liền trước?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_d3b768308def"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'revenue_diff', 'parsed': {'intent': 'revenue_diff', 'ans_type': 'percent', 'is_percent': True, 'time_info': {'start_date': '2026-04-01', 'end_date': '2026-04-30', 'compare_start_date': '2026-03-01', 'compare_end_date': '2026-03-31', 'shift': None, 'raw_type': 'specific_month'}}}"
+}

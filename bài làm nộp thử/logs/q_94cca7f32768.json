@@ -1,0 +1,10 @@
+{
+  "id": "q_94cca7f32768",
+  "question": "Th5/2026 có bnhiu món góp mặt trong ít nhất 152 đơn?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_94cca7f32768"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

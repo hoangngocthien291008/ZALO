@@ -1,0 +1,11 @@
+{
+  "id": "q_1af400957d96",
+  "question": "Đếm giùm t5/2025 có mấy đơng tiền hàng từ 760.000đ trở lên nha",
+  "answer": {
+    "id": "q_1af400957d96",
+    "type": "number",
+    "answer": 0
+  },
+  "elapsed_sec": 0.0135,
+  "extra": "{'intent': 'order_count', 'parsed': {'intent': 'order_count', 'ans_type': 'number', 'min_revenue': 760000.0, 'time_info': {'start_date': '2026-06-30', 'end_date': '2026-06-30', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'default_today'}}}"
+}

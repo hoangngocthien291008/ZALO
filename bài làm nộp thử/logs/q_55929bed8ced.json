@@ -1,0 +1,11 @@
+{
+  "id": "q_55929bed8ced",
+  "question": "mk tinh set nguog tang qa ne, th2/2025 bn don tien hang tu 190k tro len gium mik nha",
+  "answer": {
+    "id": "q_55929bed8ced",
+    "type": "number",
+    "answer": 51
+  },
+  "elapsed_sec": 0.0437,
+  "extra": "{'intent': 'order_count', 'parsed': {'intent': 'order_count', 'ans_type': 'number', 'min_revenue': 0, 'time_info': {'start_date': '2026-07-08', 'end_date': '2026-07-08', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'default_today'}}}"
+}

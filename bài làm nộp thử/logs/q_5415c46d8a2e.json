@@ -1,0 +1,10 @@
+{
+  "id": "q_5415c46d8a2e",
+  "question": "Th2/2026 có mấy ngày dthu từ 18 triệu trở lên z?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_5415c46d8a2e"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

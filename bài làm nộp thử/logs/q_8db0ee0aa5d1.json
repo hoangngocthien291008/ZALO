@@ -1,0 +1,10 @@
+{
+  "id": "q_8db0ee0aa5d1",
+  "question": "Tháng ni khách phãi trả tổng bao nhiêu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_8db0ee0aa5d1"
+  },
+  "elapsed_sec": 0.0005,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

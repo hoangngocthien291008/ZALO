@@ -1,0 +1,10 @@
+{
+  "id": "q_fe2a9de157ee",
+  "question": "Tháng 12/2025 có bao nhiêu ngày đạt doanh thu từ 18.000.000 đồng trở lên?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_fe2a9de157ee"
+  },
+  "elapsed_sec": 0.001,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

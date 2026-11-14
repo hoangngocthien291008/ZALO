@@ -1,0 +1,10 @@
+{
+  "id": "q_da623a004480",
+  "question": "Tháng 3/2025 bán Prednisolon 5mg Boston chai 500 viên được bao nhiêu tiền?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_da623a004480"
+  },
+  "elapsed_sec": 0.0013,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

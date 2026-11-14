@@ -1,0 +1,11 @@
+{
+  "id": "q_cc893126c047",
+  "question": "Tháng 11 năm 2025, nhóm chăm sóc cá nhân thì mặt hàng nào thu về nhiều tiền nhất?",
+  "answer": {
+    "id": "q_cc893126c047",
+    "type": "string",
+    "answer": "Mì Hảo Hảo tôm chua cay"
+  },
+  "elapsed_sec": 0.0748,
+  "extra": "{'intent': 'best_sellers', 'parsed': {'intent': 'best_sellers', 'ans_type': 'string', 'k': 1, 'item_group': 'chăm', 'time_info': {'start_date': '2025-11-01', 'end_date': '2025-11-30', 'compare_start_date': '2025-10-01', 'compare_end_date': '2025-10-31', 'shift': None, 'raw_type': 'specific_month'}}}"
+}

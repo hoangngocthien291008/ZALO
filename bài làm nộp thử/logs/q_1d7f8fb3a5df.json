@@ -1,0 +1,10 @@
+{
+  "id": "q_1d7f8fb3a5df",
+  "question": "Tháng 8/2025 khách ở Trường Chinh mua nhiều tiềng hơn hay khách ở Lạc Long Quân?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_1d7f8fb3a5df"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

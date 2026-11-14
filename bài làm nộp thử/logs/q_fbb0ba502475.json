@@ -1,0 +1,10 @@
+{
+  "id": "q_fbb0ba502475",
+  "question": "Liệt kê 5 khách nợ nhiều nhất tính đến hết ngày 30/06/2025, kèm số tiền còn nợ.",
+  "answer": {
+    "type": "abstain",
+    "id": "q_fbb0ba502475"
+  },
+  "elapsed_sec": 0.3761,
+  "extra": "{'intent': 'top_debt_table', 'parsed': {'intent': 'top_debt_table', 'ans_type': 'table', 'k': 5}}"
+}

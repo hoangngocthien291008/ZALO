@@ -1,0 +1,11 @@
+{
+  "id": "q_037178b58fcc",
+  "question": "Từ đầu năm tới hnay tiệm có bnhiu đơn hàng rồi?",
+  "answer": {
+    "id": "q_037178b58fcc",
+    "type": "number",
+    "answer": 6134
+  },
+  "elapsed_sec": 0.1361,
+  "extra": "{'intent': 'order_count', 'parsed': {'intent': 'order_count', 'ans_type': 'number', 'min_revenue': 0, 'time_info': {'start_date': '2026-01-01', 'end_date': '2026-03-16', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'ytd'}}}"
+}

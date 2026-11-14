@@ -1,0 +1,10 @@
+{
+  "id": "q_701bf339bd9e",
+  "question": "Tháng 11 năm 2025 tiền thu máy cũ đã trừ vào các đơn cộng lại được bnhiu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_701bf339bd9e"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "q_2db4f43d56bd",
+  "question": "Doanh thu thang nay tinh den hom nay so voi cung ky thang truoc thi tang giam bao nhieu %?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_2db4f43d56bd"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

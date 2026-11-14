@@ -1,0 +1,10 @@
+{
+  "id": "q_12d78074f059",
+  "question": "Khách nhóm thân thiết tháng 12/2025 mua trung bình bao nhiêu tiền hàng mỗi đơn?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_12d78074f059"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

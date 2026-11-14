@@ -1,0 +1,10 @@
+{
+  "id": "q_5f2d481dc5d4",
+  "question": "Từ đầu tháng này đến hết hôm nay, doanh thu thay đổi bao nhiêu % so với cùng kỳ tháng trước?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_5f2d481dc5d4"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'revenue_diff', 'parsed': {'intent': 'revenue_diff', 'ans_type': 'percent', 'is_percent': True, 'time_info': {'start_date': '2025-12-09', 'end_date': '2025-12-09', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'today'}}}"
+}

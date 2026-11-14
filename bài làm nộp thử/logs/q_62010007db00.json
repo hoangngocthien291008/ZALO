@@ -1,0 +1,10 @@
+{
+  "id": "q_62010007db00",
+  "question": "Dthu th4, th5, th6 mỗi tháng được nhiêu z?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_62010007db00"
+  },
+  "elapsed_sec": 0.0427,
+  "extra": "{'intent': 'item_revenue', 'parsed': {'intent': 'item_revenue', 'ans_type': 'number', 'item_query': 'th4, th5, th6 mỗi', 'time_info': {'start_date': '2026-08-21', 'end_date': '2026-08-21', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'default_today'}}}"
+}

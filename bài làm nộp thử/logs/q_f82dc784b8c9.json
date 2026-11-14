@@ -1,0 +1,10 @@
+{
+  "id": "q_f82dc784b8c9",
+  "question": "4/26 doanh thu đạt bao nhiêu ạ?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_f82dc784b8c9"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

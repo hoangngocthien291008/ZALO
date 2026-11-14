@@ -1,0 +1,10 @@
+{
+  "id": "q_0389b0c41da6",
+  "question": "Dịp Tết âm lịch 2026 có doanh thu hơn hay kém 17 ngày trước Tết bao nhiêu %?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_0389b0c41da6"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'revenue_diff', 'parsed': {'intent': 'revenue_diff', 'ans_type': 'percent', 'is_percent': True, 'time_info': {'start_date': '2026-02-10', 'end_date': '2026-02-26', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'tet'}}}"
+}

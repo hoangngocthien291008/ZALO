@@ -1,0 +1,11 @@
+{
+  "id": "q_d62edb3b5bc6",
+  "question": "Mình đang xem lại mùa hè, giựa tháng 6/2025, 7/2025 và 8/2025 thì tháng nào doanh thu cao nhất?",
+  "answer": {
+    "id": "q_d62edb3b5bc6",
+    "type": "number",
+    "answer": 6698943500
+  },
+  "elapsed_sec": 0.038,
+  "extra": "{'intent': 'revenue_total', 'parsed': {'intent': 'revenue_total', 'ans_type': 'number', 'time_info': {'start_date': '2025-06-01', 'end_date': '2025-06-30', 'compare_start_date': '2025-05-01', 'compare_end_date': '2025-05-31', 'shift': None, 'raw_type': 'specific_month'}}}"
+}

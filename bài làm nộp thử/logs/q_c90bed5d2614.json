@@ -1,0 +1,10 @@
+{
+  "id": "q_c90bed5d2614",
+  "question": "Tháng 4/2026 bữa nào tiệm bán được nhiều tiền nhứt?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_c90bed5d2614"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

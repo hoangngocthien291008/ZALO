@@ -1,0 +1,10 @@
+{
+  "id": "q_ea97617772d0",
+  "question": "Th4/2026 so voi thang lien truoc, doanh thu tang giam bao nhieu %?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_ea97617772d0"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

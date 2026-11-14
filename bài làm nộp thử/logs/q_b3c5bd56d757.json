@@ -1,0 +1,11 @@
+{
+  "id": "q_b3c5bd56d757",
+  "question": "5-2026 huỷ mất mấy đơn z?",
+  "answer": {
+    "id": "q_b3c5bd56d757",
+    "type": "number",
+    "answer": 51
+  },
+  "elapsed_sec": 0.0358,
+  "extra": "{'intent': 'order_count', 'parsed': {'intent': 'order_count', 'ans_type': 'number', 'min_revenue': 0, 'time_info': {'start_date': '2026-07-08', 'end_date': '2026-07-08', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'default_today'}}}"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "q_f963e5fc774c",
+  "question": "Cát xây trát lên 315.000đ từ ngày 22/06/2025, số m3 bán trong 14 ngày kể từ hôm đó tăng hay giảm mấy % so với 14 ngày trước đó?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_f963e5fc774c"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'revenue_diff', 'parsed': {'intent': 'revenue_diff', 'ans_type': 'percent', 'is_percent': True, 'time_info': {'start_date': '2025-06-22', 'end_date': '2025-06-22', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'exact_date'}}}"
+}

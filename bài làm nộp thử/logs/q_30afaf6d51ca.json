@@ -1,0 +1,11 @@
+{
+  "id": "q_30afaf6d51ca",
+  "question": "Thang 11 nam 2025 ngay nao doanh thu cao nhta?",
+  "answer": {
+    "id": "q_30afaf6d51ca",
+    "type": "date",
+    "answer": "2025-11-12"
+  },
+  "elapsed_sec": 0.0043,
+  "extra": "{'intent': 'highest_revenue_date', 'parsed': {'intent': 'highest_revenue_date', 'ans_type': 'date', 'time_info': {'start_date': '2025-11-01', 'end_date': '2025-11-30', 'compare_start_date': '2025-10-01', 'compare_end_date': '2025-10-31', 'shift': None, 'raw_type': 'specific_month'}}}"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "q_9d8949165b5e",
+  "question": "Khách sộp nhất tháng 5/2026 là ai?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_9d8949165b5e"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "q_4df64734eb4d",
+  "question": "Th1/2025 bao nhieu don co dthu tu 410.000 dong tro lne?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_4df64734eb4d"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

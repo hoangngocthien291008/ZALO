@@ -1,0 +1,10 @@
+{
+  "id": "q_792e1070baaf",
+  "question": "T10/2025 máy Samsung chiếm bnhiu % tổng số máy bán ra?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_792e1070baaf"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'revenue_diff', 'parsed': {'intent': 'revenue_diff', 'ans_type': 'percent', 'is_percent': True, 'time_info': {'start_date': '2026-09-30', 'end_date': '2026-09-30', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'default_today'}}}"
+}

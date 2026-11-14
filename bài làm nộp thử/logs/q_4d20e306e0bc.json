@@ -1,0 +1,10 @@
+{
+  "id": "q_4d20e306e0bc",
+  "question": "Cuoi ngay hom nay co may mat hang dang chay hang?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_4d20e306e0bc"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

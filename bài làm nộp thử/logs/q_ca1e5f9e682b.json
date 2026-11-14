@@ -1,0 +1,11 @@
+{
+  "id": "q_ca1e5f9e682b",
+  "question": "Giửa tháng 3/2025, tháng 4/2025 và tháng 5/2025, tháng nào quán có doanh thu cao nhất ạ?",
+  "answer": {
+    "id": "q_ca1e5f9e682b",
+    "type": "number",
+    "answer": 454773500
+  },
+  "elapsed_sec": 0.1028,
+  "extra": "{'intent': 'revenue_total', 'parsed': {'intent': 'revenue_total', 'ans_type': 'number', 'time_info': {'start_date': '2025-03-01', 'end_date': '2025-03-31', 'compare_start_date': '2025-02-01', 'compare_end_date': '2025-02-28', 'shift': None, 'raw_type': 'specific_month'}}}"
+}

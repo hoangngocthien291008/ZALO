@@ -1,0 +1,10 @@
+{
+  "id": "q_71ead7c337f8",
+  "question": "Từ đầu năm đến hết hnay tổng cộng mấy đh rồi?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_71ead7c337f8"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

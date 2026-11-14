@@ -1,0 +1,11 @@
+{
+  "id": "q_837cd5892764",
+  "question": "Doanh thu tháng này so với cùng số ngày đầu tháng rồi tăng hay giảm mấy %?",
+  "answer": {
+    "id": "q_837cd5892764",
+    "type": "percent",
+    "answer": 790.68
+  },
+  "elapsed_sec": 0.0567,
+  "extra": "{'intent': 'revenue_diff', 'parsed': {'intent': 'revenue_diff', 'ans_type': 'percent', 'is_percent': True, 'time_info': {'start_date': '2025-10-01', 'end_date': '2025-10-22', 'compare_start_date': '2025-09-01', 'compare_end_date': '2025-09-22', 'shift': None, 'raw_type': 'this_month'}}}"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "q_b4171cc74531",
+  "question": "nhờ xíu nha, trog th3/2026 shop mik banh croissant nhập zìa tru so ban ra thi dc bnhiu cai luôn đi e",
+  "answer": {
+    "type": "abstain",
+    "id": "q_b4171cc74531"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

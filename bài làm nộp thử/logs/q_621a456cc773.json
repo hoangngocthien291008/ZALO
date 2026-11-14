@@ -1,0 +1,10 @@
+{
+  "id": "q_621a456cc773",
+  "question": "T1/2026 khách mua từ 2 đơn trở lên là mấy người z?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_621a456cc773"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

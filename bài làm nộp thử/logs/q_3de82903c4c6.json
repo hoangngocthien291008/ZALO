@@ -1,0 +1,10 @@
+{
+  "id": "q_3de82903c4c6",
+  "question": "Nam nay tu ngay 1/1 toi het hom nay dthu duoc bnhiu roi?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_3de82903c4c6"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

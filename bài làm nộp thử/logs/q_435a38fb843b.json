@@ -1,0 +1,10 @@
+{
+  "id": "q_435a38fb843b",
+  "question": "Đến hết hôm nay, khách Ông Hiếu Anh còn thiếu bao nhiêu tiền góp, tính cả kỳ chưa tới hạn?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_435a38fb843b"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

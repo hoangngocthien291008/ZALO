@@ -1,0 +1,10 @@
+{
+  "id": "q_a010ef0a217f",
+  "question": "Tháng 3/2026 có bao nhiêu bữa doanh thu của tiệm đạt từ 11 củ trở lên?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_a010ef0a217f"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

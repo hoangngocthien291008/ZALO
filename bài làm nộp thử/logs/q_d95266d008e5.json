@@ -1,0 +1,11 @@
+{
+  "id": "q_d95266d008e5",
+  "question": "Tiền bán Sữa đặc Ông Thọ 380g tháng 5/2025 là bao nhiêu?",
+  "answer": {
+    "id": "q_d95266d008e5",
+    "type": "number",
+    "answer": 3950000
+  },
+  "elapsed_sec": 0.0831,
+  "extra": "{'intent': 'item_revenue', 'parsed': {'intent': 'item_revenue', 'ans_type': 'number', 'item_query': 'sữa đặc ông thọ 380g', 'time_info': {'start_date': '2025-05-01', 'end_date': '2025-05-31', 'compare_start_date': '2025-04-01', 'compare_end_date': '2025-04-30', 'shift': None, 'raw_type': 'specific_month'}}}"
+}

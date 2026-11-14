@@ -1,0 +1,10 @@
+{
+  "id": "q_58215441e762",
+  "question": "Doanh thu thang 5/2026 dem so voi thang 5 nam ngoai thi thay doi bao nhieu phan tram?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_58215441e762"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

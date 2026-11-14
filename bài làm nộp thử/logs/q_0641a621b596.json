@@ -1,0 +1,10 @@
+{
+  "id": "q_0641a621b596",
+  "question": "Kể giúp dthu 3 tháng liền từ T4/2025 tới T6/2025, theo thứ tự thời gian.",
+  "answer": {
+    "type": "abstain",
+    "id": "q_0641a621b596"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'item_revenue', 'parsed': {'intent': 'item_revenue', 'ans_type': 'number', 'item_query': '3', 'time_info': {'start_date': '2026-08-08', 'end_date': '2026-08-08', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'default_today'}}}"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "q_ff9f21f3aa6c",
+  "question": "Chéc giùm tại ngày 02/06/2026 tiệm còn mấy khách có công nợ?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_ff9f21f3aa6c"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

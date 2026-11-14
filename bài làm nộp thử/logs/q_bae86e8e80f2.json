@@ -1,0 +1,10 @@
+{
+  "id": "q_bae86e8e80f2",
+  "question": "Tiền bán 06/2026, nhiêu z?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_bae86e8e80f2"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

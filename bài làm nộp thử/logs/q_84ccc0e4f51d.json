@@ -1,0 +1,10 @@
+{
+  "id": "q_84ccc0e4f51d",
+  "question": "Khach nhom than thiet 08/2026 mang ve may % tong doanh thu cua hang?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_84ccc0e4f51d"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

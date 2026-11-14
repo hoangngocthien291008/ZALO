@@ -1,0 +1,10 @@
+{
+  "id": "q_408c2137f088",
+  "question": "02/2026 mặt hàng nào lời nhiều nhất z?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_408c2137f088"
+  },
+  "elapsed_sec": 0.003,
+  "extra": "{'intent': 'best_sellers', 'parsed': {'intent': 'best_sellers', 'ans_type': 'string', 'k': 1, 'item_group': None, 'time_info': {'start_date': '2026-09-30', 'end_date': '2026-09-30', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'default_today'}}}"
+}

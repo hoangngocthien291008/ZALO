@@ -1,0 +1,10 @@
+{
+  "id": "q_8e44f654589f",
+  "question": "Tới bữa ni khách Triệu Thu Trang tới hạn mấy kỳ góp rồi, tính cả kỳ hạn đúng bữa ni?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_8e44f654589f"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

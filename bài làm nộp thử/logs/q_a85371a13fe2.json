@@ -1,0 +1,10 @@
+{
+  "id": "q_a85371a13fe2",
+  "question": "Th7/2026 mat hang nao ban chay nhat the?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_a85371a13fe2"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

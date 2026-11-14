@@ -1,0 +1,10 @@
+{
+  "id": "q_b9de131bae7d",
+  "question": "chị ơi mik mún bít xíu, trog th8/2025 khach nao tong tien mua hang cao nhut, thanks e nha",
+  "answer": {
+    "type": "abstain",
+    "id": "q_b9de131bae7d"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

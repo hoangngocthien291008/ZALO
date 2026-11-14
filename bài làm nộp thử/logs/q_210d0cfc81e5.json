@@ -1,0 +1,10 @@
+{
+  "id": "q_210d0cfc81e5",
+  "question": "Tinh tai ngay 08/08/2026, Berocca Performance vien sui tuyp 10 vien con lo gan het han nhat la het han ngay may?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_210d0cfc81e5"
+  },
+  "elapsed_sec": 0.001,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

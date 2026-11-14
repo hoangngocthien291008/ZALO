@@ -1,0 +1,10 @@
+{
+  "id": "q_4c849b6df27d",
+  "question": "Có bao nhiêu khách mua từ 9 đơn trở lên trong th12/2025 z?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_4c849b6df27d"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

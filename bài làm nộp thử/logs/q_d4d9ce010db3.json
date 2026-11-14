@@ -1,0 +1,11 @@
+{
+  "id": "q_d4d9ce010db3",
+  "question": "Tháng 6/2026 có mấy đơn có tiền hàng từ 450.000 đồng trở lên?",
+  "answer": {
+    "id": "q_d4d9ce010db3",
+    "type": "number",
+    "answer": 0
+  },
+  "elapsed_sec": 0.0201,
+  "extra": "{'intent': 'order_count', 'parsed': {'intent': 'order_count', 'ans_type': 'number', 'min_revenue': 450000.0, 'time_info': {'start_date': '2026-06-01', 'end_date': '2026-06-30', 'compare_start_date': '2026-05-01', 'compare_end_date': '2026-05-31', 'shift': None, 'raw_type': 'specific_month'}}}"
+}

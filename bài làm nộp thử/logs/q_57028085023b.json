@@ -1,0 +1,10 @@
+{
+  "id": "q_57028085023b",
+  "question": "Lợi nhuận gộp 2/2026 được bnhiu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_57028085023b"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

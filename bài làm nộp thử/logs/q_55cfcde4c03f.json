@@ -1,0 +1,10 @@
+{
+  "id": "q_55cfcde4c03f",
+  "question": "tuần trc ca chiều dduowcj mí đơn tổg cộg zị ha",
+  "answer": {
+    "type": "abstain",
+    "id": "q_55cfcde4c03f"
+  },
+  "elapsed_sec": 0.001,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

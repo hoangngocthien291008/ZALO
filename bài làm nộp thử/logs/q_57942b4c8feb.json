@@ -1,0 +1,10 @@
+{
+  "id": "q_57942b4c8feb",
+  "question": "Th11/2025 đếm đh huỷ được bnhiu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_57942b4c8feb"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

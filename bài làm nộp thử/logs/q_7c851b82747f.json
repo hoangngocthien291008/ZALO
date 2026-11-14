@@ -1,0 +1,10 @@
+{
+  "id": "q_7c851b82747f",
+  "question": "Dthu tu dau nam toi het hom nay la bao nhieu z?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_7c851b82747f"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "q_0ef1608808dd",
+  "question": "Th3/2026 quan chi nhap hang bao nhieu tien?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_0ef1608808dd"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "q_c011cf38470d",
+  "question": "Tháng 11 năm 2025 mỗi đơn bình quân được bao nhiêu doanh thu ha?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_c011cf38470d"
+  },
+  "elapsed_sec": 0.0006,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

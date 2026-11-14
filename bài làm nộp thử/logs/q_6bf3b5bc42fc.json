@@ -1,0 +1,10 @@
+{
+  "id": "q_6bf3b5bc42fc",
+  "question": "Th5 đếm giùm có mấy khách mua từ 9 đơn trở lên?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_6bf3b5bc42fc"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

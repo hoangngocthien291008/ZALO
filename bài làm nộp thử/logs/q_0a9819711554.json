@@ -1,0 +1,10 @@
+{
+  "id": "q_0a9819711554",
+  "question": "Le Son Trung T7/2026: no them bnhiu tien, tra no bnhiu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_0a9819711554"
+  },
+  "elapsed_sec": 0.001,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

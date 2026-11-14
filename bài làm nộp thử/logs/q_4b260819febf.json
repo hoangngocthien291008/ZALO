@@ -1,0 +1,10 @@
+{
+  "id": "q_4b260819febf",
+  "question": "Trong T5/2025, trung bình một đơn có doanh thu bao nhiêu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_4b260819febf"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

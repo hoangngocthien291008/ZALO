@@ -1,0 +1,10 @@
+{
+  "id": "q_5217c0d650c8",
+  "question": "Trong thang 4/25 hom nao quan ban dc nhieu tien nhat z?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_5217c0d650c8"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

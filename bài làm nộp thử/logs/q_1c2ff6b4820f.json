@@ -1,0 +1,10 @@
+{
+  "id": "q_1c2ff6b4820f",
+  "question": "2/2026 hàng mô lãi gộp nhiều nhất rứa?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_1c2ff6b4820f"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

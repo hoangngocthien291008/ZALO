@@ -1,0 +1,10 @@
+{
+  "id": "q_48cbee311a9e",
+  "question": "Cho em hỏi doanh thu từ mùng 1 tháng này đến hết hôm nay so với cùng kỳ tháng trước tăng hay giảm bao nhiêu phần trăm ạ?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_48cbee311a9e"
+  },
+  "elapsed_sec": 0.0943,
+  "extra": "{'intent': 'item_revenue', 'parsed': {'intent': 'item_revenue', 'ans_type': 'number', 'item_query': 'từ mùng 1', 'time_info': {'start_date': '2026-02-25', 'end_date': '2026-02-25', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'today'}}}"
+}

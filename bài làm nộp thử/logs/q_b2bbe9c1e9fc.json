@@ -1,0 +1,11 @@
+{
+  "id": "q_b2bbe9c1e9fc",
+  "question": "Tháng 2/2025 bán ra bao nhiêu ly Cà phê sữa (M)?",
+  "answer": {
+    "id": "q_b2bbe9c1e9fc",
+    "type": "number",
+    "answer": 126
+  },
+  "elapsed_sec": 0.0735,
+  "extra": "{'intent': 'item_qty_sold', 'parsed': {'intent': 'item_qty_sold', 'ans_type': 'number', 'item_query': 'cà phê sữa (m)', 'unit_name': 'ly', 'time_info': {'start_date': '2025-02-01', 'end_date': '2025-02-28', 'compare_start_date': '2025-01-01', 'compare_end_date': '2025-01-31', 'shift': None, 'raw_type': 'specific_month'}}}"
+}

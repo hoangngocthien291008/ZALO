@@ -1,0 +1,10 @@
+{
+  "id": "q_f5fae09ccd1e",
+  "question": "Tháng 8/2025 có mấy bữa tiệm bán được từ 10 củ trở lên?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_f5fae09ccd1e"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

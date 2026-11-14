@@ -1,0 +1,10 @@
+{
+  "id": "q_f8715dcf6ad0",
+  "question": "Tu 1/1 nam nay toi het hom nay ban ra duoc may don roi?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_f8715dcf6ad0"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

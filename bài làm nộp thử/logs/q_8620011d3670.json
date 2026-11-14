@@ -1,0 +1,10 @@
+{
+  "id": "q_8620011d3670",
+  "question": "Dthu th2/2025 bnhiu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_8620011d3670"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

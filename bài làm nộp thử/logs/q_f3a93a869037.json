@@ -1,0 +1,10 @@
+{
+  "id": "q_f3a93a869037",
+  "question": "7-2026 tien hang cac phieu tho Ha Loan Dat lam cong lai bnhiu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_f3a93a869037"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

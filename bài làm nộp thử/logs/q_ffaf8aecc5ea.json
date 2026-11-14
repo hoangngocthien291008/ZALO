@@ -1,0 +1,10 @@
+{
+  "id": "q_ffaf8aecc5ea",
+  "question": "Gia tri binh quan 1 don tuan truoc duoc bao nhieu the?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_ffaf8aecc5ea"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

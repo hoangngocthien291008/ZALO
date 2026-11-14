@@ -1,0 +1,10 @@
+{
+  "id": "q_ae7e44a0dc30",
+  "question": "Thang nay tiem giao hang tong cong may dot?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_ae7e44a0dc30"
+  },
+  "elapsed_sec": 0.0017,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "q_279180641d59",
+  "question": "Tháng 7/2025 có bao nhiêu mặt hàng xuất hiện trong ít nhất 74 đơn hàng?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_279180641d59"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

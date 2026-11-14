@@ -1,0 +1,10 @@
+{
+  "id": "q_cd0cfcf59c38",
+  "question": "Nhờ bạn tính dúp doanh thu bình quân chên mỗi đơn của tháng 9/2025.",
+  "answer": {
+    "type": "abstain",
+    "id": "q_cd0cfcf59c38"
+  },
+  "elapsed_sec": 0.1376,
+  "extra": "{'intent': 'item_revenue', 'parsed': {'intent': 'item_revenue', 'ans_type': 'number', 'item_query': 'bình quân chên mỗi đơn của', 'time_info': {'start_date': '2025-09-01', 'end_date': '2025-09-30', 'compare_start_date': '2025-08-01', 'compare_end_date': '2025-08-31', 'shift': None, 'raw_type': 'specific_month'}}}"
+}

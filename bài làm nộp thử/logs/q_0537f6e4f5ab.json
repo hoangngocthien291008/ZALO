@@ -1,0 +1,10 @@
+{
+  "id": "q_0537f6e4f5ab",
+  "question": "So sánh 3/25, 4/25 và 5/25 xem tháng nào cửa hàng bán đc nhiều tiền nhất",
+  "answer": {
+    "type": "abstain",
+    "id": "q_0537f6e4f5ab"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

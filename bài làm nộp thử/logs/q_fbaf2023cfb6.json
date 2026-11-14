@@ -1,0 +1,10 @@
+{
+  "id": "q_fbaf2023cfb6",
+  "question": "Thang 6 nam 2025 nhap ve bnhiu vien Tiffy Dey hop 25 vi x 4 vien?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_fbaf2023cfb6"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

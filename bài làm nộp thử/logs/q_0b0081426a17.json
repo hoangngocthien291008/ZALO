@@ -1,0 +1,10 @@
+{
+  "id": "q_0b0081426a17",
+  "question": "Riêng hôm nay cửa hàng có doanh thu bao nhiêu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_0b0081426a17"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

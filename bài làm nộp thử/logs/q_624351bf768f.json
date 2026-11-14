@@ -1,0 +1,10 @@
+{
+  "id": "q_624351bf768f",
+  "question": "6/2025 các đơn trả bằng chuyển khoản đem về bao nhiêu doanh thu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_624351bf768f"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

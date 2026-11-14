@@ -1,0 +1,10 @@
+{
+  "id": "q_848a1bcdb5f9",
+  "question": "Tháng 9/2025 số đơn có mua hàng nhóm trà là bao nhiêu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_848a1bcdb5f9"
+  },
+  "elapsed_sec": 0.001,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "q_05ab1c71dcaa",
+  "question": "Ai là khách có số đơn mua nhiều nhất trong tháng 4 năm 2025?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_05ab1c71dcaa"
+  },
+  "elapsed_sec": 0.0009,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "q_16fc554b8db0",
+  "question": "Th7/2026 ca sáng có tổng cộng mấy đơn?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_16fc554b8db0"
+  },
+  "elapsed_sec": 0.0508,
+  "extra": "{'intent': 'order_count', 'parsed': {'intent': 'order_count', 'ans_type': 'number', 'min_revenue': 0, 'time_info': {'start_date': '2026-08-21', 'end_date': '2026-08-21', 'compare_start_date': None, 'compare_end_date': None, 'shift': 'morning', 'raw_type': 'default_today'}}}"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "q_ba477e8e6161",
+  "question": "04/2025 dthu so voi thang truoc tang hay giam may %?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_ba477e8e6161"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

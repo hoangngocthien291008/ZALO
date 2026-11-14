@@ -1,0 +1,10 @@
+{
+  "id": "q_3b20bc6d6427",
+  "question": "Lạc rang muối 200g lên giá 21.000đ từ ngày 01/09/2025; so 30 ngày kể từ ngày tăng giá với 30 ngày ngay trước, số gói bán ra tăng hay giảm bao nhiêu phần trăm?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_3b20bc6d6427"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

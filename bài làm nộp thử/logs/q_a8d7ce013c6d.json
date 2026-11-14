@@ -1,0 +1,10 @@
+{
+  "id": "q_a8d7ce013c6d",
+  "question": "Hết ngày 26/11/2025 tiền chậm góp của khách trả góp tổng cộng bnhiu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_a8d7ce013c6d"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

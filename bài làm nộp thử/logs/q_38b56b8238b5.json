@@ -1,0 +1,11 @@
+{
+  "id": "q_38b56b8238b5",
+  "question": "Cửa hàng bán được bao nhiêu đơn trong 7 ngày gần nhất?",
+  "answer": {
+    "id": "q_38b56b8238b5",
+    "type": "number",
+    "answer": 547
+  },
+  "elapsed_sec": 0.0646,
+  "extra": "{'intent': 'order_count', 'parsed': {'intent': 'order_count', 'ans_type': 'number', 'min_revenue': 0, 'time_info': {'start_date': '2025-07-03', 'end_date': '2025-07-09', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'n_days'}}}"
+}

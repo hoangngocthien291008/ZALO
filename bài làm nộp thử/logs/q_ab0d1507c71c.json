@@ -1,0 +1,10 @@
+{
+  "id": "q_ab0d1507c71c",
+  "question": "Th này bỉm Moony chiếm mấy % số bịch bỉm bán ra, tính hết các size?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_ab0d1507c71c"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'revenue_diff', 'parsed': {'intent': 'revenue_diff', 'ans_type': 'percent', 'is_percent': True, 'time_info': {'start_date': '2026-06-30', 'end_date': '2026-06-30', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'default_today'}}}"
+}

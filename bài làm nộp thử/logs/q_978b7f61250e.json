@@ -1,0 +1,10 @@
+{
+  "id": "q_978b7f61250e",
+  "question": "T11/2025 nhóm thực phẩm chức năng chiếm mấy % dthu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_978b7f61250e"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'revenue_diff', 'parsed': {'intent': 'revenue_diff', 'ans_type': 'percent', 'is_percent': True, 'time_info': {'start_date': '2026-05-10', 'end_date': '2026-05-10', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'default_today'}}}"
+}

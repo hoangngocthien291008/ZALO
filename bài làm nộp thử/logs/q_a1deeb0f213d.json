@@ -1,0 +1,10 @@
+{
+  "id": "q_a1deeb0f213d",
+  "question": "Dem so don th12/2025 co tien hang dat 130.000 dong tro len",
+  "answer": {
+    "type": "abstain",
+    "id": "q_a1deeb0f213d"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

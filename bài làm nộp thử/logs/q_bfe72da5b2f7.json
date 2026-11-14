@@ -1,0 +1,10 @@
+{
+  "id": "q_bfe72da5b2f7",
+  "question": "08/2025 dthu bình quân mỗi đơn được bnhiu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_bfe72da5b2f7"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

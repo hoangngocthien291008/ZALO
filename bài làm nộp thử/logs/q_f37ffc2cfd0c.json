@@ -1,0 +1,10 @@
+{
+  "id": "q_f37ffc2cfd0c",
+  "question": "Đến ngày 23/09/2026 tiền khách còn nợ chia theo tuổi nợ 0–7, 8–15 và trên 15 ngày, mỗi nhóm bnhiu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_f37ffc2cfd0c"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

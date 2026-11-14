@@ -1,0 +1,10 @@
+{
+  "id": "q_dbb084b9361d",
+  "question": "5/25 quan thu ve bao nhieu doanh thu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_dbb084b9361d"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

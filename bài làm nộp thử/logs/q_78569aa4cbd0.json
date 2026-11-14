@@ -1,0 +1,11 @@
+{
+  "id": "q_78569aa4cbd0",
+  "question": "Thuốc kê đơn tháng ni, mấy % tổng doanh thu?",
+  "answer": {
+    "id": "q_78569aa4cbd0",
+    "type": "percent",
+    "answer": 0.0
+  },
+  "elapsed_sec": 0.0012,
+  "extra": "{'intent': 'prescription_rate', 'parsed': {'intent': 'prescription_rate', 'ans_type': 'percent', 'time_info': {'start_date': '2026-08-08', 'end_date': '2026-08-08', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'default_today'}}}"
+}

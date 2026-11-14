@@ -1,0 +1,10 @@
+{
+  "id": "q_102720daf6a9",
+  "question": "Năm nay, tính từ đầu năm đến hết hôm nay, doanh thu của cửa hàng là bao nhiêu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_102720daf6a9"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

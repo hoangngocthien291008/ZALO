@@ -1,0 +1,11 @@
+{
+  "id": "q_c8c553b90c18",
+  "question": "T3/2026 có mấy đơn tiền hàng từ 42.000 đồng trở lên z?",
+  "answer": {
+    "id": "q_c8c553b90c18",
+    "type": "number",
+    "answer": 29
+  },
+  "elapsed_sec": 0.0671,
+  "extra": "{'intent': 'order_count', 'parsed': {'intent': 'order_count', 'ans_type': 'number', 'min_revenue': 42000.0, 'time_info': {'start_date': '2026-05-10', 'end_date': '2026-05-10', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'default_today'}}}"
+}

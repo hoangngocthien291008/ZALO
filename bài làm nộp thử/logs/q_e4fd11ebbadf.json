@@ -1,0 +1,10 @@
+{
+  "id": "q_e4fd11ebbadf",
+  "question": "Th5/2026 dthu cũa tiệm ra bao nhiêu rứa?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_e4fd11ebbadf"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

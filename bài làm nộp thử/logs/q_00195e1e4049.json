@@ -1,0 +1,10 @@
+{
+  "id": "q_00195e1e4049",
+  "question": "Thuốc có hoạt chất Natri clorid tháng này bán được tổng cộng bao nhiêu tiền?",
+  "answer": {
+    "id": "q_00195e1e4049",
+    "type": "abstain"
+  },
+  "elapsed_sec": 57.3608,
+  "extra": "{'intent': 'error', 'parsed': {}}"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "q_26212108a6e6",
+  "question": "Tháng này dá trị trung bình 1 đơn của khách nhóm thân thiết là bnhiu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_26212108a6e6"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

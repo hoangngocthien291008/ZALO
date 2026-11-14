@@ -1,0 +1,10 @@
+{
+  "id": "q_5cb9576befc6",
+  "question": "Tong cong thang 5 nam 2025 tiem ban duoc bao nhieu tien?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_5cb9576befc6"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

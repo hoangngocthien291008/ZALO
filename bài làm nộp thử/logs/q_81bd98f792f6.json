@@ -1,0 +1,10 @@
+{
+  "id": "q_81bd98f792f6",
+  "question": "Th4/2026 khach nhom than thiet mang ve bao nhieu doanh thu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_81bd98f792f6"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

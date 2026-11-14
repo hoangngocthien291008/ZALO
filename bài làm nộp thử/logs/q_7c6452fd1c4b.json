@@ -1,0 +1,10 @@
+{
+  "id": "q_7c6452fd1c4b",
+  "question": "Tiem co bao nhieu khach o duong Nguyen Van Linh?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_7c6452fd1c4b"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

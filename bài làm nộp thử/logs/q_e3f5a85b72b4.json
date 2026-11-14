@@ -1,0 +1,10 @@
+{
+  "id": "q_e3f5a85b72b4",
+  "question": "3 thang 4/2026, 5/2026, 6/2026 tung thang doanh thu bao nhieu, ke lan luot?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_e3f5a85b72b4"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

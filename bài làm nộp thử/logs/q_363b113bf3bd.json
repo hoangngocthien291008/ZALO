@@ -1,0 +1,10 @@
+{
+  "id": "q_363b113bf3bd",
+  "question": "T11/2025 trung binh 1 don gia tri bao nhieu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_363b113bf3bd"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

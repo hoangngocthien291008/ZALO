@@ -1,0 +1,10 @@
+{
+  "id": "q_af0446a26a67",
+  "question": "Th 11/25 bình quân mỗi đơn dthu bnhiu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_af0446a26a67"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

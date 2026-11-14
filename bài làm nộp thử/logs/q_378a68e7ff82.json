@@ -1,0 +1,10 @@
+{
+  "id": "q_378a68e7ff82",
+  "question": "Tiffy Dey hộp 25 vỉ x 4 viên đổi giá từ 1.200đ lên 1.300đ vào ngày 16/10/2025. 30 ngày kể từ ngày đó bán được nhiều hay ít hơn 30 ngày liền trước bao nhiêu %, tính theo viên?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_378a68e7ff82"
+  },
+  "elapsed_sec": 0.001,
+  "extra": "{'intent': 'revenue_diff', 'parsed': {'intent': 'revenue_diff', 'ans_type': 'percent', 'is_percent': True, 'time_info': {'start_date': '2025-10-16', 'end_date': '2025-10-16', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'exact_date'}}}"
+}

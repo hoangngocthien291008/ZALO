@@ -1,0 +1,10 @@
+{
+  "id": "q_6172ede181a5",
+  "question": "Dthu tháng 3 năm 2026 của đơn bán qua Zalo OA và của đơn bán qua điện thoại, mỗi kênh bnhiu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_6172ede181a5"
+  },
+  "elapsed_sec": 0.077,
+  "extra": "{'intent': 'item_revenue', 'parsed': {'intent': 'item_revenue', 'ans_type': 'number', 'item_query': 'tháng 3', 'time_info': {'start_date': '2026-03-01', 'end_date': '2026-03-31', 'compare_start_date': '2026-02-01', 'compare_end_date': '2026-02-28', 'shift': None, 'raw_type': 'specific_month'}}}"
+}

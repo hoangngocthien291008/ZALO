@@ -1,0 +1,10 @@
+{
+  "id": "q_ca9e9c233325",
+  "question": "Tháng 9/2025 tiệm thu được bao nhiêu tiền khách trả nợ cho các đơn bán thiếu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_ca9e9c233325"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

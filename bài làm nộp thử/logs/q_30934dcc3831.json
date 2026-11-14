@@ -1,0 +1,10 @@
+{
+  "id": "q_30934dcc3831",
+  "question": "Tu dau nam den hom nay quan ban duco bao nhieu tien roi z?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_30934dcc3831"
+  },
+  "elapsed_sec": 0.001,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

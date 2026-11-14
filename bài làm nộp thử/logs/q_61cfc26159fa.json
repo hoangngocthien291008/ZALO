@@ -1,0 +1,10 @@
+{
+  "id": "q_61cfc26159fa",
+  "question": "Doanh thu bữa qua của quán tổng cộng được bao nhiêu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_61cfc26159fa"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

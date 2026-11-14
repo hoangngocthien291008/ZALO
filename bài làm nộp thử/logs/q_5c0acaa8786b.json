@@ -1,0 +1,10 @@
+{
+  "id": "q_5c0acaa8786b",
+  "question": "Đến hết hôm nay, khách Ngô Nam Ngân còn thiếu bao nhiêu tiền góp, tính cả kỳ chưa tới hạn?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_5c0acaa8786b"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

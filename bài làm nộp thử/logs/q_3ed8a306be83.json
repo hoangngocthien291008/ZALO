@@ -1,0 +1,10 @@
+{
+  "id": "q_3ed8a306be83",
+  "question": "Bìn quân 1 đơn th3/2026 bao nhiêu tiền?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_3ed8a306be83"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

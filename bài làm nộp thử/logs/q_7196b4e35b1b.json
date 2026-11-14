@@ -1,0 +1,10 @@
+{
+  "id": "q_7196b4e35b1b",
+  "question": "9/2025 binh quan 1 don dc bao nhieu doanh thu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_7196b4e35b1b"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

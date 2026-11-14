@@ -1,0 +1,10 @@
+{
+  "id": "q_d8706faef72f",
+  "question": "Hqua bán được nhiêu tiền z?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_d8706faef72f"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

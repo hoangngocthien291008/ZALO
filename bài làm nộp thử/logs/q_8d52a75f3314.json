@@ -1,0 +1,10 @@
+{
+  "id": "q_8d52a75f3314",
+  "question": "Tháng 1/2026 khách nào mua nhiều lần nhất nhỉ, đếm theo xố đơn ấy?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_8d52a75f3314"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

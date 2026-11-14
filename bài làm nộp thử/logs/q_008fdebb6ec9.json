@@ -1,0 +1,11 @@
+{
+  "id": "q_008fdebb6ec9",
+  "question": "Tháng 11 năm 2025, nhóm trà có mặt hàng nào bán được nhiều ly nhất?",
+  "answer": {
+    "id": "q_008fdebb6ec9",
+    "type": "string",
+    "answer": "Trà đào cam sả (M)"
+  },
+  "elapsed_sec": 18.195,
+  "extra": "{'intent': 'best_sellers', 'parsed': {'intent': 'best_sellers', 'ans_type': 'string', 'k': 1, 'item_group': 'trà', 'time_info': {'start_date': '2025-11-01', 'end_date': '2025-11-30', 'compare_start_date': '2025-10-01', 'compare_end_date': '2025-10-31', 'shift': None, 'raw_type': 'specific_month'}}}"
+}

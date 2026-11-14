@@ -1,0 +1,10 @@
+{
+  "id": "q_908ce2873a57",
+  "question": "Khách nào chi nhiều tiền nhất cho cửa hàng trong T5/2026?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_908ce2873a57"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

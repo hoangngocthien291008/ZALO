@@ -1,0 +1,10 @@
+{
+  "id": "q_aa47ce3a127a",
+  "question": "Tinh den het ngay 05/04/2026, no con lai xep theo 3 nhom tuoi no 0–7 ngay, 8–15 ngay, tren 15 ngay thi tung nhom bao nhieu tien?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_aa47ce3a127a"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "q_344459d9755f",
+  "question": "Doanh thu từ đầu tháng này đến hết hôm nay hơn hay kém cùng kỳ tháng trước bao nhiêu phần trăm?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_344459d9755f"
+  },
+  "elapsed_sec": 0.0105,
+  "extra": "{'intent': 'item_revenue', 'parsed': {'intent': 'item_revenue', 'ans_type': 'number', 'item_query': 'từ đầu', 'time_info': {'start_date': '2025-11-23', 'end_date': '2025-11-23', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'today'}}}"
+}

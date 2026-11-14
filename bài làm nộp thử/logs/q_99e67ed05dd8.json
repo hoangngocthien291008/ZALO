@@ -1,0 +1,11 @@
+{
+  "id": "q_99e67ed05dd8",
+  "question": "Ngay dthu cao nhat T7/2026, ngay nao nhi?",
+  "answer": {
+    "id": "q_99e67ed05dd8",
+    "type": "date",
+    "answer": "2026-09-19"
+  },
+  "elapsed_sec": 0.0523,
+  "extra": "{'intent': 'highest_revenue_date', 'parsed': {'intent': 'highest_revenue_date', 'ans_type': 'date', 'time_info': {'start_date': '2026-09-19', 'end_date': '2026-09-19', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'default_today'}}}"
+}

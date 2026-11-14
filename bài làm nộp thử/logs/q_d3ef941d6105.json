@@ -1,0 +1,10 @@
+{
+  "id": "q_d3ef941d6105",
+  "question": "So voi thang truoc, th2/2025 doanh thu hon hay kem bao nhieu %?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_d3ef941d6105"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

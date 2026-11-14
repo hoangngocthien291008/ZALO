@@ -1,0 +1,10 @@
+{
+  "id": "q_52dfb164f8ad",
+  "question": "Trong T5/2026, ngày mô dthu lên cao nhất?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_52dfb164f8ad"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

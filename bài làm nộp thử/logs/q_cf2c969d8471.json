@@ -1,0 +1,10 @@
+{
+  "id": "q_cf2c969d8471",
+  "question": "Các đơn đặt tháng 5/2025, tới hôm nay đã chở đi bao nhiêu thùng Gạch ốp tường Viglacera 30x60 thùng 8 viên?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_cf2c969d8471"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

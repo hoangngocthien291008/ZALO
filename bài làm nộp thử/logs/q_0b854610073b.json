@@ -1,0 +1,10 @@
+{
+  "id": "q_0b854610073b",
+  "question": "9/2025 cộng các khoản tiền thu máy cũ trừ vào đơn, hết nhiêu tiền z?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_0b854610073b"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

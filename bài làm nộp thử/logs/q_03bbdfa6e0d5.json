@@ -1,0 +1,10 @@
+{
+  "id": "q_03bbdfa6e0d5",
+  "question": "Hom ni quan duoc may don roi?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_03bbdfa6e0d5"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

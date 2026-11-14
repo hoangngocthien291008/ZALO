@@ -1,0 +1,10 @@
+{
+  "id": "q_4d7022ecbc52",
+  "question": "Dthu thang 5/26 so voi thang 5/25 tang truong bnhiu %?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_4d7022ecbc52"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'revenue_diff', 'parsed': {'intent': 'revenue_diff', 'ans_type': 'percent', 'is_percent': True, 'time_info': {'start_date': '2026-05-01', 'end_date': '2026-05-31', 'compare_start_date': '2026-04-01', 'compare_end_date': '2026-04-30', 'shift': None, 'raw_type': 'specific_month'}}}"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "q_fa1084dc1d3f",
+  "question": "Bà bầu dùng Acemuc Kids 200mg hộp 30 gói được không?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_fa1084dc1d3f"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

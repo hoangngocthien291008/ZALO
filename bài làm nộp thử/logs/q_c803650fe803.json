@@ -1,0 +1,10 @@
+{
+  "id": "q_c803650fe803",
+  "question": "Quý 2/2026 bnhiu nượt xe quay lại bảo hành?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_c803650fe803"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

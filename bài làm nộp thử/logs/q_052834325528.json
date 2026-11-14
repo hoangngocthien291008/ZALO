@@ -1,0 +1,11 @@
+{
+  "id": "q_052834325528",
+  "question": "10/25 doanh thu ca chieu hon hay kem ca sang may %?",
+  "answer": {
+    "id": "q_052834325528",
+    "type": "number",
+    "answer": 0
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'revenue_total', 'parsed': {'intent': 'revenue_total', 'ans_type': 'number', 'time_info': {'start_date': '2026-08-08', 'end_date': '2026-08-08', 'compare_start_date': None, 'compare_end_date': None, 'shift': 'morning', 'raw_type': 'default_today'}}}"
+}

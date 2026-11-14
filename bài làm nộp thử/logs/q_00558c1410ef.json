@@ -1,0 +1,11 @@
+{
+  "id": "q_00558c1410ef",
+  "question": "tỉ lệ huỷ đơn tháng 6/2025 là nhiêu %",
+  "answer": {
+    "id": "q_00558c1410ef",
+    "type": "percent",
+    "answer": 2.08
+  },
+  "elapsed_sec": 39.9002,
+  "extra": "{'intent': 'cancellation_rate', 'parsed': {'intent': 'cancellation_rate', 'ans_type': 'percent', 'time_info': {'start_date': '2025-06-01', 'end_date': '2025-06-30', 'compare_start_date': '2025-05-01', 'compare_end_date': '2025-05-31', 'shift': None, 'raw_type': 'specific_month'}}}"
+}

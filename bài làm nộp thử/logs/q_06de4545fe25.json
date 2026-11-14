@@ -1,0 +1,10 @@
+{
+  "id": "q_06de4545fe25",
+  "question": "T1/2026 có bao nhiêu mặt hàng có mặt trong ít nhất 187 đơn vậy?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_06de4545fe25"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

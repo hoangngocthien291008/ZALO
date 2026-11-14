@@ -1,0 +1,10 @@
+{
+  "id": "q_e4f0a9bdf74b",
+  "question": "Dip Tet 2026 hang ban nhieu nhat la hang chi?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_e4f0a9bdf74b"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "q_fd38dda74f47",
+  "question": "Tổng dthu T1/2026 đc bnhiu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_fd38dda74f47"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "q_c9afaa1f4f9e",
+  "question": "Tháng 10 năm 2025 Thẻ nhớ microSD 64GB bán ra mấy cái?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_c9afaa1f4f9e"
+  },
+  "elapsed_sec": 0.0072,
+  "extra": "{'intent': 'item_qty_sold', 'parsed': {'intent': 'item_qty_sold', 'ans_type': 'number', 'item_query': 'cái', 'unit_name': None, 'time_info': {'start_date': '2025-10-01', 'end_date': '2025-10-31', 'compare_start_date': '2025-09-01', 'compare_end_date': '2025-09-30', 'shift': None, 'raw_type': 'specific_month'}}}"
+}

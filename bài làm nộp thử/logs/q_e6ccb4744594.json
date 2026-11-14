@@ -1,0 +1,10 @@
+{
+  "id": "q_e6ccb4744594",
+  "question": "Ngày nào th 1/26 quán bánnhiều tiền nhất z?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_e6ccb4744594"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

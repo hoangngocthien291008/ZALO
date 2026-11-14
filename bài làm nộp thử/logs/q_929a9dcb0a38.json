@@ -1,0 +1,11 @@
+{
+  "id": "q_929a9dcb0a38",
+  "question": "Trong tháng 9 năm 2025, các mặt hàng nhóm trà sữa bán ra tổng cộng bao nhiêu ly?",
+  "answer": {
+    "id": "q_929a9dcb0a38",
+    "type": "number",
+    "answer": 12408
+  },
+  "elapsed_sec": 0.0999,
+  "extra": "{'intent': 'item_qty_sold', 'parsed': {'intent': 'item_qty_sold', 'ans_type': 'number', 'item_query': 'ly', 'unit_name': None, 'time_info': {'start_date': '2025-09-01', 'end_date': '2025-09-30', 'compare_start_date': '2025-08-01', 'compare_end_date': '2025-08-31', 'shift': None, 'raw_type': 'specific_month'}}}"
+}

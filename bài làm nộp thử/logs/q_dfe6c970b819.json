@@ -1,0 +1,10 @@
+{
+  "id": "q_dfe6c970b819",
+  "question": "T1/2025 ngày bán nhiều tiền nhất là ngày mô?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_dfe6c970b819"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

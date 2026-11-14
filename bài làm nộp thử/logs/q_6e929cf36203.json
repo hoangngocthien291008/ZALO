@@ -1,0 +1,10 @@
+{
+  "id": "q_6e929cf36203",
+  "question": "Khách trung thực nhất tháng 10/2025 là ai?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_6e929cf36203"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "q_e0ac213834f6",
+  "question": "Cho tôi hỏi 6-2026 trung bình mỗi đơn khách phải trả bao nhiêu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_e0ac213834f6"
+  },
+  "elapsed_sec": 0.001,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

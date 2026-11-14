@@ -1,0 +1,10 @@
+{
+  "id": "q_78f694893432",
+  "question": "Thang nay bim size L, tinh tat ca cac hang, ban duoc bao nhieu bich?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_78f694893432"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

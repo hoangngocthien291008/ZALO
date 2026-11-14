@@ -1,0 +1,10 @@
+{
+  "id": "q_278b0742d740",
+  "question": "Th4/2026 có bao nhiêu mặt hàng có mặt trong từ 84 đơn khác nhau trở lên?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_278b0742d740"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "q_f539cf51f360",
+  "question": "Doanh thu của nhân viên mã NV004 tháng này là bao nhiêu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_f539cf51f360"
+  },
+  "elapsed_sec": 0.0558,
+  "extra": "{'intent': 'item_revenue', 'parsed': {'intent': 'item_revenue', 'ans_type': 'number', 'item_query': 'nhân viên mã nv004', 'time_info': {'start_date': '2026-08-01', 'end_date': '2026-08-21', 'compare_start_date': '2026-07-01', 'compare_end_date': '2026-07-21', 'shift': None, 'raw_type': 'this_month'}}}"
+}

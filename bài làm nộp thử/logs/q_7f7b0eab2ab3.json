@@ -1,0 +1,10 @@
+{
+  "id": "q_7f7b0eab2ab3",
+  "question": "Hnay tiệm bán đc tổng nhiêu tiền z?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_7f7b0eab2ab3"
+  },
+  "elapsed_sec": 0.001,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

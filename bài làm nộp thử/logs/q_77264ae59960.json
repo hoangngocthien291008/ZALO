@@ -1,0 +1,10 @@
+{
+  "id": "q_77264ae59960",
+  "question": "Trong tháng 7/2025 quán thu được bao nhiêu tiền khách trả bớt nợ cho các đơn mua thiếu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_77264ae59960"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

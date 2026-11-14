@@ -1,0 +1,10 @@
+{
+  "id": "q_ef0073de2935",
+  "question": "10/2025 tiệm mình thu được bao nhiêu doanh thu thế?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_ef0073de2935"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

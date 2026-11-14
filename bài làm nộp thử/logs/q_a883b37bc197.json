@@ -1,0 +1,10 @@
+{
+  "id": "q_a883b37bc197",
+  "question": "Quý 4/2025 có mấy lượt khách đem máy tới bảo hành z?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_a883b37bc197"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

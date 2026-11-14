@@ -1,0 +1,10 @@
+{
+  "id": "q_6a52cddced60",
+  "question": "Doanh thu của Sụn gà rang muối trong tháng 8 năm 2026 là bao nhiêu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_6a52cddced60"
+  },
+  "elapsed_sec": 0.0804,
+  "extra": "{'intent': 'item_revenue', 'parsed': {'intent': 'item_revenue', 'ans_type': 'number', 'item_query': 'sụn gà rang muối', 'time_info': {'start_date': '2026-08-01', 'end_date': '2026-08-31', 'compare_start_date': '2026-07-01', 'compare_end_date': '2026-07-31', 'shift': None, 'raw_type': 'specific_month'}}}"
+}

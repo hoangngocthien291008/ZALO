@@ -1,0 +1,10 @@
+{
+  "id": "q_7dff48b107f0",
+  "question": "Nhom thuc pham thang 2/25 ban duoc bao nhieu tien?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_7dff48b107f0"
+  },
+  "elapsed_sec": 0.001,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

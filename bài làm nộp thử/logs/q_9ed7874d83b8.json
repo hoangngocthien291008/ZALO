@@ -1,0 +1,10 @@
+{
+  "id": "q_9ed7874d83b8",
+  "question": "quy 2/2025 doanh thu tiem minh duoc bao nhieu",
+  "answer": {
+    "type": "abstain",
+    "id": "q_9ed7874d83b8"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

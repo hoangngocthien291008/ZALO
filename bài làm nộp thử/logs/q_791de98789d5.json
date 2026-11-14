@@ -1,0 +1,10 @@
+{
+  "id": "q_791de98789d5",
+  "question": "Th7/2026 nhân diên nào bán giỏi nhất?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_791de98789d5"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

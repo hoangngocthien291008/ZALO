@@ -1,0 +1,11 @@
+{
+  "id": "q_013b4ff35811",
+  "question": "Cho tôi biết doanh thu tuần này.",
+  "answer": {
+    "id": "q_013b4ff35811",
+    "type": "number",
+    "answer": 103547000
+  },
+  "elapsed_sec": 0.0336,
+  "extra": "{'intent': 'revenue_total', 'parsed': {'intent': 'revenue_total', 'ans_type': 'number', 'time_info': {'start_date': '2025-11-10', 'end_date': '2025-11-16', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'this_week'}}}"
+}

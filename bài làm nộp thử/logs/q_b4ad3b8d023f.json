@@ -1,0 +1,10 @@
+{
+  "id": "q_b4ad3b8d023f",
+  "question": "Tháng 9/2025 mặt hàng Topping Thạch cà phê bán được tổng cộng bao nhiêu phần?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_b4ad3b8d023f"
+  },
+  "elapsed_sec": 0.0995,
+  "extra": "{'intent': 'item_qty_sold', 'parsed': {'intent': 'item_qty_sold', 'ans_type': 'number', 'item_query': 'phần', 'unit_name': None, 'time_info': {'start_date': '2025-09-01', 'end_date': '2025-09-30', 'compare_start_date': '2025-08-01', 'compare_end_date': '2025-08-31', 'shift': None, 'raw_type': 'specific_month'}}}"
+}

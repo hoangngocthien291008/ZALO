@@ -1,0 +1,10 @@
+{
+  "id": "q_08b923f3c5c5",
+  "question": "Xem giúp mình tháng 12/2025, nhà cung cấp chính của cửa hàng là ai?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_08b923f3c5c5"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

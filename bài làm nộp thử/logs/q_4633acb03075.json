@@ -1,0 +1,11 @@
+{
+  "id": "q_4633acb03075",
+  "question": "Tháng này tới giờ dthu so với tháng trước tăng hay giảm mấy % z?",
+  "answer": {
+    "id": "q_4633acb03075",
+    "type": "percent",
+    "answer": 4.99
+  },
+  "elapsed_sec": 0.1198,
+  "extra": "{'intent': 'revenue_diff', 'parsed': {'intent': 'revenue_diff', 'ans_type': 'percent', 'is_percent': True, 'time_info': {'start_date': '2025-05-01', 'end_date': '2025-05-13', 'compare_start_date': '2025-04-01', 'compare_end_date': '2025-04-13', 'shift': None, 'raw_type': 'this_month'}}}"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "q_62ec9b7dc79b",
+  "question": "Cho tôi 5 mặt hàng bán chạy nhất trong tháng 3/2025.",
+  "answer": {
+    "id": "q_62ec9b7dc79b",
+    "type": "list",
+    "answer": [
+      "Xi măng Hà Tiên PCB40 bao 50kg",
+      "Xi măng INSEE Power-S bao 50kg",
+      "kl",
+      "Khách lẻ",
+      "khách lẻ"
+    ]
+  },
+  "elapsed_sec": 0.0474,
+  "extra": "{'intent': 'best_sellers', 'parsed': {'intent': 'best_sellers', 'ans_type': 'list', 'k': 5, 'item_group': None, 'time_info': {'start_date': '2025-03-01', 'end_date': '2025-03-31', 'compare_start_date': '2025-02-01', 'compare_end_date': '2025-02-28', 'shift': None, 'raw_type': 'specific_month'}}}"
+}

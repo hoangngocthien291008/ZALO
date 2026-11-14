@@ -1,0 +1,10 @@
+{
+  "id": "q_b6abccb6b3cb",
+  "question": "Th1/2026 Ốp lưng silicon iPhone bán roa tổng cộng bnhiu cái?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_b6abccb6b3cb"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

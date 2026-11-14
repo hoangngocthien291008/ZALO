@@ -1,0 +1,10 @@
+{
+  "id": "q_547fb41358ed",
+  "question": "Th 6/26 dthu so với th 6/25 tăng hay giảm mấy %?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_547fb41358ed"
+  },
+  "elapsed_sec": 0.0013,
+  "extra": "{'intent': 'revenue_diff', 'parsed': {'intent': 'revenue_diff', 'ans_type': 'percent', 'is_percent': True, 'time_info': {'start_date': '2026-09-06', 'end_date': '2026-09-06', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'default_today'}}}"
+}

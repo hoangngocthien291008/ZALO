@@ -1,0 +1,10 @@
+{
+  "id": "q_77ce65543f25",
+  "question": "T12/2025 dthu trung bình mỗi đơn bnhiu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_77ce65543f25"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

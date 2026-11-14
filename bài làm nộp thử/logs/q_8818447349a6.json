@@ -1,0 +1,10 @@
+{
+  "id": "q_8818447349a6",
+  "question": "Th này đơn bán qua Zalo OA dthu bnhiu, còn đơn bán tại quầy bnhiu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_8818447349a6"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "q_4375c623b7c7",
+  "question": "Trong tháng 1, ngày mà tiệm bán ra nhiều tiền nhất là ngày nào nhỉ?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_4375c623b7c7"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

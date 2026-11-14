@@ -1,0 +1,11 @@
+{
+  "id": "q_014cdcc1da6e",
+  "question": "8/26 tiền bán ca chiều là bnhiu?",
+  "answer": {
+    "id": "q_014cdcc1da6e",
+    "type": "number",
+    "answer": 37795500
+  },
+  "elapsed_sec": 7.5753,
+  "extra": "{'intent': 'revenue_total', 'parsed': {'intent': 'revenue_total', 'ans_type': 'number', 'time_info': {'start_date': '2026-09-19', 'end_date': '2026-09-19', 'compare_start_date': None, 'compare_end_date': None, 'shift': 'afternoon', 'raw_type': 'default_today'}}}"
+}

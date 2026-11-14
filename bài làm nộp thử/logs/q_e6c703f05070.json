@@ -1,0 +1,11 @@
+{
+  "id": "q_e6c703f05070",
+  "question": "th4/2025 kó bnhiu đơn bị huỷ zậy?",
+  "answer": {
+    "id": "q_e6c703f05070",
+    "type": "number",
+    "answer": 132
+  },
+  "elapsed_sec": 0.0356,
+  "extra": "{'intent': 'order_count', 'parsed': {'intent': 'order_count', 'ans_type': 'number', 'min_revenue': 0, 'time_info': {'start_date': '2026-05-24', 'end_date': '2026-05-24', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'default_today'}}}"
+}

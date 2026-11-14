@@ -1,0 +1,10 @@
+{
+  "id": "q_ae44d3539448",
+  "question": "T3/2026 Diệp Hồng Hồng ghi nợ thêm nhiêu, trả nợ lại nhiêu vậy?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_ae44d3539448"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

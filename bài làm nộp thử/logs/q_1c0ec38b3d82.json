@@ -1,0 +1,10 @@
+{
+  "id": "q_1c0ec38b3d82",
+  "question": "Dịp Tết 2026 quán có doanh thu bao nhiêu thế?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_1c0ec38b3d82"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

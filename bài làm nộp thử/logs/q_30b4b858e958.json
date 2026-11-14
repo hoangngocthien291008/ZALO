@@ -1,0 +1,11 @@
+{
+  "id": "q_30b4b858e958",
+  "question": "Tóp 5 sp bán nhiều nhất tuần rồi là gì z?",
+  "answer": {
+    "id": "q_30b4b858e958",
+    "type": "string",
+    "answer": "khách lẻ"
+  },
+  "elapsed_sec": 0.0236,
+  "extra": "{'intent': 'best_sellers', 'parsed': {'intent': 'best_sellers', 'ans_type': 'string', 'k': 1, 'item_group': None, 'time_info': {'start_date': '2025-05-05', 'end_date': '2025-05-11', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'last_week'}}}"
+}

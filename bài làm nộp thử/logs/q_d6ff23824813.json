@@ -1,0 +1,10 @@
+{
+  "id": "q_d6ff23824813",
+  "question": "08/2025 ai mua nhieu don nhat?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_d6ff23824813"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

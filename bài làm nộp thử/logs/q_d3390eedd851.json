@@ -1,0 +1,10 @@
+{
+  "id": "q_d3390eedd851",
+  "question": "Rieng ca sang th 5/25 ban duoc tong cong bao nhieu tien?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_d3390eedd851"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

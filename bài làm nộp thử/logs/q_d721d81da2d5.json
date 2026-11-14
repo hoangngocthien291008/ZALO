@@ -1,0 +1,10 @@
+{
+  "id": "q_d721d81da2d5",
+  "question": "Tới hết ngày 28/12/2025, anh xem giúp em tổng tiền khách còn nợ ở các đơn đã đặt quá 7 ngày là bao nhiêu ạ?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_d721d81da2d5"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

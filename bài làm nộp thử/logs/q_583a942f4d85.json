@@ -1,0 +1,10 @@
+{
+  "id": "q_583a942f4d85",
+  "question": "Khách nhóm thân thiết tháng ni bìn quân mỗi đơn mua bao nhiêu tiền rứa?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_583a942f4d85"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "q_60f97553a06e",
+  "question": "coi jùm mik, từ đầu năm nay tới hết hôm nay dthu kủa shop đc bnhiu rooif đó??",
+  "answer": {
+    "type": "abstain",
+    "id": "q_60f97553a06e"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

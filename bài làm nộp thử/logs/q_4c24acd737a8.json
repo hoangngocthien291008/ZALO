@@ -1,0 +1,10 @@
+{
+  "id": "q_4c24acd737a8",
+  "question": "Đơn bán 02/2026, trừ tiền bớt với tiền máy cũ thu lại rồi, khách phải trả tổng cộng bao nhiêu vậy?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_4c24acd737a8"
+  },
+  "elapsed_sec": 0.001,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

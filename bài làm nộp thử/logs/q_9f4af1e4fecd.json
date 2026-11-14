@@ -1,0 +1,10 @@
+{
+  "id": "q_9f4af1e4fecd",
+  "question": "06/2025 nhóm máy cũ bán được bnhiu tiền?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_9f4af1e4fecd"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "q_5fcac0749f24",
+  "question": "7 ngày gần nhất shop mik kó bnhiu món hok bán ra đc cái nào zị, coi nha e",
+  "answer": {
+    "type": "abstain",
+    "id": "q_5fcac0749f24"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "q_33cb3a334a80",
+  "question": "Tháng 8/2025 thợ Hà Loan Đạt mần được bao nhiêu lượt xe?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_33cb3a334a80"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "q_5c681795e6a0",
+  "question": "Trong các đơn đặt tháng 11/2025, tính tới hôm nay có bao nhiêu đơn đã được giao từ 2 đợt trở lên?",
+  "answer": {
+    "id": "q_5c681795e6a0",
+    "type": "number",
+    "answer": 29
+  },
+  "elapsed_sec": 0.0282,
+  "extra": "{'intent': 'order_count', 'parsed': {'intent': 'order_count', 'ans_type': 'number', 'min_revenue': 2.0, 'time_info': {'start_date': '2025-12-01', 'end_date': '2025-12-01', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'today'}}}"
+}

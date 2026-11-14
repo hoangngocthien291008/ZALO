@@ -1,0 +1,10 @@
+{
+  "id": "q_db00aee1a23d",
+  "question": "Đến hết ngày 22/07/2026, số khách còn công nợ với cửa hàng là bao nhiêu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_db00aee1a23d"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

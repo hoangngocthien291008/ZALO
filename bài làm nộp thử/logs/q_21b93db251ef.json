@@ -1,0 +1,10 @@
+{
+  "id": "q_21b93db251ef",
+  "question": "30 ngay gan nhat quan co bao nhieu don?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_21b93db251ef"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

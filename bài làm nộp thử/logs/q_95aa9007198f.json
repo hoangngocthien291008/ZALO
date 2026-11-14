@@ -1,0 +1,10 @@
+{
+  "id": "q_95aa9007198f",
+  "question": "Tháng 10/2025, trong các khách hàng, ai khó tính nhất?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_95aa9007198f"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

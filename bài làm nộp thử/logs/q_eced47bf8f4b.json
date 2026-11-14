@@ -1,0 +1,10 @@
+{
+  "id": "q_eced47bf8f4b",
+  "question": "Tuần rồi doanh thu trung bình một đơn là bao nhiêu vậy?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_eced47bf8f4b"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

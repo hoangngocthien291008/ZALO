@@ -1,0 +1,10 @@
+{
+  "id": "q_88aeb2f7b1a7",
+  "question": "Hqua có dthu tổng bnhiu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_88aeb2f7b1a7"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

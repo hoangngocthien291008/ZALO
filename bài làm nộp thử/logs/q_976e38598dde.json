@@ -1,0 +1,10 @@
+{
+  "id": "q_976e38598dde",
+  "question": "Th7/2026 nhóm khách thân thiết mang về dthu bnhiu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_976e38598dde"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

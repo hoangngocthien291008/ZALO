@@ -1,0 +1,10 @@
+{
+  "id": "q_663c209f7209",
+  "question": "Hom qua chot duoc may don?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_663c209f7209"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

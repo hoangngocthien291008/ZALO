@@ -1,0 +1,10 @@
+{
+  "id": "q_fb409424a396",
+  "question": "nè mik hỏi xíu, hiện kòn bn lô chua ban het mà hạn dùng rơi zô 120 ngay toi",
+  "answer": {
+    "type": "abstain",
+    "id": "q_fb409424a396"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

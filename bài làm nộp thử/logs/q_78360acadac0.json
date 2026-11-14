@@ -1,0 +1,10 @@
+{
+  "id": "q_78360acadac0",
+  "question": "7/2026 có bnhiu ngày dthu đạt từ 8.900.000 đồng trở lên?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_78360acadac0"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "q_01ac0fc9f2a2",
+  "question": "Tuần rồi trung bình mổi đơn quán bán được nhiêu tiền vậy?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_01ac0fc9f2a2"
+  },
+  "elapsed_sec": 59.1482,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

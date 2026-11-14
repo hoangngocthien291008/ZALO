@@ -1,0 +1,10 @@
+{
+  "id": "q_002d03ebbded",
+  "question": "Tổng doanh thu trong ngày hôm nay là bao nhiêu?",
+  "answer": {
+    "id": "q_002d03ebbded",
+    "type": "abstain"
+  },
+  "elapsed_sec": 40.5422,
+  "extra": "{'intent': 'item_revenue', 'parsed': {'intent': 'item_revenue', 'ans_type': 'number', 'item_query': 'trong', 'time_info': {'start_date': '2025-04-30', 'end_date': '2025-04-30', 'compare_start_date': '2025-04-29', 'compare_end_date': '2025-04-29', 'shift': None, 'raw_type': 'today'}}}"
+}

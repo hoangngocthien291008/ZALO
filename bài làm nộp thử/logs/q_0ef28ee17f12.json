@@ -1,0 +1,10 @@
+{
+  "id": "q_0ef28ee17f12",
+  "question": "Số ly Nước ép cam (M) bán được trong tháng 3/2025 là bao nhiêu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_0ef28ee17f12"
+  },
+  "elapsed_sec": 0.0013,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

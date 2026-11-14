@@ -1,0 +1,10 @@
+{
+  "id": "q_e4641e459f38",
+  "question": "Tuần rồi, 5 khách nào chi tiêu nhiều nhất?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_e4641e459f38"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

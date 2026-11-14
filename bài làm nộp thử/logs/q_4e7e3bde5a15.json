@@ -1,0 +1,11 @@
+{
+  "id": "q_4e7e3bde5a15",
+  "question": "Cho em xin tỗng doanh thu quý 3/2025 cũa cửa hàng ạ.",
+  "answer": {
+    "id": "q_4e7e3bde5a15",
+    "type": "number",
+    "answer": 3189883500
+  },
+  "elapsed_sec": 0.006,
+  "extra": "{'intent': 'revenue_total', 'parsed': {'intent': 'revenue_total', 'ans_type': 'number', 'time_info': {'start_date': '2025-07-01', 'end_date': '2025-09-30', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'quarter'}}}"
+}

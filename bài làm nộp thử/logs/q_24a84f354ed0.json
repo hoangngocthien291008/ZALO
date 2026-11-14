@@ -1,0 +1,10 @@
+{
+  "id": "q_24a84f354ed0",
+  "question": "Thang nay tiem ban duoc may lon sua bot so 2, tat ca cac hang?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_24a84f354ed0"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

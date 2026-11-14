@@ -1,0 +1,10 @@
+{
+  "id": "q_bfecad2e9a15",
+  "question": "Tháng 5/2025 có mấy mặt hàng được gọi chong ít nhất 172 đơn?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_bfecad2e9a15"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

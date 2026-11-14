@@ -1,0 +1,11 @@
+{
+  "id": "q_a05a32f136e4",
+  "question": "Từ đầu năm tới bây chừ cửa hàng lên được tổng cộng bao nhiêu đơn?",
+  "answer": {
+    "id": "q_a05a32f136e4",
+    "type": "number",
+    "answer": 2641
+  },
+  "elapsed_sec": 0.0485,
+  "extra": "{'intent': 'order_count', 'parsed': {'intent': 'order_count', 'ans_type': 'number', 'min_revenue': 0, 'time_info': {'start_date': '2026-01-01', 'end_date': '2026-05-18', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'ytd'}}}"
+}

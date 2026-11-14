@@ -1,0 +1,10 @@
+{
+  "id": "q_35b891c4eebe",
+  "question": "Trong tháng 3/2026, ai là thợ nhiệt tình nhất?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_35b891c4eebe"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

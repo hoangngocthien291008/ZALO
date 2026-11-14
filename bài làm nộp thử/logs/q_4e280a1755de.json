@@ -1,0 +1,10 @@
+{
+  "id": "q_4e280a1755de",
+  "question": "Lượt xe sửa điện tháng 8/25 bnhiu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_4e280a1755de"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "q_cb0b3be99b62",
+  "question": "Doanh thu tháng 7/2026 so với tháng 7 năm rồi tăng hay giảm mấy %?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_cb0b3be99b62"
+  },
+  "elapsed_sec": 0.0009,
+  "extra": "{'intent': 'revenue_diff', 'parsed': {'intent': 'revenue_diff', 'ans_type': 'percent', 'is_percent': True, 'time_info': {'start_date': '2026-07-01', 'end_date': '2026-07-31', 'compare_start_date': '2026-06-01', 'compare_end_date': '2026-06-30', 'shift': None, 'raw_type': 'specific_month'}}}"
+}

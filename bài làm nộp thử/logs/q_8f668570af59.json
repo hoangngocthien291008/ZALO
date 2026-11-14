@@ -1,0 +1,10 @@
+{
+  "id": "q_8f668570af59",
+  "question": "Tuan truoc tinh trung binh 1 don duoc bao nhieu tien?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_8f668570af59"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

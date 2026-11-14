@@ -1,0 +1,10 @@
+{
+  "id": "q_a29355405c06",
+  "question": "6-2025 tiệm bán được mấy chiếc điện thoại, gộp cả máy mới với máy cũ nhé?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_a29355405c06"
+  },
+  "elapsed_sec": 0.0032,
+  "extra": "{'intent': 'item_qty_sold', 'parsed': {'intent': 'item_qty_sold', 'ans_type': 'number', 'item_query': 'điện thoại, gộp cả máy mới với máy cũ nhé', 'unit_name': 'chiếc', 'time_info': {'start_date': '2026-07-31', 'end_date': '2026-07-31', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'default_today'}}}"
+}

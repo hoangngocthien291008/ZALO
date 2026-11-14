@@ -1,0 +1,10 @@
+{
+  "id": "q_7ab1e13137e3",
+  "question": "Nợ còn lại đến ngày 17/06/2026, tách theo tuổi nợ 0–7, 8–15 và trên 15 ngày, mỗi nhóm bnhiu tiền?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_7ab1e13137e3"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

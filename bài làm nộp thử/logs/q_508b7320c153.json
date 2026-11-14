@@ -1,0 +1,10 @@
+{
+  "id": "q_508b7320c153",
+  "question": "Trong quý 3 năm 2025, doanh thu của cửa hàng được bao nhiêu tiền?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_508b7320c153"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

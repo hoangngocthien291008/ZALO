@@ -1,0 +1,10 @@
+{
+  "id": "q_27b5996a5f4c",
+  "question": "7 ngay qua tinh ca hom nay ban duoc may don?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_27b5996a5f4c"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

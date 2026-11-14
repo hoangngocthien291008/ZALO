@@ -1,0 +1,10 @@
+{
+  "id": "q_4162fa76a222",
+  "question": "iPhone 13 th này bán đc mấy chiếc rồi?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_4162fa76a222"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

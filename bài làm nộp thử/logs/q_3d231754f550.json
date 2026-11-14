@@ -1,0 +1,10 @@
+{
+  "id": "q_3d231754f550",
+  "question": "So với tháng ngay trước đó, dthu th4/2026 lên xuống mấy % vậy?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_3d231754f550"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'revenue_diff', 'parsed': {'intent': 'revenue_diff', 'ans_type': 'percent', 'is_percent': True, 'time_info': {'start_date': '2026-08-21', 'end_date': '2026-08-21', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'default_today'}}}"
+}

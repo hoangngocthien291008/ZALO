@@ -1,0 +1,10 @@
+{
+  "id": "q_14a10f251fd0",
+  "question": "cko mik bít xíu, trog th3/2026 sữa bột số 2 kủa hãng nào bán đc nhìu lon nhứt jùm nha",
+  "answer": {
+    "type": "abstain",
+    "id": "q_14a10f251fd0"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

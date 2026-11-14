@@ -1,0 +1,10 @@
+{
+  "id": "q_6dc8a5070da6",
+  "question": "Zyrtec 10mg hộp 1 vỉ x 10 viên th7/2026 bán được tổng bn viên?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_6dc8a5070da6"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

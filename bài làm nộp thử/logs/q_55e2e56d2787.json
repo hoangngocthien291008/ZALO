@@ -1,0 +1,10 @@
+{
+  "id": "q_55e2e56d2787",
+  "question": "Thang 5 nam 2026 ngay nao tiem ban duoc nhieu tien nhat vay?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_55e2e56d2787"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

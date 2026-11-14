@@ -1,0 +1,11 @@
+{
+  "id": "q_47d9c87fa49d",
+  "question": "Tháng 2/2026 trong nhóm mắt mũi họng, mặt hàng nào bán được nhiều tiền nhất?",
+  "answer": {
+    "id": "q_47d9c87fa49d",
+    "type": "string",
+    "answer": "V.Rohto Vitamin nhỏ mắt lọ 13ml"
+  },
+  "elapsed_sec": 0.1115,
+  "extra": "{'intent': 'best_sellers', 'parsed': {'intent': 'best_sellers', 'ans_type': 'string', 'k': 1, 'item_group': 'mắt', 'time_info': {'start_date': '2026-02-01', 'end_date': '2026-02-28', 'compare_start_date': '2026-01-01', 'compare_end_date': '2026-01-31', 'shift': None, 'raw_type': 'specific_month'}}}"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "q_0c0a1a780164",
+  "question": "Thang nay don tra bang vi dien tu duoc bao nhieu dthu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_0c0a1a780164"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

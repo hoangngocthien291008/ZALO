@@ -1,0 +1,11 @@
+{
+  "id": "q_fb4bf09137a7",
+  "question": "dthu th9/2025 wa th10/2025 rui th11/2025 co tang lien tuc khoong??",
+  "answer": {
+    "id": "q_fb4bf09137a7",
+    "type": "boolean",
+    "answer": true
+  },
+  "elapsed_sec": 0.3477,
+  "extra": "{'intent': 'continuous_increase', 'parsed': {'intent': 'continuous_increase', 'ans_type': 'boolean', 'periods': [{'start_date': '2025-09-01', 'end_date': '2025-09-30', 'compare_start_date': '2025-08-01', 'compare_end_date': '2025-08-31', 'shift': None, 'raw_type': 'specific_month'}, {'start_date': '2025-10-01', 'end_date': '2025-10-31', 'compare_start_date': '2025-09-01', 'compare_end_date': '2025-09-30', 'shift': None, 'raw_type': 'specific_month'}, {'start_date': '2025-11-01', 'end_date': '2025-11-30', 'compare_start_date': '2025-10-01', 'compare_end_date': '2025-10-31', 'shift': None, 'raw_type': 'specific_month'}]}}"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "q_e47610290a38",
+  "question": "Top năm món bán chayj nhất tuần này là những món nào?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_e47610290a38"
+  },
+  "elapsed_sec": 0.0474,
+  "extra": "{'intent': 'best_sellers', 'parsed': {'intent': 'best_sellers', 'ans_type': 'string', 'k': 1, 'item_group': None, 'time_info': {'start_date': '2026-05-11', 'end_date': '2026-05-16', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'this_week'}}}"
+}

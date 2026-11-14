@@ -1,0 +1,10 @@
+{
+  "id": "q_033e37dde4d5",
+  "question": "Tuần này bán được tổng cộng bao nhiêu gói rồi ha?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_033e37dde4d5"
+  },
+  "elapsed_sec": 4.7064,
+  "extra": "{'intent': 'item_qty_sold', 'parsed': {'intent': 'item_qty_sold', 'ans_type': 'number', 'item_query': 'rồi ha', 'unit_name': 'gói', 'time_info': {'start_date': '2026-06-22', 'end_date': '2026-06-25', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'this_week'}}}"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "q_665fbfdbfb70",
+  "question": "Đơn bán tại quầy tháng ni, doanh thu mấy đồng?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_665fbfdbfb70"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

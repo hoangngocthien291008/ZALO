@@ -1,0 +1,11 @@
+{
+  "id": "q_54e2a0754e8b",
+  "question": "Tháng 1/2026 nhóm cà phê bán được bao nhiêu ly?",
+  "answer": {
+    "id": "q_54e2a0754e8b",
+    "type": "number",
+    "answer": 137
+  },
+  "elapsed_sec": 0.0528,
+  "extra": "{'intent': 'item_qty_sold', 'parsed': {'intent': 'item_qty_sold', 'ans_type': 'number', 'item_query': 'ly', 'unit_name': None, 'time_info': {'start_date': '2026-01-01', 'end_date': '2026-01-31', 'compare_start_date': '2025-12-01', 'compare_end_date': '2025-12-31', 'shift': None, 'raw_type': 'specific_month'}}}"
+}

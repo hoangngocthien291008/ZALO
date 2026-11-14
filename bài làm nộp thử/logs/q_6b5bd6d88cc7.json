@@ -1,0 +1,10 @@
+{
+  "id": "q_6b5bd6d88cc7",
+  "question": "Quý 4/2025 phiếu bảo hành chiếm bnhiu % số phiếu thu tiền rứa?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_6b5bd6d88cc7"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'revenue_diff', 'parsed': {'intent': 'revenue_diff', 'ans_type': 'percent', 'is_percent': True, 'time_info': {'start_date': '2025-10-01', 'end_date': '2025-12-31', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'quarter'}}}"
+}

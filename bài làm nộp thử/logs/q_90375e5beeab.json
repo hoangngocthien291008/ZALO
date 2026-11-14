@@ -1,0 +1,11 @@
+{
+  "id": "q_90375e5beeab",
+  "question": "Tuần này tiệm bán được bao nhiêu đơn rồi nhỉ?",
+  "answer": {
+    "id": "q_90375e5beeab",
+    "type": "number",
+    "answer": 99
+  },
+  "elapsed_sec": 0.0162,
+  "extra": "{'intent': 'order_count', 'parsed': {'intent': 'order_count', 'ans_type': 'number', 'min_revenue': 0, 'time_info': {'start_date': '2025-04-07', 'end_date': '2025-04-09', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'this_week'}}}"
+}

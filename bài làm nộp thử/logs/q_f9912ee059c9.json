@@ -1,0 +1,10 @@
+{
+  "id": "q_f9912ee059c9",
+  "question": "Th6/2026 các đơn nhân viên Võ Trung Hoa bán cộng lại được bnhiu tiền hàng?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_f9912ee059c9"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

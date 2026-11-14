@@ -1,0 +1,10 @@
+{
+  "id": "q_468d8ef6f198",
+  "question": "Th nay nhom khach si mua tong bnhiu dthu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_468d8ef6f198"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

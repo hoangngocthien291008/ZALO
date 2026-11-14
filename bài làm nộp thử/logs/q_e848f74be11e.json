@@ -1,0 +1,10 @@
+{
+  "id": "q_e848f74be11e",
+  "question": "Trong tháng 4 năm 2026, sốp có doanh thu bao nhiêu tiền?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_e848f74be11e"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

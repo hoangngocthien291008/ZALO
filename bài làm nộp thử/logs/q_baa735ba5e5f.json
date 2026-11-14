@@ -1,0 +1,10 @@
+{
+  "id": "q_baa735ba5e5f",
+  "question": "6-2025 khách trả món vì món bị lỗi nhiều hơn hay vì gọi nhầm nhiều hơn hả?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_baa735ba5e5f"
+  },
+  "elapsed_sec": 0.001,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "q_4497ce0830d8",
+  "question": "5/26 tiem thu phi ship duoc bao nhieu tien?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_4497ce0830d8"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

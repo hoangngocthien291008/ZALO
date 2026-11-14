@@ -1,0 +1,10 @@
+{
+  "id": "q_5d05956fc827",
+  "question": "Dthu ca chiều 3-2026 cao hay thấp hơn ca sáng bnhiu %?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_5d05956fc827"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'revenue_diff', 'parsed': {'intent': 'revenue_diff', 'ans_type': 'percent', 'is_percent': True, 'time_info': {'start_date': '2026-08-21', 'end_date': '2026-08-21', 'compare_start_date': None, 'compare_end_date': None, 'shift': 'morning', 'raw_type': 'default_today'}}}"
+}

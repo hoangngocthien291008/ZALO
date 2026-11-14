@@ -1,0 +1,10 @@
+{
+  "id": "q_0ed1ebc4fe4d",
+  "question": "Khách mua ít nhất 4 đơng trong tháng 11/2025 có mấy người?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_0ed1ebc4fe4d"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

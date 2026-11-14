@@ -1,0 +1,10 @@
+{
+  "id": "q_60022421ae73",
+  "question": "Vitamin C 500mg Quapharco hop 10 vi x 10 vien thang 9 nam 2025: lay so vien nhap vo tru so vien ban ra thi duoc bao nhieu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_60022421ae73"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

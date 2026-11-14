@@ -1,0 +1,11 @@
+{
+  "id": "q_188436bf8db3",
+  "question": "Quý 2/2025 quán có tổng cộng bao nhiêu đơn hàng?",
+  "answer": {
+    "id": "q_188436bf8db3",
+    "type": "number",
+    "answer": 14828
+  },
+  "elapsed_sec": 0.1441,
+  "extra": "{'intent': 'order_count', 'parsed': {'intent': 'order_count', 'ans_type': 'number', 'min_revenue': 0, 'time_info': {'start_date': '2025-04-01', 'end_date': '2025-06-30', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'quarter'}}}"
+}

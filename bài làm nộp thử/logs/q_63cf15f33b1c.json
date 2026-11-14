@@ -1,0 +1,10 @@
+{
+  "id": "q_63cf15f33b1c",
+  "question": "Tháng 11 năm 2025, nhóm sinh tố có mặt hàng nào bán được nhiều ly nhất?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_63cf15f33b1c"
+  },
+  "elapsed_sec": 0.0683,
+  "extra": "{'intent': 'best_sellers', 'parsed': {'intent': 'best_sellers', 'ans_type': 'string', 'k': 1, 'item_group': 'sinh', 'time_info': {'start_date': '2025-11-01', 'end_date': '2025-11-30', 'compare_start_date': '2025-10-01', 'compare_end_date': '2025-10-31', 'shift': None, 'raw_type': 'specific_month'}}}"
+}

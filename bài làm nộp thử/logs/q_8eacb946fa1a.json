@@ -1,0 +1,10 @@
+{
+  "id": "q_8eacb946fa1a",
+  "question": "Tien ban hang 7 ngay gan nhat duoc bao nhieu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_8eacb946fa1a"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

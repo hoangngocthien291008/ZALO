@@ -1,0 +1,10 @@
+{
+  "id": "q_c9c0246005b6",
+  "question": "Có mấy ngày trong tháng 9/2025 cửa hàng bán được từ 15.000.000 đồng trở lên?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_c9c0246005b6"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "q_84edb29b003b",
+  "question": "T3/2025 trong so khach da mua, khach mua tu 11 don tro len chiem bao nhieu %?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_84edb29b003b"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

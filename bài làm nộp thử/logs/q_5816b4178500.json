@@ -1,0 +1,10 @@
+{
+  "id": "q_5816b4178500",
+  "question": "Th1/2026 dthu so với th1/2025 lên hay xuống bao nhiêu % thế?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_5816b4178500"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'revenue_diff', 'parsed': {'intent': 'revenue_diff', 'ans_type': 'percent', 'is_percent': True, 'time_info': {'start_date': '2026-07-22', 'end_date': '2026-07-22', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'default_today'}}}"
+}

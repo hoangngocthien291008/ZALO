@@ -1,0 +1,10 @@
+{
+  "id": "q_5860bae9659f",
+  "question": "Dthu th này so với cùng số ngày đầu th trước hơn hay kém mấy % z?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_5860bae9659f"
+  },
+  "elapsed_sec": 0.001,
+  "extra": "{'intent': 'revenue_diff', 'parsed': {'intent': 'revenue_diff', 'ans_type': 'percent', 'is_percent': True, 'time_info': {'start_date': '2026-01-28', 'end_date': '2026-01-28', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'default_today'}}}"
+}

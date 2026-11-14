@@ -1,0 +1,10 @@
+{
+  "id": "q_ce8675d1ef06",
+  "question": "Chênh lệch nhập trừ bán Bánh tiramisu T10/2025 là bao nhiêu cái?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_ce8675d1ef06"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

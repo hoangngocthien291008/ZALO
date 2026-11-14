@@ -1,0 +1,10 @@
+{
+  "id": "q_8ab2403c8c80",
+  "question": "Th7/2026 quán đc bnhiu dthu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_8ab2403c8c80"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

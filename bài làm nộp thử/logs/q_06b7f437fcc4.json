@@ -1,0 +1,10 @@
+{
+  "id": "q_06b7f437fcc4",
+  "question": "Tho Dam Lan An thang nay lam duoc tong bao nhieu tien roi?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_06b7f437fcc4"
+  },
+  "elapsed_sec": 0.001,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

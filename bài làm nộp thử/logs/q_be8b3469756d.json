@@ -1,0 +1,11 @@
+{
+  "id": "q_be8b3469756d",
+  "question": "Trong 3 tháng 6/2025 qua 7/2025 rồi 8/2025, doanh thu có tăng liên tục không?",
+  "answer": {
+    "id": "q_be8b3469756d",
+    "type": "boolean",
+    "answer": true
+  },
+  "elapsed_sec": 0.054,
+  "extra": "{'intent': 'continuous_increase', 'parsed': {'intent': 'continuous_increase', 'ans_type': 'boolean', 'periods': [{'start_date': '2025-06-01', 'end_date': '2025-06-30', 'compare_start_date': '2025-05-01', 'compare_end_date': '2025-05-31', 'shift': None, 'raw_type': 'specific_month'}]}}"
+}

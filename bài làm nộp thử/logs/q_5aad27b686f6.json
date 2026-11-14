@@ -1,0 +1,10 @@
+{
+  "id": "q_5aad27b686f6",
+  "question": "Tuan truoc trung binh 1 don hang co doanh thu bao nhieu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_5aad27b686f6"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

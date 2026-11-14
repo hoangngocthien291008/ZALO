@@ -1,0 +1,10 @@
+{
+  "id": "q_f30748b72898",
+  "question": "8-2026 mỗi đơn khách phải trả trung bình bnhiu, đã trừ bớt và máy cũ thu lại?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_f30748b72898"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

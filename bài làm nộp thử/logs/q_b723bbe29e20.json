@@ -1,0 +1,10 @@
+{
+  "id": "q_b723bbe29e20",
+  "question": "T11/2025 có mấy đh dthu từ 400.000đ trở lên?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_b723bbe29e20"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

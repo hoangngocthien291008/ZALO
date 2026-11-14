@@ -1,0 +1,10 @@
+{
+  "id": "q_7470c487f115",
+  "question": "Khách Lưu Sơn Hằng tháng 10 năm 2025 nợ thêm bnhiu, trả đc bnhiu? Cho số nợ thêm trước rồi số trả được.",
+  "answer": {
+    "type": "abstain",
+    "id": "q_7470c487f115"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

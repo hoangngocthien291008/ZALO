@@ -1,0 +1,10 @@
+{
+  "id": "q_1f7113a48e4b",
+  "question": "Hom qua ban duoc bao nhieu goi, tinh tat ca mat hang ban theo goi?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_1f7113a48e4b"
+  },
+  "elapsed_sec": 0.0014,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

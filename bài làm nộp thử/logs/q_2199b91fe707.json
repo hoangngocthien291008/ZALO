@@ -1,0 +1,11 @@
+{
+  "id": "q_2199b91fe707",
+  "question": "T3/2025 ngay nao doanh thu cao nhta?",
+  "answer": {
+    "id": "q_2199b91fe707",
+    "type": "date",
+    "answer": "2026-05-10"
+  },
+  "elapsed_sec": 0.0606,
+  "extra": "{'intent': 'highest_revenue_date', 'parsed': {'intent': 'highest_revenue_date', 'ans_type': 'date', 'time_info': {'start_date': '2026-05-10', 'end_date': '2026-05-10', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'default_today'}}}"
+}

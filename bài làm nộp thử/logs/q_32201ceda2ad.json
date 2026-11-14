@@ -1,0 +1,10 @@
+{
+  "id": "q_32201ceda2ad",
+  "question": "Tổng dthu th3/2025 của quán là nhiêu z?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_32201ceda2ad"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

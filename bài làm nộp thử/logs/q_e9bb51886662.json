@@ -1,0 +1,10 @@
+{
+  "id": "q_e9bb51886662",
+  "question": "Th11/2025 tổng cộng bán đc bnhiu tiền?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_e9bb51886662"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "q_48958d7402b0",
+  "question": "So với tháng trước đó, doanh thu tháng 6/2026 tăng hay giảm mấy phần trăm?",
+  "answer": {
+    "id": "q_48958d7402b0",
+    "type": "number",
+    "answer": 0
+  },
+  "elapsed_sec": 0.0286,
+  "extra": "{'intent': 'revenue_total', 'parsed': {'intent': 'revenue_total', 'ans_type': 'number', 'time_info': {'start_date': '2026-06-01', 'end_date': '2026-06-30', 'compare_start_date': '2026-05-01', 'compare_end_date': '2026-05-31', 'shift': None, 'raw_type': 'specific_month'}}}"
+}

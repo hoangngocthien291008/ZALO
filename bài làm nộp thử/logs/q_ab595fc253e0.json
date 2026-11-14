@@ -1,0 +1,10 @@
+{
+  "id": "q_ab595fc253e0",
+  "question": "Tuần trước khách mua trung bình mội đơn hết bao nhiêu tiền?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_ab595fc253e0"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

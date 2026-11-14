@@ -1,0 +1,11 @@
+{
+  "id": "q_f0bb331484b7",
+  "question": "7 ngày gần nhất được bnhiu đơn gồi?",
+  "answer": {
+    "id": "q_f0bb331484b7",
+    "type": "number",
+    "answer": 575
+  },
+  "elapsed_sec": 0.0874,
+  "extra": "{'intent': 'order_count', 'parsed': {'intent': 'order_count', 'ans_type': 'number', 'min_revenue': 0, 'time_info': {'start_date': '2026-03-12', 'end_date': '2026-03-18', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'n_days'}}}"
+}

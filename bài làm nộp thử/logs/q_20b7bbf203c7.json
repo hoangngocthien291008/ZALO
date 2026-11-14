@@ -1,0 +1,10 @@
+{
+  "id": "q_20b7bbf203c7",
+  "question": "Hoa hồng từng thợ th 3/26, cho bảng xếp tiền giảm dần nghe?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_20b7bbf203c7"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

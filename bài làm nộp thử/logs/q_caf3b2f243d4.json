@@ -1,0 +1,10 @@
+{
+  "id": "q_caf3b2f243d4",
+  "question": "Trong 3 tháng từ th4/2026 đến th6/2026, tháng nào bán được nhiều tiền nhất nhỉ?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_caf3b2f243d4"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

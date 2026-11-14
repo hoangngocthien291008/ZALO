@@ -1,0 +1,10 @@
+{
+  "id": "q_900c545f4ed7",
+  "question": "07/2026 doanh thu binh quan 1 don dc bao nhieu",
+  "answer": {
+    "type": "abstain",
+    "id": "q_900c545f4ed7"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

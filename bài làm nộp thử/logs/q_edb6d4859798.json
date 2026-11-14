@@ -1,0 +1,10 @@
+{
+  "id": "q_edb6d4859798",
+  "question": "10/2025 khách nào có nhiều đơn nhất?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_edb6d4859798"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

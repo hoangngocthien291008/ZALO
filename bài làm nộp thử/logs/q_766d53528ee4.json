@@ -1,0 +1,11 @@
+{
+  "id": "q_766d53528ee4",
+  "question": "Tháng 2/25 qua tháng 3/25 rồi tháng 4/25, dthu có tăng liên tục ko ta?",
+  "answer": {
+    "id": "q_766d53528ee4",
+    "type": "boolean",
+    "answer": false
+  },
+  "elapsed_sec": 0.2605,
+  "extra": "{'intent': 'continuous_increase', 'parsed': {'intent': 'continuous_increase', 'ans_type': 'boolean', 'periods': [{'start_date': '2026-02-01', 'end_date': '2026-02-28', 'compare_start_date': '2026-01-01', 'compare_end_date': '2026-01-31', 'shift': None, 'raw_type': 'specific_month'}, {'start_date': '2026-03-01', 'end_date': '2026-03-31', 'compare_start_date': '2026-02-01', 'compare_end_date': '2026-02-28', 'shift': None, 'raw_type': 'specific_month'}, {'start_date': '2026-04-01', 'end_date': '2026-04-30', 'compare_start_date': '2026-03-01', 'compare_end_date': '2026-03-31', 'shift': None, 'raw_type': 'specific_month'}]}}"
+}

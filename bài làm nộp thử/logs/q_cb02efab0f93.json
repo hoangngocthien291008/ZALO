@@ -1,0 +1,10 @@
+{
+  "id": "q_cb02efab0f93",
+  "question": "5/2025 tinh trung binh 1 don doanh thu bao nhieu z?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_cb02efab0f93"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

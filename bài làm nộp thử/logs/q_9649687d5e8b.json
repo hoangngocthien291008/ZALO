@@ -1,0 +1,10 @@
+{
+  "id": "q_9649687d5e8b",
+  "question": "Dthu tháng 3, tháng 4, tháng 5 năm 2025 lần lượt bnhiu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_9649687d5e8b"
+  },
+  "elapsed_sec": 0.0966,
+  "extra": "{'intent': 'item_revenue', 'parsed': {'intent': 'item_revenue', 'ans_type': 'number', 'item_query': 'tháng 3,', 'time_info': {'start_date': '2026-03-01', 'end_date': '2026-03-31', 'compare_start_date': '2026-02-01', 'compare_end_date': '2026-02-28', 'shift': None, 'raw_type': 'specific_month'}}}"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "q_37ee6372a9be",
+  "question": "Dthu bình quân một đh T2/2026 được bnhiu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_37ee6372a9be"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

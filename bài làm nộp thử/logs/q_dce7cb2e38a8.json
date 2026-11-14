@@ -1,0 +1,10 @@
+{
+  "id": "q_dce7cb2e38a8",
+  "question": "Thang 10 nam 2025 co may khach mua tu 5 don tro len?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_dce7cb2e38a8"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

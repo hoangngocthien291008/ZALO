@@ -1,0 +1,10 @@
+{
+  "id": "q_ca85266e5cfa",
+  "question": "Minh muon tang qua khach quen, dem giup so khach mua tu 6 don tro len trong th3/2026.",
+  "answer": {
+    "type": "abstain",
+    "id": "q_ca85266e5cfa"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

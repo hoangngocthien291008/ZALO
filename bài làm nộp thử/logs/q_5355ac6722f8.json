@@ -1,0 +1,10 @@
+{
+  "id": "q_5355ac6722f8",
+  "question": "Tháng 6/2026 tổng tiền phí ship là bao nhiêu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_5355ac6722f8"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

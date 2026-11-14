@@ -1,0 +1,10 @@
+{
+  "id": "q_427b79554ed7",
+  "question": "Nước giặt xả D-nee 3000ml tháng 9/2025, tiềng báng nhiêu z?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_427b79554ed7"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "q_78b932b4a560",
+  "question": "Hết ngày 22/07/2026, hàng còn dư trong kho của quán tính theo giá vốn là bao nhiêu tiền?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_78b932b4a560"
+  },
+  "elapsed_sec": 0.001,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

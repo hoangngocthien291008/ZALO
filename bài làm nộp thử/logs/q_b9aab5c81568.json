@@ -1,0 +1,10 @@
+{
+  "id": "q_b9aab5c81568",
+  "question": "Dthu th7, th8, th9/2026 lần lượt mỗi tháng bao nhiêu z?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_b9aab5c81568"
+  },
+  "elapsed_sec": 0.0043,
+  "extra": "{'intent': 'item_revenue', 'parsed': {'intent': 'item_revenue', 'ans_type': 'number', 'item_query': 'th7, th8, th9/2026 lần lượt mỗi', 'time_info': {'start_date': '2026-09-30', 'end_date': '2026-09-30', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'default_today'}}}"
+}

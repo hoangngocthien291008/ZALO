@@ -1,0 +1,10 @@
+{
+  "id": "q_ee860111a8df",
+  "question": "Hôm qua cửa hàng mình doanh thu được bao nhiêu nhỉ?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_ee860111a8df"
+  },
+  "elapsed_sec": 0.0013,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

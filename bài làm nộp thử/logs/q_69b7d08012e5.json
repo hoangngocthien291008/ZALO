@@ -1,0 +1,10 @@
+{
+  "id": "q_69b7d08012e5",
+  "question": "Tới ngày 27/03/2026 tiền khách nợ chưa thu còn bnhiu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_69b7d08012e5"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

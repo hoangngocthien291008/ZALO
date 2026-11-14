@@ -1,0 +1,10 @@
+{
+  "id": "q_fbf739189e42",
+  "question": "Tính đến hết ngày 22/07/2026, khách hàng còn nợ cửa hàng tổng cộng bao nhiêu tiền?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_fbf739189e42"
+  },
+  "elapsed_sec": 0.001,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

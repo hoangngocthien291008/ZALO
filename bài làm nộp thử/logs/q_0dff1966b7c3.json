@@ -1,0 +1,10 @@
+{
+  "id": "q_0dff1966b7c3",
+  "question": "Tuần trước bình quân 1 đơn được bnhiu dthu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_0dff1966b7c3"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

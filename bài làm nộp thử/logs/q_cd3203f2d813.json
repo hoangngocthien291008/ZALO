@@ -1,0 +1,10 @@
+{
+  "id": "q_cd3203f2d813",
+  "question": "Tháng 9 năm 2025 Nurofen for Children hỗn dịch chai 60ml bán được mấy chai vậy?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_cd3203f2d813"
+  },
+  "elapsed_sec": 0.1302,
+  "extra": "{'intent': 'item_qty_sold', 'parsed': {'intent': 'item_qty_sold', 'ans_type': 'number', 'item_query': 'vậy', 'unit_name': 'chai', 'time_info': {'start_date': '2025-09-01', 'end_date': '2025-09-30', 'compare_start_date': '2025-08-01', 'compare_end_date': '2025-08-31', 'shift': None, 'raw_type': 'specific_month'}}}"
+}

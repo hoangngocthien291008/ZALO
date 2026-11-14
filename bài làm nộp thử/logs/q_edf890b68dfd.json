@@ -1,0 +1,11 @@
+{
+  "id": "q_edf890b68dfd",
+  "question": "Bữa qua tiệm có mấy đơn hen?",
+  "answer": {
+    "id": "q_edf890b68dfd",
+    "type": "number",
+    "answer": 0
+  },
+  "elapsed_sec": 0.001,
+  "extra": "{'intent': 'order_count', 'parsed': {'intent': 'order_count', 'ans_type': 'number', 'min_revenue': 0, 'time_info': {'start_date': '2026-05-18', 'end_date': '2026-05-18', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'default_today'}}}"
+}

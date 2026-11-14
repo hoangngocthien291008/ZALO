@@ -1,0 +1,10 @@
+{
+  "id": "q_3fb7bbc8ec8a",
+  "question": "Th8/2025 bán được bao nhiêu máy không tính phụ kiện?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_3fb7bbc8ec8a"
+  },
+  "elapsed_sec": 0.0031,
+  "extra": "{'intent': 'item_qty_sold', 'parsed': {'intent': 'item_qty_sold', 'ans_type': 'number', 'item_query': 'không tính phụ kiện', 'unit_name': 'máy', 'time_info': {'start_date': '2026-09-30', 'end_date': '2026-09-30', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'default_today'}}}"
+}

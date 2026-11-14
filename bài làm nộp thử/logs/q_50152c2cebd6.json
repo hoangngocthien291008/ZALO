@@ -1,0 +1,11 @@
+{
+  "id": "q_50152c2cebd6",
+  "question": "Đầu năm tới chừ quán được tổng cộng mấy đơn rồi?",
+  "answer": {
+    "id": "q_50152c2cebd6",
+    "type": "number",
+    "answer": 433
+  },
+  "elapsed_sec": 0.0481,
+  "extra": "{'intent': 'order_count', 'parsed': {'intent': 'order_count', 'ans_type': 'number', 'min_revenue': 0, 'time_info': {'start_date': '2026-01-01', 'end_date': '2026-05-03', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'ytd'}}}"
+}

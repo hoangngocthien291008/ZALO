@@ -1,0 +1,10 @@
+{
+  "id": "q_6022f2c64913",
+  "question": "Tháng 7/26 trừ hết chi phí quán còn lãi ròng bnhiu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_6022f2c64913"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

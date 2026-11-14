@@ -1,0 +1,10 @@
+{
+  "id": "q_9c2c85d9330d",
+  "question": "So với 17 ngày ngay trước Tết, doanh thu dịp Tết 2026 thay đổi bao nhiêu phần trăm?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_9c2c85d9330d"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

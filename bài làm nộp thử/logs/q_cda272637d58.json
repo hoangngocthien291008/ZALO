@@ -1,0 +1,10 @@
+{
+  "id": "q_cda272637d58",
+  "question": "Tháng này doanh thu các đơn trả bằng chuyển khoản được bao nhiêu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_cda272637d58"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

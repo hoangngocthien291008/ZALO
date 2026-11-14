@@ -1,0 +1,10 @@
+{
+  "id": "q_f18a6235b749",
+  "question": "Th 4/25 ai mua nhieu don nhat?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_f18a6235b749"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

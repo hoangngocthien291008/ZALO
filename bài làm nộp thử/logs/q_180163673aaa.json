@@ -1,0 +1,10 @@
+{
+  "id": "q_180163673aaa",
+  "question": "trog th11/2025 nv nào bán đc dthu cao nhứt nhỉ",
+  "answer": {
+    "type": "abstain",
+    "id": "q_180163673aaa"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

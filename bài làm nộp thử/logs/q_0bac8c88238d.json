@@ -1,0 +1,10 @@
+{
+  "id": "q_0bac8c88238d",
+  "question": "Ngày hôm qua tiệm đạt doanh thu bao nhiêu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_0bac8c88238d"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

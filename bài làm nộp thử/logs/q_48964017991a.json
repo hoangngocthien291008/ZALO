@@ -1,0 +1,10 @@
+{
+  "id": "q_48964017991a",
+  "question": "Cho tôi hỏi tháng 6/2025 trung bình mội đơn hàng mang lại bao nhiêu doanh thu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_48964017991a"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

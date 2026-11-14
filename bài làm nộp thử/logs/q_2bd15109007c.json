@@ -1,0 +1,10 @@
+{
+  "id": "q_2bd15109007c",
+  "question": "30 ngày gần nhất quán bán đc tổng bnhiu lon vậy?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_2bd15109007c"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

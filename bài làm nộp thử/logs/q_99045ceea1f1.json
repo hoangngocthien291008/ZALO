@@ -1,0 +1,11 @@
+{
+  "id": "q_99045ceea1f1",
+  "question": "Dthu 3 thang 11/2025, 12/2025, 1/2026 co tang lien tuc ko?",
+  "answer": {
+    "id": "q_99045ceea1f1",
+    "type": "boolean",
+    "answer": false
+  },
+  "elapsed_sec": 0.1956,
+  "extra": "{'intent': 'continuous_increase', 'parsed': {'intent': 'continuous_increase', 'ans_type': 'boolean', 'periods': [{'start_date': '2025-11-01', 'end_date': '2025-11-30', 'compare_start_date': '2025-10-01', 'compare_end_date': '2025-10-31', 'shift': None, 'raw_type': 'specific_month'}, {'start_date': '2025-12-01', 'end_date': '2025-12-31', 'compare_start_date': '2025-11-01', 'compare_end_date': '2025-11-30', 'shift': None, 'raw_type': 'specific_month'}, {'start_date': '2026-01-01', 'end_date': '2026-01-31', 'compare_start_date': '2025-12-01', 'compare_end_date': '2025-12-31', 'shift': None, 'raw_type': 'specific_month'}]}}"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "q_36182821dc30",
+  "question": "03/2026 khach o duong Mai Chi Tho mua het bao nhieu tien?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_36182821dc30"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

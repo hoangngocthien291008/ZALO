@@ -1,0 +1,10 @@
+{
+  "id": "q_9e6f314a5bd8",
+  "question": "5 khach no nhieu nhat tinh den het ngay 31/07/2026 la ai, tung nguoi con no bao nhieu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_9e6f314a5bd8"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

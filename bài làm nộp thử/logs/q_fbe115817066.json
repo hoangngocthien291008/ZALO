@@ -1,0 +1,10 @@
+{
+  "id": "q_fbe115817066",
+  "question": "Tính tới ngày 16/06/2025, còn bnhiu khách thiếu tiền tiệm z?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_fbe115817066"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

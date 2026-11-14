@@ -1,0 +1,10 @@
+{
+  "id": "q_e76cb855b50c",
+  "question": "2/25 bi huy bao nhieu don?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_e76cb855b50c"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

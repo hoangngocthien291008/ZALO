@@ -1,0 +1,10 @@
+{
+  "id": "q_edce3c50d4f7",
+  "question": "Khách phải trả hết bao nhiêu tiền trong 12-2025 vậy?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_edce3c50d4f7"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

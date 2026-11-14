@@ -1,0 +1,11 @@
+{
+  "id": "q_f4a5eee7f524",
+  "question": "Từ th 1/25 tới th 3/25, dthu tháng sau đều cao hơn tháng trước hả?",
+  "answer": {
+    "id": "q_f4a5eee7f524",
+    "type": "unanswerable",
+    "reason": "Dữ liệu không lưu thông tin này hoặc yêu cầu dự đoán tương lai"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'unanswerable', 'parsed': {'intent': 'unanswerable', 'ans_type': 'unanswerable', 'reason': 'Dữ liệu không lưu thông tin này hoặc yêu cầu dự đoán tương lai'}}"
+}

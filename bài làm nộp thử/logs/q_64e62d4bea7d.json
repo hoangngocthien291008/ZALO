@@ -1,0 +1,10 @@
+{
+  "id": "q_64e62d4bea7d",
+  "question": "Dthu bq mỗi đơn tuần trc là bnhiu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_64e62d4bea7d"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'item_revenue', 'parsed': {'intent': 'item_revenue', 'ans_type': 'number', 'item_query': 'bq mỗi đơn', 'time_info': {'start_date': '2026-03-03', 'end_date': '2026-03-03', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'default_today'}}}"
+}

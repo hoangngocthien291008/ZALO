@@ -1,0 +1,10 @@
+{
+  "id": "q_94f634ace6b1",
+  "question": "08/2025 tinh tien khach phai tra sau khi tru bot va tien may cu thu lai, binh quan mot don la may dong?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_94f634ace6b1"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

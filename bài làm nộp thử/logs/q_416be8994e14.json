@@ -1,0 +1,10 @@
+{
+  "id": "q_416be8994e14",
+  "question": "T3/2025 co bao nhieu ngay doanh thu dat tu 34.000.000 dong tro len?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_416be8994e14"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

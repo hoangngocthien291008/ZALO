@@ -1,0 +1,11 @@
+{
+  "id": "q_7be6937cf882",
+  "question": "Tới hôm nay, mấy đơn đặt tháng 6/2025 đã được chở thành 2 đợt trở lên?",
+  "answer": {
+    "id": "q_7be6937cf882",
+    "type": "number",
+    "answer": 26
+  },
+  "elapsed_sec": 0.0287,
+  "extra": "{'intent': 'order_count', 'parsed': {'intent': 'order_count', 'ans_type': 'number', 'min_revenue': 0, 'time_info': {'start_date': '2025-06-30', 'end_date': '2025-06-30', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'today'}}}"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "q_917d6af4418e",
+  "question": "e ơi check jùm, quý 2/2026 bên mik dòng máy nào kó nhìu lượt bảo hành nhứt á 🤔",
+  "answer": {
+    "type": "abstain",
+    "id": "q_917d6af4418e"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

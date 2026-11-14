@@ -1,0 +1,10 @@
+{
+  "id": "q_c810dcd56aa3",
+  "question": "Sau lần tăng giá Topping Thạch cà phê lên 7.400 đồng, số phần bán ra trong 30 ngày kể từ ngày tăng thay đổi bao nhiêu % so với 30 ngày liền trước?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_c810dcd56aa3"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'revenue_diff', 'parsed': {'intent': 'revenue_diff', 'ans_type': 'percent', 'is_percent': True, 'time_info': {'start_date': '2026-08-21', 'end_date': '2026-08-21', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'default_today'}}}"
+}

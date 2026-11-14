@@ -1,0 +1,10 @@
+{
+  "id": "q_86dd535ae674",
+  "question": "T10/2025 số đơn ca chiều chênh so với ca sáng mấy phần trăm vậy?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_86dd535ae674"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

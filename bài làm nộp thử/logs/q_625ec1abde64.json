@@ -1,0 +1,10 @@
+{
+  "id": "q_625ec1abde64",
+  "question": "Hnay tiệm bán đc bnhiu tiền rồi?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_625ec1abde64"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

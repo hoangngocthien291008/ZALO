@@ -1,0 +1,10 @@
+{
+  "id": "q_a0b76dd10f70",
+  "question": "Tuần rồi mỗi đơn trung bình mang về bnhiu dthu z?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_a0b76dd10f70"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

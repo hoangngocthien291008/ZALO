@@ -1,0 +1,10 @@
+{
+  "id": "q_383e2d2f282a",
+  "question": "T6/2025 mặt hàng mô cho lời nhiều nhất?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_383e2d2f282a"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

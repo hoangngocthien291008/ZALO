@@ -1,0 +1,10 @@
+{
+  "id": "q_69cc1e2a87ca",
+  "question": "Tháng 3/2025 có mấy ngày doanh thu đạt 10.000.000 đồng trở lên?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_69cc1e2a87ca"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

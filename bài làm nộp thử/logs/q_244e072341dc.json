@@ -1,0 +1,11 @@
+{
+  "id": "q_244e072341dc",
+  "question": "Tiền nhập hàng th này, tổng bnhiu?",
+  "answer": {
+    "id": "q_244e072341dc",
+    "type": "number",
+    "answer": 16178000
+  },
+  "elapsed_sec": 0.0009,
+  "extra": "{'intent': 'purchase_total', 'parsed': {'intent': 'purchase_total', 'ans_type': 'number', 'time_info': {'start_date': '2026-09-19', 'end_date': '2026-09-19', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'default_today'}}}"
+}

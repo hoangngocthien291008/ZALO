@@ -1,0 +1,10 @@
+{
+  "id": "q_15a8893ff6f9",
+  "question": "Tuần trước quán bán được mấy đĩa vậy?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_15a8893ff6f9"
+  },
+  "elapsed_sec": 0.0941,
+  "extra": "{'intent': 'item_qty_sold', 'parsed': {'intent': 'item_qty_sold', 'ans_type': 'number', 'item_query': 'vậy', 'unit_name': 'đĩa', 'time_info': {'start_date': '2025-06-09', 'end_date': '2025-06-15', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'last_week'}}}"
+}

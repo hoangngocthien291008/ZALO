@@ -1,0 +1,10 @@
+{
+  "id": "q_37a4aca072a6",
+  "question": "Quý 4 năm 2025 tiệm chốt được bao nhiêu o đờ hả?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_37a4aca072a6"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

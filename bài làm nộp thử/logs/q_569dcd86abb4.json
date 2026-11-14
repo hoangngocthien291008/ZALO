@@ -1,0 +1,10 @@
+{
+  "id": "q_569dcd86abb4",
+  "question": "Th3/2026 trung bình mỗi thứ Tư tiệm xửa mấy nượt xe?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_569dcd86abb4"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

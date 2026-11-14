@@ -1,0 +1,10 @@
+{
+  "id": "q_bfbe25641230",
+  "question": "06/2026 khach tra bot no mua chiu duoc bnhiu tien?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_bfbe25641230"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

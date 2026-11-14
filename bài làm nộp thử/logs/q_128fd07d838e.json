@@ -1,0 +1,11 @@
+{
+  "id": "q_128fd07d838e",
+  "question": "Tổng cộng hôm qua được mấy đơn?",
+  "answer": {
+    "id": "q_128fd07d838e",
+    "type": "number",
+    "answer": 44
+  },
+  "elapsed_sec": 0.006,
+  "extra": "{'intent': 'order_count', 'parsed': {'intent': 'order_count', 'ans_type': 'number', 'min_revenue': 0, 'time_info': {'start_date': '2025-08-17', 'end_date': '2025-08-17', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'yesterday'}}}"
+}

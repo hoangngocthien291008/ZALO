@@ -1,0 +1,10 @@
+{
+  "id": "q_c38425d8aec8",
+  "question": "Tháng ni bnhiu phiếu sửa có vá ruột xe rứa?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_c38425d8aec8"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

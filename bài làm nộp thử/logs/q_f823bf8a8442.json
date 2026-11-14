@@ -1,0 +1,10 @@
+{
+  "id": "q_f823bf8a8442",
+  "question": "Doanh thu T10/2025 được bao nhiêu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_f823bf8a8442"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

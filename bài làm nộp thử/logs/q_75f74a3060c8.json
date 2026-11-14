@@ -1,0 +1,10 @@
+{
+  "id": "q_75f74a3060c8",
+  "question": "Th2/2026 trung binh mot don duoc bao nhieu doanh thu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_75f74a3060c8"
+  },
+  "elapsed_sec": 0.001,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

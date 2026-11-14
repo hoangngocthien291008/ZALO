@@ -1,0 +1,10 @@
+{
+  "id": "q_e18836a94216",
+  "question": "4-2025 có mấy mặt hangf được mua ở từ 157 đơn khác nhau trở lên?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_e18836a94216"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

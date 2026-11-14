@@ -1,0 +1,10 @@
+{
+  "id": "q_e096ce51b13d",
+  "question": "Từ đầu tháng này tới hết hôm nay, doanh thu của quán hơn hay kém cùng kỳ tháng rồi mấy phần trăm?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_e096ce51b13d"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

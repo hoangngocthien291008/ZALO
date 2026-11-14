@@ -1,0 +1,10 @@
+{
+  "id": "q_a0046e6fede0",
+  "question": "2/2026 nhóm giảm đau hạ sốt dthu bnhiu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_a0046e6fede0"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

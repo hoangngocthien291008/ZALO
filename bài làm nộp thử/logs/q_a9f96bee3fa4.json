@@ -1,0 +1,10 @@
+{
+  "id": "q_a9f96bee3fa4",
+  "question": "Tháng 6/26 khách nhóm thân thiết mua tổng cộng bnhiu tiền hàng?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_a9f96bee3fa4"
+  },
+  "elapsed_sec": 0.0009,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

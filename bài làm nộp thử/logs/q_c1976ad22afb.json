@@ -1,0 +1,10 @@
+{
+  "id": "q_c1976ad22afb",
+  "question": "Th9/2025 có mấy ngày dthu từ 43 triệu trở lên vậy?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_c1976ad22afb"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

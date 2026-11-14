@@ -1,0 +1,10 @@
+{
+  "id": "q_0f59f61affd1",
+  "question": "Tu dau nam toi nay co bao nhieu don roi?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_0f59f61affd1"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "q_a1195f9fe04c",
+  "question": "Tháng 7/2025 thuốc kê đơn chiếm bao nhiêu phần trăm doanh thu của nhà thuốc?",
+  "answer": {
+    "id": "q_a1195f9fe04c",
+    "type": "percent",
+    "answer": 0.0
+  },
+  "elapsed_sec": 0.0934,
+  "extra": "{'intent': 'prescription_rate', 'parsed': {'intent': 'prescription_rate', 'ans_type': 'percent', 'time_info': {'start_date': '2025-07-01', 'end_date': '2025-07-31', 'compare_start_date': '2025-06-01', 'compare_end_date': '2025-06-30', 'shift': None, 'raw_type': 'specific_month'}}}"
+}

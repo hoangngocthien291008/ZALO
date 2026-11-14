@@ -1,0 +1,10 @@
+{
+  "id": "q_07b7be37628b",
+  "question": "Tháng này tới hôm nay, doanh thu so với cùng kỳ tháng trước thay đổi bao nhiêu phần trăm?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_07b7be37628b"
+  },
+  "elapsed_sec": 0.0194,
+  "extra": "{'intent': 'item_revenue', 'parsed': {'intent': 'item_revenue', 'ans_type': 'number', 'item_query': 'so với cùng kỳ', 'time_info': {'start_date': '2026-06-30', 'end_date': '2026-06-30', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'today'}}}"
+}

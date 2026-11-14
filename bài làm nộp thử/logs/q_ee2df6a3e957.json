@@ -1,0 +1,10 @@
+{
+  "id": "q_ee2df6a3e957",
+  "question": "tíh tới ngày 8/5/2026, 3 khách nợ nhìu nhứt là ai, từg ngừi kòn nợ bnhiu giùm nhoa",
+  "answer": {
+    "type": "abstain",
+    "id": "q_ee2df6a3e957"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

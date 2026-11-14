@@ -1,0 +1,10 @@
+{
+  "id": "q_693e2a329c10",
+  "question": "Top 5 khach chi nhieu tien nhat tuan roi la ai vay?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_693e2a329c10"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

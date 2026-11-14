@@ -1,0 +1,10 @@
+{
+  "id": "q_6b3e51830db0",
+  "question": "Đến hết ngày 06/09/2026 đếm khách còn thiếu tiền tiệm được nhiêu người z?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_6b3e51830db0"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

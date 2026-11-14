@@ -1,0 +1,11 @@
+{
+  "id": "q_936c6ef612b2",
+  "question": "Tới hnay, đơn đặt th3/2026 có mấy đơn đã giao từ 2 đợt trở lên?",
+  "answer": {
+    "id": "q_936c6ef612b2",
+    "type": "number",
+    "answer": 18
+  },
+  "elapsed_sec": 0.023,
+  "extra": "{'intent': 'order_count', 'parsed': {'intent': 'order_count', 'ans_type': 'number', 'min_revenue': 2.0, 'time_info': {'start_date': '2026-03-31', 'end_date': '2026-03-31', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'default_today'}}}"
+}

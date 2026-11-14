@@ -1,0 +1,11 @@
+{
+  "id": "q_8ef1f824e97e",
+  "question": "Trong tháng 1 năm 2026, bao nhiêu đơn có ít nhất một mặt hàng nhóm dùng ngoài?",
+  "answer": {
+    "id": "q_8ef1f824e97e",
+    "type": "number",
+    "answer": 2570
+  },
+  "elapsed_sec": 0.0942,
+  "extra": "{'intent': 'order_count', 'parsed': {'intent': 'order_count', 'ans_type': 'number', 'min_revenue': 0, 'time_info': {'start_date': '2026-01-01', 'end_date': '2026-01-31', 'compare_start_date': '2025-12-01', 'compare_end_date': '2025-12-31', 'shift': None, 'raw_type': 'specific_month'}}}"
+}

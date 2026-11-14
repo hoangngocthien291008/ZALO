@@ -1,0 +1,10 @@
+{
+  "id": "q_162c076a350d",
+  "question": "Doanh thu từ đầu năm tới hết hôm nay của tiệm là bao nhiêu nhỉ?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_162c076a350d"
+  },
+  "elapsed_sec": 0.0141,
+  "extra": "{'intent': 'item_revenue', 'parsed': {'intent': 'item_revenue', 'ans_type': 'number', 'item_query': 'từ đầu', 'time_info': {'start_date': '2026-04-10', 'end_date': '2026-04-10', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'today'}}}"
+}

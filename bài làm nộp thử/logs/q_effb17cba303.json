@@ -1,0 +1,10 @@
+{
+  "id": "q_effb17cba303",
+  "question": "Dem giup minh so don T9/2025 co tien hang tu 55.000d tro len nhe",
+  "answer": {
+    "type": "abstain",
+    "id": "q_effb17cba303"
+  },
+  "elapsed_sec": 0.001,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "q_d8da698d3e5d",
+  "question": "Quy 2/2026 ban duoc bao nhieu don hang?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_d8da698d3e5d"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

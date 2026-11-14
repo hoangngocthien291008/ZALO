@@ -1,0 +1,10 @@
+{
+  "id": "q_763243ad81fd",
+  "question": "thang 12/25 cac don ban ra tru tien bot va tien may cu thu lai thi khach phai tra tong cong bao nhieu",
+  "answer": {
+    "type": "abstain",
+    "id": "q_763243ad81fd"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

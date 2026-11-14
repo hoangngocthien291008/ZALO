@@ -1,0 +1,10 @@
+{
+  "id": "q_8df7e247960b",
+  "question": "Doanh thu tháng 4/2026 so với cùng kỳ năm ngoái thay đổi bao nhiêu phần trăm?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_8df7e247960b"
+  },
+  "elapsed_sec": 0.0447,
+  "extra": "{'intent': 'item_revenue', 'parsed': {'intent': 'item_revenue', 'ans_type': 'number', 'item_query': 'tháng 4/2026 so với cùng kỳ', 'time_info': {'start_date': '2026-04-01', 'end_date': '2026-04-30', 'compare_start_date': '2026-03-01', 'compare_end_date': '2026-03-31', 'shift': None, 'raw_type': 'specific_month'}}}"
+}

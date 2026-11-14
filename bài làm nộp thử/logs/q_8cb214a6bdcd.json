@@ -1,0 +1,10 @@
+{
+  "id": "q_8cb214a6bdcd",
+  "question": "Tháng 5/2026 báng đượt mấy máy, không kể phụ kiện nha?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_8cb214a6bdcd"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

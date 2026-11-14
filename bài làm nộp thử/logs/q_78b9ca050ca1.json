@@ -1,0 +1,10 @@
+{
+  "id": "q_78b9ca050ca1",
+  "question": "Th này khách phải trả tiệm tổng cộng bnhiu, xau khi trừ tiền bớt và tiền thu máy cũ?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_78b9ca050ca1"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

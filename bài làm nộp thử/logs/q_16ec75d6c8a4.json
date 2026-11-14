@@ -1,0 +1,11 @@
+{
+  "id": "q_16ec75d6c8a4",
+  "question": "Từ đầu năm ni đến hết hôm nay, quán có tổng cộng bao nhiêu đơn?",
+  "answer": {
+    "id": "q_16ec75d6c8a4",
+    "type": "number",
+    "answer": 59
+  },
+  "elapsed_sec": 0.0839,
+  "extra": "{'intent': 'order_count', 'parsed': {'intent': 'order_count', 'ans_type': 'number', 'min_revenue': 0, 'time_info': {'start_date': '2026-06-01', 'end_date': '2026-06-01', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'today'}}}"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "q_4f77d67fdf9c",
+  "question": "T11/2025 bao nhieu ngay doanh thu tu 9.500.000d tro lne?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_4f77d67fdf9c"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

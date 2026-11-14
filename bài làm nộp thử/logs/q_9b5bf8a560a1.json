@@ -1,0 +1,11 @@
+{
+  "id": "q_9b5bf8a560a1",
+  "question": "Dthu 30 ngày gần nhât được nhiêu vậy?",
+  "answer": {
+    "id": "q_9b5bf8a560a1",
+    "type": "number",
+    "answer": 87305900
+  },
+  "elapsed_sec": 0.0695,
+  "extra": "{'intent': 'item_revenue', 'parsed': {'intent': 'item_revenue', 'ans_type': 'number', 'item_query': '30', 'time_info': {'start_date': '2025-07-04', 'end_date': '2025-07-04', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'default_today'}}}"
+}

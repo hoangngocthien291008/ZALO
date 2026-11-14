@@ -1,0 +1,11 @@
+{
+  "id": "q_34e7f4ed662a",
+  "question": "Tháng 8/25 tiệm bị huỷ mấy % đơn rứa?",
+  "answer": {
+    "id": "q_34e7f4ed662a",
+    "type": "percent",
+    "answer": 11.57
+  },
+  "elapsed_sec": 0.1999,
+  "extra": "{'intent': 'revenue_diff', 'parsed': {'intent': 'revenue_diff', 'ans_type': 'percent', 'is_percent': True, 'time_info': {'start_date': '2025-08-01', 'end_date': '2025-08-31', 'compare_start_date': '2025-07-01', 'compare_end_date': '2025-07-31', 'shift': None, 'raw_type': 'specific_month'}}}"
+}

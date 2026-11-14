@@ -1,0 +1,11 @@
+{
+  "id": "q_f56deeb4120b",
+  "question": "Tính 3 tháng 12/2025, 1/2026, 2/2026, tháng nào doanh thu cao nhất vậy?",
+  "answer": {
+    "id": "q_f56deeb4120b",
+    "type": "number",
+    "answer": 1985228400
+  },
+  "elapsed_sec": 0.0512,
+  "extra": "{'intent': 'revenue_total', 'parsed': {'intent': 'revenue_total', 'ans_type': 'number', 'time_info': {'start_date': '2025-12-01', 'end_date': '2025-12-31', 'compare_start_date': '2025-11-01', 'compare_end_date': '2025-11-30', 'shift': None, 'raw_type': 'specific_month'}}}"
+}

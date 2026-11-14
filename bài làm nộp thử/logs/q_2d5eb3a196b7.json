@@ -1,0 +1,10 @@
+{
+  "id": "q_2d5eb3a196b7",
+  "question": "Tháng 11 năm 2025 tiệm đòi được bnhiu tiền nợ từ khách mua chịu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_2d5eb3a196b7"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

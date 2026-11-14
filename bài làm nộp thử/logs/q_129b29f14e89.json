@@ -1,0 +1,10 @@
+{
+  "id": "q_129b29f14e89",
+  "question": "Tháng 6/2025 quán đánh hàng về hết bao nhiêu tiền?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_129b29f14e89"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "q_e322d691b4be",
+  "question": "So voi th2/2025, doanh thu th2/2026 tang truong may %?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_e322d691b4be"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

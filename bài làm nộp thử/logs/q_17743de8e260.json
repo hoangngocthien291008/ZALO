@@ -1,0 +1,11 @@
+{
+  "id": "q_17743de8e260",
+  "question": "6-2026 bị huỷ mấy đơn nhỉ?",
+  "answer": {
+    "id": "q_17743de8e260",
+    "type": "number",
+    "answer": 0
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'order_count', 'parsed': {'intent': 'order_count', 'ans_type': 'number', 'min_revenue': 0, 'time_info': {'start_date': '2026-09-06', 'end_date': '2026-09-06', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'default_today'}}}"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "q_de76013dcb99",
+  "question": "Dthu dịp Tết âm lịch 2026 bnhiu z?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_de76013dcb99"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

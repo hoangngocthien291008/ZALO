@@ -1,0 +1,10 @@
+{
+  "id": "q_a6a66b57f28c",
+  "question": "Hqua bán được tổng cộng mấy lon?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_a6a66b57f28c"
+  },
+  "elapsed_sec": 0.0466,
+  "extra": "{'intent': 'item_qty_sold', 'parsed': {'intent': 'item_qty_sold', 'ans_type': 'number', 'item_query': 'lon', 'unit_name': None, 'time_info': {'start_date': '2026-07-12', 'end_date': '2026-07-12', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'default_today'}}}"
+}

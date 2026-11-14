@@ -1,0 +1,11 @@
+{
+  "id": "q_9bcd14f14b1f",
+  "question": "Tháng 4/2026 khách mua từ 3 đơn trở lên chiếm bao nhiêu % số khách đã mua?",
+  "answer": {
+    "id": "q_9bcd14f14b1f",
+    "type": "percent",
+    "answer": 104.62
+  },
+  "elapsed_sec": 0.054,
+  "extra": "{'intent': 'revenue_diff', 'parsed': {'intent': 'revenue_diff', 'ans_type': 'percent', 'is_percent': True, 'time_info': {'start_date': '2026-04-01', 'end_date': '2026-04-30', 'compare_start_date': '2026-03-01', 'compare_end_date': '2026-03-31', 'shift': None, 'raw_type': 'specific_month'}}}"
+}

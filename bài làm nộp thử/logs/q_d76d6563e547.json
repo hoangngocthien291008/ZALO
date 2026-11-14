@@ -1,0 +1,10 @@
+{
+  "id": "q_d76d6563e547",
+  "question": "11/25 tiem lai gop bao nhieu z?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_d76d6563e547"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "q_e2ad9e83d06a",
+  "question": "chị ơi, tih toi het ngay 27/9/2026 tong tien khach kòn nợ shop mik bnhiu đó ha chị",
+  "answer": {
+    "type": "abstain",
+    "id": "q_e2ad9e83d06a"
+  },
+  "elapsed_sec": 0.0013,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

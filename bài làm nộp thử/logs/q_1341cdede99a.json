@@ -1,0 +1,10 @@
+{
+  "id": "q_1341cdede99a",
+  "question": "T5/2025 co may mat hang nam trong it nhat 122 don khac nhau?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_1341cdede99a"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "q_f15ae79ed4ba",
+  "question": "Ti le huy don th8/2025 bnhiu %?",
+  "answer": {
+    "id": "q_f15ae79ed4ba",
+    "type": "percent",
+    "answer": 0.0
+  },
+  "elapsed_sec": 0.017,
+  "extra": "{'intent': 'cancellation_rate', 'parsed': {'intent': 'cancellation_rate', 'ans_type': 'percent', 'time_info': {'start_date': '2026-07-22', 'end_date': '2026-07-22', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'default_today'}}}"
+}

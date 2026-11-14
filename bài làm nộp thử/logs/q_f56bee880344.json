@@ -1,0 +1,10 @@
+{
+  "id": "q_f56bee880344",
+  "question": "Ca th8/2025 quan ban duoc tong cong bao nhieu tien vay?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_f56bee880344"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

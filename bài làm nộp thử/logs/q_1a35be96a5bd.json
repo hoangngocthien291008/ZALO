@@ -1,0 +1,10 @@
+{
+  "id": "q_1a35be96a5bd",
+  "question": "Tuan nay quan ban dc bnhiu dia?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_1a35be96a5bd"
+  },
+  "elapsed_sec": 0.0012,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "q_23f483dd4193",
+  "question": "Tuần này cửa hàng có mấy đơn thế?",
+  "answer": {
+    "id": "q_23f483dd4193",
+    "type": "number",
+    "answer": 279
+  },
+  "elapsed_sec": 0.0399,
+  "extra": "{'intent': 'order_count', 'parsed': {'intent': 'order_count', 'ans_type': 'number', 'min_revenue': 0, 'time_info': {'start_date': '2025-11-10', 'end_date': '2025-11-14', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'this_week'}}}"
+}

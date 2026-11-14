@@ -1,0 +1,11 @@
+{
+  "id": "q_4bb10819b3a3",
+  "question": "alo th3/2025 wan mik huy bnhiu don z ta",
+  "answer": {
+    "id": "q_4bb10819b3a3",
+    "type": "number",
+    "answer": 72
+  },
+  "elapsed_sec": 0.0556,
+  "extra": "{'intent': 'order_count', 'parsed': {'intent': 'order_count', 'ans_type': 'number', 'min_revenue': 0, 'time_info': {'start_date': '2026-09-19', 'end_date': '2026-09-19', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'default_today'}}}"
+}

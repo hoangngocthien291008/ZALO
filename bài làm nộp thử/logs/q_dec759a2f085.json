@@ -1,0 +1,11 @@
+{
+  "id": "q_dec759a2f085",
+  "question": "Tháng 4/2026 bán ra bao nhiêu ly Latte (M)?",
+  "answer": {
+    "id": "q_dec759a2f085",
+    "type": "number",
+    "answer": 125
+  },
+  "elapsed_sec": 0.0542,
+  "extra": "{'intent': 'item_qty_sold', 'parsed': {'intent': 'item_qty_sold', 'ans_type': 'number', 'item_query': 'latte (m)', 'unit_name': 'ly', 'time_info': {'start_date': '2026-04-01', 'end_date': '2026-04-30', 'compare_start_date': '2026-03-01', 'compare_end_date': '2026-03-31', 'shift': None, 'raw_type': 'specific_month'}}}"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "q_e2e4e0639619",
+  "question": "Trong tháng 11/2025, sản phẩm nào ngon nhất?",
+  "answer": {
+    "id": "q_e2e4e0639619",
+    "type": "string",
+    "answer": "nan"
+  },
+  "elapsed_sec": 0.1121,
+  "extra": "{'intent': 'best_sellers', 'parsed': {'intent': 'best_sellers', 'ans_type': 'string', 'k': 1, 'item_group': None, 'time_info': {'start_date': '2025-11-01', 'end_date': '2025-11-30', 'compare_start_date': '2025-10-01', 'compare_end_date': '2025-10-31', 'shift': None, 'raw_type': 'specific_month'}}}"
+}

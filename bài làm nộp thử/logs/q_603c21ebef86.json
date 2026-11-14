@@ -1,0 +1,10 @@
+{
+  "id": "q_603c21ebef86",
+  "question": "Th này bnhiu % đh có thu máy cũ của khách z?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_603c21ebef86"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'revenue_diff', 'parsed': {'intent': 'revenue_diff', 'ans_type': 'percent', 'is_percent': True, 'time_info': {'start_date': '2026-09-30', 'end_date': '2026-09-30', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'default_today'}}}"
+}

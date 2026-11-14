@@ -1,0 +1,10 @@
+{
+  "id": "q_3f807c338eb9",
+  "question": "Nhóm gỏi T12/2025 bán được tổng cộng bnhiu tiền?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_3f807c338eb9"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

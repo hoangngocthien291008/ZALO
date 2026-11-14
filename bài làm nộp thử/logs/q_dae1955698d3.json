@@ -1,0 +1,10 @@
+{
+  "id": "q_dae1955698d3",
+  "question": "Th này phí ship tổng cộng bnhiu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_dae1955698d3"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

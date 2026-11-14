@@ -1,0 +1,10 @@
+{
+  "id": "q_6d42e3d7b79b",
+  "question": "Den het ngay 01/06/2026, khach con chua dong bao nhieu tien thuoc cac ky gop da qua han?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_6d42e3d7b79b"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

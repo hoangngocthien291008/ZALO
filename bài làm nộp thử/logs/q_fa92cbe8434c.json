@@ -1,0 +1,10 @@
+{
+  "id": "q_fa92cbe8434c",
+  "question": "Tháng 6/25 mỗi đơn trung bình đem về bao nhiêu doanh thu vậy?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_fa92cbe8434c"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

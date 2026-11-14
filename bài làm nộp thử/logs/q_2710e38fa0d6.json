@@ -1,0 +1,11 @@
+{
+  "id": "q_2710e38fa0d6",
+  "question": "Tháng 2/2026 mặt hàng Cốc sạc nhanh 25W Samsung thu về bao nhiêu tiền?",
+  "answer": {
+    "id": "q_2710e38fa0d6",
+    "type": "number",
+    "answer": 581755000
+  },
+  "elapsed_sec": 0.004,
+  "extra": "{'intent': 'revenue_total', 'parsed': {'intent': 'revenue_total', 'ans_type': 'number', 'time_info': {'start_date': '2026-02-01', 'end_date': '2026-02-28', 'compare_start_date': '2026-01-01', 'compare_end_date': '2026-01-31', 'shift': None, 'raw_type': 'specific_month'}}}"
+}

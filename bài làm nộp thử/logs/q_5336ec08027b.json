@@ -1,0 +1,10 @@
+{
+  "id": "q_5336ec08027b",
+  "question": "Cho tôi biết doanh thu hôm qua.",
+  "answer": {
+    "type": "abstain",
+    "id": "q_5336ec08027b"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

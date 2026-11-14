@@ -1,0 +1,11 @@
+{
+  "id": "q_84201f553dff",
+  "question": "Tháng 2 năm 2026 có bnhiu đơn bị huỷ z?",
+  "answer": {
+    "id": "q_84201f553dff",
+    "type": "number",
+    "answer": 82
+  },
+  "elapsed_sec": 0.0432,
+  "extra": "{'intent': 'order_count', 'parsed': {'intent': 'order_count', 'ans_type': 'number', 'min_revenue': 0, 'time_info': {'start_date': '2026-02-01', 'end_date': '2026-02-28', 'compare_start_date': '2026-01-01', 'compare_end_date': '2026-01-31', 'shift': None, 'raw_type': 'specific_month'}}}"
+}

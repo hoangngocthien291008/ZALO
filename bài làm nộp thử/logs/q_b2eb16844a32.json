@@ -1,0 +1,10 @@
+{
+  "id": "q_b2eb16844a32",
+  "question": "Tính đến hôm nay, bao nhiêu máy bán tháng 7/2026 đã được mang tới bảo hành ít nhất một lần?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_b2eb16844a32"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

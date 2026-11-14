@@ -1,0 +1,10 @@
+{
+  "id": "q_6779a7bd2b29",
+  "question": "Trong nhửng khách có mua tháng 9/2025, khách mua ít nhất 12 đơn chiếm bao nhiêu phần trăm?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_6779a7bd2b29"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "q_c0287211ca77",
+  "question": "10/2025 trong so khach co mua, bao nhieu % khach mua tu 3 don tro len?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_c0287211ca77"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

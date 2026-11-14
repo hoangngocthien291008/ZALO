@@ -1,0 +1,10 @@
+{
+  "id": "q_e9eeeaa6cb03",
+  "question": "Th4/2025 bnhiu khách mua từ 3 đh trở lên?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_e9eeeaa6cb03"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

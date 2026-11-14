@@ -1,0 +1,10 @@
+{
+  "id": "q_5da7465fcd06",
+  "question": "Th1/2025 nhập hàng tổng bnhiu tiền?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_5da7465fcd06"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

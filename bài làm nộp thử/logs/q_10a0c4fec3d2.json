@@ -1,0 +1,11 @@
+{
+  "id": "q_10a0c4fec3d2",
+  "question": "Từ th5/2025 đến th7/2025 dthu tháng sau có luôn hơn tháng trước hông?",
+  "answer": {
+    "id": "q_10a0c4fec3d2",
+    "type": "unanswerable",
+    "reason": "Dữ liệu không lưu thông tin này hoặc yêu cầu dự đoán tương lai"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'unanswerable', 'parsed': {'intent': 'unanswerable', 'ans_type': 'unanswerable', 'reason': 'Dữ liệu không lưu thông tin này hoặc yêu cầu dự đoán tương lai'}}"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "q_b01bee67cde2",
+  "question": "Hết ngày hôm nay tiệm đang đứt hàng mấy mặt hàng?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_b01bee67cde2"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

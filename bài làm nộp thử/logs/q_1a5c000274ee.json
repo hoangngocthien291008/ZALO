@@ -1,0 +1,10 @@
+{
+  "id": "q_1a5c000274ee",
+  "question": "Tuan nay quan ban duoc may don roi?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_1a5c000274ee"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "q_d3ed369d528c",
+  "question": "Đếm dúp các khách còn thiếu tiền đến hết 16/11/2025 được bao nhiêu người nhé?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_d3ed369d528c"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

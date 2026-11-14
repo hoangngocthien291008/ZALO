@@ -1,0 +1,10 @@
+{
+  "id": "q_e97f2c304dc0",
+  "question": "3-2026 nhom ho cam cum chiem may phan tram tong doanh thu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_e97f2c304dc0"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

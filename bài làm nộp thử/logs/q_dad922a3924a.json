@@ -1,0 +1,10 @@
+{
+  "id": "q_dad922a3924a",
+  "question": "Tuần trước dthu được bnhiu z?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_dad922a3924a"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

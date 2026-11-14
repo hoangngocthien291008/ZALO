@@ -1,0 +1,11 @@
+{
+  "id": "q_0329c9711c55",
+  "question": "Bữa nay tiệm có bao nhiêu đơn rồi nè?",
+  "answer": {
+    "id": "q_0329c9711c55",
+    "type": "number",
+    "answer": 108
+  },
+  "elapsed_sec": 0.4936,
+  "extra": "{'intent': 'order_count', 'parsed': {'intent': 'order_count', 'ans_type': 'number', 'min_revenue': 0, 'time_info': {'start_date': '2026-02-25', 'end_date': '2026-02-25', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'default_today'}}}"
+}

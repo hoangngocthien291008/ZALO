@@ -1,0 +1,10 @@
+{
+  "id": "q_6eb11974483f",
+  "question": "Dthu năm nay tính từ ngày 1/1 đến hết hnay là bao nhiêu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_6eb11974483f"
+  },
+  "elapsed_sec": 0.0461,
+  "extra": "{'intent': 'item_revenue', 'parsed': {'intent': 'item_revenue', 'ans_type': 'number', 'item_query': 'năm nay tính từ', 'time_info': {'start_date': '2026-04-12', 'end_date': '2026-04-12', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'default_today'}}}"
+}

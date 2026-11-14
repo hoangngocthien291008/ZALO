@@ -1,0 +1,10 @@
+{
+  "id": "q_d547526c4d5d",
+  "question": "Thang 1 nam 2026 nhan vien nao ban dc nhieu tien nhat z?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_d547526c4d5d"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

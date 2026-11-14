@@ -1,0 +1,10 @@
+{
+  "id": "q_d5d84e9e6570",
+  "question": "11-2025 nhóm trà bán đc bnhiu tiền?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_d5d84e9e6570"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

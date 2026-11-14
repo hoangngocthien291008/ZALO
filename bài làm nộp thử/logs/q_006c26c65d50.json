@@ -1,0 +1,11 @@
+{
+  "id": "q_006c26c65d50",
+  "question": "thang 7/2026 co bao nhiu don co dthu tu 55.000 dong tro len",
+  "answer": {
+    "id": "q_006c26c65d50",
+    "type": "number",
+    "answer": 2345
+  },
+  "elapsed_sec": 26.8221,
+  "extra": "{'intent': 'order_count', 'parsed': {'intent': 'order_count', 'ans_type': 'number', 'min_revenue': 55000.0, 'time_info': {'start_date': '2026-07-01', 'end_date': '2026-07-31', 'compare_start_date': '2026-06-01', 'compare_end_date': '2026-06-30', 'shift': None, 'raw_type': 'specific_month'}}}"
+}

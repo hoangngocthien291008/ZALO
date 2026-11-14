@@ -1,0 +1,10 @@
+{
+  "id": "q_859861209455",
+  "question": "Tháng 8/2026 quán cất hàng hết bao nhiêu tiền?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_859861209455"
+  },
+  "elapsed_sec": 0.0009,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "q_ba1f08439ec8",
+  "question": "Giua th1/2026, th2/2026 va th3/2026 thi thang nao doanh thu cao nhat z?",
+  "answer": {
+    "id": "q_ba1f08439ec8",
+    "type": "number",
+    "answer": 16795400
+  },
+  "elapsed_sec": 0.0294,
+  "extra": "{'intent': 'revenue_total', 'parsed': {'intent': 'revenue_total', 'ans_type': 'number', 'time_info': {'start_date': '2026-06-10', 'end_date': '2026-06-10', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'default_today'}}}"
+}

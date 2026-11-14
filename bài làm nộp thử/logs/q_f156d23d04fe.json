@@ -1,0 +1,11 @@
+{
+  "id": "q_f156d23d04fe",
+  "question": "Tuần này tổng cộng mấy đơn rồi z?",
+  "answer": {
+    "id": "q_f156d23d04fe",
+    "type": "number",
+    "answer": 102
+  },
+  "elapsed_sec": 0.025,
+  "extra": "{'intent': 'order_count', 'parsed': {'intent': 'order_count', 'ans_type': 'number', 'min_revenue': 0, 'time_info': {'start_date': '2026-06-01', 'end_date': '2026-06-04', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'this_week'}}}"
+}

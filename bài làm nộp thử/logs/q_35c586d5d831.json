@@ -1,0 +1,10 @@
+{
+  "id": "q_35c586d5d831",
+  "question": "Th9/2025 khách nhóm sỉ trung bình mỗi đơn bao nhiêu tiền hàng?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_35c586d5d831"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "q_bbfddbd1d363",
+  "question": "Tính đến hết 10/10/2025, các khoản nợ có tuổi nợ quá 7 ngày còn bnhiu tiền?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_bbfddbd1d363"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

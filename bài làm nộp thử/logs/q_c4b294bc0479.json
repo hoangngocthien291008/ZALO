@@ -1,0 +1,10 @@
+{
+  "id": "q_c4b294bc0479",
+  "question": "Tong tien ban quy 2/2025 la bao nhieu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_c4b294bc0479"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

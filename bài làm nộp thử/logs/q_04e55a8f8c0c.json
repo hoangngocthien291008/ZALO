@@ -1,0 +1,10 @@
+{
+  "id": "q_04e55a8f8c0c",
+  "question": "6-2025 trung binh 1 don dem ve bao nhieu doanh thu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_04e55a8f8c0c"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

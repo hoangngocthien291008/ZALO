@@ -1,0 +1,10 @@
+{
+  "id": "q_dbb9f4aff4c3",
+  "question": "06/2026 khach dung diem tru duoc bao nhieu tien?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_dbb9f4aff4c3"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

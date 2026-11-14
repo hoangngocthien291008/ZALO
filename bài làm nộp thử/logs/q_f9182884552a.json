@@ -1,0 +1,10 @@
+{
+  "id": "q_f9182884552a",
+  "question": "Tien hang nhap vo thang nay tong la bao nhieu z?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_f9182884552a"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

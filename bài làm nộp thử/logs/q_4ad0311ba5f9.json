@@ -1,0 +1,10 @@
+{
+  "id": "q_4ad0311ba5f9",
+  "question": "Tien ban hom qua, tong bao nhieu nhi?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_4ad0311ba5f9"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

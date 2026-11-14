@@ -1,0 +1,10 @@
+{
+  "id": "q_d770b2c75598",
+  "question": "Biosubtyl-II hộp 25 gói T11/2025: tổng gói nhập trừ tổng gói bán?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_d770b2c75598"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

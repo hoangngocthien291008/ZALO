@@ -1,0 +1,10 @@
+{
+  "id": "q_37305e6af527",
+  "question": "Tong tien ban hang tuan truoc?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_37305e6af527"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

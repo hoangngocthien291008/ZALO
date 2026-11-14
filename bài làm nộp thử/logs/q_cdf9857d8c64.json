@@ -1,0 +1,10 @@
+{
+  "id": "q_cdf9857d8c64",
+  "question": "th1/2026 shop mik nhap tien hang kủa ncc nào lớn nhứt z hen",
+  "answer": {
+    "type": "abstain",
+    "id": "q_cdf9857d8c64"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

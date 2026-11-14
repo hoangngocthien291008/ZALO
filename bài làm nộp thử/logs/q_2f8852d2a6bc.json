@@ -1,0 +1,10 @@
+{
+  "id": "q_2f8852d2a6bc",
+  "question": "Từ 1/1 đến hết hnay dthu năm nay đc bnhiu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_2f8852d2a6bc"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

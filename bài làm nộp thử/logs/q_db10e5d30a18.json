@@ -1,0 +1,10 @@
+{
+  "id": "q_db10e5d30a18",
+  "question": "Binh quan don hang tuan truoc gia tri bnhiu z?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_db10e5d30a18"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

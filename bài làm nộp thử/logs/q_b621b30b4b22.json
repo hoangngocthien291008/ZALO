@@ -1,0 +1,10 @@
+{
+  "id": "q_b621b30b4b22",
+  "question": "Th nay khach tra no cho quan duoc bnhiu tien roi?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_b621b30b4b22"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

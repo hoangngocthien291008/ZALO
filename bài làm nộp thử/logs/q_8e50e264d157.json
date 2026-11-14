@@ -1,0 +1,10 @@
+{
+  "id": "q_8e50e264d157",
+  "question": "Th này ko tính phụ kiện, trung bình 1 máy đt bán đc bnhiu tiền?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_8e50e264d157"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

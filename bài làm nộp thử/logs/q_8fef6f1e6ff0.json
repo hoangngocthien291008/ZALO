@@ -1,0 +1,11 @@
+{
+  "id": "q_8fef6f1e6ff0",
+  "question": "Hôm nay bán đc mấy đơn rồi ta?",
+  "answer": {
+    "id": "q_8fef6f1e6ff0",
+    "type": "number",
+    "answer": 128
+  },
+  "elapsed_sec": 0.0396,
+  "extra": "{'intent': 'order_count', 'parsed': {'intent': 'order_count', 'ans_type': 'number', 'min_revenue': 0, 'time_info': {'start_date': '2026-02-20', 'end_date': '2026-02-20', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'today'}}}"
+}

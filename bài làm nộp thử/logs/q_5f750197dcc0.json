@@ -1,0 +1,10 @@
+{
+  "id": "q_5f750197dcc0",
+  "question": "Cho mình hỏi tháng này khách nhóm thân thiết đóng góp bao nhiêu phần trăm trên tổng doanh thu của quán?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_5f750197dcc0"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

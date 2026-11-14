@@ -1,0 +1,11 @@
+{
+  "id": "q_7584b6b0ebbb",
+  "question": "Dthu th8, th9, th10/2025 có tăng liên tục hông?",
+  "answer": {
+    "id": "q_7584b6b0ebbb",
+    "type": "boolean",
+    "answer": true
+  },
+  "elapsed_sec": 0.0917,
+  "extra": "{'intent': 'continuous_increase', 'parsed': {'intent': 'continuous_increase', 'ans_type': 'boolean', 'periods': [{'start_date': '2025-10-01', 'end_date': '2025-10-31', 'compare_start_date': '2025-09-01', 'compare_end_date': '2025-09-30', 'shift': None, 'raw_type': 'specific_month'}]}}"
+}

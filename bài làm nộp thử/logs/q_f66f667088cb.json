@@ -1,0 +1,11 @@
+{
+  "id": "q_f66f667088cb",
+  "question": "T6/2026 3 mặt hàng nào bán chạy nhất?",
+  "answer": {
+    "id": "q_f66f667088cb",
+    "type": "string",
+    "answer": "Kem đánh răng P/S 180g"
+  },
+  "elapsed_sec": 0.0365,
+  "extra": "{'intent': 'best_sellers', 'parsed': {'intent': 'best_sellers', 'ans_type': 'string', 'k': 1, 'item_group': None, 'time_info': {'start_date': '2026-07-08', 'end_date': '2026-07-08', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'default_today'}}}"
+}

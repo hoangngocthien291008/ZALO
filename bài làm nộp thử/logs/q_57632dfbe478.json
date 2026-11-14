@@ -1,0 +1,10 @@
+{
+  "id": "q_57632dfbe478",
+  "question": "11-2025 tiệm bán đc bnhiu tiền?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_57632dfbe478"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "q_6f1b365ba206",
+  "question": "Sản phẩm bán được nhiều nhất tuần rồi là gì?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_6f1b365ba206"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

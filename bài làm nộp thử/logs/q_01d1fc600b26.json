@@ -1,0 +1,11 @@
+{
+  "id": "q_01d1fc600b26",
+  "question": "Doanh thu của Bia Heineken 330ml trong tháng 7 năm 2025 là bao nhiêu?",
+  "answer": {
+    "id": "q_01d1fc600b26",
+    "type": "number",
+    "answer": 2449000
+  },
+  "elapsed_sec": 20.3061,
+  "extra": "{'intent': 'item_revenue', 'parsed': {'intent': 'item_revenue', 'ans_type': 'number', 'item_query': 'bia heineken 330ml', 'time_info': {'start_date': '2025-07-01', 'end_date': '2025-07-31', 'compare_start_date': '2025-06-01', 'compare_end_date': '2025-06-30', 'shift': None, 'raw_type': 'specific_month'}}}"
+}

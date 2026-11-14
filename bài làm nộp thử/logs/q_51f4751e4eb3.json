@@ -1,0 +1,10 @@
+{
+  "id": "q_51f4751e4eb3",
+  "question": "Th3/2026, dthu các đơn trả xi ô đi và các đơn trả ví điện tử lần lượt là bnhiu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_51f4751e4eb3"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

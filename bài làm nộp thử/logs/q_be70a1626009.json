@@ -1,0 +1,10 @@
+{
+  "id": "q_be70a1626009",
+  "question": "Cho xin doanh thu lần lượt từng T2/2026, T3/2026, T4/2026 nha",
+  "answer": {
+    "type": "abstain",
+    "id": "q_be70a1626009"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "q_39b7dafd15a3",
+  "question": "5-2025 quan ban ra bao nhieu ly size L, cong het cac mon?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_39b7dafd15a3"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

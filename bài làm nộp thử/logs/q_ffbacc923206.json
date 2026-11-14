@@ -1,0 +1,10 @@
+{
+  "id": "q_ffbacc923206",
+  "question": "Tuần trước bình quân mỗi đơn bnhiu tiền?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_ffbacc923206"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "q_d0fb06a1ebb2",
+  "question": "11-2025 khách nam đóng góp bao nhiêu phần trăm doanh thu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_d0fb06a1ebb2"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

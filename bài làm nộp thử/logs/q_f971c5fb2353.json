@@ -1,0 +1,10 @@
+{
+  "id": "q_f971c5fb2353",
+  "question": "Mực rán nước mắm lên giá 146.000đ ngày 29/05/2025, số đĩa bán trong 14 ngày kể từ 29/05/2025 cao hay thấp hơn 14 ngày liền trước bao nhiêu %?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_f971c5fb2353"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'revenue_diff', 'parsed': {'intent': 'revenue_diff', 'ans_type': 'percent', 'is_percent': True, 'time_info': {'start_date': '2025-05-29', 'end_date': '2025-05-29', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'exact_date'}}}"
+}

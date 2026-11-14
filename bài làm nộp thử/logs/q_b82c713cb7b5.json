@@ -1,0 +1,10 @@
+{
+  "id": "q_b82c713cb7b5",
+  "question": "thang 10 nam 2025 co bao nhieu don doanh thu tu 550.000 dong tro len",
+  "answer": {
+    "type": "abstain",
+    "id": "q_b82c713cb7b5"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

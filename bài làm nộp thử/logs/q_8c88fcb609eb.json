@@ -1,0 +1,10 @@
+{
+  "id": "q_8c88fcb609eb",
+  "question": "Phosphalugel hộp 26 gói từ hồi lên giá 5.400 đồng/gói, 30 ngày đầu bán nhiều hay ít hơn 30 ngày liền trước bao nhiêu %, tính theo số gói?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_8c88fcb609eb"
+  },
+  "elapsed_sec": 0.001,
+  "extra": "{'intent': 'revenue_diff', 'parsed': {'intent': 'revenue_diff', 'ans_type': 'percent', 'is_percent': True, 'time_info': {'start_date': '2026-08-08', 'end_date': '2026-08-08', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'default_today'}}}"
+}

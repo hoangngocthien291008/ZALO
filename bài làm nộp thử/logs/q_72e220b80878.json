@@ -1,0 +1,10 @@
+{
+  "id": "q_72e220b80878",
+  "question": "Th 9/25 ai là khách mua nhiêuf lần nhất, đếm theo số đơn?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_72e220b80878"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "q_1a312c2f71ac",
+  "question": "Nước kiềm Ion Life 19L lên giá 79.500đ ngày 18/10/2025; lượng bình bán trong 30 ngày kể từ 18/10/2025 thay đổi bao nhiêu phần trăm so với 30 ngày liền trước?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_1a312c2f71ac"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

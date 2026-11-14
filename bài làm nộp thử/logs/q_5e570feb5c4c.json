@@ -1,0 +1,10 @@
+{
+  "id": "q_5e570feb5c4c",
+  "question": "So với cùng tháng năm trước, doanh thu tháng 3 năm 2026 thay đổi mấy phần trăm?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_5e570feb5c4c"
+  },
+  "elapsed_sec": 0.1618,
+  "extra": "{'intent': 'item_revenue', 'parsed': {'intent': 'item_revenue', 'ans_type': 'number', 'item_query': 'tháng 3', 'time_info': {'start_date': '2026-03-01', 'end_date': '2026-03-31', 'compare_start_date': '2026-02-01', 'compare_end_date': '2026-02-28', 'shift': None, 'raw_type': 'specific_month'}}}"
+}

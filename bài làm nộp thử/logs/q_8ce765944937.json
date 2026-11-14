@@ -1,0 +1,10 @@
+{
+  "id": "q_8ce765944937",
+  "question": "ê, kac ngay thứ 3 thang nay trung binh 1 ngay kó bnhiu luot xe zô shop mik z nè 📊",
+  "answer": {
+    "type": "abstain",
+    "id": "q_8ce765944937"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

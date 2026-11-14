@@ -1,0 +1,10 @@
+{
+  "id": "q_afc5f7f5f476",
+  "question": "Hnay dthu duoc bnhiu roi?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_afc5f7f5f476"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "q_c8f95328ca75",
+  "question": "hoi nhanh xiu, dau goi clear 630g len 152k tu 28/5/2025 a, mun bit so chai ban 30 ngay tu bua do so vs 30 ngay trc do tang hay giam bn %",
+  "answer": {
+    "type": "abstain",
+    "id": "q_c8f95328ca75"
+  },
+  "elapsed_sec": 0.001,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

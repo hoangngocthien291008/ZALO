@@ -1,0 +1,10 @@
+{
+  "id": "q_56f2859cb47d",
+  "question": "Doanh thu bình quân 1 đơn T12/2025 là bao nhiêu nhỉ?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_56f2859cb47d"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

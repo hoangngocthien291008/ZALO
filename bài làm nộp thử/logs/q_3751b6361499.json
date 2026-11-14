@@ -1,0 +1,11 @@
+{
+  "id": "q_3751b6361499",
+  "question": "Trong tháng 5/2026, bao nhiêu đơn có tiền hàng đạt 340.000 đồng trở lên?",
+  "answer": {
+    "id": "q_3751b6361499",
+    "type": "number",
+    "answer": 0
+  },
+  "elapsed_sec": 0.006,
+  "extra": "{'intent': 'order_count', 'parsed': {'intent': 'order_count', 'ans_type': 'number', 'min_revenue': 0, 'time_info': {'start_date': '2026-05-01', 'end_date': '2026-05-31', 'compare_start_date': '2026-04-01', 'compare_end_date': '2026-04-30', 'shift': None, 'raw_type': 'specific_month'}}}"
+}

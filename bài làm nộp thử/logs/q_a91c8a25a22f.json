@@ -1,0 +1,11 @@
+{
+  "id": "q_a91c8a25a22f",
+  "question": "Dthu thuốc kê đơn tháng 12 năm 2025 là bnhui?",
+  "answer": {
+    "id": "q_a91c8a25a22f",
+    "type": "percent",
+    "answer": 0.0
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'prescription_rate', 'parsed': {'intent': 'prescription_rate', 'ans_type': 'percent', 'time_info': {'start_date': '2025-12-01', 'end_date': '2025-12-31', 'compare_start_date': '2025-11-01', 'compare_end_date': '2025-11-30', 'shift': None, 'raw_type': 'specific_month'}}}"
+}

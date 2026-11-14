@@ -1,0 +1,11 @@
+{
+  "id": "q_00bb4edee433",
+  "question": "trong tổng doanh thu tháng 7/2025, phần của thuốc kê đơn là bao nhiêu phần trăm",
+  "answer": {
+    "id": "q_00bb4edee433",
+    "type": "percent",
+    "answer": 2.26
+  },
+  "elapsed_sec": 19.8577,
+  "extra": "{'intent': 'prescription_rate', 'parsed': {'intent': 'prescription_rate', 'ans_type': 'percent', 'time_info': {'start_date': '2025-07-01', 'end_date': '2025-07-31', 'compare_start_date': '2025-06-01', 'compare_end_date': '2025-06-30', 'shift': None, 'raw_type': 'specific_month'}}}"
+}

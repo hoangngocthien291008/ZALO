@@ -1,0 +1,10 @@
+{
+  "id": "q_6c9f50b55906",
+  "question": "Khách mua từ 5 đh trở lên th6/2025 chiếm bnhiu % tất cả khách đạ mua tháng đó?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_6c9f50b55906"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'revenue_diff', 'parsed': {'intent': 'revenue_diff', 'ans_type': 'percent', 'is_percent': True, 'time_info': {'start_date': '2026-07-08', 'end_date': '2026-07-08', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'default_today'}}}"
+}

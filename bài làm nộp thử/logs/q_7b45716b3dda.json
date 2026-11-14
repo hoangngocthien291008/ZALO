@@ -1,0 +1,10 @@
+{
+  "id": "q_7b45716b3dda",
+  "question": "Tháng 6/2025 tiệm cất hàng hết tổng cộng bao nhiêu tiền?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_7b45716b3dda"
+  },
+  "elapsed_sec": 0.001,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

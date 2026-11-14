@@ -1,0 +1,10 @@
+{
+  "id": "q_f1c0ff1d2330",
+  "question": "Hết ngày 08/08/2026, hàng tồn trong kho tính giá vốn là bao nhiêu tiền?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_f1c0ff1d2330"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

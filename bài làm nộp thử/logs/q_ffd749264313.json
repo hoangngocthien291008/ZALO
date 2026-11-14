@@ -1,0 +1,10 @@
+{
+  "id": "q_ffd749264313",
+  "question": "Doanh thu tháng 9/2025 so dới tháng trước lên hay xuống bao nhiêu % dậy?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_ffd749264313"
+  },
+  "elapsed_sec": 0.0015,
+  "extra": "{'intent': 'revenue_diff', 'parsed': {'intent': 'revenue_diff', 'ans_type': 'percent', 'is_percent': True, 'time_info': {'start_date': '2025-09-01', 'end_date': '2025-09-30', 'compare_start_date': '2025-08-01', 'compare_end_date': '2025-08-31', 'shift': None, 'raw_type': 'specific_month'}}}"
+}

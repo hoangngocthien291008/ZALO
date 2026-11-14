@@ -1,0 +1,11 @@
+{
+  "id": "q_5896bf2cce00",
+  "question": "Tỉ lệ đh huỷ T4/2025 bnhiu % z?",
+  "answer": {
+    "id": "q_5896bf2cce00",
+    "type": "percent",
+    "answer": 1.49
+  },
+  "elapsed_sec": 0.008,
+  "extra": "{'intent': 'cancellation_rate', 'parsed': {'intent': 'cancellation_rate', 'ans_type': 'percent', 'time_info': {'start_date': '2026-05-24', 'end_date': '2026-05-24', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'default_today'}}}"
+}

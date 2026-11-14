@@ -1,0 +1,11 @@
+{
+  "id": "q_10831a6f3a2b",
+  "question": "Tới hnay, mấy đơn bán chịu ghi ngày phải trả còn sau hôm nay vậy?",
+  "answer": {
+    "id": "q_10831a6f3a2b",
+    "type": "number",
+    "answer": 22
+  },
+  "elapsed_sec": 0.0264,
+  "extra": "{'intent': 'order_count', 'parsed': {'intent': 'order_count', 'ans_type': 'number', 'min_revenue': 0, 'time_info': {'start_date': '2025-12-10', 'end_date': '2025-12-10', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'today'}}}"
+}

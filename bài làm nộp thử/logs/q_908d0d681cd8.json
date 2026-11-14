@@ -1,0 +1,10 @@
+{
+  "id": "q_908d0d681cd8",
+  "question": "6-2026 co may ngay ban duoc tu 9.700.000 dong tro len?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_908d0d681cd8"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "q_8694ac4443ef",
+  "question": "Tháng 1/2026 có bao nhiêu đơn mua hàng nhóm bia?",
+  "answer": {
+    "id": "q_8694ac4443ef",
+    "type": "number",
+    "answer": 1814
+  },
+  "elapsed_sec": 0.068,
+  "extra": "{'intent': 'order_count', 'parsed': {'intent': 'order_count', 'ans_type': 'number', 'min_revenue': 0, 'time_info': {'start_date': '2026-01-01', 'end_date': '2026-01-31', 'compare_start_date': '2025-12-01', 'compare_end_date': '2025-12-31', 'shift': None, 'raw_type': 'specific_month'}}}"
+}

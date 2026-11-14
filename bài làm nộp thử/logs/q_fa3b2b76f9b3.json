@@ -1,0 +1,10 @@
+{
+  "id": "q_fa3b2b76f9b3",
+  "question": "01/2026 co bao nhieu mat hang co mat trong tu 79 don khac nhau tro len?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_fa3b2b76f9b3"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

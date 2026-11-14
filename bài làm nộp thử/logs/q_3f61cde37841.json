@@ -1,0 +1,10 @@
+{
+  "id": "q_3f61cde37841",
+  "question": "Tháng 8/2025 ngày nào cửa hàng đắt khách nhất?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_3f61cde37841"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

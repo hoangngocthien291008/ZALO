@@ -1,0 +1,10 @@
+{
+  "id": "q_611bf24dd2f9",
+  "question": "Xem giúp mình tháng 11/2025, nhà cung cấp uy tín của cửa hàng là ai?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_611bf24dd2f9"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

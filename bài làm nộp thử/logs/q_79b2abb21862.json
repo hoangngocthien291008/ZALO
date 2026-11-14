@@ -1,0 +1,10 @@
+{
+  "id": "q_79b2abb21862",
+  "question": "Hôm qua tiệm thu về bao nhiêu doanh thu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_79b2abb21862"
+  },
+  "elapsed_sec": 0.001,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

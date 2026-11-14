@@ -1,0 +1,11 @@
+{
+  "id": "q_617cccfd98d1",
+  "question": "Hồi T3/2025 bị huỷ mấy đơn vậy?",
+  "answer": {
+    "id": "q_617cccfd98d1",
+    "type": "number",
+    "answer": 21
+  },
+  "elapsed_sec": 0.023,
+  "extra": "{'intent': 'order_count', 'parsed': {'intent': 'order_count', 'ans_type': 'number', 'min_revenue': 0, 'time_info': {'start_date': '2026-06-10', 'end_date': '2026-06-10', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'default_today'}}}"
+}

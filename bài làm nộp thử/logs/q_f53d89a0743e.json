@@ -1,0 +1,11 @@
+{
+  "id": "q_f53d89a0743e",
+  "question": "Doanh thu tháng 9/25 đuowc nhiêu vậy?",
+  "answer": {
+    "id": "q_f53d89a0743e",
+    "type": "number",
+    "answer": 1072429200
+  },
+  "elapsed_sec": 0.1169,
+  "extra": "{'intent': 'revenue_total', 'parsed': {'intent': 'revenue_total', 'ans_type': 'number', 'time_info': {'start_date': '2025-09-01', 'end_date': '2025-09-30', 'compare_start_date': '2025-08-01', 'compare_end_date': '2025-08-31', 'shift': None, 'raw_type': 'specific_month'}}}"
+}

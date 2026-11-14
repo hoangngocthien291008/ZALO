@@ -1,0 +1,10 @@
+{
+  "id": "q_5d6f195dd3e7",
+  "question": "Hồi tháng 1 năm 2025 bình quân mỗi đơn đem về bao nhiêu doanh thu thế?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_5d6f195dd3e7"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

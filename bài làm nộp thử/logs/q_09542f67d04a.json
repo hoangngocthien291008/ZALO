@@ -1,0 +1,10 @@
+{
+  "id": "q_09542f67d04a",
+  "question": "Dthu bình quân mỗi đơn tuần trước là bnhiu z?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_09542f67d04a"
+  },
+  "elapsed_sec": 0.0513,
+  "extra": "{'intent': 'item_revenue', 'parsed': {'intent': 'item_revenue', 'ans_type': 'number', 'item_query': 'bình quân mỗi đơn', 'time_info': {'start_date': '2026-03-23', 'end_date': '2026-03-29', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'last_week'}}}"
+}

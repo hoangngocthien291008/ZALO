@@ -1,0 +1,10 @@
+{
+  "id": "q_6396e1b202a6",
+  "question": "Dthu th7, th8, th9/2025 lan luot moi thang bao nhieu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_6396e1b202a6"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

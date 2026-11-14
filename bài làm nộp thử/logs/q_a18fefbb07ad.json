@@ -1,0 +1,11 @@
+{
+  "id": "q_a18fefbb07ad",
+  "question": "Tính tới hôm nay, có bao nhiêu đơn bán chịu có ngày phải trả ghi trên sổ rơi vào tháng 11/2025?",
+  "answer": {
+    "id": "q_a18fefbb07ad",
+    "type": "number",
+    "answer": 41
+  },
+  "elapsed_sec": 0.0181,
+  "extra": "{'intent': 'order_count', 'parsed': {'intent': 'order_count', 'ans_type': 'number', 'min_revenue': 0, 'time_info': {'start_date': '2025-10-02', 'end_date': '2025-10-02', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'today'}}}"
+}

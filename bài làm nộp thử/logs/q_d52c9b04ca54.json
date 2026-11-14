@@ -1,0 +1,11 @@
+{
+  "id": "q_d52c9b04ca54",
+  "question": "Dthu th1/2026, th2/2026, th3/2026 có tăng liên tục ko ha?",
+  "answer": {
+    "id": "q_d52c9b04ca54",
+    "type": "boolean",
+    "answer": false
+  },
+  "elapsed_sec": 0.1662,
+  "extra": "{'intent': 'continuous_increase', 'parsed': {'intent': 'continuous_increase', 'ans_type': 'boolean', 'periods': [{'start_date': '2026-01-01', 'end_date': '2026-01-31', 'compare_start_date': '2025-12-01', 'compare_end_date': '2025-12-31', 'shift': None, 'raw_type': 'specific_month'}, {'start_date': '2026-02-01', 'end_date': '2026-02-28', 'compare_start_date': '2026-01-01', 'compare_end_date': '2026-01-31', 'shift': None, 'raw_type': 'specific_month'}, {'start_date': '2026-03-01', 'end_date': '2026-03-31', 'compare_start_date': '2026-02-01', 'compare_end_date': '2026-02-28', 'shift': None, 'raw_type': 'specific_month'}]}}"
+}

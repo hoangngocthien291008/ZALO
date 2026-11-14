@@ -1,0 +1,10 @@
+{
+  "id": "q_45cb42f4dc7b",
+  "question": "Doanh thu th8/2025 so voi thang lien truoc thay doi may %?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_45cb42f4dc7b"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

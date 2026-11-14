@@ -1,0 +1,10 @@
+{
+  "id": "q_99fba89f30fa",
+  "question": "Nhân viên mã NV005 tháng 6/2026, tiền bán được nhiêu z?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_99fba89f30fa"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

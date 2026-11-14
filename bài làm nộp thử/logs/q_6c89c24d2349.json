@@ -1,0 +1,11 @@
+{
+  "id": "q_6c89c24d2349",
+  "question": "Tháng 7/2025 có mấy đơn tiền hàng từ 780.000đ trở lên?",
+  "answer": {
+    "id": "q_6c89c24d2349",
+    "type": "number",
+    "answer": 0
+  },
+  "elapsed_sec": 0.0219,
+  "extra": "{'intent': 'order_count', 'parsed': {'intent': 'order_count', 'ans_type': 'number', 'min_revenue': 780000.0, 'time_info': {'start_date': '2025-07-01', 'end_date': '2025-07-31', 'compare_start_date': '2025-06-01', 'compare_end_date': '2025-06-30', 'shift': None, 'raw_type': 'specific_month'}}}"
+}

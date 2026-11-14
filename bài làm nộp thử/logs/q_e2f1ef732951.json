@@ -1,0 +1,10 @@
+{
+  "id": "q_e2f1ef732951",
+  "question": "Th8/2026 trung bình một đơn được bnhiu tiền?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_e2f1ef732951"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

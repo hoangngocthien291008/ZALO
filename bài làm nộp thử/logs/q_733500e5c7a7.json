@@ -1,0 +1,10 @@
+{
+  "id": "q_733500e5c7a7",
+  "question": "Ngày 01/12/2025 Cáp Type-C sang Lightning 1m tăng giá từ 150.000đ lên 157.500đ. Số cái bán được trong 14 ngày kể từ ngày đó so với 14 ngày trước đó thay đổi bao nhiêu %?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_733500e5c7a7"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'revenue_diff', 'parsed': {'intent': 'revenue_diff', 'ans_type': 'percent', 'is_percent': True, 'time_info': {'start_date': '2025-12-01', 'end_date': '2025-12-01', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'exact_date'}}}"
+}

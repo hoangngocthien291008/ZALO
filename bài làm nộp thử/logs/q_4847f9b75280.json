@@ -1,0 +1,10 @@
+{
+  "id": "q_4847f9b75280",
+  "question": "Tháng 11/25 ngày mô quán bná nhiều tiền nhất?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_4847f9b75280"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

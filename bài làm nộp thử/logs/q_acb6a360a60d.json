@@ -1,0 +1,10 @@
+{
+  "id": "q_acb6a360a60d",
+  "question": "Doanh thu của cửa hàng ngày hôm qua là bao nhiêu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_acb6a360a60d"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

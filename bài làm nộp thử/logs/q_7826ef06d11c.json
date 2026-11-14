@@ -1,0 +1,10 @@
+{
+  "id": "q_7826ef06d11c",
+  "question": "Top 3 dòng máy bán nhiều máy nhất th1/2026, xếp từ cao xuống thấp giúp mình?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_7826ef06d11c"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

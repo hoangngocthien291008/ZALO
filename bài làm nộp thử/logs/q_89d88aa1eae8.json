@@ -1,0 +1,10 @@
+{
+  "id": "q_89d88aa1eae8",
+  "question": "th9/2025 khach nao mua nhìu đơn nhứt á",
+  "answer": {
+    "type": "abstain",
+    "id": "q_89d88aa1eae8"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

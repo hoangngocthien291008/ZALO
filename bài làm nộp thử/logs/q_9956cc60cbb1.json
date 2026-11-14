@@ -1,0 +1,10 @@
+{
+  "id": "q_9956cc60cbb1",
+  "question": "Th 11/25 doanh thu tang hay giam bao nhieu % so voi thang truoc?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_9956cc60cbb1"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

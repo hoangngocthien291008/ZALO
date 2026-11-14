@@ -1,0 +1,10 @@
+{
+  "id": "q_b38db1ef2bcc",
+  "question": "Trong quý 3/2025, ai là khách hay đổi ý nhất của cửa hàng?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_b38db1ef2bcc"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

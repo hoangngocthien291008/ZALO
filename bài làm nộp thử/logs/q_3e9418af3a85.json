@@ -1,0 +1,10 @@
+{
+  "id": "q_3e9418af3a85",
+  "question": "Dthu của tiệm trong 7 ngày gần nhất được bnhiu vậy?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_3e9418af3a85"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

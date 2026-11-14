@@ -1,0 +1,10 @@
+{
+  "id": "q_f0c8b2fbb77f",
+  "question": "Hom qua tiem ban duoc bao nhieu tien?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_f0c8b2fbb77f"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

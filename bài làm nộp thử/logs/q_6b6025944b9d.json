@@ -1,0 +1,10 @@
+{
+  "id": "q_6b6025944b9d",
+  "question": "Doanh thu của Trứng chiên thịt bằm trong tháng 7 năm 2025 là bao nhiêu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_6b6025944b9d"
+  },
+  "elapsed_sec": 0.0892,
+  "extra": "{'intent': 'item_revenue', 'parsed': {'intent': 'item_revenue', 'ans_type': 'number', 'item_query': 'trứng chiên thịt bằm', 'time_info': {'start_date': '2025-07-01', 'end_date': '2025-07-31', 'compare_start_date': '2025-06-01', 'compare_end_date': '2025-06-30', 'shift': None, 'raw_type': 'specific_month'}}}"
+}

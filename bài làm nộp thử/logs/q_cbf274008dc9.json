@@ -1,0 +1,10 @@
+{
+  "id": "q_cbf274008dc9",
+  "question": "T1/2026 tới T3/2026, tháng nào quán bán đc nhiều tiền nhất?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_cbf274008dc9"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

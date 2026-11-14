@@ -1,0 +1,10 @@
+{
+  "id": "q_ef01edd61255",
+  "question": "Tháng ba quán có tất cả bao nhiêu đơn bị huỷ thế?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_ef01edd61255"
+  },
+  "elapsed_sec": 0.0445,
+  "extra": "{'intent': 'order_count', 'parsed': {'intent': 'order_count', 'ans_type': 'number', 'min_revenue': 0, 'time_info': {'start_date': '2026-08-21', 'end_date': '2026-08-21', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'default_today'}}}"
+}

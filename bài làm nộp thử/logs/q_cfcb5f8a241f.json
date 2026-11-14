@@ -1,0 +1,10 @@
+{
+  "id": "q_cfcb5f8a241f",
+  "question": "Thang ni quan ban duoc may ly size L, tinh tat ca do uong?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_cfcb5f8a241f"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "q_650a53225054",
+  "question": "Tổng tiền thu mua máy cũ của khách 6-2025 là bao nhiêu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_650a53225054"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

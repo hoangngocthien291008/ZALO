@@ -1,0 +1,10 @@
+{
+  "id": "q_4c8fda6cf0df",
+  "question": "Tại ngày 11/05/2026 ai đang nợ tiệm nhiều nhất, cho top 3 kèm số nợ từng người nha.",
+  "answer": {
+    "type": "abstain",
+    "id": "q_4c8fda6cf0df"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

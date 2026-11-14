@@ -1,0 +1,10 @@
+{
+  "id": "q_c69505022fd3",
+  "question": "e ơi cko a xin cái bảng tien hoa hồng kua mọi thợ th11/2025 nha, xep tu cao xuong thap",
+  "answer": {
+    "type": "abstain",
+    "id": "q_c69505022fd3"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

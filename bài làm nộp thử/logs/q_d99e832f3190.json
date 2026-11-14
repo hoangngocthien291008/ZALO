@@ -1,0 +1,10 @@
+{
+  "id": "q_d99e832f3190",
+  "question": "Th7/2025 ban ra tat ca bao nhieu chiec dien thoai, ca may moi lan may cu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_d99e832f3190"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

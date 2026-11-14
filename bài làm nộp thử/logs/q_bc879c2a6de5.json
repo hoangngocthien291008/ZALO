@@ -1,0 +1,10 @@
+{
+  "id": "q_bc879c2a6de5",
+  "question": "tíh tới ngày 6/9/2026, 3 khách nào đag nợ nhìu nhứt, mỗi ngừi kòn nợ bnhiu đó nghen",
+  "answer": {
+    "type": "abstain",
+    "id": "q_bc879c2a6de5"
+  },
+  "elapsed_sec": 0.0009,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

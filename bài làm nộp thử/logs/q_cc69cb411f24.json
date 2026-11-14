@@ -1,0 +1,11 @@
+{
+  "id": "q_cc69cb411f24",
+  "question": "có bao nhiêu đơn huỷ trong th10/2025",
+  "answer": {
+    "id": "q_cc69cb411f24",
+    "type": "number",
+    "answer": 74
+  },
+  "elapsed_sec": 0.0614,
+  "extra": "{'intent': 'order_count', 'parsed': {'intent': 'order_count', 'ans_type': 'number', 'min_revenue': 0, 'time_info': {'start_date': '2026-05-10', 'end_date': '2026-05-10', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'default_today'}}}"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "q_a904adc2606a",
+  "question": "Th2/2026 trong số khách có mua, mấy % mua từ 5 đơn trở lên vậy?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_a904adc2606a"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'revenue_diff', 'parsed': {'intent': 'revenue_diff', 'ans_type': 'percent', 'is_percent': True, 'time_info': {'start_date': '2026-07-22', 'end_date': '2026-07-22', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'default_today'}}}"
+}

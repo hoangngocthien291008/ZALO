@@ -1,0 +1,10 @@
+{
+  "id": "q_95427850405e",
+  "question": "30 ngày gần nhất tiệm bán tổng cộng mấy gói z?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_95427850405e"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "q_ede70b7f6c13",
+  "question": "Th9/2025 3 khach nao chi nhieu tien nhat?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_ede70b7f6c13"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

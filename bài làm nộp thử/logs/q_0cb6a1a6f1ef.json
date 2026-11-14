@@ -1,0 +1,10 @@
+{
+  "id": "q_0cb6a1a6f1ef",
+  "question": "Th6/2025 ai là khách mua nhiềuđơn nhất quán z?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_0cb6a1a6f1ef"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

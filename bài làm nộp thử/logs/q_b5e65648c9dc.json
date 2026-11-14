@@ -1,0 +1,10 @@
+{
+  "id": "q_b5e65648c9dc",
+  "question": "Th5/2026 khách huỷ đơn chủ yếu vì sao z?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_b5e65648c9dc"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

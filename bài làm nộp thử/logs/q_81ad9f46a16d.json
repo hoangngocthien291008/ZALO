@@ -1,0 +1,10 @@
+{
+  "id": "q_81ad9f46a16d",
+  "question": "Top 5 khách hàng mua nhiều tiền nhất tuần rồi là ai?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_81ad9f46a16d"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

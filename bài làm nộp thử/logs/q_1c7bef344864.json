@@ -1,0 +1,10 @@
+{
+  "id": "q_1c7bef344864",
+  "question": "th6/2026 shop mik giam voucher cko khach het bnhiu tieenf?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_1c7bef344864"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

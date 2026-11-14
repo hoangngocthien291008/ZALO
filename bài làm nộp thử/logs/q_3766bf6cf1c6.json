@@ -1,0 +1,10 @@
+{
+  "id": "q_3766bf6cf1c6",
+  "question": "Q1/2026 tiem co tat ca bao nhieu don?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_3766bf6cf1c6"
+  },
+  "elapsed_sec": 0.001,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

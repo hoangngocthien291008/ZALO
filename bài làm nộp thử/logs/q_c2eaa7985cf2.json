@@ -1,0 +1,10 @@
+{
+  "id": "q_c2eaa7985cf2",
+  "question": "T5/2026 doanh thu so voi T5/2025 len hay xuong bao nhieu % z?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_c2eaa7985cf2"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

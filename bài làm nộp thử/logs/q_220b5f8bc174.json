@@ -1,0 +1,10 @@
+{
+  "id": "q_220b5f8bc174",
+  "question": "ad oi th3/2026 tien ban shop mik cao hay thap hon thang trc do bnhiu %",
+  "answer": {
+    "type": "abstain",
+    "id": "q_220b5f8bc174"
+  },
+  "elapsed_sec": 0.001,
+  "extra": "{'intent': 'revenue_diff', 'parsed': {'intent': 'revenue_diff', 'ans_type': 'percent', 'is_percent': True, 'time_info': {'start_date': '2026-09-30', 'end_date': '2026-09-30', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'default_today'}}}"
+}

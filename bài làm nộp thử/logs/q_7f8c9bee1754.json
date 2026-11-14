@@ -1,0 +1,10 @@
+{
+  "id": "q_7f8c9bee1754",
+  "question": "Thang 6/25 tiem ban duoc bao nhieu tien?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_7f8c9bee1754"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

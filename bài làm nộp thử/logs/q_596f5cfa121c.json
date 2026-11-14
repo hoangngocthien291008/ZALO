@@ -1,0 +1,10 @@
+{
+  "id": "q_596f5cfa121c",
+  "question": "Tháng 5/2026 bán Cà phê muối (M) được bao nhiêu tiền?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_596f5cfa121c"
+  },
+  "elapsed_sec": 0.001,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

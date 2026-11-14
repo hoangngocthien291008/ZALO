@@ -1,0 +1,10 @@
+{
+  "id": "q_807c3cdae34f",
+  "question": "Doanh thu thang 12 nam 2025 so thang lien truoc len hay xuong may %?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_807c3cdae34f"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

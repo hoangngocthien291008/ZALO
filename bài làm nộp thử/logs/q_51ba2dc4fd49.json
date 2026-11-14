@@ -1,0 +1,10 @@
+{
+  "id": "q_51ba2dc4fd49",
+  "question": "Tuần trước doanh thu bình quân mỗi đơn hàng là bao nhiêu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_51ba2dc4fd49"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

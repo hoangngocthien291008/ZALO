@@ -1,0 +1,10 @@
+{
+  "id": "q_6c18fd06a115",
+  "question": "Hom nay ban duoc may don?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_6c18fd06a115"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

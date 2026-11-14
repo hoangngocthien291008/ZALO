@@ -1,0 +1,10 @@
+{
+  "id": "q_d790faf2293a",
+  "question": "Tu dau nam den hom nay bna duoc bnhiu tien roi?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_d790faf2293a"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "q_373a4857ee55",
+  "question": "Thang 3 nam 2025 co may ngay quan ban duoc tu 7.600.000 dong tro len?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_373a4857ee55"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

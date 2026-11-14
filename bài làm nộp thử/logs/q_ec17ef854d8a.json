@@ -1,0 +1,10 @@
+{
+  "id": "q_ec17ef854d8a",
+  "question": "Khach nhom than thiet 3/26 mua tong cong bnhiu tien hang?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_ec17ef854d8a"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

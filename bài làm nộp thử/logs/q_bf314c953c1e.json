@@ -1,0 +1,10 @@
+{
+  "id": "q_bf314c953c1e",
+  "question": "Nhóm bánh kẹo tháng 10 năm 2025 dthu nhiêu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_bf314c953c1e"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

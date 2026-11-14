@@ -1,0 +1,11 @@
+{
+  "id": "q_827cb0083082",
+  "question": "Đếm giùm mấy ngày trong th1/2026 dthu cả ngày từ 9.300.000 đồng trở lên nha",
+  "answer": {
+    "id": "q_827cb0083082",
+    "type": "number",
+    "answer": 341200
+  },
+  "elapsed_sec": 0.0674,
+  "extra": "{'intent': 'item_revenue', 'parsed': {'intent': 'item_revenue', 'ans_type': 'number', 'item_query': 'cả', 'time_info': {'start_date': '2026-05-10', 'end_date': '2026-05-10', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'default_today'}}}"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "q_d62189fd9ee2",
+  "question": "Doanh thu 3 thang tu th3/2025 den th5/2025, thang nao cao nhat?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_d62189fd9ee2"
+  },
+  "elapsed_sec": 0.001,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

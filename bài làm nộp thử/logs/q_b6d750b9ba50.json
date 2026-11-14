@@ -1,0 +1,10 @@
+{
+  "id": "q_b6d750b9ba50",
+  "question": "Có bao nhiêu chiếc xe Wave Alpha được mang tới sửa tháng 12/2025, mỗi xe tính một lần?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_b6d750b9ba50"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

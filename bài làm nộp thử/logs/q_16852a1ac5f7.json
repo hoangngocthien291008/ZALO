@@ -1,0 +1,10 @@
+{
+  "id": "q_16852a1ac5f7",
+  "question": "Den ngay 13/03/2026 co may khach tra gop con no ky gop qua han?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_16852a1ac5f7"
+  },
+  "elapsed_sec": 0.001,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

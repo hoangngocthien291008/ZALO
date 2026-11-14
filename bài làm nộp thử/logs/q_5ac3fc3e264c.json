@@ -1,0 +1,10 @@
+{
+  "id": "q_5ac3fc3e264c",
+  "question": "Đơn chuyển khoản 7/25: dthu chiếm bnhiu % tổng dthu 7/25?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_5ac3fc3e264c"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'revenue_diff', 'parsed': {'intent': 'revenue_diff', 'ans_type': 'percent', 'is_percent': True, 'time_info': {'start_date': '2026-09-06', 'end_date': '2026-09-06', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'default_today'}}}"
+}

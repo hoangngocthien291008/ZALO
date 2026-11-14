@@ -1,0 +1,10 @@
+{
+  "id": "q_7f91e434b0fc",
+  "question": "Tháng 10 năm 2025 có mấy chiếc xe vô sửa từ 2 lần trở lênn?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_7f91e434b0fc"
+  },
+  "elapsed_sec": 0.001,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "q_9a905959d8ff",
+  "question": "tu dau nam den het hom nay cua hang co tong cong bao nhieu don hang",
+  "answer": {
+    "type": "abstain",
+    "id": "q_9a905959d8ff"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

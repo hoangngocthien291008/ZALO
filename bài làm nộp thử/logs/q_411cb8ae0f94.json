@@ -1,0 +1,10 @@
+{
+  "id": "q_411cb8ae0f94",
+  "question": "Lô Oresol 245 DHG hộp 20 gói gần hết hạn nhất, hsd là ngày mấy z?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_411cb8ae0f94"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

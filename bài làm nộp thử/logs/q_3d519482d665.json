@@ -1,0 +1,11 @@
+{
+  "id": "q_3d519482d665",
+  "question": "Bữa nay quán bán được mấy đơn rồi?",
+  "answer": {
+    "id": "q_3d519482d665",
+    "type": "number",
+    "answer": 62
+  },
+  "elapsed_sec": 0.0535,
+  "extra": "{'intent': 'order_count', 'parsed': {'intent': 'order_count', 'ans_type': 'number', 'min_revenue': 0, 'time_info': {'start_date': '2026-04-10', 'end_date': '2026-04-10', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'default_today'}}}"
+}

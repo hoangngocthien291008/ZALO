@@ -1,0 +1,11 @@
+{
+  "id": "q_bff16856342f",
+  "question": "Tuần này tính tới hôm nay doanh thu cửa hàng là bao nhiêu?",
+  "answer": {
+    "id": "q_bff16856342f",
+    "type": "number",
+    "answer": 3872500
+  },
+  "elapsed_sec": 0.0784,
+  "extra": "{'intent': 'revenue_total', 'parsed': {'intent': 'revenue_total', 'ans_type': 'number', 'time_info': {'start_date': '2026-05-08', 'end_date': '2026-05-08', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'today'}}}"
+}

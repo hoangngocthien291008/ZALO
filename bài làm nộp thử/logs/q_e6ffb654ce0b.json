@@ -1,0 +1,10 @@
+{
+  "id": "q_e6ffb654ce0b",
+  "question": "Tháng này đơn huỷ chiếm nhiêu % toàn bộ đơn z?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_e6ffb654ce0b"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

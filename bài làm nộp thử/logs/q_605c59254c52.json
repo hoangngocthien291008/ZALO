@@ -1,0 +1,10 @@
+{
+  "id": "q_605c59254c52",
+  "question": "cho mik hoi xiu, thang nay don tra tien mat voi don tra vi dien tu, tung ben dthu bnhiu",
+  "answer": {
+    "type": "abstain",
+    "id": "q_605c59254c52"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

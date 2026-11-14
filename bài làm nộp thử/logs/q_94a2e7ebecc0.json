@@ -1,0 +1,10 @@
+{
+  "id": "q_94a2e7ebecc0",
+  "question": "Thang nay bim size XL chiem bao nhieu % so bich bim ban ra?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_94a2e7ebecc0"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

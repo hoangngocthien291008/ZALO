@@ -1,0 +1,10 @@
+{
+  "id": "q_169bfdcce0ae",
+  "question": "Trong tat ca khach co mua 12/2025, khach mua it nhat 6 don chiem may phan tram?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_169bfdcce0ae"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

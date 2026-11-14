@@ -1,0 +1,10 @@
+{
+  "id": "q_b9c6ed02f53d",
+  "question": "Tháng 1/2026 tiền bán hàng không cần đơn bác sĩ được mấy đồng?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_b9c6ed02f53d"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "q_3992410a9fd6",
+  "question": "30 ngày gần nhất bán được bao nhiêu tiền",
+  "answer": {
+    "type": "abstain",
+    "id": "q_3992410a9fd6"
+  },
+  "elapsed_sec": 0.0339,
+  "extra": "{'intent': 'item_qty_sold', 'parsed': {'intent': 'item_qty_sold', 'ans_type': 'number', 'item_query': 'tiền', 'unit_name': None, 'time_info': {'start_date': '2026-04-11', 'end_date': '2026-05-10', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'n_days'}}}"
+}

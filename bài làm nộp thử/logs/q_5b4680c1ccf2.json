@@ -1,0 +1,10 @@
+{
+  "id": "q_5b4680c1ccf2",
+  "question": "Tuan nay ban chay nhat la mat hang nao?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_5b4680c1ccf2"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

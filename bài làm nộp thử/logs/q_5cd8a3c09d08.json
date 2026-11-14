@@ -1,0 +1,10 @@
+{
+  "id": "q_5cd8a3c09d08",
+  "question": "Tháng 12/2025 vâu chơ giảm cho khách tổng bao nhiêu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_5cd8a3c09d08"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

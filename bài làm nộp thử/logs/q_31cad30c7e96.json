@@ -1,0 +1,10 @@
+{
+  "id": "q_31cad30c7e96",
+  "question": "Tổng dthu tháng 2/26 là bnhiu hè?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_31cad30c7e96"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

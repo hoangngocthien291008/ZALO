@@ -1,0 +1,10 @@
+{
+  "id": "q_59b28582f30e",
+  "question": "Đến ngày 06/07/2025 tiền khách còn nợ chia theo tuổi nợ 0–7, 8–15 và trên 15 ngày thì mỗi nhóm nhiêu z?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_59b28582f30e"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

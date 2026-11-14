@@ -1,0 +1,10 @@
+{
+  "id": "q_0878814b6a76",
+  "question": "Thang nay nhap cua ncc nao nhieu tien nhat z?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_0878814b6a76"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

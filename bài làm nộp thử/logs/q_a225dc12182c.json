@@ -1,0 +1,10 @@
+{
+  "id": "q_a225dc12182c",
+  "question": "Trong tháng 9/2025, ai là thợ chăm chỉ nhất?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_a225dc12182c"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

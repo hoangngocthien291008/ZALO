@@ -1,0 +1,10 @@
+{
+  "id": "q_c6940f281136",
+  "question": "Dthu T7/2025 cao hơn T6/2025, rồi T8/2025 lại cao hơn T7/2025, đúng vậy không?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_c6940f281136"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

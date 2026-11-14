@@ -1,0 +1,11 @@
+{
+  "id": "q_ef77106ccec0",
+  "question": "Tỉ trọng của nhóm điện trong doanh thu tháng 11/2025 là bao nhiêu %?",
+  "answer": {
+    "id": "q_ef77106ccec0",
+    "type": "percent",
+    "answer": -82.8
+  },
+  "elapsed_sec": 0.0613,
+  "extra": "{'intent': 'revenue_diff', 'parsed': {'intent': 'revenue_diff', 'ans_type': 'percent', 'is_percent': True, 'time_info': {'start_date': '2025-11-01', 'end_date': '2025-11-30', 'compare_start_date': '2025-10-01', 'compare_end_date': '2025-10-31', 'shift': None, 'raw_type': 'specific_month'}}}"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "q_a418a876f69f",
+  "question": "T9/2025 ngàynào dthu cao nhất?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_a418a876f69f"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

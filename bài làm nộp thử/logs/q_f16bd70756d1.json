@@ -1,0 +1,10 @@
+{
+  "id": "q_f16bd70756d1",
+  "question": "Năm nay từ đầu năm tới hết hnay tiệm có dthu bnhiu nhỉ?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_f16bd70756d1"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

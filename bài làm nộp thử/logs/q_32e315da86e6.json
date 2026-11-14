@@ -1,0 +1,11 @@
+{
+  "id": "q_32e315da86e6",
+  "question": "Th9/2025 ngay nao thu ve nhieu doanh thu nhat?",
+  "answer": {
+    "id": "q_32e315da86e6",
+    "type": "date",
+    "answer": null
+  },
+  "elapsed_sec": 0.001,
+  "extra": "{'intent': 'highest_revenue_date', 'parsed': {'intent': 'highest_revenue_date', 'ans_type': 'date', 'time_info': {'start_date': '2026-09-06', 'end_date': '2026-09-06', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'default_today'}}}"
+}

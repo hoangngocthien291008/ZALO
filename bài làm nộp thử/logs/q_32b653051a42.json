@@ -1,0 +1,10 @@
+{
+  "id": "q_32b653051a42",
+  "question": "Máy cũ 8/25 bán đc mấy chiếc vậy?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_32b653051a42"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

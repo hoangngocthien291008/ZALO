@@ -1,0 +1,11 @@
+{
+  "id": "q_2fba3cf485d7",
+  "question": "So với cùng tháng năm rồi, doanh thu tháng 5/2026 của quán thay đổi mấy %?",
+  "answer": {
+    "id": "q_2fba3cf485d7",
+    "type": "percent",
+    "answer": 17.77
+  },
+  "elapsed_sec": 0.0869,
+  "extra": "{'intent': 'revenue_diff', 'parsed': {'intent': 'revenue_diff', 'ans_type': 'percent', 'is_percent': True, 'time_info': {'start_date': '2026-05-01', 'end_date': '2026-05-31', 'compare_start_date': '2026-04-01', 'compare_end_date': '2026-04-30', 'shift': None, 'raw_type': 'specific_month'}}}"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "q_d75952be2f51",
+  "question": "5-2026 dthu được bnhiu vậy?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_d75952be2f51"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

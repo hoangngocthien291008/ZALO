@@ -1,0 +1,11 @@
+{
+  "id": "q_9498d6b37278",
+  "question": "thang nay thuoc ke don chiem bn % dthu kua shop mik",
+  "answer": {
+    "id": "q_9498d6b37278",
+    "type": "percent",
+    "answer": 0.0
+  },
+  "elapsed_sec": 0.0701,
+  "extra": "{'intent': 'prescription_rate', 'parsed': {'intent': 'prescription_rate', 'ans_type': 'percent', 'time_info': {'start_date': '2026-05-01', 'end_date': '2026-05-10', 'compare_start_date': '2026-04-01', 'compare_end_date': '2026-04-10', 'shift': None, 'raw_type': 'this_month'}}}"
+}

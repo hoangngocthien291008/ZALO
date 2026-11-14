@@ -1,0 +1,10 @@
+{
+  "id": "q_618001244985",
+  "question": "8-2025 bi huy may don?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_618001244985"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

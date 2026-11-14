@@ -1,0 +1,10 @@
+{
+  "id": "q_68d46c34c960",
+  "question": "Dthu th5/2026, th6/2026, th7/2026 lần lượt bnhiu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_68d46c34c960"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

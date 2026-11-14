@@ -1,0 +1,10 @@
+{
+  "id": "q_d778fbbd804e",
+  "question": "ua, dthu wan mik th7/2025 so vs thang trc do tang hay giam bn % the nhi",
+  "answer": {
+    "type": "abstain",
+    "id": "q_d778fbbd804e"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "q_b0ce2336c79b",
+  "question": "2-2026 tong doanh thu duoc bao nheiu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_b0ce2336c79b"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

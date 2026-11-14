@@ -1,0 +1,10 @@
+{
+  "id": "q_c76ae61c6092",
+  "question": "Tong so dh trong 30 ngay gan nhat la bnhiu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_c76ae61c6092"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

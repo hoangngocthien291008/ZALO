@@ -1,0 +1,10 @@
+{
+  "id": "q_aacb2ba3f300",
+  "question": "nhờ xíu, th11/2025 wan mik thu hoi dc bnhiu tien công nợ tu khach mua chiu",
+  "answer": {
+    "type": "abstain",
+    "id": "q_aacb2ba3f300"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "q_393d0d4ee0e2",
+  "question": "Bữa qua bán ra được nhiêu lon vậy?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_393d0d4ee0e2"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

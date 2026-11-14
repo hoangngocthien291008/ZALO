@@ -1,0 +1,10 @@
+{
+  "id": "q_b24515210e17",
+  "question": "Th 6/25 lãi gộp được nhiêu vậy?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_b24515210e17"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

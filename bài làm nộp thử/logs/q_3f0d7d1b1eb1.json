@@ -1,0 +1,10 @@
+{
+  "id": "q_3f0d7d1b1eb1",
+  "question": "9/2025 khach Ha Duy Trung no them bao nhieu tien, tra bot duoc bao nhieu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_3f0d7d1b1eb1"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

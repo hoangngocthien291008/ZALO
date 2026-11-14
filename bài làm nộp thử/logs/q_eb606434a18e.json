@@ -1,0 +1,10 @@
+{
+  "id": "q_eb606434a18e",
+  "question": "08/2026 tiệm nhận mấy phiếu bảo hành rứa?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_eb606434a18e"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

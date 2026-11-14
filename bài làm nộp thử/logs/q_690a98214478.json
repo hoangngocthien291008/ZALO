@@ -1,0 +1,10 @@
+{
+  "id": "q_690a98214478",
+  "question": "Doanh thu thang nay so voi cung so ngay cua thang truoc tang hay giam may %?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_690a98214478"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

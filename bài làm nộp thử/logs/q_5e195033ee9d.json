@@ -1,0 +1,10 @@
+{
+  "id": "q_5e195033ee9d",
+  "question": "Doanh thu của Bia Sài Gòn Special lon trong tháng 8 năm 2025 là bao nhiêu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_5e195033ee9d"
+  },
+  "elapsed_sec": 0.0937,
+  "extra": "{'intent': 'item_revenue', 'parsed': {'intent': 'item_revenue', 'ans_type': 'number', 'item_query': 'bia sài gòn special lon', 'time_info': {'start_date': '2025-08-01', 'end_date': '2025-08-31', 'compare_start_date': '2025-07-01', 'compare_end_date': '2025-07-31', 'shift': None, 'raw_type': 'specific_month'}}}"
+}

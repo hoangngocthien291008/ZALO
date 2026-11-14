@@ -1,0 +1,11 @@
+{
+  "id": "q_459109bda652",
+  "question": "Tháng 10/2025 nhóm cà phê chiếm bao nhiêu % doanh thu?",
+  "answer": {
+    "id": "q_459109bda652",
+    "type": "percent",
+    "answer": 4.34
+  },
+  "elapsed_sec": 0.1088,
+  "extra": "{'intent': 'revenue_diff', 'parsed': {'intent': 'revenue_diff', 'ans_type': 'percent', 'is_percent': True, 'time_info': {'start_date': '2025-10-01', 'end_date': '2025-10-31', 'compare_start_date': '2025-09-01', 'compare_end_date': '2025-09-30', 'shift': None, 'raw_type': 'specific_month'}}}"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "q_8426163ea7bd",
+  "question": "Tuan truoc tong doanh thu duoc bao nhieu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_8426163ea7bd"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

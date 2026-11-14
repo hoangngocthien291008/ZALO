@@ -1,0 +1,10 @@
+{
+  "id": "q_5ec7806c7f29",
+  "question": "Trong tháng 1/2026, bao nhiêu xe Air Blade khác nhau vào tiệm?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_5ec7806c7f29"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

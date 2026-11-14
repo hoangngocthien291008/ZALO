@@ -1,0 +1,10 @@
+{
+  "id": "q_520e8c3f5c02",
+  "question": "dthu cua don ban qua Zalo OA thang nay bnhiu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_520e8c3f5c02"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

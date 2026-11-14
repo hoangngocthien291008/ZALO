@@ -1,0 +1,10 @@
+{
+  "id": "q_8fafcdce942f",
+  "question": "Từ đầu năm tới hnay tiệm bán được bnhiu tiền rồi?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_8fafcdce942f"
+  },
+  "elapsed_sec": 0.0013,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

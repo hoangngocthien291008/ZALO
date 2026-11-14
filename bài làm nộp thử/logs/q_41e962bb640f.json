@@ -1,0 +1,10 @@
+{
+  "id": "q_41e962bb640f",
+  "question": "Tuần trước cửa hàng bán được bao nhiêu tiền nhỉ?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_41e962bb640f"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'item_qty_sold', 'parsed': {'intent': 'item_qty_sold', 'ans_type': 'number', 'item_query': 'nhỉ', 'unit_name': 'tiền', 'time_info': {'start_date': '2025-06-02', 'end_date': '2025-06-08', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'last_week'}}}"
+}

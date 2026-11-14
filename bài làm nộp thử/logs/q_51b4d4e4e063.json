@@ -1,0 +1,10 @@
+{
+  "id": "q_51b4d4e4e063",
+  "question": "Hết ngày hôm nay, tổng số tiền góp khách chưa trả, kể cả các kỳ chưa tới hạn, là bao nhiêu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_51b4d4e4e063"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

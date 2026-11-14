@@ -1,0 +1,10 @@
+{
+  "id": "q_a6e86ecce3f6",
+  "question": "05/2026 nhan vien NV005 ban dc bnhiu tien?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_a6e86ecce3f6"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

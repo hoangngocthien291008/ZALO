@@ -1,0 +1,10 @@
+{
+  "id": "q_fc4223c66403",
+  "question": "Anh xem giúp em, tháng 12/2025 khách nhóm sỉ chiếm bao nhiêu phần trăm tổng doanh thu ạ?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_fc4223c66403"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

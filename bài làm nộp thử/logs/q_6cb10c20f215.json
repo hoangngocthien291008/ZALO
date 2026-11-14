@@ -1,0 +1,10 @@
+{
+  "id": "q_6cb10c20f215",
+  "question": "Thang 7/25 khach tra no mua chiu tong bnhiu tien?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_6cb10c20f215"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

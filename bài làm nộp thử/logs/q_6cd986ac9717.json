@@ -1,0 +1,10 @@
+{
+  "id": "q_6cd986ac9717",
+  "question": "Số đơn huỷ th2/2025?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_6cd986ac9717"
+  },
+  "elapsed_sec": 0.0013,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

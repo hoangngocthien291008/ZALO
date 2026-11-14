@@ -1,0 +1,10 @@
+{
+  "id": "q_a2ed59a92ab8",
+  "question": "Tong tien ban hom nay?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_a2ed59a92ab8"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

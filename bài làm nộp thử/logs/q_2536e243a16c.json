@@ -1,0 +1,10 @@
+{
+  "id": "q_2536e243a16c",
+  "question": "Quý 2/2026 tổng dthu bnhiu rứa?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_2536e243a16c"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

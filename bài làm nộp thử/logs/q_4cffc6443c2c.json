@@ -1,0 +1,10 @@
+{
+  "id": "q_4cffc6443c2c",
+  "question": "Dthu th1/2026 đc bnhiu z?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_4cffc6443c2c"
+  },
+  "elapsed_sec": 0.0011,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

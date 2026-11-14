@@ -1,0 +1,10 @@
+{
+  "id": "q_dd874c3e9e03",
+  "question": "Tuan truoc dthu binh quan tren 1 dh la bnhiu z?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_dd874c3e9e03"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

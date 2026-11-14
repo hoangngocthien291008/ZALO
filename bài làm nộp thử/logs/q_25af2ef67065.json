@@ -1,0 +1,10 @@
+{
+  "id": "q_25af2ef67065",
+  "question": "Quý 3/2026 lượt bảo hành so với số máy bán đc chiếm bnhiu %?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_25af2ef67065"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'revenue_diff', 'parsed': {'intent': 'revenue_diff', 'ans_type': 'percent', 'is_percent': True, 'time_info': {'start_date': '2026-07-01', 'end_date': '2026-09-30', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'quarter'}}}"
+}

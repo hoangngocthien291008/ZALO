@@ -1,0 +1,10 @@
+{
+  "id": "q_00a6e23cbacf",
+  "question": "Trong tháng 1/2025, Mì Omachi sườn hầm nhập vào giá bình quân một thùng là bao nhiêu ạ?",
+  "answer": {
+    "id": "q_00a6e23cbacf",
+    "type": "abstain"
+  },
+  "elapsed_sec": 33.5292,
+  "extra": "{'intent': 'avg_import_price', 'parsed': {'intent': 'avg_import_price', 'ans_type': 'number', 'item_query': 'mì omachi sườn hầm', 'time_info': {'start_date': '2025-01-01', 'end_date': '2025-01-31', 'compare_start_date': '2024-12-01', 'compare_end_date': '2024-12-31', 'shift': None, 'raw_type': 'specific_month'}}}"
+}

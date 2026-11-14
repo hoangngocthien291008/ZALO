@@ -1,0 +1,10 @@
+{
+  "id": "q_b1ee04ab9d3f",
+  "question": "Th2, th3, th4/2026 tháng nào tiệm bán được nhiều tiền nhất z?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_b1ee04ab9d3f"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

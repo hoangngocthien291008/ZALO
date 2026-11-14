@@ -1,0 +1,10 @@
+{
+  "id": "q_acfd51bb9870",
+  "question": "Cả ngày hôm nay doanh thu được bao nhiêu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_acfd51bb9870"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

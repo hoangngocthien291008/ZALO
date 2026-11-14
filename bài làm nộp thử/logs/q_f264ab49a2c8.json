@@ -1,0 +1,10 @@
+{
+  "id": "q_f264ab49a2c8",
+  "question": "Nature's Bounty Vitamin E 400 IU chai 30 viên T5/2026 bán được mấy chai?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_f264ab49a2c8"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'item_qty_sold', 'parsed': {'intent': 'item_qty_sold', 'ans_type': 'number', 'item_query': 'chai', 'unit_name': None, 'time_info': {'start_date': '2026-08-08', 'end_date': '2026-08-08', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'default_today'}}}"
+}

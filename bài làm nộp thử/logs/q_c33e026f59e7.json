@@ -1,0 +1,11 @@
+{
+  "id": "q_c33e026f59e7",
+  "question": "Trong nhóm gia vị, mặt hàng nào có doanh thu cao nhất tháng 11/2025?",
+  "answer": {
+    "id": "q_c33e026f59e7",
+    "type": "string",
+    "answer": "Mì Hảo Hảo tôm chua cay"
+  },
+  "elapsed_sec": 0.0654,
+  "extra": "{'intent': 'best_sellers', 'parsed': {'intent': 'best_sellers', 'ans_type': 'string', 'k': 1, 'item_group': 'gia', 'time_info': {'start_date': '2025-11-01', 'end_date': '2025-11-30', 'compare_start_date': '2025-10-01', 'compare_end_date': '2025-10-31', 'shift': None, 'raw_type': 'specific_month'}}}"
+}

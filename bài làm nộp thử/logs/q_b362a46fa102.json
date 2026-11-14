@@ -1,0 +1,10 @@
+{
+  "id": "q_b362a46fa102",
+  "question": "Thang 5/2026 bim size M ban duoc may bich nhi, gop tat ca cac hang?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_b362a46fa102"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "q_3af7b33f08a6",
+  "question": "Doanh thu T11/2025, T12/2025, T1/2026, ghi theo dung thu tu do giup minh",
+  "answer": {
+    "type": "abstain",
+    "id": "q_3af7b33f08a6"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

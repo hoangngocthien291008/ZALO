@@ -1,0 +1,10 @@
+{
+  "id": "q_b6d81403be69",
+  "question": "Doanh thu nhóm hàng bình sữa tháng 6 năm 2026 là bao nhiêu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_b6d81403be69"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "q_ec8d9cfa0f6b",
+  "question": "Tính bình quân 1 phiếu thu tiền th1/2026 được nhiêu rứa?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_ec8d9cfa0f6b"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

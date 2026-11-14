@@ -1,0 +1,10 @@
+{
+  "id": "q_9ee4a6de0ca1",
+  "question": "Tháng 1/2026 tiệm bán Kệ điện thoại để bàn được bao nhiêu tiền?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_9ee4a6de0ca1"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "q_c1a3be0d7376",
+  "question": "Cuoi ngay 01/06/2025 tiem co may mat hang het hang?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_c1a3be0d7376"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

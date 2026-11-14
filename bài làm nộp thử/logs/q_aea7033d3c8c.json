@@ -1,0 +1,10 @@
+{
+  "id": "q_aea7033d3c8c",
+  "question": "alo, th5/2026 đơn bán trên sàn thương mại điện tử với đơn bán wa Zalo OA, tung ben dthu bnhiu",
+  "answer": {
+    "type": "abstain",
+    "id": "q_aea7033d3c8c"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

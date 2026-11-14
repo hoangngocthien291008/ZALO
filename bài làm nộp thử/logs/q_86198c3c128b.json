@@ -1,0 +1,10 @@
+{
+  "id": "q_86198c3c128b",
+  "question": "Tuần này 5 mặt hàng nào bán chạy nhất?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_86198c3c128b"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'best_sellers', 'parsed': {'intent': 'best_sellers', 'ans_type': 'string', 'k': 1, 'item_group': None, 'time_info': {'start_date': '2025-07-14', 'end_date': '2025-07-20', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'this_week'}}}"
+}

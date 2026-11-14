@@ -1,0 +1,13 @@
+{
+  "id": "q_8103cddd9040",
+  "question": "3 món bán chạy nhất tháng 8 năm 2026 là món nào?",
+  "answer": {
+    "id": "q_8103cddd9040",
+    "type": "list",
+    "answer": [
+      "nan"
+    ]
+  },
+  "elapsed_sec": 0.0808,
+  "extra": "{'intent': 'best_sellers', 'parsed': {'intent': 'best_sellers', 'ans_type': 'list', 'k': 3, 'item_group': None, 'time_info': {'start_date': '2026-08-01', 'end_date': '2026-08-31', 'compare_start_date': '2026-07-01', 'compare_end_date': '2026-07-31', 'shift': None, 'raw_type': 'specific_month'}}}"
+}

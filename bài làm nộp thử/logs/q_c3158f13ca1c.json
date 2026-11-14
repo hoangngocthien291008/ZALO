@@ -1,0 +1,10 @@
+{
+  "id": "q_c3158f13ca1c",
+  "question": "Th9/2025 đến hết th11/2025 tiệm có bnhiu xe khách quen, tức xe vô sửa từ 2 lần trở lên z?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_c3158f13ca1c"
+  },
+  "elapsed_sec": 0.0005,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

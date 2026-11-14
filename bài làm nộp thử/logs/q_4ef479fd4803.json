@@ -1,0 +1,10 @@
+{
+  "id": "q_4ef479fd4803",
+  "question": "So voi thang lien truoc, th10/2025 doanh thu len xuong bao nhieu %?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_4ef479fd4803"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

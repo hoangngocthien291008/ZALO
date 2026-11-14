@@ -1,0 +1,10 @@
+{
+  "id": "q_5bfa542cd172",
+  "question": "6-2025 tổng tiền khách phải trả là bnhiu nhỉ?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_5bfa542cd172"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

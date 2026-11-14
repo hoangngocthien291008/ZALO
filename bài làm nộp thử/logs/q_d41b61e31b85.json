@@ -1,0 +1,10 @@
+{
+  "id": "q_d41b61e31b85",
+  "question": "Tháng 6/25, tháng 7/25 hay tháng 8/25, tháng nào dthu cao nhất?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_d41b61e31b85"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

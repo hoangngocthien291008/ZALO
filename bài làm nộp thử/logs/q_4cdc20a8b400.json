@@ -1,0 +1,11 @@
+{
+  "id": "q_4cdc20a8b400",
+  "question": "Tỉ lệ huỷ đơn th3/2025 mấy phần trăm vậy?",
+  "answer": {
+    "id": "q_4cdc20a8b400",
+    "type": "percent",
+    "answer": 0.0
+  },
+  "elapsed_sec": 0.0211,
+  "extra": "{'intent': 'cancellation_rate', 'parsed': {'intent': 'cancellation_rate', 'ans_type': 'percent', 'time_info': {'start_date': '2026-07-22', 'end_date': '2026-07-22', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'default_today'}}}"
+}

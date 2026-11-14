@@ -1,0 +1,10 @@
+{
+  "id": "q_77085d36e011",
+  "question": "Cuối ngày 19/09/2026, hàng còn dư trong kho tính theo giá vốn đáng bao nhiêu tiền?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_77085d36e011"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

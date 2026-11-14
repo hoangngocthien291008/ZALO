@@ -1,0 +1,10 @@
+{
+  "id": "q_1f1a1f45b377",
+  "question": "Hôm qua quán bán được nhiêu tiền rứa?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_1f1a1f45b377"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

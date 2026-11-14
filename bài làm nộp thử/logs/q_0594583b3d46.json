@@ -1,0 +1,10 @@
+{
+  "id": "q_0594583b3d46",
+  "question": "Đến hết hôm nay, các hợp đồng trả góp còn lại bao nhiêu tiền chưa góp, tính cả kỳ chưa tới hạn?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_0594583b3d46"
+  },
+  "elapsed_sec": 2.6304,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

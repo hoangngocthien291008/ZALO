@@ -1,0 +1,10 @@
+{
+  "id": "q_e966e0e6802e",
+  "question": "T3/2026 tới T5/2026, tháng nào dthu caonhất trong 3 tháng đó?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_e966e0e6802e"
+  },
+  "elapsed_sec": 0.0381,
+  "extra": "{'intent': 'item_revenue', 'parsed': {'intent': 'item_revenue', 'ans_type': 'number', 'item_query': 'caonhất', 'time_info': {'start_date': '2026-07-08', 'end_date': '2026-07-08', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'default_today'}}}"
+}

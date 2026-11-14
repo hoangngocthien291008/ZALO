@@ -1,0 +1,10 @@
+{
+  "id": "q_eb7f3881e7e9",
+  "question": "Trong tháng 6 năm 2025, tiệm bán được nhiều tiền nhất vào ngày nào?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_eb7f3881e7e9"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

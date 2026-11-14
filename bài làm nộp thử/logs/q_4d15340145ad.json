@@ -1,0 +1,10 @@
+{
+  "id": "q_4d15340145ad",
+  "question": "T8/2026 ngay nao ban duoc nhieu tien nhat?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_4d15340145ad"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

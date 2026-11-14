@@ -1,0 +1,11 @@
+{
+  "id": "q_f118a00dc479",
+  "question": "Thang 7 nam 2025 ngay nao ban dat nhat, tinh theo doanh thu?",
+  "answer": {
+    "id": "q_f118a00dc479",
+    "type": "date",
+    "answer": "2025-07-06"
+  },
+  "elapsed_sec": 0.066,
+  "extra": "{'intent': 'highest_revenue_date', 'parsed': {'intent': 'highest_revenue_date', 'ans_type': 'date', 'time_info': {'start_date': '2025-07-01', 'end_date': '2025-07-31', 'compare_start_date': '2025-06-01', 'compare_end_date': '2025-06-30', 'shift': None, 'raw_type': 'specific_month'}}}"
+}

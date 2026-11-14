@@ -1,0 +1,11 @@
+{
+  "id": "q_6fbb662472fc",
+  "question": "Tuần trước bán được bao nhiêu tiền z?",
+  "answer": {
+    "id": "q_6fbb662472fc",
+    "type": "number",
+    "answer": 1417
+  },
+  "elapsed_sec": 0.0263,
+  "extra": "{'intent': 'item_qty_sold', 'parsed': {'intent': 'item_qty_sold', 'ans_type': 'number', 'item_query': 'z', 'unit_name': 'tiền', 'time_info': {'start_date': '2025-12-08', 'end_date': '2025-12-14', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'last_week'}}}"
+}

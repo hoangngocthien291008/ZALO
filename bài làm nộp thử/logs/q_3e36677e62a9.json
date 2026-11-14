@@ -1,0 +1,10 @@
+{
+  "id": "q_3e36677e62a9",
+  "question": "Tháng 6/2026 nhóm sữa bột chiếm bao nhiêu % doanh thu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_3e36677e62a9"
+  },
+  "elapsed_sec": 0.0301,
+  "extra": "{'intent': 'revenue_diff', 'parsed': {'intent': 'revenue_diff', 'ans_type': 'percent', 'is_percent': True, 'time_info': {'start_date': '2026-06-01', 'end_date': '2026-06-30', 'compare_start_date': '2026-05-01', 'compare_end_date': '2026-05-31', 'shift': None, 'raw_type': 'specific_month'}}}"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "q_85b3a96e689b",
+  "question": "5/2025 nhom binh sua ban duoc tong cong bao nhieu tien?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_85b3a96e689b"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

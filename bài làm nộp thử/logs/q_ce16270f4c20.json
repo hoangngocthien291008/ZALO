@@ -1,0 +1,10 @@
+{
+  "id": "q_ce16270f4c20",
+  "question": "30 ngay gan nhat quan ban duoc tat ca bao nheiu ly?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_ce16270f4c20"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

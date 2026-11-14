@@ -1,0 +1,10 @@
+{
+  "id": "q_6a752a1d37b5",
+  "question": "Tháng 2/2026 trong nhóm bánh, mặt hàng nào bán được nhiều tiền nhất?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_6a752a1d37b5"
+  },
+  "elapsed_sec": 0.0456,
+  "extra": "{'intent': 'best_sellers', 'parsed': {'intent': 'best_sellers', 'ans_type': 'string', 'k': 1, 'item_group': 'bánh', 'time_info': {'start_date': '2026-02-01', 'end_date': '2026-02-28', 'compare_start_date': '2026-01-01', 'compare_end_date': '2026-01-31', 'shift': None, 'raw_type': 'specific_month'}}}"
+}

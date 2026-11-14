@@ -1,0 +1,11 @@
+{
+  "id": "q_41922e7c51ec",
+  "question": "Tháng 1 năm 2026 dthu ca chiều so với ca sáng chênh bao nhiêu %?",
+  "answer": {
+    "id": "q_41922e7c51ec",
+    "type": "percent",
+    "answer": -80.04
+  },
+  "elapsed_sec": 0.0658,
+  "extra": "{'intent': 'revenue_diff', 'parsed': {'intent': 'revenue_diff', 'ans_type': 'percent', 'is_percent': True, 'time_info': {'start_date': '2026-01-01', 'end_date': '2026-01-31', 'compare_start_date': '2025-12-01', 'compare_end_date': '2025-12-31', 'shift': 'morning', 'raw_type': 'specific_month'}}}"
+}

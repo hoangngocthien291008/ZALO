@@ -1,0 +1,10 @@
+{
+  "id": "q_588a7c489b8e",
+  "question": "Tien ban th8/2026 so th8/2025, cao hay thap hon bnhiu %?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_588a7c489b8e"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'revenue_diff', 'parsed': {'intent': 'revenue_diff', 'ans_type': 'percent', 'is_percent': True, 'time_info': {'start_date': '2026-09-19', 'end_date': '2026-09-19', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'default_today'}}}"
+}

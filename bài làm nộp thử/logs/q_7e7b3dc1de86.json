@@ -1,0 +1,10 @@
+{
+  "id": "q_7e7b3dc1de86",
+  "question": "6/2025 dthu don tai quay bao nhieu, don qua dien thoai bao nhieu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_7e7b3dc1de86"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

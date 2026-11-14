@@ -1,0 +1,10 @@
+{
+  "id": "q_027f5441831d",
+  "question": "Tháng 8/2025 thợ Đoàn Bảo Phúc lãnh bao nhiêu tiền huê hồng?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_027f5441831d"
+  },
+  "elapsed_sec": 0.8108,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

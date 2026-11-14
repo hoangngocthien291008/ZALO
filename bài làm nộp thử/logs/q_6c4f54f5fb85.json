@@ -1,0 +1,10 @@
+{
+  "id": "q_6c4f54f5fb85",
+  "question": "Nhung sp nao con hang trong kho co hsd tu 08/08/2026 toi het 05/01/2027 vay?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_6c4f54f5fb85"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

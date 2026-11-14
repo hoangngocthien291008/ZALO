@@ -1,0 +1,10 @@
+{
+  "id": "q_4809f845893d",
+  "question": "Tháng 10/2025 có mấy bữa quán bán được từ 9.100.000 đồng trở lên?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_4809f845893d"
+  },
+  "elapsed_sec": 0.0009,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

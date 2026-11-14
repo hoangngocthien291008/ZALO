@@ -1,0 +1,11 @@
+{
+  "id": "q_a6cf2d550014",
+  "question": "Tháng 11 năm 2025, nhóm gạo có mặt hàng nào bán được nhiều kg nhất?",
+  "answer": {
+    "id": "q_a6cf2d550014",
+    "type": "string",
+    "answer": "Gạo ST25"
+  },
+  "elapsed_sec": 0.0631,
+  "extra": "{'intent': 'best_sellers', 'parsed': {'intent': 'best_sellers', 'ans_type': 'string', 'k': 1, 'item_group': 'gạo', 'time_info': {'start_date': '2025-11-01', 'end_date': '2025-11-30', 'compare_start_date': '2025-10-01', 'compare_end_date': '2025-10-31', 'shift': None, 'raw_type': 'specific_month'}}}"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "q_7d7ea7cccf26",
+  "question": "Top 3 khách hàng có công nợ lớn nhất đến hết ngày 12/06/2026 và số nợ của từng người?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_7d7ea7cccf26"
+  },
+  "elapsed_sec": 0.3836,
+  "extra": "{'intent': 'top_debt_table', 'parsed': {'intent': 'top_debt_table', 'ans_type': 'table', 'k': 3}}"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "q_382bb57c049d",
+  "question": "Th3/2025 khách nào mua nhiều đơn nhất ha?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_382bb57c049d"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

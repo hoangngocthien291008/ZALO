@@ -1,0 +1,10 @@
+{
+  "id": "q_935d887c9cd9",
+  "question": "Tính đến hết ngày 16/07/2025, có bao nhiêu khách còn nợ cửa hàng?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_935d887c9cd9"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

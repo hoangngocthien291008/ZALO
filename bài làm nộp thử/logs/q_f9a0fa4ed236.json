@@ -1,0 +1,10 @@
+{
+  "id": "q_f9a0fa4ed236",
+  "question": "Đến hết ngày 22/07/2026, các khoản nợ có tuổi quá 10 ngày còn bao nhiêu tiền?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_f9a0fa4ed236"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

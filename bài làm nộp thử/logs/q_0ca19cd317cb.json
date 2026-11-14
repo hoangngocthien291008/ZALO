@@ -1,0 +1,10 @@
+{
+  "id": "q_0ca19cd317cb",
+  "question": "Kể giúp các sp còn lô tồn hết hạn trong 90 ngày tới.",
+  "answer": {
+    "type": "abstain",
+    "id": "q_0ca19cd317cb"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

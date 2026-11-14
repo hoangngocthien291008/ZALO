@@ -1,0 +1,10 @@
+{
+  "id": "q_f09bd63b0751",
+  "question": "Doanh thu tu 12/25 den 2/26 co thang sau luon cao hon thang truoc khong?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_f09bd63b0751"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "q_fa29edc5f8ab",
+  "question": "Trong th10/2025 hôm nào bán được nhiều tiền nhứt vậy?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_fa29edc5f8ab"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

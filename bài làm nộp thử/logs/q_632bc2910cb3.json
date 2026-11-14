@@ -1,0 +1,10 @@
+{
+  "id": "q_632bc2910cb3",
+  "question": "Dthu các thuốc có hoạt chất Povidon iod tháng 7/25 bnhiu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_632bc2910cb3"
+  },
+  "elapsed_sec": 0.1044,
+  "extra": "{'intent': 'active_ingredient_rev', 'parsed': {'intent': 'active_ingredient_rev', 'ans_type': 'number', 'active_name': 'povidon iod', 'time_info': {'start_date': '2025-07-01', 'end_date': '2025-07-31', 'compare_start_date': '2025-06-01', 'compare_end_date': '2025-06-30', 'shift': None, 'raw_type': 'specific_month'}}}"
+}

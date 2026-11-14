@@ -1,0 +1,10 @@
+{
+  "id": "q_6cb40ee1f329",
+  "question": "Cho mình xem Costar Omega 3 1000mg lọ 100 viên trong T12/2025 bán được bao nhiêu lọ?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_6cb40ee1f329"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'item_qty_sold', 'parsed': {'intent': 'item_qty_sold', 'ans_type': 'number', 'item_query': 'lọ', 'unit_name': None, 'time_info': {'start_date': '2026-08-08', 'end_date': '2026-08-08', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'default_today'}}}"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "q_95a45f58351b",
+  "question": "Hnay tổng bnhiu đh z?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_95a45f58351b"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "q_8db445924873",
+  "question": "T11/2025 bn khach mua tu 8 don tro len?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_8db445924873"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

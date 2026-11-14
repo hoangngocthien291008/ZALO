@@ -1,0 +1,10 @@
+{
+  "id": "q_e4fc0d18d409",
+  "question": "1-2026 bán được bao nhiêu chiếc Xiaomi Redmi Note 14?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_e4fc0d18d409"
+  },
+  "elapsed_sec": 0.0052,
+  "extra": "{'intent': 'item_qty_sold', 'parsed': {'intent': 'item_qty_sold', 'ans_type': 'number', 'item_query': 'xiaomi redmi note 14', 'unit_name': 'chiếc', 'time_info': {'start_date': '2026-09-30', 'end_date': '2026-09-30', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'default_today'}}}"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "q_0acdf488056e",
+  "question": "Thang 4 nam 2026 so thang truoc tien ban len hay xuong bao nhieu % z?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_0acdf488056e"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

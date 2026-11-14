@@ -1,0 +1,11 @@
+{
+  "id": "q_4dff582efe40",
+  "question": "Tuần trước, 5 sản phẩm nào bán chạy nhất?",
+  "answer": {
+    "id": "q_4dff582efe40",
+    "type": "string",
+    "answer": "ORD020964"
+  },
+  "elapsed_sec": 0.0698,
+  "extra": "{'intent': 'best_sellers', 'parsed': {'intent': 'best_sellers', 'ans_type': 'string', 'k': 1, 'item_group': None, 'time_info': {'start_date': '2025-09-15', 'end_date': '2025-09-21', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'last_week'}}}"
+}

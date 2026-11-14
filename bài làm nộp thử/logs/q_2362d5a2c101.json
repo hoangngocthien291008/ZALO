@@ -1,0 +1,11 @@
+{
+  "id": "q_2362d5a2c101",
+  "question": "So cùng kỳ năm trước, doanh thu tháng 4/2026 tăng/giảm mấy phần trăm?",
+  "answer": {
+    "id": "q_2362d5a2c101",
+    "type": "number",
+    "answer": 135914200
+  },
+  "elapsed_sec": 0.0966,
+  "extra": "{'intent': 'revenue_total', 'parsed': {'intent': 'revenue_total', 'ans_type': 'number', 'time_info': {'start_date': '2026-04-01', 'end_date': '2026-04-30', 'compare_start_date': '2026-03-01', 'compare_end_date': '2026-03-31', 'shift': None, 'raw_type': 'specific_month'}}}"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "q_0e1eff36bbc5",
+  "question": "Dthu tháng 2/26 so tháng liền trước, tăng giảm bnhiu %?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_0e1eff36bbc5"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'revenue_diff', 'parsed': {'intent': 'revenue_diff', 'ans_type': 'percent', 'is_percent': True, 'time_info': {'start_date': '2026-02-01', 'end_date': '2026-02-28', 'compare_start_date': '2026-01-01', 'compare_end_date': '2026-01-31', 'shift': None, 'raw_type': 'specific_month'}}}"
+}

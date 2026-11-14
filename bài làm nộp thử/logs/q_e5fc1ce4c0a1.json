@@ -1,0 +1,10 @@
+{
+  "id": "q_e5fc1ce4c0a1",
+  "question": "hom nay doanh thu cua hang bao nhieu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_e5fc1ce4c0a1"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

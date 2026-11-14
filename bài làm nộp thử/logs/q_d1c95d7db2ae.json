@@ -1,0 +1,10 @@
+{
+  "id": "q_d1c95d7db2ae",
+  "question": "Hqua bán đc mấy gói?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_d1c95d7db2ae"
+  },
+  "elapsed_sec": 0.001,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

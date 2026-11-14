@@ -1,0 +1,10 @@
+{
+  "id": "q_121c6959016d",
+  "question": "thang 4/2026 bn ngay wan mik ban dc tu 40tr tro len z nha e",
+  "answer": {
+    "type": "abstain",
+    "id": "q_121c6959016d"
+  },
+  "elapsed_sec": 0.001,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

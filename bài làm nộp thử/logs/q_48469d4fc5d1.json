@@ -1,0 +1,11 @@
+{
+  "id": "q_48469d4fc5d1",
+  "question": "Th8/2025 doanh thu ngay nao cao nhat?",
+  "answer": {
+    "id": "q_48469d4fc5d1",
+    "type": "date",
+    "answer": "2026-06-24"
+  },
+  "elapsed_sec": 0.0161,
+  "extra": "{'intent': 'highest_revenue_date', 'parsed': {'intent': 'highest_revenue_date', 'ans_type': 'date', 'time_info': {'start_date': '2026-06-24', 'end_date': '2026-06-24', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'default_today'}}}"
+}

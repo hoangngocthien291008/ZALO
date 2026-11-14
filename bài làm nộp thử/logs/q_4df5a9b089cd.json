@@ -1,0 +1,10 @@
+{
+  "id": "q_4df5a9b089cd",
+  "question": "Tu dau nam toi hom nay quan co tat ca bao nhieu don?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_4df5a9b089cd"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

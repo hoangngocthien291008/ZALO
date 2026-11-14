@@ -1,0 +1,10 @@
+{
+  "id": "q_f83c96ab5362",
+  "question": "Thang nay don ban tren san thuong mai dien tu dong gop may phan tram tong doanh thu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_f83c96ab5362"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

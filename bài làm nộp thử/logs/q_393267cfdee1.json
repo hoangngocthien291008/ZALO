@@ -1,0 +1,10 @@
+{
+  "id": "q_393267cfdee1",
+  "question": "Mấy lô còn tồn có hạn dùng từ 08/08/2026 tới hết 06/12/2026 đang đọng bnhiu tiền vốn ha?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_393267cfdee1"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

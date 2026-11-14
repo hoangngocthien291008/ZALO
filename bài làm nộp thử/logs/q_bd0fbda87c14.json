@@ -1,0 +1,10 @@
+{
+  "id": "q_bd0fbda87c14",
+  "question": "Tháng 11/25 thuốc có hoạt chất Loratadin bán được bnhiu tiền?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_bd0fbda87c14"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'active_ingredient_rev', 'parsed': {'intent': 'active_ingredient_rev', 'ans_type': 'number', 'active_name': 'loratadin', 'time_info': {'start_date': '2025-11-01', 'end_date': '2025-11-30', 'compare_start_date': '2025-10-01', 'compare_end_date': '2025-10-31', 'shift': None, 'raw_type': 'specific_month'}}}"
+}

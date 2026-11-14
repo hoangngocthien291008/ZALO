@@ -1,0 +1,11 @@
+{
+  "id": "q_ab1417ed8c1b",
+  "question": "Tháng 5/2026 có bao nhiêu đơn hàng có doanh thu từ 1.800.000 đồng trở lên?",
+  "answer": {
+    "id": "q_ab1417ed8c1b",
+    "type": "number",
+    "answer": 71
+  },
+  "elapsed_sec": 0.031,
+  "extra": "{'intent': 'order_count', 'parsed': {'intent': 'order_count', 'ans_type': 'number', 'min_revenue': 1800000.0, 'time_info': {'start_date': '2026-05-01', 'end_date': '2026-05-31', 'compare_start_date': '2026-04-01', 'compare_end_date': '2026-04-30', 'shift': None, 'raw_type': 'specific_month'}}}"
+}

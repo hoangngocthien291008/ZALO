@@ -1,0 +1,10 @@
+{
+  "id": "q_527c4e439966",
+  "question": "Tại ngày 02/09/2026 có bnhiu khách quá hạn góp z?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_527c4e439966"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "q_1fc8004b6900",
+  "question": "Th này sốp bán ra bnhiu lon sữa bột số 4 z, gộp hết mọi hãng?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_1fc8004b6900"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

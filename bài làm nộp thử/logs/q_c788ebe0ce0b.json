@@ -1,0 +1,10 @@
+{
+  "id": "q_c788ebe0ce0b",
+  "question": "Th9/2025 Hagifen 400mg DHG hộp 10 vỉ x 10 viên, số viên nhập trừ số viên bán ra chênh bnhiu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_c788ebe0ce0b"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

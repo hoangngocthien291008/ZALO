@@ -1,0 +1,10 @@
+{
+  "id": "q_7dbd343490cd",
+  "question": "Quy 1/2026 tong cong co bao nhieu don?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_7dbd343490cd"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

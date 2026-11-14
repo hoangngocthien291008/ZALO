@@ -1,0 +1,10 @@
+{
+  "id": "q_9e28638a40cb",
+  "question": "Từ đầu năm tới chừ tiệm bán được bao nhiêu tiền rồi?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_9e28638a40cb"
+  },
+  "elapsed_sec": 0.1059,
+  "extra": "{'intent': 'item_qty_sold', 'parsed': {'intent': 'item_qty_sold', 'ans_type': 'number', 'item_query': 'rồi', 'unit_name': 'tiền', 'time_info': {'start_date': '2026-01-01', 'end_date': '2026-04-04', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'ytd'}}}"
+}

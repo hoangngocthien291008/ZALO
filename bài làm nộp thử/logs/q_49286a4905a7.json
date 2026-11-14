@@ -1,0 +1,10 @@
+{
+  "id": "q_49286a4905a7",
+  "question": "Dthu th 7/26 được nhiêu z?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_49286a4905a7"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

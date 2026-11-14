@@ -1,0 +1,10 @@
+{
+  "id": "q_28f2fdb96198",
+  "question": "Doanh thu của nhân viên mã NV005 tháng 3/2026 là bao nhiêu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_28f2fdb96198"
+  },
+  "elapsed_sec": 0.0506,
+  "extra": "{'intent': 'item_revenue', 'parsed': {'intent': 'item_revenue', 'ans_type': 'number', 'item_query': 'nhân viên mã nv005', 'time_info': {'start_date': '2026-03-01', 'end_date': '2026-03-31', 'compare_start_date': '2026-02-01', 'compare_end_date': '2026-02-28', 'shift': None, 'raw_type': 'specific_month'}}}"
+}

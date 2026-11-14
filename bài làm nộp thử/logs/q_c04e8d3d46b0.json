@@ -1,0 +1,10 @@
+{
+  "id": "q_c04e8d3d46b0",
+  "question": "Tháng 3/2026 tiệm bán được bao nhiêu tiềng?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_c04e8d3d46b0"
+  },
+  "elapsed_sec": 0.0206,
+  "extra": "{'intent': 'item_qty_sold', 'parsed': {'intent': 'item_qty_sold', 'ans_type': 'number', 'item_query': 'tiềng', 'unit_name': None, 'time_info': {'start_date': '2026-03-01', 'end_date': '2026-03-31', 'compare_start_date': '2026-02-01', 'compare_end_date': '2026-02-28', 'shift': None, 'raw_type': 'specific_month'}}}"
+}

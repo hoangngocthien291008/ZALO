@@ -1,0 +1,10 @@
+{
+  "id": "q_219f01962c05",
+  "question": "Thang 1/26 doanh thu don ban tai quay bao nhieu, don ban qua dien thoai bao nhieu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_219f01962c05"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

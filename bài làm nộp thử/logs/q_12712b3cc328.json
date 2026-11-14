@@ -1,0 +1,10 @@
+{
+  "id": "q_12712b3cc328",
+  "question": "Xiaomi Redmi Note 14 th này bán được bnhiu chiếc?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_12712b3cc328"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

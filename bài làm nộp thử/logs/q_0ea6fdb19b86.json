@@ -1,0 +1,10 @@
+{
+  "id": "q_0ea6fdb19b86",
+  "question": "So số lọ Efticol 0,9% lốc 10 lọ x 10ml bán ra trong 30 ngày kể từ ngày 26/01/2026, ngày tăng giá lên 2.800đ, với 30 ngày ngay trước ngày đó: tăng hay giảm bao nhiêu %?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_0ea6fdb19b86"
+  },
+  "elapsed_sec": 0.001,
+  "extra": "{'intent': 'revenue_diff', 'parsed': {'intent': 'revenue_diff', 'ans_type': 'percent', 'is_percent': True, 'time_info': {'start_date': '2026-01-26', 'end_date': '2026-01-26', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'exact_date'}}}"
+}

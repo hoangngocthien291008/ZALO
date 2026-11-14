@@ -1,0 +1,10 @@
+{
+  "id": "q_1040545087b6",
+  "question": "Thang nay tien thu may cu tru vao don cong lai la bao nhieu?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_1040545087b6"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

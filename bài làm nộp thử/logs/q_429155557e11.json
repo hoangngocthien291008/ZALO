@@ -1,0 +1,10 @@
+{
+  "id": "q_429155557e11",
+  "question": "Tiền bán 6/2026 so tháng liền trước thay đổi mấy phần trawm?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_429155557e11"
+  },
+  "elapsed_sec": 0.0949,
+  "extra": "{'intent': 'item_revenue', 'parsed': {'intent': 'item_revenue', 'ans_type': 'number', 'item_query': '6/2026 so', 'time_info': {'start_date': '2026-07-22', 'end_date': '2026-07-22', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'default_today'}}}"
+}

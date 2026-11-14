@@ -1,0 +1,11 @@
+{
+  "id": "q_01d1099489a0",
+  "question": "Từ đầu tháng này tới hết hnay, dthu cao hay thấp hơn cùng kỳ tháng trước mấy %?",
+  "answer": {
+    "id": "q_01d1099489a0",
+    "type": "percent",
+    "answer": 1.24
+  },
+  "elapsed_sec": 20.2751,
+  "extra": "{'intent': 'revenue_diff', 'parsed': {'intent': 'revenue_diff', 'ans_type': 'percent', 'is_percent': True, 'time_info': {'start_date': '2025-03-01', 'end_date': '2025-03-18', 'compare_start_date': '2025-02-01', 'compare_end_date': '2025-02-18', 'shift': None, 'raw_type': 'this_month'}}}"
+}

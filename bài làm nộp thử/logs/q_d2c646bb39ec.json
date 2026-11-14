@@ -1,0 +1,10 @@
+{
+  "id": "q_d2c646bb39ec",
+  "question": "Tiền khách còn nợ đến hết 06/09/2026, nhiêu z?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_d2c646bb39ec"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

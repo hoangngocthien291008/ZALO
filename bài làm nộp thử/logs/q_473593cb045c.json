@@ -1,0 +1,10 @@
+{
+  "id": "q_473593cb045c",
+  "question": "Quy 1/2026, 3 dong may nao ban duoc nhieu may nhat, xep tu nhieu den it?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_473593cb045c"
+  },
+  "elapsed_sec": 0.001,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "q_7d4d7cb3aa73",
+  "question": "Tính luôn hnay thì 7 ngày gần nhất quán có bnhiu đơn z?",
+  "answer": {
+    "id": "q_7d4d7cb3aa73",
+    "type": "number",
+    "answer": 29
+  },
+  "elapsed_sec": 0.0478,
+  "extra": "{'intent': 'order_count', 'parsed': {'intent': 'order_count', 'ans_type': 'number', 'min_revenue': 0, 'time_info': {'start_date': '2026-02-08', 'end_date': '2026-02-14', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'n_days'}}}"
+}

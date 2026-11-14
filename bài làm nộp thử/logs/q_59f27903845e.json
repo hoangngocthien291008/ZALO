@@ -1,0 +1,10 @@
+{
+  "id": "q_59f27903845e",
+  "question": "Tới hôm nay, xe đã giao tổng cộng mấy cuộn Dây điện Cadivi VCmd 2x2.5 cuộn 100m cho khách đặt tháng 4/2025?",
+  "answer": {
+    "type": "abstain",
+    "id": "q_59f27903845e"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}

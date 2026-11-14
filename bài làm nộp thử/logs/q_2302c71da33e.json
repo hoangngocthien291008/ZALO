@@ -1,0 +1,10 @@
+{
+  "id": "q_2302c71da33e",
+  "question": "bé ơi th10/2025 nhóm cơm mì cháo chiếm bnhiu % tổng dthu kả wán mik, thanks e",
+  "answer": {
+    "type": "abstain",
+    "id": "q_2302c71da33e"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'revenue_diff', 'parsed': {'intent': 'revenue_diff', 'ans_type': 'percent', 'is_percent': True, 'time_info': {'start_date': '2026-07-22', 'end_date': '2026-07-22', 'compare_start_date': None, 'compare_end_date': None, 'shift': None, 'raw_type': 'default_today'}}}"
+}

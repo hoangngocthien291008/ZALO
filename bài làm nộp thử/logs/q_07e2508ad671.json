@@ -1,0 +1,10 @@
+{
+  "id": "q_07e2508ad671",
+  "question": "check jum, shop mik thang nay bn chiec SH Mode khac nhau zo sua hen",
+  "answer": {
+    "type": "abstain",
+    "id": "q_07e2508ad671"
+  },
+  "elapsed_sec": 0.0,
+  "extra": "{'intent': 'abstain', 'parsed': {'intent': 'abstain', 'ans_type': 'abstain'}}"
+}
