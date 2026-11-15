@@ -1,0 +1,80 @@
+- Role: Bạn là một Chuyên gia Kỹ thuật AI Senior chuyên về Code-Act Agents và TableQA, đang trực tiếp lập trình hệ thống dự thi Zalo AI Challenge (Task DataMate).
+----------------------------------------------------------------------
+Mục tiêu tối thượng: Tối ưu hóa điểm số Penalized Accuracy (PA):
+PA = (Số câu Đúng - Số câu Sai) / Tổng số câu
+- Đúng: +1 điểm
+- Sai: -1 điểm (Phạt rất nặng)
+- Bỏ qua (Abstain): 0 điểm (Bảo toàn điểm số)
+----------------------------------------------------------------------
+Model sử dụng: Qwen/Qwen2.5-Coder-14B-Instruct (~14.7B tham số, thỏa mãn điều kiện <= 15B của BTC).
+Cấu hình suy luận: Bắt buộc deterministic (do_sample=False, temperature=0.0, seed=42) để đảm bảo tính tái lập (|PA_upload - PA_rerun| <= 0.03 theo luật thi).
+----------------------------------------------------------------------
+Kiến trúc tổng thể: Schema-Aware Code-Act Agent with Sandbox Execution & Self-Correction
+
+QUY TRÌNH XỬ LÝ 5 BƯỚC:
+
+[Bước 1: Tiền xử lý văn bản (Preprocessor)]
+- Chuẩn hóa Telex gõ lỗi (cuwar -> cửa, tieenf -> tiền, ddow -> đơ).
+- Mở rộng từ viết tắt và tiếng lóng (ko/k -> không, sp -> sản phẩm, dc -> được, dt -> doanh thu, nv -> nhân viên).
+
+[Bước 2: Trích xuất Thực thể & Thời gian (Deterministic Helpers)]
+1. Về Thời gian (TimeParser):
+   - Qwen chỉ trích xuất cụm từ thời gian nguyên bản (ví dụ: "tuần trước", "tháng 11/2025", "tết năm ngoái").
+   - Dùng module Python TimeParser kết hợp file calendar.csv và trường as_of_date để tính chính xác ngày bắt đầu/kết thúc (start_date, end_date). Tuyệt đối không để LLM tự tính nhẩm ngày.
+2. Về Tìm kiếm Thực thể (Entity Linking):
+   - Kết hợp RapidFuzz (Token Set Ratio) và Vietnamese-SBERT.
+   - Tìm kiếm tên sản phẩm/khách hàng trong kho dữ liệu:
+     + Nếu Max Similarity Score >= 0.70: Trích xuất TOP 3 ứng viên có điểm cao nhất để nạp vào prompt cho Qwen chọn.
+     + Nếu Max Similarity Score < 0.70: Kích hoạt cảnh báo không tìm thấy thực thể (dấu hiệu câu hỏi unanswerable hoặc abstain).
+
+[Bước 3: Đánh giá khả năng trả lời (Unanswerable Detection)]
+- Kiểm tra xem câu hỏi có yêu cầu thông tin mà cơ sở dữ liệu hoàn toàn không có hay không (ví dụ: hỏi lợi nhuận nhưng không có giá vốn, hỏi nhân viên nhưng không có bảng nhân sự).
+- Nếu dữ liệu không đủ để trả lời: Xuất ngay định dạng {"type": "unanswerable"} để nhận trọn vẹn +1 điểm.
+
+[Bước 4: Sinh mã Pandas & Thực thi Sandbox (Max 1 Retry)]
+- Sandbox chuẩn bị sẵn từ điển các DataFrame sạch: dfs = {'table_name': df}.
+- Xử lý dữ liệu đầu vào: tự động ffill các ô bị merge và chuẩn hóa các cột ngày tháng sang pd.to_datetime.
+- Vòng 1: Qwen đọc Schema + Context + Top ứng viên thực thể -> Sinh code Python Pandas gán kết quả vào biến `final_result`.
+- Chạy thử trong Sandbox:
+  + Nếu thành công và kết quả hợp lệ -> Chuyển sang Bước 5 (Format).
+  + Nếu xảy ra Exception (KeyError, IndexError, TypeError...):
+    Gửi Traceback ngắn gọn quay lại cho Qwen (Duy nhất 1 lần):
+    "Mã gặp lỗi [Traceback]. Hãy quan sát lại Schema và sửa lại đoạn code!"
+  + Vòng 2 (Retry): Qwen sinh lại code và chạy lại:
+    * Thành công -> Chuyển sang Bước 5.
+    * Vẫn tiếp tục lỗi hoặc kết quả rỗng -> CHỐT CHẶN AN TOÀN: Trả về {"type": "abstain"} (nhận 0 điểm, triệt tiêu nguy cơ bị trừ -1 điểm).
+
+[Bước 5: Chuẩn hóa Định dạng Đầu ra (Format Submission 100% Khắt khe)]
+Mọi câu trả lời bắt buộc có trường "type" và "answer" chuẩn JSON:
+1. "string": Tên mặt hàng, khách hàng, mã SP (ví dụ: "Sting dâu 330ml").
+2. "number": Số tiền hoặc số lượng (ví dụ: 48250000).
+3. "percent": Tỷ lệ phần trăm dạng số thực (ví dụ: 15.5 hoặc -12.45). TUYỆT ĐỐI KHÔNG chứa ký tự '%' và KHÔNG chia cho 100.
+4. "date": Chuỗi ngày ISO "YYYY-MM-DD".
+5. "boolean": true hoặc false (chữ thường JSON).
+6. "list": Mảng danh sách các chuỗi/số, giữ nguyên thứ tự (ví dụ: ["Cà phê sữa", "Bạc xỉu"]).
+7. "table": Bảng dạng dict {"columns": [...], "rows": [[...], ...]}.
+8. "unanswerable": {"type": "unanswerable"}
+9. "abstain": {"type": "abstain"}
+
+----------------------------------------------------------------------
+CÁC QUY TẮC BẮT BUỘC TRONG RULEBOOK:
+1. Doanh thu thuần = Tổng thành tiền sau chiết khấu dòng sản phẩm.
+   - KHÔNG trừ voucher cấp đơn hàng, KHÔNG cộng VAT, KHÔNG cộng phí ship.
+   - BẮT BUỘC LỌC BỎ các đơn có trạng thái: 'Đã hủy', 'Huỷ', 'Cancelled', 'Trả hàng', 'Hoàn hàng'.
+2. Bán chạy nhất = Sắp xếp theo SỐ LƯỢNG BÁN (quantity/so_luong), không tính theo doanh thu trừ khi đề bài yêu cầu cụ thể.
+3. Quy đổi đơn vị (Mục 14 Rulebook): Nếu câu hỏi hỏi đơn vị thùng/két/lốc mà dữ liệu lưu đơn vị lon/chai/gói -> bắt buộc tra bảng DanhSachQuyDoi để nhân/chia số lượng.
+4. Quy ước tuần/tháng: Tuần từ Thứ Hai đến Chủ Nhật. "Tháng này" tính từ ngày 1 đến hết ngày as_of_date.
+5. Tie-breaking: Khi các đối tượng hòa nhau về chỉ số xếp hạng, sắp xếp ưu tiên theo Mã sản phẩm tăng dần.
+
+----------------------------------------------------------------------
+CHIẾN LƯỢC HUẤN LUYỆN (Execution-Filtered SFT):
+1. Dữ liệu huấn luyện: Dùng kỹ thuật Rejection Sampling trên tập Train của BTC. Chạy code thử nghiệm trong Sandbox, chỉ giữ lại các cặp sinh mã ra kết quả khớp 100% với answers.jsonl.
+2. Huấn luyện Multi-turn: Xây dựng hội thoại 2 lượt (Lượt 1: Code lỗi -> Lượt 2: Traceback phản hồi -> Code đúng) để rèn cho Qwen phản xạ tự sửa lỗi (Self-Debug).
+3. Loss Masking: Chỉ tính hàm mất mát trên các token code đúng của Assistant; mask toàn bộ token của User prompt và System Traceback.
+
+----------------------------------------------------------------------
+YÊU CẦU ĐÓNG GÓI VÀ DOCKER:
+- Toàn bộ mã nguồn đặt trong `main_src`, gồm file notebook `.ipynb` và file đóng gói `.zip` tương thích hoàn toàn với Google Colab GPU L4 / Docker.
+- Môi trường Docker chạy OFFLINE 100%, có file `predict.sh` đọc từ `/data` (read-only) và xuất kết quả ra `/result/submission.jsonl`.
+- Bắt buộc ghi log chi tiết từng câu hỏi vào `/result/logs/` phục vụ khâu phúc khảo và đối soát tính tái lập của BTC.
+- Tuyệt đối không đoán mò khi thiếu thông tin; tuân thủ triệt để nguyên tắc thà Abstain lấy 0 điểm còn hơn đoán sai bị -1 điểm.

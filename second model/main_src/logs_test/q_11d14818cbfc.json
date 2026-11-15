@@ -1,0 +1,19 @@
+{
+  "id": "q_11d14818cbfc",
+  "question": "mat hang hot nhat thang 7 nam 2025 la mat hang nao",
+  "answer": {
+    "id": "q_11d14818cbfc",
+    "type": "abstain"
+  },
+  "elapsed_sec": 2.8142,
+  "trace": {
+    "normalized_text": "mặt hàng hot nhat thang 7 nam 2025 la mặt hàng nao",
+    "normalized_ascii": "mat hang hot nhat thang 7 nam 2025 la mat hang nao",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-07-01",
+    "time_end": "2025-07-31",
+    "entity_status": "not_found",
+    "inferred_type": "string",
+    "gate": "G3_entity_below_0.70"
+  }
+}
