@@ -8,6 +8,7 @@ export TRANSFORMERS_OFFLINE=1
 export VLLM_NO_USAGE_STATS=1
 export TOKENIZERS_PARALLELISM=false
 export CUBLAS_WORKSPACE_CONFIG=:4096:8
+export PYTHONPATH="/workspace:/code:${PYTHONPATH:-}"
 
 DATA_DIR="${1:-/data}"
 RESULT_DIR="${2:-/result}"

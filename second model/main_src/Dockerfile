@@ -33,10 +33,13 @@ RUN pip3 install --no-cache-dir --upgrade pip && \
 # Sao chép toàn bộ mã nguồn vào /workspace/main_src
 COPY . /workspace/main_src
 
-# Sao chép script thực thi predict.sh ra /workspace/predict.sh và /predict.sh
-RUN cp /workspace/main_src/predict.sh /workspace/predict.sh && \
+# Sao chép script thực thi predict.sh ra các đường dẫn chuẩn theo guideline
+RUN mkdir -p /code /workspace/main_src && \
+    cp /workspace/main_src/predict.sh /workspace/predict.sh && \
+    cp /workspace/main_src/predict.sh /code/predict.sh && \
     cp /workspace/main_src/predict.sh /predict.sh && \
-    chmod +x /workspace/predict.sh /predict.sh /workspace/main_src/predict.sh
+    chmod +x /workspace/predict.sh /code/predict.sh /predict.sh /workspace/main_src/predict.sh && \
+    ln -s /workspace/main_src /code/main_src
 
 # Tạo sẵn thư mục kết quả và thư mục tạm (vì /data được mount ở chế độ read-only)
 RUN mkdir -p /result/logs /tmp/datamate /models
