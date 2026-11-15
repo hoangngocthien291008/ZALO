@@ -1,0 +1,19 @@
+{
+  "id": "q_c78fdf218577",
+  "question": "T7/2025 tiem giao duoc bao nhieu dot hang?",
+  "answer": {
+    "id": "q_c78fdf218577",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.001,
+  "trace": {
+    "normalized_text": "tháng 7/2025 tiem giao duoc bao nhiêu dot hang?",
+    "normalized_ascii": "thang 7/2025 tiem giao duoc bao nhieu dot hang?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-07-01",
+    "time_end": "2025-07-31",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

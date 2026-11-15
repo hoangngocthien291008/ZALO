@@ -1,0 +1,19 @@
+{
+  "id": "q_4497ce0830d8",
+  "question": "5/26 tiem thu phi ship duoc bao nhieu tien?",
+  "answer": {
+    "id": "q_4497ce0830d8",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.001,
+  "trace": {
+    "normalized_text": "5/26 tiem thu phi ship duoc bao nhiêu tien?",
+    "normalized_ascii": "5/26 tiem thu phi ship duoc bao nhieu tien?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-05-01",
+    "time_end": "2026-05-31",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

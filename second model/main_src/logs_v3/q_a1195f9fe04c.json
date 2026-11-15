@@ -1,0 +1,19 @@
+{
+  "id": "q_a1195f9fe04c",
+  "question": "Tháng 7/2025 thuốc kê đơn chiếm bao nhiêu phần trăm doanh thu của nhà thuốc?",
+  "answer": {
+    "id": "q_a1195f9fe04c",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.004,
+  "trace": {
+    "normalized_text": "tháng 7/2025 thuốc kê đơn chiếm bao nhiêu phần trăm doanh thu của nhà thuốc?",
+    "normalized_ascii": "thang 7/2025 thuoc ke don chiem bao nhieu phan tram doanh thu cua nha thuoc?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-07-01",
+    "time_end": "2025-07-31",
+    "entity_status": "not_found",
+    "inferred_type": "percent",
+    "gate": "G3_entity_below_0.70"
+  }
+}

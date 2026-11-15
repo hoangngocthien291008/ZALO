@@ -1,0 +1,22 @@
+{
+  "id": "q_6dc8a5070da6",
+  "question": "Zyrtec 10mg hộp 1 vỉ x 10 viên th7/2026 bán được tổng bn viên?",
+  "answer": {
+    "id": "q_6dc8a5070da6",
+    "type": "number",
+    "answer": 167
+  },
+  "elapsed_sec": 0.0484,
+  "trace": {
+    "normalized_text": "zyrtec 10 mg hộp 1 vỉ x 10 viên tháng 7/2026 bán được tổng bao nhiêu viên?",
+    "normalized_ascii": "zyrtec 10 mg hop 1 vi x 10 vien thang 7/2026 ban duoc tong bao nhieu vien?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-07-01",
+    "time_end": "2026-07-31",
+    "entity_status": "exact",
+    "inferred_type": "number",
+    "fastpath_code": "df = match_item(item_lines(), 'Zyrtec 10mg hộp 1 vỉ x 10 viên')\nq = float(df['qty_base'].sum()) if not df.empty else 0.0\nfinal_result = (int(round(q)) if abs(q - round(q)) < 1e-6 else round(q, 2)) if q > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

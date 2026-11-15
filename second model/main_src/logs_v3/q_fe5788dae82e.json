@@ -1,0 +1,22 @@
+{
+  "id": "q_fe5788dae82e",
+  "question": "Th 12/25 doanh thu cua quan duoc bao nhieu vay?",
+  "answer": {
+    "id": "q_fe5788dae82e",
+    "type": "number",
+    "answer": 224943500
+  },
+  "elapsed_sec": 0.0132,
+  "trace": {
+    "normalized_text": "th 12/25 doanh thu cua quan duoc bao nhiêu vay?",
+    "normalized_ascii": "th 12/25 doanh thu cua quan duoc bao nhieu vay?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-12-01",
+    "time_end": "2025-12-31",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "rev = revenue()\nfinal_result = rev if rev > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

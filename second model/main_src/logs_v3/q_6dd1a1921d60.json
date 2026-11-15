@@ -1,0 +1,19 @@
+{
+  "id": "q_6dd1a1921d60",
+  "question": "Tuần trước bình quân mỗi o đờ mang về bao nhiêu doanh thu?",
+  "answer": {
+    "id": "q_6dd1a1921d60",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.001,
+  "trace": {
+    "normalized_text": "tuần trước bình quân mỗi o đờ mang về bao nhiêu doanh thu?",
+    "normalized_ascii": "tuan truoc binh quan moi o do mang ve bao nhieu doanh thu?",
+    "time_rule": "R10_last_week",
+    "time_start": "2025-09-22",
+    "time_end": "2025-09-28",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

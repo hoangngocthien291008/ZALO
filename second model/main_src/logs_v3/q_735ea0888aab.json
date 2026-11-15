@@ -1,0 +1,19 @@
+{
+  "id": "q_735ea0888aab",
+  "question": "Tháng 3/2025, trong các khách hàng, ai trung thành nhất?",
+  "answer": {
+    "id": "q_735ea0888aab",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0012,
+  "trace": {
+    "normalized_text": "tháng 3/2025, trong các khách hàng, ai trung thành nhất?",
+    "normalized_ascii": "thang 3/2025, trong cac khach hang, ai trung thanh nhat?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-03-01",
+    "time_end": "2025-03-31",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

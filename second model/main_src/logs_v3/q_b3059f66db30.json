@@ -1,0 +1,19 @@
+{
+  "id": "q_b3059f66db30",
+  "question": "Thợ nhận nhiều phiếu sửa nhất tháng ni là ai rứa?",
+  "answer": {
+    "id": "q_b3059f66db30",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0057,
+  "trace": {
+    "normalized_text": "thợ nhận nhiều phiếu sửa nhất tháng ni là ai vậy?",
+    "normalized_ascii": "tho nhan nhieu phieu sua nhat thang ni la ai vay?",
+    "time_rule": "none",
+    "time_start": "2026-08-31",
+    "time_end": "2026-08-31",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G2_missing_time"
+  }
+}

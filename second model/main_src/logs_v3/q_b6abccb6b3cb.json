@@ -1,0 +1,19 @@
+{
+  "id": "q_b6abccb6b3cb",
+  "question": "Th1/2026 Ốp lưng silicon iPhone bán roa tổng cộng bnhiu cái?",
+  "answer": {
+    "id": "q_b6abccb6b3cb",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0014,
+  "trace": {
+    "normalized_text": "tháng 1/2026 ốp lưng silicon iphone bán roa tổng cộng bao nhiêu cái?",
+    "normalized_ascii": "thang 1/2026 op lung silicon iphone ban roa tong cong bao nhieu cai?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-01-01",
+    "time_end": "2026-01-31",
+    "entity_status": "exact",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

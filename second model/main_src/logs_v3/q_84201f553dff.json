@@ -1,0 +1,22 @@
+{
+  "id": "q_84201f553dff",
+  "question": "Tháng 2 năm 2026 có bnhiu đơn bị huỷ z?",
+  "answer": {
+    "id": "q_84201f553dff",
+    "type": "number",
+    "answer": 0
+  },
+  "elapsed_sec": 0.0217,
+  "trace": {
+    "normalized_text": "tháng 2 năm 2026 có bao nhiêu đơn bị huỷ vậy?",
+    "normalized_ascii": "thang 2 nam 2026 co bao nhieu don bi huy vay?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-02-01",
+    "time_end": "2026-02-28",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "sub = all_orders()\ncanc = len(sub[sub['status_norm'] == 'huy']['order_id'].unique()) if not sub.empty else 0\nfinal_result = int(canc)",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "q_1adddf599009",
+  "question": "Tới hôm nay, có mấy đơn bán chịu ghi ngày phải trả muộn hơn hôm nay (hạn đúng hôm nay không tính)?",
+  "answer": {
+    "id": "q_1adddf599009",
+    "type": "unanswerable",
+    "reason": "Cửa hàng không lưu thông tin số lô và hạn sử dụng sản phẩm."
+  },
+  "elapsed_sec": 0.0009,
+  "trace": {
+    "normalized_text": "tới hôm nay, có mấy đơn bán chịu ghi ngày phải trả muộn hơn hôm nay (hạn đúng hôm nay không tính)?",
+    "normalized_ascii": "toi hom nay, co may don ban chiu ghi ngay phai tra muon hon hom nay (han dung hom nay khong tinh)?",
+    "time_rule": "R5_today",
+    "time_start": "2025-03-02",
+    "time_end": "2025-03-02",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "U2_missing_lot_expiry"
+  }
+}

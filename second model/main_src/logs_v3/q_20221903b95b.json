@@ -1,0 +1,20 @@
+{
+  "id": "q_20221903b95b",
+  "question": "Th3/2025 có mấy đơn bị huỷ vì giao trễ z?",
+  "answer": {
+    "id": "q_20221903b95b",
+    "type": "unanswerable",
+    "reason": "Dữ liệu cửa hàng không lưu lý do chi tiết khi huỷ hoặc trả hàng."
+  },
+  "elapsed_sec": 0.0012,
+  "trace": {
+    "normalized_text": "tháng 3/2025 có mấy đơn bị huỷ vì giao trễ vậy?",
+    "normalized_ascii": "thang 3/2025 co may don bi huy vi giao tre vay?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-03-01",
+    "time_end": "2025-03-31",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "U2_missing_reason"
+  }
+}

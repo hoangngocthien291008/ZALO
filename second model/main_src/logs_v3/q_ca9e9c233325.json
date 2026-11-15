@@ -1,0 +1,19 @@
+{
+  "id": "q_ca9e9c233325",
+  "question": "Tháng 9/2025 tiệm thu được bao nhiêu tiền khách trả nợ cho các đơn bán thiếu?",
+  "answer": {
+    "id": "q_ca9e9c233325",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0,
+  "trace": {
+    "normalized_text": "tháng 9/2025 tiệm thu được bao nhiêu tiền khách trả nợ cho các đơn bán thiếu?",
+    "normalized_ascii": "thang 9/2025 tiem thu duoc bao nhieu tien khach tra no cho cac don ban thieu?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-09-01",
+    "time_end": "2025-09-30",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

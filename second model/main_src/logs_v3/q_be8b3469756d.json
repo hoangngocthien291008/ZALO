@@ -1,0 +1,22 @@
+{
+  "id": "q_be8b3469756d",
+  "question": "Trong 3 tháng 6/2025 qua 7/2025 rồi 8/2025, doanh thu có tăng liên tục không?",
+  "answer": {
+    "id": "q_be8b3469756d",
+    "type": "boolean",
+    "answer": false
+  },
+  "elapsed_sec": 0.0381,
+  "trace": {
+    "normalized_text": "trong 3 tháng 6/2025 qua 7/2025 rồi 8/2025, doanh thu có tăng liên tục không?",
+    "normalized_ascii": "trong 3 thang 6/2025 qua 7/2025 roi 8/2025, doanh thu co tang lien tuc khong?",
+    "time_rule": "R2b_month_list",
+    "time_start": "2025-06-01",
+    "time_end": "2025-08-31",
+    "entity_status": "not_needed",
+    "inferred_type": "boolean",
+    "fastpath_code": "revs = [revenue(p['start'], p['end']) for p in T['periods']]\nfinal_result = None if (len(revs) < 2 or any(r == 0 for r in revs)) else all(revs[i+1] > revs[i] for i in range(len(revs)-1))",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

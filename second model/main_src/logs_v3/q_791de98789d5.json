@@ -1,0 +1,19 @@
+{
+  "id": "q_791de98789d5",
+  "question": "Th7/2026 nhân diên nào bán giỏi nhất?",
+  "answer": {
+    "id": "q_791de98789d5",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.001,
+  "trace": {
+    "normalized_text": "tháng 7/2026 nhân diên nào bán giỏi nhất?",
+    "normalized_ascii": "thang 7/2026 nhan dien nao ban gioi nhat?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-07-01",
+    "time_end": "2026-07-31",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "q_5598af728eea",
+  "question": "Th11/2025 top 3 sp bán chạy nhất là gì z?",
+  "answer": {
+    "id": "q_5598af728eea",
+    "type": "list",
+    "answer": [
+      "Băng cá nhân Urgo Transparent hộp 100 miếng",
+      "Tiffy Dey hộp 25 vỉ x 4 viên",
+      "Panadol 500mg hộp 10 vỉ x 12 viên"
+    ]
+  },
+  "elapsed_sec": 0.0141,
+  "trace": {
+    "normalized_text": "tháng 11/2025 top 3 sản phẩm bán chạy nhất là gì vậy?",
+    "normalized_ascii": "thang 11/2025 top 3 san pham ban chay nhat la gi vay?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-11-01",
+    "time_end": "2025-11-30",
+    "entity_status": "not_needed",
+    "inferred_type": "list",
+    "fastpath_code": "df = item_lines()\nfinal_result = top_k(df, value_col='qty_base', k=3, key_col='item_code', name_col='item_name')",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "q_ca85266e5cfa",
+  "question": "Minh muon tang qua khach quen, dem giup so khach mua tu 6 don tro len trong th3/2026.",
+  "answer": {
+    "id": "q_ca85266e5cfa",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.001,
+  "trace": {
+    "normalized_text": "minh muon tang qua khach quen, dem giúp so khach mua tu 6 don trở lên trong tháng 3/2026.",
+    "normalized_ascii": "minh muon tang qua khach quen, dem giup so khach mua tu 6 don tro len trong thang 3/2026.",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-03-01",
+    "time_end": "2026-03-31",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

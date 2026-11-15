@@ -1,0 +1,19 @@
+{
+  "id": "q_5a5a452f87d4",
+  "question": "5/2025 dthu ca chieu chenh ca sang may %?",
+  "answer": {
+    "id": "q_5a5a452f87d4",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0005,
+  "trace": {
+    "normalized_text": "5/2025 doanh thu ca chiều chenh ca sáng may%?",
+    "normalized_ascii": "5/2025 doanh thu ca chieu chenh ca sang may%?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-05-01",
+    "time_end": "2025-05-31",
+    "entity_status": "not_needed",
+    "inferred_type": "percent",
+    "gate": "G4_safe_abstain"
+  }
+}

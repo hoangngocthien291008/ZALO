@@ -1,0 +1,22 @@
+{
+  "id": "q_ca2c1d05618a",
+  "question": "Thang nay bao nhieu % don bi huy vay?",
+  "answer": {
+    "id": "q_ca2c1d05618a",
+    "type": "percent",
+    "answer": 2.66
+  },
+  "elapsed_sec": 0.0191,
+  "trace": {
+    "normalized_text": "tháng này bao nhiêu% don bi huy vay?",
+    "normalized_ascii": "thang nay bao nhieu% don bi huy vay?",
+    "time_rule": "R12_this_month",
+    "time_start": "2026-07-01",
+    "time_end": "2026-07-22",
+    "entity_status": "not_needed",
+    "inferred_type": "percent",
+    "fastpath_code": "sub = all_orders()\ntot = len(sub['order_id'].unique()) if not sub.empty else 0\ncanc = len(sub[sub['status_norm'] == 'huy']['order_id'].unique()) if not sub.empty else 0\nfinal_result = pct(canc, tot) if tot > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

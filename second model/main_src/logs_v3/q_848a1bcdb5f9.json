@@ -1,0 +1,22 @@
+{
+  "id": "q_848a1bcdb5f9",
+  "question": "Tháng 9/2025 số đơn có mua hàng nhóm trà là bao nhiêu?",
+  "answer": {
+    "id": "q_848a1bcdb5f9",
+    "type": "number",
+    "answer": 5439
+  },
+  "elapsed_sec": 0.021,
+  "trace": {
+    "normalized_text": "tháng 9/2025 số đơn có mua hàng nhóm trà là bao nhiêu?",
+    "normalized_ascii": "thang 9/2025 so don co mua hang nhom tra la bao nhieu?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-09-01",
+    "time_end": "2025-09-30",
+    "entity_status": "exact",
+    "inferred_type": "number",
+    "fastpath_code": "df = revenue_lines()\nord_rev = df.groupby('order_id')['amount'].sum() if not df.empty else pd.Series(dtype=float)\nord_rev = ord_rev[ord_rev >= 0.0] if 0.0 > 0 else ord_rev\ncnt = int(len(ord_rev))\nfinal_result = cnt if cnt > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

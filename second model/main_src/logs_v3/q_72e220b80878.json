@@ -1,0 +1,19 @@
+{
+  "id": "q_72e220b80878",
+  "question": "Th 9/25 ai là khách mua nhiêuf lần nhất, đếm theo số đơn?",
+  "answer": {
+    "id": "q_72e220b80878",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.001,
+  "trace": {
+    "normalized_text": "th 9/25 ai là khách mua nhiêuf lần nhất, đếm theo số đơn?",
+    "normalized_ascii": "th 9/25 ai la khach mua nhieuf lan nhat, dem theo so don?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-09-01",
+    "time_end": "2025-09-30",
+    "entity_status": "not_needed",
+    "inferred_type": "string",
+    "gate": "G4_safe_abstain"
+  }
+}

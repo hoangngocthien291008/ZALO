@@ -1,0 +1,19 @@
+{
+  "id": "q_a8d7ce013c6d",
+  "question": "Hết ngày 26/11/2025 tiền chậm góp của khách trả góp tổng cộng bnhiu?",
+  "answer": {
+    "id": "q_a8d7ce013c6d",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0017,
+  "trace": {
+    "normalized_text": "hết ngày 26/11/2025 tiền chậm góp của khách trả góp tổng cộng bao nhiêu?",
+    "normalized_ascii": "het ngay 26/11/2025 tien cham gop cua khach tra gop tong cong bao nhieu?",
+    "time_rule": "R8_exact_date",
+    "time_start": "2025-11-26",
+    "time_end": "2025-11-26",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

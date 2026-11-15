@@ -1,0 +1,19 @@
+{
+  "id": "q_beeab8ab97fc",
+  "question": "Tuần trước trung bìh 1 đơn giá trị bao nhiêu?",
+  "answer": {
+    "id": "q_beeab8ab97fc",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.001,
+  "trace": {
+    "normalized_text": "tuần trước trung bìh 1 đơn giá trị bao nhiêu?",
+    "normalized_ascii": "tuan truoc trung bih 1 don gia tri bao nhieu?",
+    "time_rule": "R10_last_week",
+    "time_start": "2026-02-09",
+    "time_end": "2026-02-15",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

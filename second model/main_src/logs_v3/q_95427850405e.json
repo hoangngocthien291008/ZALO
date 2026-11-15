@@ -1,0 +1,19 @@
+{
+  "id": "q_95427850405e",
+  "question": "30 ngày gần nhất tiệm bán tổng cộng mấy gói z?",
+  "answer": {
+    "id": "q_95427850405e",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0015,
+  "trace": {
+    "normalized_text": "30 ngày gần nhất tiệm bán tổng cộng mấy gói vậy?",
+    "normalized_ascii": "30 ngay gan nhat tiem ban tong cong may goi vay?",
+    "time_rule": "R7_n_days",
+    "time_start": "2026-04-16",
+    "time_end": "2026-05-15",
+    "entity_status": "not_found",
+    "inferred_type": "number",
+    "gate": "G3_entity_below_0.70"
+  }
+}

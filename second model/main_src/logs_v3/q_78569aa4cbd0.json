@@ -1,0 +1,19 @@
+{
+  "id": "q_78569aa4cbd0",
+  "question": "Thuốc kê đơn tháng ni, mấy % tổng doanh thu?",
+  "answer": {
+    "id": "q_78569aa4cbd0",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0,
+  "trace": {
+    "normalized_text": "thuốc kê đơn tháng ni, mấy% tổng doanh thu?",
+    "normalized_ascii": "thuoc ke don thang ni, may% tong doanh thu?",
+    "time_rule": "none",
+    "time_start": "2026-08-08",
+    "time_end": "2026-08-08",
+    "entity_status": "not_needed",
+    "inferred_type": "percent",
+    "gate": "G2_missing_time"
+  }
+}

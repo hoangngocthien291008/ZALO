@@ -1,0 +1,22 @@
+{
+  "id": "q_049f0a34efdc",
+  "question": "02/2026 có mấy khách mua từ 4 đơn trở lên z?",
+  "answer": {
+    "id": "q_049f0a34efdc",
+    "type": "number",
+    "answer": 197
+  },
+  "elapsed_sec": 0.0155,
+  "trace": {
+    "normalized_text": "02/2026 có mấy khách mua từ 4 đơn trở lên vậy?",
+    "normalized_ascii": "02/2026 co may khach mua tu 4 don tro len vay?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-02-01",
+    "time_end": "2026-02-28",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "df = revenue_lines()\ndf = df[df['cust_key'] != ''] if not df.empty else df\ncnts = df.groupby('cust_key')['order_id'].nunique() if not df.empty else pd.Series(dtype=int)\nqual_c = int((cnts >= 4).sum())\nfinal_result = qual_c if qual_c > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "q_7dbd343490cd",
+  "question": "Quy 1/2026 tong cong co bao nhieu don?",
+  "answer": {
+    "id": "q_7dbd343490cd",
+    "type": "number",
+    "answer": 4205
+  },
+  "elapsed_sec": 0.0141,
+  "trace": {
+    "normalized_text": "quy 1/2026 tong cong co bao nhiêu don?",
+    "normalized_ascii": "quy 1/2026 tong cong co bao nhieu don?",
+    "time_rule": "R11_quarter",
+    "time_start": "2026-01-01",
+    "time_end": "2026-03-31",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "df = revenue_lines()\nord_rev = df.groupby('order_id')['amount'].sum() if not df.empty else pd.Series(dtype=float)\nord_rev = ord_rev[ord_rev >= 0.0] if 0.0 > 0 else ord_rev\ncnt = int(len(ord_rev))\nfinal_result = cnt if cnt > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "q_78360acadac0",
+  "question": "7/2026 có bnhiu ngày dthu đạt từ 8.900.000 đồng trở lên?",
+  "answer": {
+    "id": "q_78360acadac0",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0,
+  "trace": {
+    "normalized_text": "7/2026 có bao nhiêu ngày doanh thu đạt từ 8.900.000 đồng trở lên?",
+    "normalized_ascii": "7/2026 co bao nhieu ngay doanh thu dat tu 8.900.000 dong tro len?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-07-01",
+    "time_end": "2026-07-31",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

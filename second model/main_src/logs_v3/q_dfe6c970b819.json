@@ -1,0 +1,22 @@
+{
+  "id": "q_dfe6c970b819",
+  "question": "T1/2025 ngày bán nhiều tiền nhất là ngày mô?",
+  "answer": {
+    "id": "q_dfe6c970b819",
+    "type": "date",
+    "answer": "2025-01-29"
+  },
+  "elapsed_sec": 0.0059,
+  "trace": {
+    "normalized_text": "tháng 1/2025 ngày bán nhiều tiền nhất là ngày nào?",
+    "normalized_ascii": "thang 1/2025 ngay ban nhieu tien nhat la ngay nao?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-01-01",
+    "time_end": "2025-01-31",
+    "entity_status": "not_needed",
+    "inferred_type": "date",
+    "fastpath_code": "df = revenue_lines()\ndaily = df[df['date'] != ''].groupby('date', as_index=False)['amount'].sum() if not df.empty else pd.DataFrame()\ndaily = daily.sort_values(by=['amount', 'date'], ascending=[False, True], kind='mergesort') if not daily.empty else daily\nfinal_result = str(daily.iloc[0]['date'])[:10] if not daily.empty else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

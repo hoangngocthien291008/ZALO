@@ -1,0 +1,26 @@
+{
+  "id": "q_9d4a0d4b4bcd",
+  "question": "cko xin dthu th7/2025, th8/2025, th9/2025 nhé 🙏",
+  "answer": {
+    "id": "q_9d4a0d4b4bcd",
+    "type": "list",
+    "answer": [
+      300865900,
+      277772000,
+      285872900
+    ]
+  },
+  "elapsed_sec": 0.0437,
+  "trace": {
+    "normalized_text": "cho xin doanh thu tháng 7/2025, tháng 8/2025, tháng 9/2025 nhé 🙏",
+    "normalized_ascii": "cho xin doanh thu thang 7/2025, thang 8/2025, thang 9/2025 nhe 🙏",
+    "time_rule": "R2b_month_list",
+    "time_start": "2025-07-01",
+    "time_end": "2025-09-30",
+    "entity_status": "not_needed",
+    "inferred_type": "list",
+    "fastpath_code": "revs = [revenue(p['start'], p['end']) for p in T['periods']]\nfinal_result = revs if (revs and all(r > 0 for r in revs)) else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

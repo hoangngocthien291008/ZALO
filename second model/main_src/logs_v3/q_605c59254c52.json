@@ -1,0 +1,19 @@
+{
+  "id": "q_605c59254c52",
+  "question": "cho mik hoi xiu, thang nay don tra tien mat voi don tra vi dien tu, tung ben dthu bnhiu",
+  "answer": {
+    "id": "q_605c59254c52",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.001,
+  "trace": {
+    "normalized_text": "cho mình hoi xiu, tháng này don tra tien mat voi don tra vi dien tu, tung ben doanh thu bao nhiêu",
+    "normalized_ascii": "cho minh hoi xiu, thang nay don tra tien mat voi don tra vi dien tu, tung ben doanh thu bao nhieu",
+    "time_rule": "R12_this_month",
+    "time_start": "2026-09-01",
+    "time_end": "2026-09-06",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

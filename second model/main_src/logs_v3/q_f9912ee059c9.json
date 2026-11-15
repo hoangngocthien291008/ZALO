@@ -1,0 +1,19 @@
+{
+  "id": "q_f9912ee059c9",
+  "question": "Th6/2026 các đơn nhân viên Võ Trung Hoa bán cộng lại được bnhiu tiền hàng?",
+  "answer": {
+    "id": "q_f9912ee059c9",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0017,
+  "trace": {
+    "normalized_text": "tháng 6/2026 các đơn nhân viên võ trung hoa bán cộng lại được bao nhiêu tiền hàng?",
+    "normalized_ascii": "thang 6/2026 cac don nhan vien vo trung hoa ban cong lai duoc bao nhieu tien hang?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-06-01",
+    "time_end": "2026-06-30",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "q_f53d89a0743e",
+  "question": "Doanh thu tháng 9/25 đuowc nhiêu vậy?",
+  "answer": {
+    "id": "q_f53d89a0743e",
+    "type": "number",
+    "answer": 1066155300
+  },
+  "elapsed_sec": 0.0247,
+  "trace": {
+    "normalized_text": "doanh thu tháng 9/25 đuowc nhiêu vậy?",
+    "normalized_ascii": "doanh thu thang 9/25 duowc nhieu vay?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-09-01",
+    "time_end": "2025-09-30",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "rev = revenue()\nfinal_result = rev if rev > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

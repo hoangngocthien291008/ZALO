@@ -1,0 +1,19 @@
+{
+  "id": "q_05ab1c71dcaa",
+  "question": "Ai là khách có số đơn mua nhiều nhất trong tháng 4 năm 2025?",
+  "answer": {
+    "id": "q_05ab1c71dcaa",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.001,
+  "trace": {
+    "normalized_text": "ai là khách có số đơn mua nhiều nhất trong tháng 4 năm 2025?",
+    "normalized_ascii": "ai la khach co so don mua nhieu nhat trong thang 4 nam 2025?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-04-01",
+    "time_end": "2025-04-30",
+    "entity_status": "not_needed",
+    "inferred_type": "string",
+    "gate": "G4_safe_abstain"
+  }
+}

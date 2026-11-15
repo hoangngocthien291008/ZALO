@@ -1,0 +1,22 @@
+{
+  "id": "q_c1976ad22afb",
+  "question": "Th9/2025 có mấy ngày dthu từ 43 triệu trở lên vậy?",
+  "answer": {
+    "id": "q_c1976ad22afb",
+    "type": "number",
+    "answer": 30
+  },
+  "elapsed_sec": 0.0069,
+  "trace": {
+    "normalized_text": "tháng 9/2025 có mấy ngày doanh thu từ 43 triệu trở lên vậy?",
+    "normalized_ascii": "thang 9/2025 co may ngay doanh thu tu 43 trieu tro len vay?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-09-01",
+    "time_end": "2025-09-30",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "df = revenue_lines()\ndaily = df.groupby('date')['amount'].sum() if not df.empty else pd.Series(dtype=float)\ncnt = int((daily >= 43.0).sum())\nfinal_result = cnt if cnt > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

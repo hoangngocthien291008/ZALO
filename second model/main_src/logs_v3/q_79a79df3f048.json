@@ -1,0 +1,22 @@
+{
+  "id": "q_79a79df3f048",
+  "question": "Dthu tháng 8/25 so với th trước tăng hay giảm mấy %?",
+  "answer": {
+    "id": "q_79a79df3f048",
+    "type": "percent",
+    "answer": -3.44
+  },
+  "elapsed_sec": 0.04,
+  "trace": {
+    "normalized_text": "doanh thu tháng 8/25 so với tháng trước tăng hay giảm mấy%?",
+    "normalized_ascii": "doanh thu thang 8/25 so voi thang truoc tang hay giam may%?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-08-01",
+    "time_end": "2025-08-31",
+    "entity_status": "not_needed",
+    "inferred_type": "percent",
+    "fastpath_code": "r_curr = revenue(T['start'], T['end'], T['shift'])\nr_prev = revenue(T['cmp_start'], T['cmp_end'], T['shift'])\nfinal_result = growth(r_curr, r_prev) if (r_prev > 0 and r_curr > 0) else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "q_1c0ec38b3d82",
+  "question": "Dịp Tết 2026 quán có doanh thu bao nhiêu thế?",
+  "answer": {
+    "id": "q_1c0ec38b3d82",
+    "type": "number",
+    "answer": 83379600
+  },
+  "elapsed_sec": 0.0193,
+  "trace": {
+    "normalized_text": "dịp tết 2026 quán có doanh thu bao nhiêu thế?",
+    "normalized_ascii": "dip tet 2026 quan co doanh thu bao nhieu the?",
+    "time_rule": "R1_tet",
+    "time_start": "2026-02-10",
+    "time_end": "2026-02-26",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "rev = revenue()\nfinal_result = rev if rev > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "q_d1e7b2bde646",
+  "question": "6/2025 thuốc kê đơn đem về bao nhiêu doanh thu?",
+  "answer": {
+    "id": "q_d1e7b2bde646",
+    "type": "number",
+    "answer": 7409700
+  },
+  "elapsed_sec": 0.0138,
+  "trace": {
+    "normalized_text": "6/2025 thuốc kê đơn đem về bao nhiêu doanh thu?",
+    "normalized_ascii": "6/2025 thuoc ke don dem ve bao nhieu doanh thu?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-06-01",
+    "time_end": "2025-06-30",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "df = revenue_lines()\np = V.get('products')\nrx_codes = set(p[p['is_prescription'] == True]['item_code']) if (p is not None and 'is_prescription' in p.columns) else set()\nrx_rev = float(df[df['item_code'].isin(rx_codes)]['amount'].sum()) if not df.empty else 0.0\nfinal_result = money(rx_rev) if rx_rev > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

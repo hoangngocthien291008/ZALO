@@ -1,0 +1,19 @@
+{
+  "id": "q_2e00e336cad2",
+  "question": "Tháng ni đếm phiếu sửa xe được mấy phiếu?",
+  "answer": {
+    "id": "q_2e00e336cad2",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.006,
+  "trace": {
+    "normalized_text": "tháng ni đếm phiếu sửa xe được mấy phiếu?",
+    "normalized_ascii": "thang ni dem phieu sua xe duoc may phieu?",
+    "time_rule": "none",
+    "time_start": "2026-08-31",
+    "time_end": "2026-08-31",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G2_missing_time"
+  }
+}

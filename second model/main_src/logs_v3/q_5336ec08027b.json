@@ -1,0 +1,22 @@
+{
+  "id": "q_5336ec08027b",
+  "question": "Cho tôi biết doanh thu hôm qua.",
+  "answer": {
+    "id": "q_5336ec08027b",
+    "type": "number",
+    "answer": 31809500
+  },
+  "elapsed_sec": 0.025,
+  "trace": {
+    "normalized_text": "cho tôi biết doanh thu hôm qua.",
+    "normalized_ascii": "cho toi biet doanh thu hom qua.",
+    "time_rule": "R6_yesterday",
+    "time_start": "2026-05-09",
+    "time_end": "2026-05-09",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "rev = revenue()\nfinal_result = rev if rev > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

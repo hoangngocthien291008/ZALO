@@ -1,0 +1,22 @@
+{
+  "id": "q_9a905959d8ff",
+  "question": "tu dau nam den het hom nay cua hang co tong cong bao nhieu don hang",
+  "answer": {
+    "id": "q_9a905959d8ff",
+    "type": "number",
+    "answer": 14263
+  },
+  "elapsed_sec": 0.0216,
+  "trace": {
+    "normalized_text": "từ đầu nam đến hết hôm nay cua hang co tong cong bao nhiêu don hang",
+    "normalized_ascii": "tu dau nam den het hom nay cua hang co tong cong bao nhieu don hang",
+    "time_rule": "R3_ytd",
+    "time_start": "2025-01-01",
+    "time_end": "2025-06-28",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "df = revenue_lines()\nord_rev = df.groupby('order_id')['amount'].sum() if not df.empty else pd.Series(dtype=float)\nord_rev = ord_rev[ord_rev >= 0.0] if 0.0 > 0 else ord_rev\ncnt = int(len(ord_rev))\nfinal_result = cnt if cnt > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

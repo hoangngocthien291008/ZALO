@@ -1,0 +1,22 @@
+{
+  "id": "q_5b50ea8b0bae",
+  "question": "Tiền bán Savi Losartan 50mg hộp 3 vỉ x 10 viên tháng 2/2025 là bao nhiêu?",
+  "answer": {
+    "id": "q_5b50ea8b0bae",
+    "type": "number",
+    "answer": 741400
+  },
+  "elapsed_sec": 0.0558,
+  "trace": {
+    "normalized_text": "tiền bán savi losartan 50 mg hộp 3 vỉ x 10 viên tháng 2/2025 là bao nhiêu?",
+    "normalized_ascii": "tien ban savi losartan 50 mg hop 3 vi x 10 vien thang 2/2025 la bao nhieu?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-02-01",
+    "time_end": "2025-02-28",
+    "entity_status": "exact",
+    "inferred_type": "number",
+    "fastpath_code": "df = match_item(revenue_lines(), 'Savi Losartan 50mg hộp 3 vỉ x 10 viên')\nrev = float(df['amount'].sum()) if not df.empty else 0.0\nfinal_result = money(rev) if rev > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

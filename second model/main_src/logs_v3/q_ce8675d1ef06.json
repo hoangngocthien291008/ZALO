@@ -1,0 +1,19 @@
+{
+  "id": "q_ce8675d1ef06",
+  "question": "Chênh lệch nhập trừ bán Bánh tiramisu T10/2025 là bao nhiêu cái?",
+  "answer": {
+    "id": "q_ce8675d1ef06",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0011,
+  "trace": {
+    "normalized_text": "chênh lệch nhập trừ bán bánh tiramisu tháng 10/2025 là bao nhiêu cái?",
+    "normalized_ascii": "chenh lech nhap tru ban banh tiramisu thang 10/2025 la bao nhieu cai?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-10-01",
+    "time_end": "2025-10-31",
+    "entity_status": "exact",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

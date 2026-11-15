@@ -1,0 +1,22 @@
+{
+  "id": "q_da623a004480",
+  "question": "Tháng 3/2025 bán Prednisolon 5mg Boston chai 500 viên được bao nhiêu tiền?",
+  "answer": {
+    "id": "q_da623a004480",
+    "type": "number",
+    "answer": 55000
+  },
+  "elapsed_sec": 0.0464,
+  "trace": {
+    "normalized_text": "tháng 3/2025 bán prednisolon 5 mg boston chai 500 viên được bao nhiêu tiền?",
+    "normalized_ascii": "thang 3/2025 ban prednisolon 5 mg boston chai 500 vien duoc bao nhieu tien?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-03-01",
+    "time_end": "2025-03-31",
+    "entity_status": "exact",
+    "inferred_type": "number",
+    "fastpath_code": "df = match_item(revenue_lines(), 'Prednisolon 5mg Boston chai 500 viên')\nrev = float(df['amount'].sum()) if not df.empty else 0.0\nfinal_result = money(rev) if rev > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

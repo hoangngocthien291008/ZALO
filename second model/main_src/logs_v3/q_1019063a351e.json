@@ -1,0 +1,19 @@
+{
+  "id": "q_1019063a351e",
+  "question": "Tổng tiền thu máy cũ của khách 02/2026?",
+  "answer": {
+    "id": "q_1019063a351e",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.001,
+  "trace": {
+    "normalized_text": "tổng tiền thu máy cũ của khách 02/2026?",
+    "normalized_ascii": "tong tien thu may cu cua khach 02/2026?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-02-01",
+    "time_end": "2026-02-28",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

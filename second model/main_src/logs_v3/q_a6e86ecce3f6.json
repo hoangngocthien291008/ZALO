@@ -1,0 +1,19 @@
+{
+  "id": "q_a6e86ecce3f6",
+  "question": "05/2026 nhan vien NV005 ban dc bnhiu tien?",
+  "answer": {
+    "id": "q_a6e86ecce3f6",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.001,
+  "trace": {
+    "normalized_text": "05/2026 nhân viên nv 005 ban được bao nhiêu tien?",
+    "normalized_ascii": "05/2026 nhan vien nv 005 ban duoc bao nhieu tien?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-05-01",
+    "time_end": "2026-05-31",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

@@ -242,6 +242,7 @@ class DataLoader:
         self.max_data_date: Optional[str] = None
         self.readme_content: str = ""
         self.readme_empty_cols: Set[str] = set()
+        self.readme_col_meanings: Dict[str, str] = {}
         self.is_no_item_detail_shop: bool = False
         self.is_no_customer_shop: bool = False
         self.load_all()
@@ -290,6 +291,13 @@ class DataLoader:
             )
             if m_empty:
                 self.readme_empty_cols.add(m_empty.group(1).strip().lower())
+
+            # Trích xuất ý nghĩa mô tả cột từ README (VD: "- **Khách lẻ/sỉ**: tên")
+            m_meaning = re.search(r"-\s*\*\*(.+?)\*\*:\s*([^\n]+)", line_s)
+            if m_meaning:
+                col_k = m_meaning.group(1).strip().lower()
+                meaning_v = m_meaning.group(2).strip().lower()
+                self.readme_col_meanings[col_k] = meaning_v
 
             m_conv = re.search(
                 r"-\s*(.+?):\s*1\s+([^=]+?)\s*=\s*(\d+)\s+([^\s,;.]+)", line_s
@@ -394,7 +402,15 @@ class DataLoader:
 
     def load_sqlite(self, fname: str, fpath: str) -> None:
         try:
-            conn = sqlite3.connect(fpath)
+            abs_p = os.path.abspath(fpath)
+            conn = None
+            try:
+                conn = sqlite3.connect(f"file:{abs_p}?mode=ro&immutable=1", uri=True)
+            except Exception:
+                try:
+                    conn = sqlite3.connect(f"file:{abs_p}?mode=ro", uri=True)
+                except Exception:
+                    conn = sqlite3.connect(fpath)
             tables = [
                 t[0]
                 for t in conn.execute(
@@ -441,6 +457,12 @@ class DataLoader:
             "mã hđ",
             "số hđ",
             "mã bill",
+            "mã gd",
+            "ma gd",
+            "mã_gd",
+            "ma_gd",
+            "số gd",
+            "so gd",
             "mã phiếu",
             "số phiếu",
             "số ct",
@@ -787,7 +809,19 @@ class BusinessAdapter:
         cols = list(df.columns)
         c_ord = self.find_col(
             cols,
-            [r"mã đơn hàng", r"mã đơn", r"madon", r"ma_don", r"số đơn", r"mã hđ"],
+            [
+                r"mã đơn hàng",
+                r"mã đơn",
+                r"madon",
+                r"ma_don",
+                r"số đơn",
+                r"mã hđ",
+                r"mã gd",
+                r"ma gd",
+                r"ma_gd",
+                r"magd",
+                r"mã giao dịch",
+            ],
         )
         if not c_ord:
             return
@@ -1139,6 +1173,19 @@ class BusinessAdapter:
                 r"^kh$",
             ],
         )
+        if not c_name:
+            # Kiểm tra README hoặc các cột tên đặc thù như 'Khách lẻ/sỉ' chứa họ tên người
+            for col in cols:
+                cl = col.strip().lower()
+                meaning = self.loader.readme_col_meanings.get(cl, "")
+                if "tên" in meaning:
+                    c_name = col
+                    break
+                if any(k in cl for k in ["khách lẻ/sỉ", "khach le/si"]):
+                    sample_vals = [str(x).strip() for x in df[col].dropna().head(10)]
+                    if any(len(x.split()) >= 2 and x.lower() not in ("khách lẻ", "khách sỉ", "le", "si") for x in sample_vals):
+                        c_name = col
+                        break
         c_group = self.find_col(
             cols,
             [
@@ -1221,6 +1268,15 @@ class BusinessAdapter:
                 r"mã chứng từ",
                 r"số ct",
                 r"mã giao dịch",
+                r"^mã gd$",
+                r"^ma gd$",
+                r"^ma_gd$",
+                r"^magd$",
+                r"^mã_gd$",
+                r"^số gd$",
+                r"^so gd$",
+                r"^so_gd$",
+                r"mã gd",
                 r"mã hđ",
                 r"so_hd",
                 r"mahd",
@@ -1303,6 +1359,7 @@ class BusinessAdapter:
                 r"hàng hóa",
                 r"^hàng$",
                 r"ten_hang",
+                r"ten hang",
                 r"ten_sp",
                 r"tensp",
                 r"làm gì",
@@ -1466,8 +1523,14 @@ class BusinessAdapter:
                 r"số kh",
             ],
         )
+        _cust_cols = [
+            c
+            for c in cols
+            if not re.search(r"trả|tra$|nợ|no$|tiền|mã|thanh toán|phải thu", c.strip().lower())
+            or re.search(r"tên", c.strip().lower())
+        ]
         c_cust_name = self.find_col(
-            cols,
+            _cust_cols,
             [
                 r"tên khách hàng",
                 r"khách hàng \(tên\)",
@@ -1827,6 +1890,7 @@ class BusinessAdapter:
                 r"mô tả",
                 r"sản phẩm",
                 r"ten_hang",
+                r"ten hang",
                 r"ten_sp",
             ],
         )

@@ -1,0 +1,22 @@
+{
+  "id": "q_92353891a456",
+  "question": "Dthu ca sáng tháng 3 năm 2025 đc bnhiu z?",
+  "answer": {
+    "id": "q_92353891a456",
+    "type": "number",
+    "answer": 233122000
+  },
+  "elapsed_sec": 0.0238,
+  "trace": {
+    "normalized_text": "doanh thu ca sáng tháng 3 năm 2025 được bao nhiêu vậy?",
+    "normalized_ascii": "doanh thu ca sang thang 3 nam 2025 duoc bao nhieu vay?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-03-01",
+    "time_end": "2025-03-31",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "rev = revenue()\nfinal_result = rev if rev > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

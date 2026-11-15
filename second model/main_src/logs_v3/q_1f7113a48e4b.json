@@ -1,0 +1,19 @@
+{
+  "id": "q_1f7113a48e4b",
+  "question": "Hom qua ban duoc bao nhieu goi, tinh tat ca mat hang ban theo goi?",
+  "answer": {
+    "id": "q_1f7113a48e4b",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0016,
+  "trace": {
+    "normalized_text": "hôm qua ban duoc bao nhiêu goi, tinh tat ca mặt hàng ban theo goi?",
+    "normalized_ascii": "hom qua ban duoc bao nhieu goi, tinh tat ca mat hang ban theo goi?",
+    "time_rule": "R6_yesterday",
+    "time_start": "2026-04-23",
+    "time_end": "2026-04-23",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

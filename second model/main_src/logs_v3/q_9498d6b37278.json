@@ -1,0 +1,22 @@
+{
+  "id": "q_9498d6b37278",
+  "question": "thang nay thuoc ke don chiem bn % dthu kua shop mik",
+  "answer": {
+    "id": "q_9498d6b37278",
+    "type": "percent",
+    "answer": 2.65
+  },
+  "elapsed_sec": 0.0154,
+  "trace": {
+    "normalized_text": "tháng này thuoc kê đơn chiem bao nhiêu% doanh thu của shop mình",
+    "normalized_ascii": "thang nay thuoc ke don chiem bao nhieu% doanh thu cua shop minh",
+    "time_rule": "R12_this_month",
+    "time_start": "2026-05-01",
+    "time_end": "2026-05-10",
+    "entity_status": "not_needed",
+    "inferred_type": "percent",
+    "fastpath_code": "df = revenue_lines()\np = V.get('products')\nrx_codes = set(p[p['is_prescription'] == True]['item_code']) if (p is not None and 'is_prescription' in p.columns) else set()\ntot = float(df['amount'].sum()) if not df.empty else 0.0\nrx_rev = float(df[df['item_code'].isin(rx_codes)]['amount'].sum()) if not df.empty else 0.0\nfinal_result = pct(rx_rev, tot) if tot > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

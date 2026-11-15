@@ -1,0 +1,19 @@
+{
+  "id": "q_47d9c87fa49d",
+  "question": "Tháng 2/2026 trong nhóm mắt mũi họng, mặt hàng nào bán được nhiều tiền nhất?",
+  "answer": {
+    "id": "q_47d9c87fa49d",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0031,
+  "trace": {
+    "normalized_text": "tháng 2/2026 trong nhóm mắt mũi họng, mặt hàng nào bán được nhiều tiền nhất?",
+    "normalized_ascii": "thang 2/2026 trong nhom mat mui hong, mat hang nao ban duoc nhieu tien nhat?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-02-01",
+    "time_end": "2026-02-28",
+    "entity_status": "exact",
+    "inferred_type": "string",
+    "gate": "G4_safe_abstain"
+  }
+}

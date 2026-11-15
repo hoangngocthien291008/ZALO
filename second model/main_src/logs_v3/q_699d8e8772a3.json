@@ -1,0 +1,19 @@
+{
+  "id": "q_699d8e8772a3",
+  "question": "Th2/2026 nhân viên mã NV001 bán tổng cộng nhiêu tiền?",
+  "answer": {
+    "id": "q_699d8e8772a3",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0006,
+  "trace": {
+    "normalized_text": "tháng 2/2026 nhân viên mã nv 001 bán tổng cộng nhiêu tiền?",
+    "normalized_ascii": "thang 2/2026 nhan vien ma nv 001 ban tong cong nhieu tien?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-02-01",
+    "time_end": "2026-02-28",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

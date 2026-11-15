@@ -1,0 +1,22 @@
+{
+  "id": "q_af96aaf1f4e2",
+  "question": "Tính tới hnay, có mấy đơn bán chịu ghi ngày phải trả trong th2/2026?",
+  "answer": {
+    "id": "q_af96aaf1f4e2",
+    "type": "number",
+    "answer": 28
+  },
+  "elapsed_sec": 0.0065,
+  "trace": {
+    "normalized_text": "tính tới hôm nay, có mấy đơn bán chịu ghi ngày phải trả trong tháng 2/2026?",
+    "normalized_ascii": "tinh toi hom nay, co may don ban chiu ghi ngay phai tra trong thang 2/2026?",
+    "time_rule": "R5_today",
+    "time_start": "2026-01-05",
+    "time_end": "2026-01-05",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "df = revenue_lines()\nord_rev = df.groupby('order_id')['amount'].sum() if not df.empty else pd.Series(dtype=float)\nord_rev = ord_rev[ord_rev >= 0.0] if 0.0 > 0 else ord_rev\ncnt = int(len(ord_rev))\nfinal_result = cnt if cnt > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

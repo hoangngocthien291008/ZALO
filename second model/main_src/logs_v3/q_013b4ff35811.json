@@ -1,0 +1,22 @@
+{
+  "id": "q_013b4ff35811",
+  "question": "Cho tôi biết doanh thu tuần này.",
+  "answer": {
+    "id": "q_013b4ff35811",
+    "type": "number",
+    "answer": 230034300
+  },
+  "elapsed_sec": 0.0065,
+  "trace": {
+    "normalized_text": "cho tôi biết doanh thu tuần này.",
+    "normalized_ascii": "cho toi biet doanh thu tuan nay.",
+    "time_rule": "R9_this_week",
+    "time_start": "2025-11-10",
+    "time_end": "2025-11-16",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "rev = revenue()\nfinal_result = rev if rev > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

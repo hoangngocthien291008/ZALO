@@ -1,0 +1,19 @@
+{
+  "id": "q_8a85aa9be5ef",
+  "question": "Đến hết ngày 22/07/2026, nợ còn lại chia theo tuổi nợ: nhóm 0–7 ngày, 8–15 ngày, trên 15 ngày mỗi nhóm bao nhiêu?",
+  "answer": {
+    "id": "q_8a85aa9be5ef",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0018,
+  "trace": {
+    "normalized_text": "đến hết ngày 22/07/2026, nợ còn lại chia theo tuổi nợ: nhóm 0 – 7 ngày, 8 – 15 ngày, trên 15 ngày mỗi nhóm bao nhiêu?",
+    "normalized_ascii": "den het ngay 22/07/2026, no con lai chia theo tuoi no: nhom 0 – 7 ngay, 8 – 15 ngay, tren 15 ngay moi nhom bao nhieu?",
+    "time_rule": "R4_snapshot",
+    "time_start": null,
+    "time_end": "2026-07-22",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

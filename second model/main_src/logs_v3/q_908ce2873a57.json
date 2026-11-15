@@ -1,0 +1,22 @@
+{
+  "id": "q_908ce2873a57",
+  "question": "Khách nào chi nhiều tiền nhất cho cửa hàng trong T5/2026?",
+  "answer": {
+    "id": "q_908ce2873a57",
+    "type": "string",
+    "answer": "KH0160"
+  },
+  "elapsed_sec": 0.076,
+  "trace": {
+    "normalized_text": "khách nào chi nhiều tiền nhất cho cửa hàng trong tháng 5/2026?",
+    "normalized_ascii": "khach nao chi nhieu tien nhat cho cua hang trong thang 5/2026?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-05-01",
+    "time_end": "2026-05-31",
+    "entity_status": "not_needed",
+    "inferred_type": "string",
+    "fastpath_code": "df = revenue_lines()\ndf = df[df['cust_key'] != ''] if not df.empty else df\nfinal_result = top_k(df, value_col='amount', k=1, key_col='cust_key', name_col='cust_name')",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

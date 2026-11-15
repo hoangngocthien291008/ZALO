@@ -1,0 +1,22 @@
+{
+  "id": "q_dbb084b9361d",
+  "question": "5/25 quan thu ve bao nhieu doanh thu?",
+  "answer": {
+    "id": "q_dbb084b9361d",
+    "type": "number",
+    "answer": 245571500
+  },
+  "elapsed_sec": 0.0155,
+  "trace": {
+    "normalized_text": "5/25 quan thu ve bao nhiêu doanh thu?",
+    "normalized_ascii": "5/25 quan thu ve bao nhieu doanh thu?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-05-01",
+    "time_end": "2025-05-31",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "rev = revenue()\nfinal_result = rev if rev > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "q_0878814b6a76",
+  "question": "Thang nay nhap cua ncc nao nhieu tien nhat z?",
+  "answer": {
+    "id": "q_0878814b6a76",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0045,
+  "trace": {
+    "normalized_text": "tháng này nhap cua nhà cung cấp nao nhieu tien nhat vậy?",
+    "normalized_ascii": "thang nay nhap cua nha cung cap nao nhieu tien nhat vay?",
+    "time_rule": "R12_this_month",
+    "time_start": "2026-08-01",
+    "time_end": "2026-08-08",
+    "entity_status": "not_needed",
+    "inferred_type": "string",
+    "fastpath_code": "final_result = top_supplier_by_amount(T['start'], T['end'], k=1)",
+    "fastpath_ok": true,
+    "gate": "G4_safe_abstain"
+  }
+}

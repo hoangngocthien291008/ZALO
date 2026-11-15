@@ -1,0 +1,20 @@
+{
+  "id": "q_77085d36e011",
+  "question": "Cuối ngày 19/09/2026, hàng còn dư trong kho tính theo giá vốn đáng bao nhiêu tiền?",
+  "answer": {
+    "id": "q_77085d36e011",
+    "type": "unanswerable",
+    "reason": "Cửa hàng không có bảng theo dõi tồn kho."
+  },
+  "elapsed_sec": 0.001,
+  "trace": {
+    "normalized_text": "cuối ngày 19/09/2026, hàng còn dư trong kho tính theo giá vốn đáng bao nhiêu tiền?",
+    "normalized_ascii": "cuoi ngay 19/09/2026, hang con du trong kho tinh theo gia von dang bao nhieu tien?",
+    "time_rule": "R4_snapshot",
+    "time_start": null,
+    "time_end": "2026-09-19",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "U2_missing_inventory"
+  }
+}

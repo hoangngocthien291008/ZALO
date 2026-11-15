@@ -1,0 +1,22 @@
+{
+  "id": "q_d62189fd9ee2",
+  "question": "Doanh thu 3 thang tu th3/2025 den th5/2025, thang nao cao nhat?",
+  "answer": {
+    "id": "q_d62189fd9ee2",
+    "type": "date",
+    "answer": "2025-05"
+  },
+  "elapsed_sec": 0.0352,
+  "trace": {
+    "normalized_text": "doanh thu 3 thang tu tháng 3/2025 den tháng 5/2025, thang nao cao nhất?",
+    "normalized_ascii": "doanh thu 3 thang tu thang 3/2025 den thang 5/2025, thang nao cao nhat?",
+    "time_rule": "R2b_month_range",
+    "time_start": "2025-03-01",
+    "time_end": "2025-05-31",
+    "entity_status": "not_needed",
+    "inferred_type": "date",
+    "fastpath_code": "pairs = [(revenue(p['start'], p['end']), p['label']) for p in T['periods']]\npairs = [x for x in pairs if x[0] > 0]\nfinal_result = max(pairs, key=lambda x: x[0])[1] if pairs else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

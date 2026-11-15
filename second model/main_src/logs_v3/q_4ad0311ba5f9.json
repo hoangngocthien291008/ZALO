@@ -1,0 +1,19 @@
+{
+  "id": "q_4ad0311ba5f9",
+  "question": "Tien ban hom qua, tong bao nhieu nhi?",
+  "answer": {
+    "id": "q_4ad0311ba5f9",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.001,
+  "trace": {
+    "normalized_text": "tien ban hôm qua, tong bao nhiêu nhi?",
+    "normalized_ascii": "tien ban hom qua, tong bao nhieu nhi?",
+    "time_rule": "R6_yesterday",
+    "time_start": "2025-08-14",
+    "time_end": "2025-08-14",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

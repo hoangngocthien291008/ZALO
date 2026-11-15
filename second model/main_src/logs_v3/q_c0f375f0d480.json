@@ -1,0 +1,19 @@
+{
+  "id": "q_c0f375f0d480",
+  "question": "Th 5/26 co bao nhieu phan tram don bi huy vay?",
+  "answer": {
+    "id": "q_c0f375f0d480",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.003,
+  "trace": {
+    "normalized_text": "th 5/26 co bao nhiêu phần trăm don bi huy vay?",
+    "normalized_ascii": "th 5/26 co bao nhieu phan tram don bi huy vay?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-05-01",
+    "time_end": "2026-05-31",
+    "entity_status": "not_found",
+    "inferred_type": "percent",
+    "gate": "G3_entity_below_0.70"
+  }
+}

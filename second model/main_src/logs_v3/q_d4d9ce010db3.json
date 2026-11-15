@@ -1,0 +1,22 @@
+{
+  "id": "q_d4d9ce010db3",
+  "question": "Tháng 6/2026 có mấy đơn có tiền hàng từ 450.000 đồng trở lên?",
+  "answer": {
+    "id": "q_d4d9ce010db3",
+    "type": "number",
+    "answer": 390
+  },
+  "elapsed_sec": 0.0065,
+  "trace": {
+    "normalized_text": "tháng 6/2026 có mấy đơn có tiền hàng từ 450.000 đồng trở lên?",
+    "normalized_ascii": "thang 6/2026 co may don co tien hang tu 450.000 dong tro len?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-06-01",
+    "time_end": "2026-06-30",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "df = revenue_lines()\nord_rev = df.groupby('order_id')['amount'].sum() if not df.empty else pd.Series(dtype=float)\nord_rev = ord_rev[ord_rev >= 450000.0] if 450000.0 > 0 else ord_rev\ncnt = int(len(ord_rev))\nfinal_result = cnt if cnt > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

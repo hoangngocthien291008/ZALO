@@ -1,0 +1,22 @@
+{
+  "id": "q_180163673aaa",
+  "question": "trog th11/2025 nv nào bán đc dthu cao nhứt nhỉ",
+  "answer": {
+    "id": "q_180163673aaa",
+    "type": "number",
+    "answer": 1211597100
+  },
+  "elapsed_sec": 0.0337,
+  "trace": {
+    "normalized_text": "trong tháng 11/2025 nv nào bán được doanh thu cao nhất nhỉ",
+    "normalized_ascii": "trong thang 11/2025 nv nao ban duoc doanh thu cao nhat nhi",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-11-01",
+    "time_end": "2025-11-30",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "rev = revenue()\nfinal_result = rev if rev > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

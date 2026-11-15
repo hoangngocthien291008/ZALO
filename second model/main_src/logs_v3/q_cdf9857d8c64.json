@@ -1,0 +1,21 @@
+{
+  "id": "q_cdf9857d8c64",
+  "question": "th1/2026 shop mik nhap tien hang kủa ncc nào lớn nhứt z hen",
+  "answer": {
+    "id": "q_cdf9857d8c64",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0018,
+  "trace": {
+    "normalized_text": "tháng 1/2026 shop mình nhap tien hang kủa nhà cung cấp nào lớn nhất vậy hen",
+    "normalized_ascii": "thang 1/2026 shop minh nhap tien hang kua nha cung cap nao lon nhat vay hen",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-01-01",
+    "time_end": "2026-01-31",
+    "entity_status": "not_needed",
+    "inferred_type": "string",
+    "fastpath_code": "final_result = top_supplier_by_amount(T['start'], T['end'], k=1)",
+    "fastpath_ok": false,
+    "gate": "G4_safe_abstain"
+  }
+}

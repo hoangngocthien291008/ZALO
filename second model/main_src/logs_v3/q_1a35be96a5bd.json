@@ -1,0 +1,19 @@
+{
+  "id": "q_1a35be96a5bd",
+  "question": "Tuan nay quan ban dc bnhiu dia?",
+  "answer": {
+    "id": "q_1a35be96a5bd",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0005,
+  "trace": {
+    "normalized_text": "tuần này quan ban được bao nhiêu dia?",
+    "normalized_ascii": "tuan nay quan ban duoc bao nhieu dia?",
+    "time_rule": "R9_this_week",
+    "time_start": "2025-08-18",
+    "time_end": "2025-08-24",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

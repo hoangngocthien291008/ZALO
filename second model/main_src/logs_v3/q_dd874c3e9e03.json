@@ -1,0 +1,22 @@
+{
+  "id": "q_dd874c3e9e03",
+  "question": "Tuan truoc dthu binh quan tren 1 dh la bnhiu z?",
+  "answer": {
+    "id": "q_dd874c3e9e03",
+    "type": "number",
+    "answer": 255154200
+  },
+  "elapsed_sec": 0.0222,
+  "trace": {
+    "normalized_text": "tuần trước doanh thu bình quân tren 1 dh la bao nhiêu vậy?",
+    "normalized_ascii": "tuan truoc doanh thu binh quan tren 1 dh la bao nhieu vay?",
+    "time_rule": "R10_last_week",
+    "time_start": "2025-12-01",
+    "time_end": "2025-12-07",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "rev = revenue()\nfinal_result = rev if rev > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

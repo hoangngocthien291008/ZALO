@@ -1,0 +1,22 @@
+{
+  "id": "q_318e4b474262",
+  "question": "Bữa qua tiệm bán được bao nhiêu tiền dzậy?",
+  "answer": {
+    "id": "q_318e4b474262",
+    "type": "number",
+    "answer": 15753000
+  },
+  "elapsed_sec": 0.0048,
+  "trace": {
+    "normalized_text": "hôm qua tiệm bán được bao nhiêu tiền dzậy?",
+    "normalized_ascii": "hom qua tiem ban duoc bao nhieu tien dzay?",
+    "time_rule": "R6_yesterday",
+    "time_start": "2025-08-22",
+    "time_end": "2025-08-22",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "rev = revenue()\nfinal_result = rev if rev > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

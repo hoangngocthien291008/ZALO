@@ -1,0 +1,22 @@
+{
+  "id": "q_a85371a13fe2",
+  "question": "Th7/2026 mat hang nao ban chay nhat the?",
+  "answer": {
+    "id": "q_a85371a13fe2",
+    "type": "string",
+    "answer": "Cáp Type-C 1m"
+  },
+  "elapsed_sec": 0.0051,
+  "trace": {
+    "normalized_text": "tháng 7/2026 mặt hàng nao bán chạy nhat the?",
+    "normalized_ascii": "thang 7/2026 mat hang nao ban chay nhat the?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-07-01",
+    "time_end": "2026-07-31",
+    "entity_status": "not_needed",
+    "inferred_type": "string",
+    "fastpath_code": "df = item_lines()\nfinal_result = top_k(df, value_col='qty_base', k=1, key_col='item_code', name_col='item_name')",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "q_e6ffb654ce0b",
+  "question": "Tháng này đơn huỷ chiếm nhiêu % toàn bộ đơn z?",
+  "answer": {
+    "id": "q_e6ffb654ce0b",
+    "type": "percent",
+    "answer": 0.8
+  },
+  "elapsed_sec": 0.0262,
+  "trace": {
+    "normalized_text": "tháng này đơn huỷ chiếm nhiêu% toàn bộ đơn vậy?",
+    "normalized_ascii": "thang nay don huy chiem nhieu% toan bo don vay?",
+    "time_rule": "R12_this_month",
+    "time_start": "2026-05-01",
+    "time_end": "2026-05-10",
+    "entity_status": "not_needed",
+    "inferred_type": "percent",
+    "fastpath_code": "sub = all_orders()\ntot = len(sub['order_id'].unique()) if not sub.empty else 0\ncanc = len(sub[sub['status_norm'] == 'huy']['order_id'].unique()) if not sub.empty else 0\nfinal_result = pct(canc, tot) if tot > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

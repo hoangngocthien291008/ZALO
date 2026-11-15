@@ -1,0 +1,19 @@
+{
+  "id": "q_5fcac0749f24",
+  "question": "7 ngày gần nhất shop mik kó bnhiu món hok bán ra đc cái nào zị, coi nha e",
+  "answer": {
+    "id": "q_5fcac0749f24",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.001,
+  "trace": {
+    "normalized_text": "7 ngày gần nhất shop mình kó bao nhiêu món không bán ra được cái nào zị, coi nha e",
+    "normalized_ascii": "7 ngay gan nhat shop minh ko bao nhieu mon khong ban ra duoc cai nao zi, coi nha e",
+    "time_rule": "R7_n_days",
+    "time_start": "2025-09-21",
+    "time_end": "2025-09-27",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

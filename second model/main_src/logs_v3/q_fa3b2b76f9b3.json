@@ -1,0 +1,19 @@
+{
+  "id": "q_fa3b2b76f9b3",
+  "question": "01/2026 co bao nhieu mat hang co mat trong tu 79 don khac nhau tro len?",
+  "answer": {
+    "id": "q_fa3b2b76f9b3",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0016,
+  "trace": {
+    "normalized_text": "01/2026 co bao nhiêu mặt hàng co mat trong tu 79 don khac nhau trở lên?",
+    "normalized_ascii": "01/2026 co bao nhieu mat hang co mat trong tu 79 don khac nhau tro len?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-01-01",
+    "time_end": "2026-01-31",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

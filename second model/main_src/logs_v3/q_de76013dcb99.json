@@ -1,0 +1,22 @@
+{
+  "id": "q_de76013dcb99",
+  "question": "Dthu dịp Tết âm lịch 2026 bnhiu z?",
+  "answer": {
+    "id": "q_de76013dcb99",
+    "type": "number",
+    "answer": 1246308000
+  },
+  "elapsed_sec": 0.0041,
+  "trace": {
+    "normalized_text": "doanh thu dịp tết âm lịch 2026 bao nhiêu vậy?",
+    "normalized_ascii": "doanh thu dip tet am lich 2026 bao nhieu vay?",
+    "time_rule": "R1_tet",
+    "time_start": "2026-02-10",
+    "time_end": "2026-02-26",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "rev = revenue()\nfinal_result = rev if rev > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

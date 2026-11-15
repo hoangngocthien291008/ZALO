@@ -1,0 +1,22 @@
+{
+  "id": "q_e4fd11ebbadf",
+  "question": "Th5/2026 dthu cũa tiệm ra bao nhiêu rứa?",
+  "answer": {
+    "id": "q_e4fd11ebbadf",
+    "type": "number",
+    "answer": 106139500
+  },
+  "elapsed_sec": 0.008,
+  "trace": {
+    "normalized_text": "tháng 5/2026 doanh thu cũa tiệm ra bao nhiêu vậy?",
+    "normalized_ascii": "thang 5/2026 doanh thu cua tiem ra bao nhieu vay?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-05-01",
+    "time_end": "2026-05-31",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "rev = revenue()\nfinal_result = rev if rev > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

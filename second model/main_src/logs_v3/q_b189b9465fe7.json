@@ -1,0 +1,22 @@
+{
+  "id": "q_b189b9465fe7",
+  "question": "2/26 ngày nào dthu cao nhất z?",
+  "answer": {
+    "id": "q_b189b9465fe7",
+    "type": "date",
+    "answer": "2026-02-02"
+  },
+  "elapsed_sec": 0.0158,
+  "trace": {
+    "normalized_text": "2/26 ngày nào doanh thu cao nhất vậy?",
+    "normalized_ascii": "2/26 ngay nao doanh thu cao nhat vay?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-02-01",
+    "time_end": "2026-02-28",
+    "entity_status": "not_needed",
+    "inferred_type": "date",
+    "fastpath_code": "df = revenue_lines()\ndaily = df[df['date'] != ''].groupby('date', as_index=False)['amount'].sum() if not df.empty else pd.DataFrame()\ndaily = daily.sort_values(by=['amount', 'date'], ascending=[False, True], kind='mergesort') if not daily.empty else daily\nfinal_result = str(daily.iloc[0]['date'])[:10] if not daily.empty else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

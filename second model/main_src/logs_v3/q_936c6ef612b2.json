@@ -1,0 +1,19 @@
+{
+  "id": "q_936c6ef612b2",
+  "question": "Tới hnay, đơn đặt th3/2026 có mấy đơn đã giao từ 2 đợt trở lên?",
+  "answer": {
+    "id": "q_936c6ef612b2",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0005,
+  "trace": {
+    "normalized_text": "tới hôm nay, đơn đặt tháng 3/2026 có mấy đơn đã giao từ 2 đợt trở lên?",
+    "normalized_ascii": "toi hom nay, don dat thang 3/2026 co may don da giao tu 2 dot tro len?",
+    "time_rule": "R5_today",
+    "time_start": "2026-03-31",
+    "time_end": "2026-03-31",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

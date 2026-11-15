@@ -1,0 +1,22 @@
+{
+  "id": "q_acfd51bb9870",
+  "question": "Cả ngày hôm nay doanh thu được bao nhiêu?",
+  "answer": {
+    "id": "q_acfd51bb9870",
+    "type": "number",
+    "answer": 10706000
+  },
+  "elapsed_sec": 0.0044,
+  "trace": {
+    "normalized_text": "cả ngày hôm nay doanh thu được bao nhiêu?",
+    "normalized_ascii": "ca ngay hom nay doanh thu duoc bao nhieu?",
+    "time_rule": "R5_today",
+    "time_start": "2025-09-02",
+    "time_end": "2025-09-02",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "rev = revenue()\nfinal_result = rev if rev > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "q_378a68e7ff82",
+  "question": "Tiffy Dey hộp 25 vỉ x 4 viên đổi giá từ 1.200đ lên 1.300đ vào ngày 16/10/2025. 30 ngày kể từ ngày đó bán được nhiều hay ít hơn 30 ngày liền trước bao nhiêu %, tính theo viên?",
+  "answer": {
+    "id": "q_378a68e7ff82",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0926,
+  "trace": {
+    "normalized_text": "tiffy dey hộp 25 vỉ x 4 viên đổi giá từ 1.200 đ lên 1.300 đ vào ngày 16/10/2025. 30 ngày kể từ ngày đó bán được nhiều hay ít hơn 30 ngày liền trước bao nhiêu%, tính theo viên?",
+    "normalized_ascii": "tiffy dey hop 25 vi x 4 vien doi gia tu 1.200 d len 1.300 d vao ngay 16/10/2025. 30 ngay ke tu ngay do ban duoc nhieu hay it hon 30 ngay lien truoc bao nhieu%, tinh theo vien?",
+    "time_rule": "R2_price_effect",
+    "time_start": "2025-10-16",
+    "time_end": "2025-11-14",
+    "entity_status": "exact",
+    "inferred_type": "percent",
+    "fastpath_code": "df_after = match_item(item_lines(T['start'], T['end']), 'Tiffy Dey hộp 25 vỉ x 4 viên')\ndf_before = match_item(item_lines(T['cmp_start'], T['cmp_end']), 'Tiffy Dey hộp 25 vỉ x 4 viên')\nq_after = float(df_after['qty_base'].sum()) if not df_after.empty else 0.0\nq_before = float(df_before['qty_base'].sum()) if not df_before.empty else 0.0\nfinal_result = growth(q_after, q_before) if (q_before > 0 and q_after > 0) else None",
+    "fastpath_ok": true,
+    "gate": "G4_safe_abstain"
+  }
+}

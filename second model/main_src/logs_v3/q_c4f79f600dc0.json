@@ -1,0 +1,19 @@
+{
+  "id": "q_c4f79f600dc0",
+  "question": "30 ngay gan nhat doanhthu duoc bao nhieu?",
+  "answer": {
+    "id": "q_c4f79f600dc0",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0006,
+  "trace": {
+    "normalized_text": "30 ngay gan nhat doanhthu duoc bao nhiêu?",
+    "normalized_ascii": "30 ngay gan nhat doanhthu duoc bao nhieu?",
+    "time_rule": "R7_n_days",
+    "time_start": "2026-04-09",
+    "time_end": "2026-05-08",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

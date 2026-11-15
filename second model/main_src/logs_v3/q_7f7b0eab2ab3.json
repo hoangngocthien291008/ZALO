@@ -1,0 +1,19 @@
+{
+  "id": "q_7f7b0eab2ab3",
+  "question": "Hnay tiệm bán đc tổng nhiêu tiền z?",
+  "answer": {
+    "id": "q_7f7b0eab2ab3",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0008,
+  "trace": {
+    "normalized_text": "hôm nay tiệm bán được tổng nhiêu tiền vậy?",
+    "normalized_ascii": "hom nay tiem ban duoc tong nhieu tien vay?",
+    "time_rule": "R5_today",
+    "time_start": "2025-05-19",
+    "time_end": "2025-05-19",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

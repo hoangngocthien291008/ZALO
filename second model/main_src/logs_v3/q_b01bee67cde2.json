@@ -1,0 +1,19 @@
+{
+  "id": "q_b01bee67cde2",
+  "question": "Hết ngày hôm nay tiệm đang đứt hàng mấy mặt hàng?",
+  "answer": {
+    "id": "q_b01bee67cde2",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0024,
+  "trace": {
+    "normalized_text": "hết ngày hôm nay tiệm đang đứt hàng mấy mặt hàng?",
+    "normalized_ascii": "het ngay hom nay tiem dang dut hang may mat hang?",
+    "time_rule": "R5_today",
+    "time_start": "2025-10-25",
+    "time_end": "2025-10-25",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

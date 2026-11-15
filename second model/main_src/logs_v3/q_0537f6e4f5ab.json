@@ -1,0 +1,22 @@
+{
+  "id": "q_0537f6e4f5ab",
+  "question": "So sánh 3/25, 4/25 và 5/25 xem tháng nào cửa hàng bán đc nhiều tiền nhất",
+  "answer": {
+    "id": "q_0537f6e4f5ab",
+    "type": "date",
+    "answer": "2025-05"
+  },
+  "elapsed_sec": 0.0448,
+  "trace": {
+    "normalized_text": "so sánh 3/25, 4/25 và 5/25 xem tháng nào cửa hàng bán được nhiều tiền nhất",
+    "normalized_ascii": "so sanh 3/25, 4/25 va 5/25 xem thang nao cua hang ban duoc nhieu tien nhat",
+    "time_rule": "R2b_month_list",
+    "time_start": "2025-03-01",
+    "time_end": "2025-05-31",
+    "entity_status": "not_needed",
+    "inferred_type": "date",
+    "fastpath_code": "pairs = [(revenue(p['start'], p['end']), p['label']) for p in T['periods']]\npairs = [x for x in pairs if x[0] > 0]\nfinal_result = max(pairs, key=lambda x: x[0])[1] if pairs else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

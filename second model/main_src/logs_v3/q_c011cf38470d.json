@@ -1,0 +1,19 @@
+{
+  "id": "q_c011cf38470d",
+  "question": "Tháng 11 năm 2025 mỗi đơn bình quân được bao nhiêu doanh thu ha?",
+  "answer": {
+    "id": "q_c011cf38470d",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0006,
+  "trace": {
+    "normalized_text": "tháng 11 năm 2025 mỗi đơn bình quân được bao nhiêu doanh thu ha?",
+    "normalized_ascii": "thang 11 nam 2025 moi don binh quan duoc bao nhieu doanh thu ha?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-11-01",
+    "time_end": "2025-11-30",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

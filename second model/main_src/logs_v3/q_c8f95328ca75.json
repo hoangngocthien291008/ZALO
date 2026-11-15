@@ -1,0 +1,19 @@
+{
+  "id": "q_c8f95328ca75",
+  "question": "hoi nhanh xiu, dau goi clear 630g len 152k tu 28/5/2025 a, mun bit so chai ban 30 ngay tu bua do so vs 30 ngay trc do tang hay giam bn %",
+  "answer": {
+    "id": "q_c8f95328ca75",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.001,
+  "trace": {
+    "normalized_text": "hoi nhanh xiu, dau goi clear 630 g len 152 k tu 28/5/2025 a, mun bit so chai ban 30 ngay tu bua do so so với 30 ngay trước do tang hay giam bao nhiêu%",
+    "normalized_ascii": "hoi nhanh xiu, dau goi clear 630 g len 152 k tu 28/5/2025 a, mun bit so chai ban 30 ngay tu bua do so so voi 30 ngay truoc do tang hay giam bao nhieu%",
+    "time_rule": "R8_exact_date",
+    "time_start": "2025-05-28",
+    "time_end": "2025-05-28",
+    "entity_status": "exact",
+    "inferred_type": "percent",
+    "gate": "G4_safe_abstain"
+  }
+}

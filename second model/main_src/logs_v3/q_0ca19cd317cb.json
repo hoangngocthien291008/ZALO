@@ -1,0 +1,19 @@
+{
+  "id": "q_0ca19cd317cb",
+  "question": "Kể giúp các sp còn lô tồn hết hạn trong 90 ngày tới.",
+  "answer": {
+    "id": "q_0ca19cd317cb",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0036,
+  "trace": {
+    "normalized_text": "kể giúp các sản phẩm còn lô tồn hết hạn trong 90 ngày tới.",
+    "normalized_ascii": "ke giup cac san pham con lo ton het han trong 90 ngay toi.",
+    "time_rule": "none",
+    "time_start": "2026-08-08",
+    "time_end": "2026-08-08",
+    "entity_status": "not_found",
+    "inferred_type": "number",
+    "gate": "G2_missing_time"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "q_c9afaa1f4f9e",
+  "question": "Tháng 10 năm 2025 Thẻ nhớ microSD 64GB bán ra mấy cái?",
+  "answer": {
+    "id": "q_c9afaa1f4f9e",
+    "type": "number",
+    "answer": 6
+  },
+  "elapsed_sec": 0.0056,
+  "trace": {
+    "normalized_text": "tháng 10 năm 2025 thẻ nhớ microsd 64 gb bán ra mấy cái?",
+    "normalized_ascii": "thang 10 nam 2025 the nho microsd 64 gb ban ra may cai?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-10-01",
+    "time_end": "2025-10-31",
+    "entity_status": "exact",
+    "inferred_type": "number",
+    "fastpath_code": "df = match_item(item_lines(), 'Thẻ nhớ microSD 64GB')\nq = float(df['qty_base'].sum()) if not df.empty else 0.0\nfinal_result = (int(round(q)) if abs(q - round(q)) < 1e-6 else round(q, 2)) if q > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

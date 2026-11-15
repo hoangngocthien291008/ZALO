@@ -1,0 +1,19 @@
+{
+  "id": "q_45d6cbc135b3",
+  "question": "Từ hồi Trà vải (L) lên giá 47.000đ, so 30 ngày kể từ ngày đổi giá với 30 ngày trước đó, trung bình mỗi ngày số ly bán ra tăng hay giảm bao nhiêu %?",
+  "answer": {
+    "id": "q_45d6cbc135b3",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0,
+  "trace": {
+    "normalized_text": "từ hồi trà vải (l) lên giá 47.000 đ, so 30 ngày kể từ ngày đổi giá với 30 ngày trước đó, trung bình mỗi ngày số ly bán ra tăng hay giảm bao nhiêu%?",
+    "normalized_ascii": "tu hoi tra vai (l) len gia 47.000 d, so 30 ngay ke tu ngay doi gia voi 30 ngay truoc do, trung binh moi ngay so ly ban ra tang hay giam bao nhieu%?",
+    "time_rule": "none",
+    "time_start": "2026-08-21",
+    "time_end": "2026-08-21",
+    "entity_status": "exact",
+    "inferred_type": "percent",
+    "gate": "G2_missing_time"
+  }
+}

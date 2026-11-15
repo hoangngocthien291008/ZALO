@@ -1,0 +1,22 @@
+{
+  "id": "q_f20f4f3ec923",
+  "question": "5-2025 tiệm bán ra bnhiu viên Panadol 500mg hộp 10 vỉ x 12 viên?",
+  "answer": {
+    "id": "q_f20f4f3ec923",
+    "type": "number",
+    "answer": 949
+  },
+  "elapsed_sec": 0.042,
+  "trace": {
+    "normalized_text": "5-2025 tiệm bán ra bao nhiêu viên panadol 500 mg hộp 10 vỉ x 12 viên?",
+    "normalized_ascii": "5-2025 tiem ban ra bao nhieu vien panadol 500 mg hop 10 vi x 12 vien?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-05-01",
+    "time_end": "2025-05-31",
+    "entity_status": "exact",
+    "inferred_type": "number",
+    "fastpath_code": "df = match_item(item_lines(), 'Panadol 500mg hộp 10 vỉ x 12 viên')\nq = float(df['qty_base'].sum()) if not df.empty else 0.0\nfinal_result = (int(round(q)) if abs(q - round(q)) < 1e-6 else round(q, 2)) if q > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

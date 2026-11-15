@@ -1,0 +1,22 @@
+{
+  "id": "q_d4b2f0aaf69a",
+  "question": "Tháng 8/2025 bán Bia Sài Gòn Special 330ml được bao nhiêu tiền?",
+  "answer": {
+    "id": "q_d4b2f0aaf69a",
+    "type": "number",
+    "answer": 2516000
+  },
+  "elapsed_sec": 0.0374,
+  "trace": {
+    "normalized_text": "tháng 8/2025 bán bia sài gòn special 330 ml được bao nhiêu tiền?",
+    "normalized_ascii": "thang 8/2025 ban bia sai gon special 330 ml duoc bao nhieu tien?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-08-01",
+    "time_end": "2025-08-31",
+    "entity_status": "exact",
+    "inferred_type": "number",
+    "fastpath_code": "df = match_item(revenue_lines(), 'Bia Sài Gòn Special 330ml')\nrev = float(df['amount'].sum()) if not df.empty else 0.0\nfinal_result = money(rev) if rev > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

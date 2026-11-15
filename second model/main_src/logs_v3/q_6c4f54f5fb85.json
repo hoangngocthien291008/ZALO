@@ -1,0 +1,19 @@
+{
+  "id": "q_6c4f54f5fb85",
+  "question": "Nhung sp nao con hang trong kho co hsd tu 08/08/2026 toi het 05/01/2027 vay?",
+  "answer": {
+    "id": "q_6c4f54f5fb85",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0011,
+  "trace": {
+    "normalized_text": "nhung sản phẩm nao con hang trong kho co hạn sử dụng tu 08/08/2026 toi het 05/01/2027 vay?",
+    "normalized_ascii": "nhung san pham nao con hang trong kho co han su dung tu 08/08/2026 toi het 05/01/2027 vay?",
+    "time_rule": "R2_date_range",
+    "time_start": "2026-08-08",
+    "time_end": "2027-01-05",
+    "entity_status": "not_needed",
+    "inferred_type": "list",
+    "gate": "G4_safe_abstain"
+  }
+}

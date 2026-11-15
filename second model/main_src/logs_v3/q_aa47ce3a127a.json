@@ -1,0 +1,19 @@
+{
+  "id": "q_aa47ce3a127a",
+  "question": "Tinh den het ngay 05/04/2026, no con lai xep theo 3 nhom tuoi no 0–7 ngay, 8–15 ngay, tren 15 ngay thi tung nhom bao nhieu tien?",
+  "answer": {
+    "id": "q_aa47ce3a127a",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0015,
+  "trace": {
+    "normalized_text": "tinh đến hết ngay 05/04/2026, no con lai xep theo 3 nhom tuoi no 0 – 7 ngay, 8 – 15 ngay, tren 15 ngay thi tung nhom bao nhiêu tien?",
+    "normalized_ascii": "tinh den het ngay 05/04/2026, no con lai xep theo 3 nhom tuoi no 0 – 7 ngay, 8 – 15 ngay, tren 15 ngay thi tung nhom bao nhieu tien?",
+    "time_rule": "R4_snapshot",
+    "time_start": null,
+    "time_end": "2026-04-05",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "q_c6bfd1c2506f",
+  "question": "Tat ca mat hang tinh theo goi, tuan truoc ban ra duoc may goi?",
+  "answer": {
+    "id": "q_c6bfd1c2506f",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0032,
+  "trace": {
+    "normalized_text": "tat ca mặt hàng tinh theo goi, tuần trước ban ra duoc may goi?",
+    "normalized_ascii": "tat ca mat hang tinh theo goi, tuan truoc ban ra duoc may goi?",
+    "time_rule": "R10_last_week",
+    "time_start": "2026-03-02",
+    "time_end": "2026-03-08",
+    "entity_status": "not_found",
+    "inferred_type": "number",
+    "gate": "G3_entity_below_0.70"
+  }
+}

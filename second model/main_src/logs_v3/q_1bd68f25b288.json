@@ -1,0 +1,19 @@
+{
+  "id": "q_1bd68f25b288",
+  "question": "Tiệm mình thường đông khách nhất dào mấy giờ z?",
+  "answer": {
+    "id": "q_1bd68f25b288",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0,
+  "trace": {
+    "normalized_text": "tiệm mình thường đông khách nhất dào mấy giờ vậy?",
+    "normalized_ascii": "tiem minh thuong dong khach nhat dao may gio vay?",
+    "time_rule": "none",
+    "time_start": "2026-05-10",
+    "time_end": "2026-05-10",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G2_missing_time"
+  }
+}

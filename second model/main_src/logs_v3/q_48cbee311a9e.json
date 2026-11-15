@@ -1,0 +1,19 @@
+{
+  "id": "q_48cbee311a9e",
+  "question": "Cho em hỏi doanh thu từ mùng 1 tháng này đến hết hôm nay so với cùng kỳ tháng trước tăng hay giảm bao nhiêu phần trăm ạ?",
+  "answer": {
+    "id": "q_48cbee311a9e",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.002,
+  "trace": {
+    "normalized_text": "cho em hỏi doanh thu từ mùng 1 tháng này đến hết hôm nay so với cùng kỳ tháng trước tăng hay giảm bao nhiêu phần trăm ạ?",
+    "normalized_ascii": "cho em hoi doanh thu tu mung 1 thang nay den het hom nay so voi cung ky thang truoc tang hay giam bao nhieu phan tram a?",
+    "time_rule": "R12_this_month",
+    "time_start": "2026-02-01",
+    "time_end": "2026-02-25",
+    "entity_status": "not_found",
+    "inferred_type": "percent",
+    "gate": "G3_entity_below_0.70"
+  }
+}

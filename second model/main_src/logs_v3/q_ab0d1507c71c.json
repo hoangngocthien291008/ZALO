@@ -1,0 +1,19 @@
+{
+  "id": "q_ab0d1507c71c",
+  "question": "Th này bỉm Moony chiếm mấy % số bịch bỉm bán ra, tính hết các size?",
+  "answer": {
+    "id": "q_ab0d1507c71c",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0141,
+  "trace": {
+    "normalized_text": "tháng này bỉm moony chiếm mấy% số bịch bỉm bán ra, tính hết các size?",
+    "normalized_ascii": "thang nay bim moony chiem may% so bich bim ban ra, tinh het cac size?",
+    "time_rule": "R12_this_month",
+    "time_start": "2026-06-01",
+    "time_end": "2026-06-30",
+    "entity_status": "not_found",
+    "inferred_type": "percent",
+    "gate": "G3_entity_below_0.70"
+  }
+}

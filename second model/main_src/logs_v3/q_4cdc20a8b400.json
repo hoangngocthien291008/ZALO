@@ -1,0 +1,22 @@
+{
+  "id": "q_4cdc20a8b400",
+  "question": "Tỉ lệ huỷ đơn th3/2025 mấy phần trăm vậy?",
+  "answer": {
+    "id": "q_4cdc20a8b400",
+    "type": "percent",
+    "answer": 2.78
+  },
+  "elapsed_sec": 0.0256,
+  "trace": {
+    "normalized_text": "tỉ lệ huỷ đơn tháng 3/2025 mấy phần trăm vậy?",
+    "normalized_ascii": "ti le huy don thang 3/2025 may phan tram vay?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-03-01",
+    "time_end": "2025-03-31",
+    "entity_status": "exact",
+    "inferred_type": "percent",
+    "fastpath_code": "sub = all_orders()\ntot = len(sub['order_id'].unique()) if not sub.empty else 0\ncanc = len(sub[sub['status_norm'] == 'huy']['order_id'].unique()) if not sub.empty else 0\nfinal_result = pct(canc, tot) if tot > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

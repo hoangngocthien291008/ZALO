@@ -1,0 +1,22 @@
+{
+  "id": "q_cf5c5dac1b20",
+  "question": "Tháng 7/2026 bán Topping Trân châu đen được bao nhiêu tiền?",
+  "answer": {
+    "id": "q_cf5c5dac1b20",
+    "type": "number",
+    "answer": 1309000
+  },
+  "elapsed_sec": 0.0476,
+  "trace": {
+    "normalized_text": "tháng 7/2026 bán topping trân châu đen được bao nhiêu tiền?",
+    "normalized_ascii": "thang 7/2026 ban topping tran chau den duoc bao nhieu tien?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-07-01",
+    "time_end": "2026-07-31",
+    "entity_status": "exact",
+    "inferred_type": "number",
+    "fastpath_code": "df = match_item(revenue_lines(), 'Topping Trân châu đen')\nrev = float(df['amount'].sum()) if not df.empty else 0.0\nfinal_result = money(rev) if rev > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

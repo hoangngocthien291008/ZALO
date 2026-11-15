@@ -1,0 +1,22 @@
+{
+  "id": "q_a91c8a25a22f",
+  "question": "Dthu thuốc kê đơn tháng 12 năm 2025 là bnhui?",
+  "answer": {
+    "id": "q_a91c8a25a22f",
+    "type": "number",
+    "answer": 6952700
+  },
+  "elapsed_sec": 0.0137,
+  "trace": {
+    "normalized_text": "doanh thu thuốc kê đơn tháng 12 năm 2025 là bnhui?",
+    "normalized_ascii": "doanh thu thuoc ke don thang 12 nam 2025 la bnhui?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-12-01",
+    "time_end": "2025-12-31",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "df = revenue_lines()\np = V.get('products')\nrx_codes = set(p[p['is_prescription'] == True]['item_code']) if (p is not None and 'is_prescription' in p.columns) else set()\nrx_rev = float(df[df['item_code'].isin(rx_codes)]['amount'].sum()) if not df.empty else 0.0\nfinal_result = money(rx_rev) if rx_rev > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

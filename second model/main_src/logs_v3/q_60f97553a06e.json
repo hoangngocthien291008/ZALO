@@ -1,0 +1,22 @@
+{
+  "id": "q_60f97553a06e",
+  "question": "coi jùm mik, từ đầu năm nay tới hết hôm nay dthu kủa shop đc bnhiu rooif đó??",
+  "answer": {
+    "id": "q_60f97553a06e",
+    "type": "number",
+    "answer": 1117431900
+  },
+  "elapsed_sec": 0.0143,
+  "trace": {
+    "normalized_text": "coi jùm mình, từ đầu năm nay tới hết hôm nay doanh thu kủa shop được bao nhiêu rồi đó??",
+    "normalized_ascii": "coi jum minh, tu dau nam nay toi het hom nay doanh thu kua shop duoc bao nhieu roi do??",
+    "time_rule": "R3_ytd",
+    "time_start": "2025-01-01",
+    "time_end": "2025-05-02",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "rev = revenue()\nfinal_result = rev if rev > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

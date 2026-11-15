@@ -1,0 +1,19 @@
+{
+  "id": "q_d547526c4d5d",
+  "question": "Thang 1 nam 2026 nhan vien nao ban dc nhieu tien nhat z?",
+  "answer": {
+    "id": "q_d547526c4d5d",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0006,
+  "trace": {
+    "normalized_text": "thang 1 nam 2026 nhân viên nao ban được nhieu tien nhat vậy?",
+    "normalized_ascii": "thang 1 nam 2026 nhan vien nao ban duoc nhieu tien nhat vay?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-01-01",
+    "time_end": "2026-01-31",
+    "entity_status": "not_needed",
+    "inferred_type": "string",
+    "gate": "G4_safe_abstain"
+  }
+}

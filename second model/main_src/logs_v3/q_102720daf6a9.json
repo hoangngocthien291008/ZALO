@@ -1,0 +1,22 @@
+{
+  "id": "q_102720daf6a9",
+  "question": "Năm nay, tính từ đầu năm đến hết hôm nay, doanh thu của cửa hàng là bao nhiêu?",
+  "answer": {
+    "id": "q_102720daf6a9",
+    "type": "number",
+    "answer": 685034500
+  },
+  "elapsed_sec": 0.0101,
+  "trace": {
+    "normalized_text": "năm nay, tính từ đầu năm đến hết hôm nay, doanh thu của cửa hàng là bao nhiêu?",
+    "normalized_ascii": "nam nay, tinh tu dau nam den het hom nay, doanh thu cua cua hang la bao nhieu?",
+    "time_rule": "R3_ytd",
+    "time_start": "2026-01-01",
+    "time_end": "2026-02-15",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "rev = revenue()\nfinal_result = rev if rev > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

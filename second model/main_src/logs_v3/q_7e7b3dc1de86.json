@@ -1,0 +1,19 @@
+{
+  "id": "q_7e7b3dc1de86",
+  "question": "6/2025 dthu don tai quay bao nhieu, don qua dien thoai bao nhieu?",
+  "answer": {
+    "id": "q_7e7b3dc1de86",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0021,
+  "trace": {
+    "normalized_text": "6/2025 doanh thu don tai quay bao nhiêu, don qua dien thoai bao nhiêu?",
+    "normalized_ascii": "6/2025 doanh thu don tai quay bao nhieu, don qua dien thoai bao nhieu?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-06-01",
+    "time_end": "2025-06-30",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

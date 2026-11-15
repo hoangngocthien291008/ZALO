@@ -1,0 +1,22 @@
+{
+  "id": "q_4cffc6443c2c",
+  "question": "Dthu th1/2026 đc bnhiu z?",
+  "answer": {
+    "id": "q_4cffc6443c2c",
+    "type": "number",
+    "answer": 283530300
+  },
+  "elapsed_sec": 0.0155,
+  "trace": {
+    "normalized_text": "doanh thu tháng 1/2026 được bao nhiêu vậy?",
+    "normalized_ascii": "doanh thu thang 1/2026 duoc bao nhieu vay?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-01-01",
+    "time_end": "2026-01-31",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "rev = revenue()\nfinal_result = rev if rev > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

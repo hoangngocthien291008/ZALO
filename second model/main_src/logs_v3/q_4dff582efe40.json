@@ -1,0 +1,22 @@
+{
+  "id": "q_4dff582efe40",
+  "question": "Tuần trước, 5 sản phẩm nào bán chạy nhất?",
+  "answer": {
+    "id": "q_4dff582efe40",
+    "type": "string",
+    "answer": "Smecta hộp 30 gói"
+  },
+  "elapsed_sec": 0.0258,
+  "trace": {
+    "normalized_text": "tuần trước, 5 sản phẩm nào bán chạy nhất?",
+    "normalized_ascii": "tuan truoc, 5 san pham nao ban chay nhat?",
+    "time_rule": "R10_last_week",
+    "time_start": "2025-09-15",
+    "time_end": "2025-09-21",
+    "entity_status": "not_needed",
+    "inferred_type": "string",
+    "fastpath_code": "df = item_lines()\nfinal_result = top_k(df, value_col='qty_base', k=1, key_col='item_code', name_col='item_name')",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

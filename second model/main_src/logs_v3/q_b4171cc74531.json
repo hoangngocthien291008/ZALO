@@ -1,0 +1,22 @@
+{
+  "id": "q_b4171cc74531",
+  "question": "nhờ xíu nha, trog th3/2026 shop mik banh croissant nhập zìa tru so ban ra thi dc bnhiu cai luôn đi e",
+  "answer": {
+    "id": "q_b4171cc74531",
+    "type": "number",
+    "answer": 105
+  },
+  "elapsed_sec": 0.0647,
+  "trace": {
+    "normalized_text": "nhờ xíu nha, trong tháng 3/2026 shop mình banh croissant nhập zìa tru so ban ra thi được bao nhiêu cai luôn đi e",
+    "normalized_ascii": "nho xiu nha, trong thang 3/2026 shop minh banh croissant nhap zia tru so ban ra thi duoc bao nhieu cai luon di e",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-03-01",
+    "time_end": "2026-03-31",
+    "entity_status": "exact",
+    "inferred_type": "number",
+    "fastpath_code": "df = match_item(item_lines(), 'Bánh croissant')\nq = float(df['qty_base'].sum()) if not df.empty else 0.0\nfinal_result = (int(round(q)) if abs(q - round(q)) < 1e-6 else round(q, 2)) if q > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

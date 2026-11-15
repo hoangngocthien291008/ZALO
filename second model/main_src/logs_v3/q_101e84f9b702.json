@@ -1,0 +1,22 @@
+{
+  "id": "q_101e84f9b702",
+  "question": "trog tháng 6 wán mik lãi gộp đc bnhiu dzạ 🤔",
+  "answer": {
+    "id": "q_101e84f9b702",
+    "type": "number",
+    "answer": 188236331
+  },
+  "elapsed_sec": 0.0218,
+  "trace": {
+    "normalized_text": "trong tháng 6 quán mình lãi gộp được bao nhiêu vậy 🤔",
+    "normalized_ascii": "trong thang 6 quan minh lai gop duoc bao nhieu vay 🤔",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-06-01",
+    "time_end": "2026-06-30",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "final_result = gross_profit(T['start'], T['end'], T['shift'])",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "q_fc4f06f3006b",
+  "question": "Dthu T6/2025 so tháng liền trước tăng hay giảm mấy %?",
+  "answer": {
+    "id": "q_fc4f06f3006b",
+    "type": "percent",
+    "answer": -6.43
+  },
+  "elapsed_sec": 0.028,
+  "trace": {
+    "normalized_text": "doanh thu tháng 6/2025 so tháng liền trước tăng hay giảm mấy%?",
+    "normalized_ascii": "doanh thu thang 6/2025 so thang lien truoc tang hay giam may%?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-06-01",
+    "time_end": "2025-06-30",
+    "entity_status": "not_needed",
+    "inferred_type": "percent",
+    "fastpath_code": "r_curr = revenue(T['start'], T['end'], T['shift'])\nr_prev = revenue(T['cmp_start'], T['cmp_end'], T['shift'])\nfinal_result = growth(r_curr, r_prev) if (r_prev > 0 and r_curr > 0) else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

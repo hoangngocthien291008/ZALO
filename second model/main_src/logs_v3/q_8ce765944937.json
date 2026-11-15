@@ -1,0 +1,19 @@
+{
+  "id": "q_8ce765944937",
+  "question": "ê, kac ngay thứ 3 thang nay trung binh 1 ngay kó bnhiu luot xe zô shop mik z nè 📊",
+  "answer": {
+    "id": "q_8ce765944937",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0032,
+  "trace": {
+    "normalized_text": "ê, kac ngay thứ 3 tháng này trung bình 1 ngay kó bao nhiêu lượt xe zô shop mình z nè 📊",
+    "normalized_ascii": "e, kac ngay thu 3 thang nay trung binh 1 ngay ko bao nhieu luot xe zo shop minh z ne 📊",
+    "time_rule": "R12_this_month",
+    "time_start": "2026-08-01",
+    "time_end": "2026-08-31",
+    "entity_status": "exact",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

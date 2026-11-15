@@ -1,0 +1,26 @@
+{
+  "id": "q_3af7b33f08a6",
+  "question": "Doanh thu T11/2025, T12/2025, T1/2026, ghi theo dung thu tu do giup minh",
+  "answer": {
+    "id": "q_3af7b33f08a6",
+    "type": "list",
+    "answer": [
+      276978800,
+      280423600,
+      301403900
+    ]
+  },
+  "elapsed_sec": 0.0513,
+  "trace": {
+    "normalized_text": "doanh thu tháng 11/2025, tháng 12/2025, tháng 1/2026, ghi theo dung thu tu do giúp minh",
+    "normalized_ascii": "doanh thu thang 11/2025, thang 12/2025, thang 1/2026, ghi theo dung thu tu do giup minh",
+    "time_rule": "R2b_month_list",
+    "time_start": "2025-11-01",
+    "time_end": "2026-01-31",
+    "entity_status": "not_needed",
+    "inferred_type": "list",
+    "fastpath_code": "revs = [revenue(p['start'], p['end']) for p in T['periods']]\nfinal_result = revs if (revs and all(r > 0 for r in revs)) else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

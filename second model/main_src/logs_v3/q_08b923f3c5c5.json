@@ -1,0 +1,21 @@
+{
+  "id": "q_08b923f3c5c5",
+  "question": "Xem giúp mình tháng 12/2025, nhà cung cấp chính của cửa hàng là ai?",
+  "answer": {
+    "id": "q_08b923f3c5c5",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0129,
+  "trace": {
+    "normalized_text": "xem giúp mình tháng 12/2025, nhà cung cấp chính của cửa hàng là ai?",
+    "normalized_ascii": "xem giup minh thang 12/2025, nha cung cap chinh cua cua hang la ai?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-12-01",
+    "time_end": "2025-12-31",
+    "entity_status": "not_needed",
+    "inferred_type": "string",
+    "fastpath_code": "final_result = main_supplier(T['start'], T['end'])",
+    "fastpath_ok": false,
+    "gate": "G4_safe_abstain"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "q_8e44f654589f",
+  "question": "Tới bữa ni khách Triệu Thu Trang tới hạn mấy kỳ góp rồi, tính cả kỳ hạn đúng bữa ni?",
+  "answer": {
+    "id": "q_8e44f654589f",
+    "type": "unanswerable",
+    "reason": "Cửa hàng không lưu thông tin số lô và hạn sử dụng sản phẩm."
+  },
+  "elapsed_sec": 0.0022,
+  "trace": {
+    "normalized_text": "tới bữa ni khách triệu thu trang tới hạn mấy kỳ góp rồi, tính cả kỳ hạn đúng bữa ni?",
+    "normalized_ascii": "toi bua ni khach trieu thu trang toi han may ky gop roi, tinh ca ky han dung bua ni?",
+    "time_rule": "none",
+    "time_start": "2026-08-03",
+    "time_end": "2026-08-03",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "U2_missing_lot_expiry"
+  }
+}

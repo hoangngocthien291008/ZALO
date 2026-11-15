@@ -1,0 +1,19 @@
+{
+  "id": "q_338d0179f66d",
+  "question": "nè, hết ngày 8/2/2026 shop mik kó mí ngừi trả góp kòn kỳ quá hạn chưa đóng",
+  "answer": {
+    "id": "q_338d0179f66d",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.001,
+  "trace": {
+    "normalized_text": "nè, hết ngày 8/2/2026 shop mình kó mí ngừi trả góp kòn kỳ quá hạn chưa đóng",
+    "normalized_ascii": "ne, het ngay 8/2/2026 shop minh ko mi ngui tra gop kon ky qua han chua dong",
+    "time_rule": "R8_exact_date",
+    "time_start": "2026-02-08",
+    "time_end": "2026-02-08",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

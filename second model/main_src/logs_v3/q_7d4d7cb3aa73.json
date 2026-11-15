@@ -1,0 +1,22 @@
+{
+  "id": "q_7d4d7cb3aa73",
+  "question": "Tính luôn hnay thì 7 ngày gần nhất quán có bnhiu đơn z?",
+  "answer": {
+    "id": "q_7d4d7cb3aa73",
+    "type": "number",
+    "answer": 961
+  },
+  "elapsed_sec": 0.0193,
+  "trace": {
+    "normalized_text": "tính luôn hôm nay thì 7 ngày gần nhất quán có bao nhiêu đơn vậy?",
+    "normalized_ascii": "tinh luon hom nay thi 7 ngay gan nhat quan co bao nhieu don vay?",
+    "time_rule": "R7_n_days",
+    "time_start": "2026-02-08",
+    "time_end": "2026-02-14",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "df = revenue_lines()\nord_rev = df.groupby('order_id')['amount'].sum() if not df.empty else pd.Series(dtype=float)\nord_rev = ord_rev[ord_rev >= 0.0] if 0.0 > 0 else ord_rev\ncnt = int(len(ord_rev))\nfinal_result = cnt if cnt > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "q_4c8fda6cf0df",
+  "question": "Tại ngày 11/05/2026 ai đang nợ tiệm nhiều nhất, cho top 3 kèm số nợ từng người nha.",
+  "answer": {
+    "id": "q_4c8fda6cf0df",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0021,
+  "trace": {
+    "normalized_text": "tại ngày 11/05/2026 ai đang nợ tiệm nhiều nhất, cho top 3 kèm số nợ từng người nha.",
+    "normalized_ascii": "tai ngay 11/05/2026 ai dang no tiem nhieu nhat, cho top 3 kem so no tung nguoi nha.",
+    "time_rule": "R8_exact_date",
+    "time_start": "2026-05-11",
+    "time_end": "2026-05-11",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

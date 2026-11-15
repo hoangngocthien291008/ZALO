@@ -1,0 +1,19 @@
+{
+  "id": "q_a0b76dd10f70",
+  "question": "Tuần rồi mỗi đơn trung bình mang về bnhiu dthu z?",
+  "answer": {
+    "id": "q_a0b76dd10f70",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.001,
+  "trace": {
+    "normalized_text": "tuần rồi mỗi đơn trung bình mang về bao nhiêu doanh thu vậy?",
+    "normalized_ascii": "tuan roi moi don trung binh mang ve bao nhieu doanh thu vay?",
+    "time_rule": "R10_last_week",
+    "time_start": "2025-02-24",
+    "time_end": "2025-03-02",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

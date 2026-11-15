@@ -1,0 +1,19 @@
+{
+  "id": "q_6396e1b202a6",
+  "question": "Dthu th7, th8, th9/2025 lan luot moi thang bao nhieu?",
+  "answer": {
+    "id": "q_6396e1b202a6",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0016,
+  "trace": {
+    "normalized_text": "doanh thu tháng 7, tháng 8, tháng 9/2025 lan lượt moi thang bao nhiêu?",
+    "normalized_ascii": "doanh thu thang 7, thang 8, thang 9/2025 lan luot moi thang bao nhieu?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-07-01",
+    "time_end": "2026-07-31",
+    "entity_status": "not_needed",
+    "inferred_type": "list",
+    "gate": "G4_safe_abstain"
+  }
+}

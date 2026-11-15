@@ -1,0 +1,22 @@
+{
+  "id": "q_715e9ea420ef",
+  "question": "Th2/2026 bnhiu ngày dthu từ 8.400.000đ trở lên?",
+  "answer": {
+    "id": "q_715e9ea420ef",
+    "type": "number",
+    "answer": 13
+  },
+  "elapsed_sec": 0.0148,
+  "trace": {
+    "normalized_text": "tháng 2/2026 bao nhiêu ngày doanh thu từ 8.400.000 đ trở lên?",
+    "normalized_ascii": "thang 2/2026 bao nhieu ngay doanh thu tu 8.400.000 d tro len?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-02-01",
+    "time_end": "2026-02-28",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "df = revenue_lines()\ndaily = df.groupby('date')['amount'].sum() if not df.empty else pd.Series(dtype=float)\ncnt = int((daily >= 8400000.0).sum())\nfinal_result = cnt if cnt > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

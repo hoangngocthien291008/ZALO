@@ -1,0 +1,19 @@
+{
+  "id": "q_64e62d4bea7d",
+  "question": "Dthu bq mỗi đơn tuần trc là bnhiu?",
+  "answer": {
+    "id": "q_64e62d4bea7d",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.001,
+  "trace": {
+    "normalized_text": "doanh thu bq mỗi đơn tuần trước là bao nhiêu?",
+    "normalized_ascii": "doanh thu bq moi don tuan truoc la bao nhieu?",
+    "time_rule": "R10_last_week",
+    "time_start": "2026-02-23",
+    "time_end": "2026-03-01",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

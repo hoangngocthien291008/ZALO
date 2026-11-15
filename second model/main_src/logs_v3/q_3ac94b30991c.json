@@ -1,0 +1,19 @@
+{
+  "id": "q_3ac94b30991c",
+  "question": "Th4/2026 máy mới chiếm mấy % tiền bán máy?",
+  "answer": {
+    "id": "q_3ac94b30991c",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0016,
+  "trace": {
+    "normalized_text": "tháng 4/2026 máy mới chiếm mấy% tiền bán máy?",
+    "normalized_ascii": "thang 4/2026 may moi chiem may% tien ban may?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-04-01",
+    "time_end": "2026-04-30",
+    "entity_status": "not_needed",
+    "inferred_type": "percent",
+    "gate": "G4_safe_abstain"
+  }
+}

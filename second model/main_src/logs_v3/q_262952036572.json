@@ -1,0 +1,26 @@
+{
+  "id": "q_262952036572",
+  "question": "3 mặt hàng bán chạy nhất tuần rồi là những mặt hàng nào?",
+  "answer": {
+    "id": "q_262952036572",
+    "type": "list",
+    "answer": [
+      "Mì Hảo Hảo tôm chua cay",
+      "Sữa tươi Vinamilk 180ml",
+      "Snack Oishi tôm cay 40g"
+    ]
+  },
+  "elapsed_sec": 0.0152,
+  "trace": {
+    "normalized_text": "3 mặt hàng bán chạy nhất tuần rồi là những mặt hàng nào?",
+    "normalized_ascii": "3 mat hang ban chay nhat tuan roi la nhung mat hang nao?",
+    "time_rule": "R10_last_week",
+    "time_start": "2026-01-19",
+    "time_end": "2026-01-25",
+    "entity_status": "not_needed",
+    "inferred_type": "list",
+    "fastpath_code": "df = item_lines()\nfinal_result = top_k(df, value_col='qty_base', k=3, key_col='item_code', name_col='item_name')",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

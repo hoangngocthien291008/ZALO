@@ -1,0 +1,19 @@
+{
+  "id": "q_df258c67efec",
+  "question": "Th4/2026 ban ra may chiec dien thoai cu?",
+  "answer": {
+    "id": "q_df258c67efec",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0018,
+  "trace": {
+    "normalized_text": "tháng 4/2026 ban ra may chiec dien thoai cu?",
+    "normalized_ascii": "thang 4/2026 ban ra may chiec dien thoai cu?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-04-01",
+    "time_end": "2026-04-30",
+    "entity_status": "not_found",
+    "inferred_type": "number",
+    "gate": "G3_entity_below_0.70"
+  }
+}

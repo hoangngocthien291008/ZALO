@@ -1,0 +1,20 @@
+{
+  "id": "q_36182821dc30",
+  "question": "03/2026 khach o duong Mai Chi Tho mua het bao nhieu tien?",
+  "answer": {
+    "id": "q_36182821dc30",
+    "type": "unanswerable",
+    "reason": "Câu hỏi yêu cầu thông tin ngoài phạm vi sổ sách bán hàng hoặc mang tính đánh giá chủ quan/dự đoán."
+  },
+  "elapsed_sec": 0.0,
+  "trace": {
+    "normalized_text": "03/2026 khach o duong mai chi tho mua het bao nhiêu tien?",
+    "normalized_ascii": "03/2026 khach o duong mai chi tho mua het bao nhieu tien?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-03-01",
+    "time_end": "2026-03-31",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "U1_out_of_scope"
+  }
+}

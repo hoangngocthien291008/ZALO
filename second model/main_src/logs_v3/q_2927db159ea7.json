@@ -1,0 +1,22 @@
+{
+  "id": "q_2927db159ea7",
+  "question": "30 ngày gần nhất được bnhiu đh nhỉ?",
+  "answer": {
+    "id": "q_2927db159ea7",
+    "type": "number",
+    "answer": 832
+  },
+  "elapsed_sec": 0.007,
+  "trace": {
+    "normalized_text": "30 ngày gần nhất được bao nhiêu đơn hàng nhỉ?",
+    "normalized_ascii": "30 ngay gan nhat duoc bao nhieu don hang nhi?",
+    "time_rule": "R7_n_days",
+    "time_start": "2025-09-30",
+    "time_end": "2025-10-29",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "df = revenue_lines()\nord_rev = df.groupby('order_id')['amount'].sum() if not df.empty else pd.Series(dtype=float)\nord_rev = ord_rev[ord_rev >= 0.0] if 0.0 > 0 else ord_rev\ncnt = int(len(ord_rev))\nfinal_result = cnt if cnt > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

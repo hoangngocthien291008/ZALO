@@ -1,0 +1,19 @@
+{
+  "id": "q_a652f5fcb0fe",
+  "question": "Điện thoại cũ tháng 6/26 bán ra mấy máy thế?",
+  "answer": {
+    "id": "q_a652f5fcb0fe",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0049,
+  "trace": {
+    "normalized_text": "điện thoại cũ tháng 6/26 bán ra mấy máy thế?",
+    "normalized_ascii": "dien thoai cu thang 6/26 ban ra may may the?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-06-01",
+    "time_end": "2026-06-30",
+    "entity_status": "not_found",
+    "inferred_type": "number",
+    "gate": "G3_entity_below_0.70"
+  }
+}

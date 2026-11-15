@@ -1,0 +1,19 @@
+{
+  "id": "q_0acdf488056e",
+  "question": "Thang 4 nam 2026 so thang truoc tien ban len hay xuong bao nhieu % z?",
+  "answer": {
+    "id": "q_0acdf488056e",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0012,
+  "trace": {
+    "normalized_text": "thang 4 nam 2026 so tháng trước tien ban len hay xuong bao nhiêu% vậy?",
+    "normalized_ascii": "thang 4 nam 2026 so thang truoc tien ban len hay xuong bao nhieu% vay?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-04-01",
+    "time_end": "2026-04-30",
+    "entity_status": "not_needed",
+    "inferred_type": "percent",
+    "gate": "G4_safe_abstain"
+  }
+}

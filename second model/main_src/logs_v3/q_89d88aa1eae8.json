@@ -1,0 +1,22 @@
+{
+  "id": "q_89d88aa1eae8",
+  "question": "th9/2025 khach nao mua nhìu đơn nhứt á",
+  "answer": {
+    "id": "q_89d88aa1eae8",
+    "type": "string",
+    "answer": "Tạ Nhung Loan"
+  },
+  "elapsed_sec": 0.0161,
+  "trace": {
+    "normalized_text": "tháng 9/2025 khach nao mua nhiều đơn nhất á",
+    "normalized_ascii": "thang 9/2025 khach nao mua nhieu don nhat a",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-09-01",
+    "time_end": "2025-09-30",
+    "entity_status": "not_needed",
+    "inferred_type": "string",
+    "fastpath_code": "df = revenue_lines()\ndf = df[df['cust_key'] != ''] if not df.empty else df\nif df.empty:\n    final_result = None\nelse:\n    grp = df.groupby(['cust_key', 'cust_name'], as_index=False)['order_id'].nunique()\n    grp = grp.sort_values(by=['order_id', 'cust_key'], ascending=[False, True], kind='mergesort')\n    final_result = str(grp.iloc[0]['cust_name']) if not grp.empty else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "q_15711c61bb0d",
+  "question": "Quán mình bạn nhân viên nào phục vụ khách thân thiện nhất nhỉ?",
+  "answer": {
+    "id": "q_15711c61bb0d",
+    "type": "unanswerable",
+    "reason": "Câu hỏi yêu cầu thông tin ngoài phạm vi sổ sách bán hàng hoặc mang tính đánh giá chủ quan/dự đoán."
+  },
+  "elapsed_sec": 0.0,
+  "trace": {
+    "normalized_text": "quán mình bạn nhân viên nào phục vụ khách thân thiện nhất nhỉ?",
+    "normalized_ascii": "quan minh ban nhan vien nao phuc vu khach than thien nhat nhi?",
+    "time_rule": "none",
+    "time_start": "2026-07-22",
+    "time_end": "2026-07-22",
+    "entity_status": "not_needed",
+    "inferred_type": "string",
+    "gate": "U1_out_of_scope"
+  }
+}

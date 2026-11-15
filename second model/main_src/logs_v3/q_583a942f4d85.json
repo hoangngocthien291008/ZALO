@@ -1,0 +1,20 @@
+{
+  "id": "q_583a942f4d85",
+  "question": "Khách nhóm thân thiết tháng ni bìn quân mỗi đơn mua bao nhiêu tiền rứa?",
+  "answer": {
+    "id": "q_583a942f4d85",
+    "type": "unanswerable",
+    "reason": "Dữ liệu cửa hàng không có cột phân nhóm khách hàng."
+  },
+  "elapsed_sec": 0.0014,
+  "trace": {
+    "normalized_text": "khách nhóm thân thiết tháng ni bìn quân mỗi đơn mua bao nhiêu tiền vậy?",
+    "normalized_ascii": "khach nhom than thiet thang ni bin quan moi don mua bao nhieu tien vay?",
+    "time_rule": "none",
+    "time_start": "2026-08-08",
+    "time_end": "2026-08-08",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "U2_missing_cust_group"
+  }
+}

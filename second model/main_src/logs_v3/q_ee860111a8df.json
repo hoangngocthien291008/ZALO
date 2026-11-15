@@ -1,0 +1,22 @@
+{
+  "id": "q_ee860111a8df",
+  "question": "Hôm qua cửa hàng mình doanh thu được bao nhiêu nhỉ?",
+  "answer": {
+    "id": "q_ee860111a8df",
+    "type": "number",
+    "answer": 6737500
+  },
+  "elapsed_sec": 0.0029,
+  "trace": {
+    "normalized_text": "hôm qua cửa hàng mình doanh thu được bao nhiêu nhỉ?",
+    "normalized_ascii": "hom qua cua hang minh doanh thu duoc bao nhieu nhi?",
+    "time_rule": "R6_yesterday",
+    "time_start": "2026-04-09",
+    "time_end": "2026-04-09",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "rev = revenue()\nfinal_result = rev if rev > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

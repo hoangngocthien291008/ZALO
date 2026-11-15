@@ -1,0 +1,22 @@
+{
+  "id": "q_99045ceea1f1",
+  "question": "Dthu 3 thang 11/2025, 12/2025, 1/2026 co tang lien tuc ko?",
+  "answer": {
+    "id": "q_99045ceea1f1",
+    "type": "boolean",
+    "answer": true
+  },
+  "elapsed_sec": 0.0451,
+  "trace": {
+    "normalized_text": "doanh thu 3 thang 11/2025, 12/2025, 1/2026 co tang liên tục không?",
+    "normalized_ascii": "doanh thu 3 thang 11/2025, 12/2025, 1/2026 co tang lien tuc khong?",
+    "time_rule": "R2b_month_list",
+    "time_start": "2025-11-01",
+    "time_end": "2026-01-31",
+    "entity_status": "not_needed",
+    "inferred_type": "boolean",
+    "fastpath_code": "revs = [revenue(p['start'], p['end']) for p in T['periods']]\nfinal_result = None if (len(revs) < 2 or any(r == 0 for r in revs)) else all(revs[i+1] > revs[i] for i in range(len(revs)-1))",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

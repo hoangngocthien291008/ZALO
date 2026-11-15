@@ -1,0 +1,19 @@
+{
+  "id": "q_bbfddbd1d363",
+  "question": "Tính đến hết 10/10/2025, các khoản nợ có tuổi nợ quá 7 ngày còn bnhiu tiền?",
+  "answer": {
+    "id": "q_bbfddbd1d363",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0012,
+  "trace": {
+    "normalized_text": "tính đến hết 10/10/2025, các khoản nợ có tuổi nợ quá 7 ngày còn bao nhiêu tiền?",
+    "normalized_ascii": "tinh den het 10/10/2025, cac khoan no co tuoi no qua 7 ngay con bao nhieu tien?",
+    "time_rule": "R4_snapshot",
+    "time_start": null,
+    "time_end": "2025-10-10",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

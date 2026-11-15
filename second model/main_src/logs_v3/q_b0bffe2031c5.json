@@ -1,0 +1,22 @@
+{
+  "id": "q_b0bffe2031c5",
+  "question": "Th 9/25 khách mô mua nhiều đơn nhất rứa?",
+  "answer": {
+    "id": "q_b0bffe2031c5",
+    "type": "string",
+    "answer": "Cao Hồng Sơn"
+  },
+  "elapsed_sec": 0.0332,
+  "trace": {
+    "normalized_text": "th 9/25 khách nào mua nhiều đơn nhất vậy?",
+    "normalized_ascii": "th 9/25 khach nao mua nhieu don nhat vay?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-09-01",
+    "time_end": "2025-09-30",
+    "entity_status": "not_needed",
+    "inferred_type": "string",
+    "fastpath_code": "df = revenue_lines()\ndf = df[df['cust_key'] != ''] if not df.empty else df\nif df.empty:\n    final_result = None\nelse:\n    grp = df.groupby(['cust_key', 'cust_name'], as_index=False)['order_id'].nunique()\n    grp = grp.sort_values(by=['order_id', 'cust_key'], ascending=[False, True], kind='mergesort')\n    final_result = str(grp.iloc[0]['cust_name']) if not grp.empty else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

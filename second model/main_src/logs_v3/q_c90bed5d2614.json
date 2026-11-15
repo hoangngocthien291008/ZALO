@@ -1,0 +1,19 @@
+{
+  "id": "q_c90bed5d2614",
+  "question": "Tháng 4/2026 bữa nào tiệm bán được nhiều tiền nhứt?",
+  "answer": {
+    "id": "q_c90bed5d2614",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.001,
+  "trace": {
+    "normalized_text": "tháng 4/2026 bữa nào tiệm bán được nhiều tiền nhất?",
+    "normalized_ascii": "thang 4/2026 bua nao tiem ban duoc nhieu tien nhat?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-04-01",
+    "time_end": "2026-04-30",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

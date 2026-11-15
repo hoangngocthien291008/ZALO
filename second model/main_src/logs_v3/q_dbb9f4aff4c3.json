@@ -1,0 +1,19 @@
+{
+  "id": "q_dbb9f4aff4c3",
+  "question": "06/2026 khach dung diem tru duoc bao nhieu tien?",
+  "answer": {
+    "id": "q_dbb9f4aff4c3",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0015,
+  "trace": {
+    "normalized_text": "06/2026 khach dung diem tru duoc bao nhiêu tien?",
+    "normalized_ascii": "06/2026 khach dung diem tru duoc bao nhieu tien?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-06-01",
+    "time_end": "2026-06-30",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

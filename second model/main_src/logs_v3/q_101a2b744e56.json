@@ -1,0 +1,19 @@
+{
+  "id": "q_101a2b744e56",
+  "question": "Hết hnay, khách Tạ Dũng Long góp tới hạn mấy kỳ rồi, tính luôn kỳ hạn hôm nay nha?",
+  "answer": {
+    "id": "q_101a2b744e56",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0024,
+  "trace": {
+    "normalized_text": "hết hôm nay, khách tạ dũng long góp tới hạn mấy kỳ rồi, tính luôn kỳ hạn hôm nay nha?",
+    "normalized_ascii": "het hom nay, khach ta dung long gop toi han may ky roi, tinh luon ky han hom nay nha?",
+    "time_rule": "R4_snapshot",
+    "time_start": null,
+    "time_end": "2026-09-19",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

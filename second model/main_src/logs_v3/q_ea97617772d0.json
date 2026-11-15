@@ -1,0 +1,19 @@
+{
+  "id": "q_ea97617772d0",
+  "question": "Th4/2026 so voi thang lien truoc, doanh thu tang giam bao nhieu %?",
+  "answer": {
+    "id": "q_ea97617772d0",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0,
+  "trace": {
+    "normalized_text": "tháng 4/2026 so voi thang liền trước, doanh thu tang giam bao nhiêu%?",
+    "normalized_ascii": "thang 4/2026 so voi thang lien truoc, doanh thu tang giam bao nhieu%?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-04-01",
+    "time_end": "2026-04-30",
+    "entity_status": "not_needed",
+    "inferred_type": "percent",
+    "gate": "G4_safe_abstain"
+  }
+}

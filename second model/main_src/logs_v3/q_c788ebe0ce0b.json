@@ -1,0 +1,22 @@
+{
+  "id": "q_c788ebe0ce0b",
+  "question": "Th9/2025 Hagifen 400mg DHG hộp 10 vỉ x 10 viên, số viên nhập trừ số viên bán ra chênh bnhiu?",
+  "answer": {
+    "id": "q_c788ebe0ce0b",
+    "type": "number",
+    "answer": 374
+  },
+  "elapsed_sec": 0.0504,
+  "trace": {
+    "normalized_text": "tháng 9/2025 hagifen 400 mg dhg hộp 10 vỉ x 10 viên, số viên nhập trừ số viên bán ra chênh bao nhiêu?",
+    "normalized_ascii": "thang 9/2025 hagifen 400 mg dhg hop 10 vi x 10 vien, so vien nhap tru so vien ban ra chenh bao nhieu?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-09-01",
+    "time_end": "2025-09-30",
+    "entity_status": "exact",
+    "inferred_type": "number",
+    "fastpath_code": "df = match_item(item_lines(), 'Hagifen 400mg DHG hộp 10 vỉ x 10 viên')\nq = float(df['qty_base'].sum()) if not df.empty else 0.0\nfinal_result = (int(round(q)) if abs(q - round(q)) < 1e-6 else round(q, 2)) if q > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

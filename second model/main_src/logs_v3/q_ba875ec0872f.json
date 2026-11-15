@@ -1,0 +1,22 @@
+{
+  "id": "q_ba875ec0872f",
+  "question": "Dthu th 8/26 tính tất cả bnhiu?",
+  "answer": {
+    "id": "q_ba875ec0872f",
+    "type": "number",
+    "answer": 702007000
+  },
+  "elapsed_sec": 0.009,
+  "trace": {
+    "normalized_text": "doanh thu th 8/26 tính tất cả bao nhiêu?",
+    "normalized_ascii": "doanh thu th 8/26 tinh tat ca bao nhieu?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-08-01",
+    "time_end": "2026-08-31",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "rev = revenue()\nfinal_result = rev if rev > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

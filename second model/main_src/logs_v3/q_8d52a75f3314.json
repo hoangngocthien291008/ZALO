@@ -1,0 +1,19 @@
+{
+  "id": "q_8d52a75f3314",
+  "question": "Tháng 1/2026 khách nào mua nhiều lần nhất nhỉ, đếm theo xố đơn ấy?",
+  "answer": {
+    "id": "q_8d52a75f3314",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0011,
+  "trace": {
+    "normalized_text": "tháng 1/2026 khách nào mua nhiều lần nhất nhỉ, đếm theo xố đơn ấy?",
+    "normalized_ascii": "thang 1/2026 khach nao mua nhieu lan nhat nhi, dem theo xo don ay?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-01-01",
+    "time_end": "2026-01-31",
+    "entity_status": "not_needed",
+    "inferred_type": "string",
+    "gate": "G4_safe_abstain"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "q_64045044c253",
+  "question": "Th 3/25 quan ban ra bao nhieu cai Banh croissant?",
+  "answer": {
+    "id": "q_64045044c253",
+    "type": "number",
+    "answer": 87
+  },
+  "elapsed_sec": 0.0464,
+  "trace": {
+    "normalized_text": "th 3/25 quan ban ra bao nhiêu cai banh croissant?",
+    "normalized_ascii": "th 3/25 quan ban ra bao nhieu cai banh croissant?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-03-01",
+    "time_end": "2025-03-31",
+    "entity_status": "exact",
+    "inferred_type": "number",
+    "fastpath_code": "df = match_item(item_lines(), 'Bánh croissant')\nq = float(df['qty_base'].sum()) if not df.empty else 0.0\nfinal_result = (int(round(q)) if abs(q - round(q)) < 1e-6 else round(q, 2)) if q > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

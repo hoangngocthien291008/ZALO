@@ -1,0 +1,19 @@
+{
+  "id": "q_a897b21c864d",
+  "question": "T9/2025 có mấy đơn khách trả lại vì gọi nhầm món?",
+  "answer": {
+    "id": "q_a897b21c864d",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0007,
+  "trace": {
+    "normalized_text": "tháng 9/2025 có mấy đơn khách trả lại vì gọi nhầm món?",
+    "normalized_ascii": "thang 9/2025 co may don khach tra lai vi goi nham mon?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-09-01",
+    "time_end": "2025-09-30",
+    "entity_status": "exact",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

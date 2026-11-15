@@ -1,0 +1,21 @@
+{
+  "id": "q_ef32b18b17d5",
+  "question": "Dthu tháng 5, 6, 7/2025 lần lượt bnhiu?",
+  "answer": {
+    "id": "q_ef32b18b17d5",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0067,
+  "trace": {
+    "normalized_text": "doanh thu tháng 5, 6, 7/2025 lần lượt bao nhiêu?",
+    "normalized_ascii": "doanh thu thang 5, 6, 7/2025 lan luot bao nhieu?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-05-01",
+    "time_end": "2026-05-31",
+    "entity_status": "not_needed",
+    "inferred_type": "list",
+    "fastpath_code": "rev = revenue()\nfinal_result = rev if rev > 0 else None",
+    "fastpath_ok": true,
+    "gate": "G4_safe_abstain"
+  }
+}

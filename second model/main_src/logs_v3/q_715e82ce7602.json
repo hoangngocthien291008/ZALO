@@ -1,0 +1,19 @@
+{
+  "id": "q_715e82ce7602",
+  "question": "Tính đến hết 11/07/2026, đơn đặt hơn 7 ngày khách chưa trả xong còn nợ quán bnhiu?",
+  "answer": {
+    "id": "q_715e82ce7602",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.001,
+  "trace": {
+    "normalized_text": "tính đến hết 11/07/2026, đơn đặt hơn 7 ngày khách chưa trả xong còn nợ quán bao nhiêu?",
+    "normalized_ascii": "tinh den het 11/07/2026, don dat hon 7 ngay khach chua tra xong con no quan bao nhieu?",
+    "time_rule": "R4_snapshot",
+    "time_start": null,
+    "time_end": "2026-07-11",
+    "entity_status": "exact",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "q_25af2ef67065",
+  "question": "Quý 3/2026 lượt bảo hành so với số máy bán đc chiếm bnhiu %?",
+  "answer": {
+    "id": "q_25af2ef67065",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0033,
+  "trace": {
+    "normalized_text": "quý 3/2026 lượt bảo hành so với số máy bán được chiếm bao nhiêu%?",
+    "normalized_ascii": "quy 3/2026 luot bao hanh so voi so may ban duoc chiem bao nhieu%?",
+    "time_rule": "R11_quarter",
+    "time_start": "2026-07-01",
+    "time_end": "2026-09-30",
+    "entity_status": "not_needed",
+    "inferred_type": "percent",
+    "gate": "G4_safe_abstain"
+  }
+}

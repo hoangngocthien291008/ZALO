@@ -1,0 +1,22 @@
+{
+  "id": "q_7be6937cf882",
+  "question": "Tới hôm nay, mấy đơn đặt tháng 6/2025 đã được chở thành 2 đợt trở lên?",
+  "answer": {
+    "id": "q_7be6937cf882",
+    "type": "number",
+    "answer": 26
+  },
+  "elapsed_sec": 0.0105,
+  "trace": {
+    "normalized_text": "tới hôm nay, mấy đơn đặt tháng 6/2025 đã được chở thành 2 đợt trở lên?",
+    "normalized_ascii": "toi hom nay, may don dat thang 6/2025 da duoc cho thanh 2 dot tro len?",
+    "time_rule": "R5_today",
+    "time_start": "2025-06-30",
+    "time_end": "2025-06-30",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "df = revenue_lines()\nord_rev = df.groupby('order_id')['amount'].sum() if not df.empty else pd.Series(dtype=float)\nord_rev = ord_rev[ord_rev >= 0.0] if 0.0 > 0 else ord_rev\ncnt = int(len(ord_rev))\nfinal_result = cnt if cnt > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

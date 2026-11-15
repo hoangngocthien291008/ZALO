@@ -1,0 +1,22 @@
+{
+  "id": "q_7f8c9bee1754",
+  "question": "Thang 6/25 tiem ban duoc bao nhieu tien?",
+  "answer": {
+    "id": "q_7f8c9bee1754",
+    "type": "number",
+    "answer": 272091800
+  },
+  "elapsed_sec": 0.0172,
+  "trace": {
+    "normalized_text": "thang 6/25 tiem ban duoc bao nhiêu tien?",
+    "normalized_ascii": "thang 6/25 tiem ban duoc bao nhieu tien?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-06-01",
+    "time_end": "2025-06-30",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "rev = revenue()\nfinal_result = rev if rev > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

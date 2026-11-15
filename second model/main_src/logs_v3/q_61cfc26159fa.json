@@ -1,0 +1,22 @@
+{
+  "id": "q_61cfc26159fa",
+  "question": "Doanh thu bữa qua của quán tổng cộng được bao nhiêu?",
+  "answer": {
+    "id": "q_61cfc26159fa",
+    "type": "number",
+    "answer": 8999000
+  },
+  "elapsed_sec": 0.0158,
+  "trace": {
+    "normalized_text": "doanh thu hôm qua của quán tổng cộng được bao nhiêu?",
+    "normalized_ascii": "doanh thu hom qua cua quan tong cong duoc bao nhieu?",
+    "time_rule": "R6_yesterday",
+    "time_start": "2025-05-02",
+    "time_end": "2025-05-02",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "rev = revenue()\nfinal_result = rev if rev > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

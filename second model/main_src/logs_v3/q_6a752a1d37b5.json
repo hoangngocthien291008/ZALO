@@ -1,0 +1,19 @@
+{
+  "id": "q_6a752a1d37b5",
+  "question": "Tháng 2/2026 trong nhóm bánh, mặt hàng nào bán được nhiều tiền nhất?",
+  "answer": {
+    "id": "q_6a752a1d37b5",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0011,
+  "trace": {
+    "normalized_text": "tháng 2/2026 trong nhóm bánh, mặt hàng nào bán được nhiều tiền nhất?",
+    "normalized_ascii": "thang 2/2026 trong nhom banh, mat hang nao ban duoc nhieu tien nhat?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-02-01",
+    "time_end": "2026-02-28",
+    "entity_status": "exact",
+    "inferred_type": "string",
+    "gate": "G4_safe_abstain"
+  }
+}

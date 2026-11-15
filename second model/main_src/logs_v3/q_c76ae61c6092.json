@@ -1,0 +1,19 @@
+{
+  "id": "q_c76ae61c6092",
+  "question": "Tong so dh trong 30 ngay gan nhat la bnhiu?",
+  "answer": {
+    "id": "q_c76ae61c6092",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.001,
+  "trace": {
+    "normalized_text": "tong so dh trong 30 ngay gan nhat la bao nhiêu?",
+    "normalized_ascii": "tong so dh trong 30 ngay gan nhat la bao nhieu?",
+    "time_rule": "R7_n_days",
+    "time_start": "2025-05-01",
+    "time_end": "2025-05-30",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

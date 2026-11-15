@@ -1,0 +1,19 @@
+{
+  "id": "q_15a8893ff6f9",
+  "question": "Tuần trước quán bán được mấy đĩa vậy?",
+  "answer": {
+    "id": "q_15a8893ff6f9",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.001,
+  "trace": {
+    "normalized_text": "tuần trước quán bán được mấy đĩa vậy?",
+    "normalized_ascii": "tuan truoc quan ban duoc may dia vay?",
+    "time_rule": "R10_last_week",
+    "time_start": "2025-06-09",
+    "time_end": "2025-06-15",
+    "entity_status": "not_found",
+    "inferred_type": "number",
+    "gate": "G3_entity_below_0.70"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "q_4e331ce1a042",
+  "question": "Tuần trước ca sáng bán được bao nhiêu tiền?",
+  "answer": {
+    "id": "q_4e331ce1a042",
+    "type": "number",
+    "answer": 72476500
+  },
+  "elapsed_sec": 0.0225,
+  "trace": {
+    "normalized_text": "tuần trước ca sáng bán được bao nhiêu tiền?",
+    "normalized_ascii": "tuan truoc ca sang ban duoc bao nhieu tien?",
+    "time_rule": "R10_last_week",
+    "time_start": "2025-10-13",
+    "time_end": "2025-10-19",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "rev = revenue()\nfinal_result = rev if rev > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

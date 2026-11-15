@@ -1,0 +1,22 @@
+{
+  "id": "q_f823bf8a8442",
+  "question": "Doanh thu T10/2025 được bao nhiêu?",
+  "answer": {
+    "id": "q_f823bf8a8442",
+    "type": "number",
+    "answer": 270167800
+  },
+  "elapsed_sec": 0.0125,
+  "trace": {
+    "normalized_text": "doanh thu tháng 10/2025 được bao nhiêu?",
+    "normalized_ascii": "doanh thu thang 10/2025 duoc bao nhieu?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-10-01",
+    "time_end": "2025-10-31",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "rev = revenue()\nfinal_result = rev if rev > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

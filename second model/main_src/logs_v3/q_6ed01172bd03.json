@@ -1,0 +1,20 @@
+{
+  "id": "q_6ed01172bd03",
+  "question": "3/26 khách đường Lý Thường Kiệt với khách đường Nguyễn Văn Nghi, bên nào mua nhiều tiền hơn z?",
+  "answer": {
+    "id": "q_6ed01172bd03",
+    "type": "unanswerable",
+    "reason": "Câu hỏi yêu cầu thông tin ngoài phạm vi sổ sách bán hàng hoặc mang tính đánh giá chủ quan/dự đoán."
+  },
+  "elapsed_sec": 0.0011,
+  "trace": {
+    "normalized_text": "3/26 khách đường lý thường kiệt với khách đường nguyễn văn nghi, bên nào mua nhiều tiền hơn vậy?",
+    "normalized_ascii": "3/26 khach duong ly thuong kiet voi khach duong nguyen van nghi, ben nao mua nhieu tien hon vay?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-03-01",
+    "time_end": "2026-03-31",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "U1_out_of_scope"
+  }
+}

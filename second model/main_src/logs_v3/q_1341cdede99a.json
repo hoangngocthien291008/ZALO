@@ -1,0 +1,19 @@
+{
+  "id": "q_1341cdede99a",
+  "question": "T5/2025 co may mat hang nam trong it nhat 122 don khac nhau?",
+  "answer": {
+    "id": "q_1341cdede99a",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0,
+  "trace": {
+    "normalized_text": "tháng 5/2025 co may mặt hàng nam trong ít nhất 122 don khac nhau?",
+    "normalized_ascii": "thang 5/2025 co may mat hang nam trong it nhat 122 don khac nhau?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-05-01",
+    "time_end": "2025-05-31",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "q_0f7d15097a8c",
+  "question": "Quý 3/2025 quán bán được bnhiu đh?",
+  "answer": {
+    "id": "q_0f7d15097a8c",
+    "type": "number",
+    "answer": 4917
+  },
+  "elapsed_sec": 0.0218,
+  "trace": {
+    "normalized_text": "quý 3/2025 quán bán được bao nhiêu đơn hàng?",
+    "normalized_ascii": "quy 3/2025 quan ban duoc bao nhieu don hang?",
+    "time_rule": "R11_quarter",
+    "time_start": "2025-07-01",
+    "time_end": "2025-09-30",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "df = revenue_lines()\nord_rev = df.groupby('order_id')['amount'].sum() if not df.empty else pd.Series(dtype=float)\nord_rev = ord_rev[ord_rev >= 0.0] if 0.0 > 0 else ord_rev\ncnt = int(len(ord_rev))\nfinal_result = cnt if cnt > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

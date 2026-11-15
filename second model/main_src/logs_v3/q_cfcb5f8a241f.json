@@ -1,0 +1,19 @@
+{
+  "id": "q_cfcb5f8a241f",
+  "question": "Thang ni quan ban duoc may ly size L, tinh tat ca do uong?",
+  "answer": {
+    "id": "q_cfcb5f8a241f",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0331,
+  "trace": {
+    "normalized_text": "thang ni quan ban duoc may ly size l, tinh tat ca do uong?",
+    "normalized_ascii": "thang ni quan ban duoc may ly size l, tinh tat ca do uong?",
+    "time_rule": "none",
+    "time_start": "2026-05-24",
+    "time_end": "2026-05-24",
+    "entity_status": "not_found",
+    "inferred_type": "number",
+    "gate": "G2_missing_time"
+  }
+}

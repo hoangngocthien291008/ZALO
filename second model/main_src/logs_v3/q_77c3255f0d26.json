@@ -1,0 +1,19 @@
+{
+  "id": "q_77c3255f0d26",
+  "question": "Thang nay voucher giam cho khach het bao nhieu tien vay?",
+  "answer": {
+    "id": "q_77c3255f0d26",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.002,
+  "trace": {
+    "normalized_text": "tháng này voucher giam cho khach het bao nhiêu tien vay?",
+    "normalized_ascii": "thang nay voucher giam cho khach het bao nhieu tien vay?",
+    "time_rule": "R12_this_month",
+    "time_start": "2026-06-01",
+    "time_end": "2026-06-15",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

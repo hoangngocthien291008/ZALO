@@ -1,0 +1,19 @@
+{
+  "id": "q_d770b2c75598",
+  "question": "Biosubtyl-II hộp 25 gói T11/2025: tổng gói nhập trừ tổng gói bán?",
+  "answer": {
+    "id": "q_d770b2c75598",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0012,
+  "trace": {
+    "normalized_text": "biosubtyl - ii hộp 25 gói tháng 11/2025: tổng gói nhập trừ tổng gói bán?",
+    "normalized_ascii": "biosubtyl - ii hop 25 goi thang 11/2025: tong goi nhap tru tong goi ban?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-11-01",
+    "time_end": "2025-11-30",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "q_5da7465fcd06",
+  "question": "Th1/2025 nhập hàng tổng bnhiu tiền?",
+  "answer": {
+    "id": "q_5da7465fcd06",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0005,
+  "trace": {
+    "normalized_text": "tháng 1/2025 nhập hàng tổng bao nhiêu tiền?",
+    "normalized_ascii": "thang 1/2025 nhap hang tong bao nhieu tien?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-01-01",
+    "time_end": "2025-01-31",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

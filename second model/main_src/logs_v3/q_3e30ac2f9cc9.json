@@ -1,0 +1,19 @@
+{
+  "id": "q_3e30ac2f9cc9",
+  "question": "Đến hết ngày 15/05/2026, cửa hàng còn bao nhiêu khách hàng chưa trả hết nợ?",
+  "answer": {
+    "id": "q_3e30ac2f9cc9",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0,
+  "trace": {
+    "normalized_text": "đến hết ngày 15/05/2026, cửa hàng còn bao nhiêu khách hàng chưa trả hết nợ?",
+    "normalized_ascii": "den het ngay 15/05/2026, cua hang con bao nhieu khach hang chua tra het no?",
+    "time_rule": "R4_snapshot",
+    "time_start": null,
+    "time_end": "2026-05-15",
+    "entity_status": "exact",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "q_c38425d8aec8",
+  "question": "Tháng ni bnhiu phiếu sửa có vá ruột xe rứa?",
+  "answer": {
+    "id": "q_c38425d8aec8",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0032,
+  "trace": {
+    "normalized_text": "tháng ni bao nhiêu phiếu sửa có vá ruột xe vậy?",
+    "normalized_ascii": "thang ni bao nhieu phieu sua co va ruot xe vay?",
+    "time_rule": "none",
+    "time_start": "2026-08-31",
+    "time_end": "2026-08-31",
+    "entity_status": "exact",
+    "inferred_type": "number",
+    "gate": "G2_missing_time"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "q_5ec7806c7f29",
+  "question": "Trong tháng 1/2026, bao nhiêu xe Air Blade khác nhau vào tiệm?",
+  "answer": {
+    "id": "q_5ec7806c7f29",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0066,
+  "trace": {
+    "normalized_text": "trong tháng 1/2026, bao nhiêu xe air blade khác nhau vào tiệm?",
+    "normalized_ascii": "trong thang 1/2026, bao nhieu xe air blade khac nhau vao tiem?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-01-01",
+    "time_end": "2026-01-31",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

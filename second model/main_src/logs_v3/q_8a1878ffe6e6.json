@@ -1,0 +1,19 @@
+{
+  "id": "q_8a1878ffe6e6",
+  "question": "06/2026 ban dc bnhiu may Samsung Galaxy A56 5G?",
+  "answer": {
+    "id": "q_8a1878ffe6e6",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.004,
+  "trace": {
+    "normalized_text": "06/2026 ban được bao nhiêu may samsung galaxy a 56 5 g?",
+    "normalized_ascii": "06/2026 ban duoc bao nhieu may samsung galaxy a 56 5 g?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-06-01",
+    "time_end": "2026-06-30",
+    "entity_status": "not_found",
+    "inferred_type": "number",
+    "gate": "G3_entity_below_0.70"
+  }
+}

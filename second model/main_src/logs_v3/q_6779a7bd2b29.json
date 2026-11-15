@@ -1,0 +1,19 @@
+{
+  "id": "q_6779a7bd2b29",
+  "question": "Trong nhửng khách có mua tháng 9/2025, khách mua ít nhất 12 đơn chiếm bao nhiêu phần trăm?",
+  "answer": {
+    "id": "q_6779a7bd2b29",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.01,
+  "trace": {
+    "normalized_text": "trong nhửng khách có mua tháng 9/2025, khách mua ít nhất 12 đơn chiếm bao nhiêu phần trăm?",
+    "normalized_ascii": "trong nhung khach co mua thang 9/2025, khach mua it nhat 12 don chiem bao nhieu phan tram?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-09-01",
+    "time_end": "2025-09-30",
+    "entity_status": "not_found",
+    "inferred_type": "percent",
+    "gate": "G3_entity_below_0.70"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "q_9f4af1e4fecd",
+  "question": "06/2025 nhóm máy cũ bán được bnhiu tiền?",
+  "answer": {
+    "id": "q_9f4af1e4fecd",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0017,
+  "trace": {
+    "normalized_text": "06/2025 nhóm máy cũ bán được bao nhiêu tiền?",
+    "normalized_ascii": "06/2025 nhom may cu ban duoc bao nhieu tien?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-06-01",
+    "time_end": "2025-06-30",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "q_690a98214478",
+  "question": "Doanh thu thang nay so voi cung so ngay cua thang truoc tang hay giam may %?",
+  "answer": {
+    "id": "q_690a98214478",
+    "type": "percent",
+    "answer": 7.29
+  },
+  "elapsed_sec": 0.0258,
+  "trace": {
+    "normalized_text": "doanh thu tháng này so voi cung so ngay cua tháng trước tang hay giam may%?",
+    "normalized_ascii": "doanh thu thang nay so voi cung so ngay cua thang truoc tang hay giam may%?",
+    "time_rule": "R12_this_month",
+    "time_start": "2025-11-01",
+    "time_end": "2025-11-24",
+    "entity_status": "not_needed",
+    "inferred_type": "percent",
+    "fastpath_code": "r_curr = revenue(T['start'], T['end'], T['shift'])\nr_prev = revenue(T['cmp_start'], T['cmp_end'], T['shift'])\nfinal_result = growth(r_curr, r_prev) if (r_prev > 0 and r_curr > 0) else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

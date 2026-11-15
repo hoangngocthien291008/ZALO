@@ -1,0 +1,22 @@
+{
+  "id": "q_6f1b365ba206",
+  "question": "Sản phẩm bán được nhiều nhất tuần rồi là gì?",
+  "answer": {
+    "id": "q_6f1b365ba206",
+    "type": "string",
+    "answer": "Xi măng Hà Tiên PCB40 bao 50kg"
+  },
+  "elapsed_sec": 0.0082,
+  "trace": {
+    "normalized_text": "sản phẩm bán được nhiều nhất tuần rồi là gì?",
+    "normalized_ascii": "san pham ban duoc nhieu nhat tuan roi la gi?",
+    "time_rule": "R10_last_week",
+    "time_start": "2025-10-20",
+    "time_end": "2025-10-26",
+    "entity_status": "not_needed",
+    "inferred_type": "string",
+    "fastpath_code": "df = item_lines()\nfinal_result = top_k(df, value_col='qty_base', k=1, key_col='item_code', name_col='item_name')",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

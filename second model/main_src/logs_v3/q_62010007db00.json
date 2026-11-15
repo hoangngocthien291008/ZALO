@@ -1,0 +1,19 @@
+{
+  "id": "q_62010007db00",
+  "question": "Dthu th4, th5, th6 mỗi tháng được nhiêu z?",
+  "answer": {
+    "id": "q_62010007db00",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0005,
+  "trace": {
+    "normalized_text": "doanh thu tháng 4, tháng 5, tháng 6 mỗi tháng được nhiêu vậy?",
+    "normalized_ascii": "doanh thu thang 4, thang 5, thang 6 moi thang duoc nhieu vay?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-04-01",
+    "time_end": "2026-04-30",
+    "entity_status": "not_needed",
+    "inferred_type": "list",
+    "gate": "G4_safe_abstain"
+  }
+}

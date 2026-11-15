@@ -14,10 +14,15 @@ except ImportError:
 
 
 def normalize_query_str(s: Any) -> str:
-    """Kế thừa từ query_executors.py cũ."""
+    """Kế thừa từ query_executors.py cũ, bổ sung chuẩn hóa khoảng trắng đơn vị đo lường."""
     if not s:
         return ""
-    return re.sub(r"\s+", " ", str(s).lower()).strip()
+    res = re.sub(r"\s+", " ", str(s).lower()).strip()
+    res = re.sub(r"(?<=\d)\s*x\s*(?=\d)", "x", res)
+    res = re.sub(r"(\d+(?:\.\d+)?)\s+(ml|l|g|kg|mg|mcg|gb|tb|mm|cm|m)\b", r"\1\2", res)
+    res = re.sub(r"\b([a-zA-Z])\s+(\d+)\b", r"\1\2", res)
+    res = re.sub(r"(\w+)\.\s+(\w+)", r"\1.\2", res)
+    return res
 
 
 def _token_set_ratio(s1: str, s2: str) -> float:
@@ -74,6 +79,13 @@ def match_item_rows(df: pd.DataFrame, item_query: str) -> pd.DataFrame:
         return pd.DataFrame()
 
     norm_names = df["item_name"].apply(normalize_query_str)
+
+    # 0. Exact match không dấu (gom cả biến thể có dấu và không dấu của cùng mặt hàng)
+    _q_na0 = strip_accents(q_l)
+    _names_na0 = norm_names.apply(strip_accents)
+    _exact_na0 = df[_names_na0 == _q_na0]
+    if not _exact_na0.empty:
+        return _exact_na0
 
     # 1. Exact match
     exact = df[norm_names == q_l]
@@ -163,6 +175,8 @@ class EntityMatcher:
             "customer": [],
             "group": [],
             "active_ingredient": [],
+            "staff": [],
+            "supplier": [],
         }
 
         seen_items: Set[str] = set()
@@ -240,6 +254,29 @@ class EntityMatcher:
                         (a_s, a_s, strip_accents(normalize_query_str(a_s)))
                     )
 
+        seen_staff: Set[str] = set()
+        for vname in ["sales", "orders"]:
+            vdf = views.get(vname)
+            if vdf is not None and not vdf.empty and "staff" in vdf.columns:
+                for st in vdf["staff"].dropna().unique():
+                    st_s = str(st).strip()
+                    if st_s and st_s.lower() not in ("nan", "none") and st_s.lower() not in seen_staff:
+                        seen_staff.add(st_s.lower())
+                        index["staff"].append(
+                            (st_s, st_s, strip_accents(normalize_query_str(st_s)))
+                        )
+
+        imp_df = views.get("imports")
+        if imp_df is not None and not imp_df.empty and "supplier" in imp_df.columns:
+            seen_sup: Set[str] = set()
+            for sup in imp_df["supplier"].dropna().unique():
+                sup_s = str(sup).strip()
+                if sup_s and sup_s.lower() not in ("nan", "none") and sup_s.lower() not in seen_sup:
+                    seen_sup.add(sup_s.lower())
+                    index["supplier"].append(
+                        (sup_s, sup_s, strip_accents(normalize_query_str(sup_s)))
+                    )
+
         return index
 
     def extract_shop_vocab(
@@ -265,6 +302,13 @@ class EntityMatcher:
         Trả về TOP 3 ứng viên có điểm >= threshold (0.70).
         """
         q_ascii = nq.ascii
+        # Chuẩn hóa khoảng trắng số đo, kích thước, mã hàng và dấu chấm
+        q_ascii = re.sub(r"(?<=\d)\s*x\s*(?=\d)", "x", q_ascii)
+        q_ascii = re.sub(
+            r"(\d+(?:\.\d+)?)\s+(ml|l|g|kg|mg|mcg|gb|tb|mm|cm|m)\b", r"\1\2", q_ascii
+        )
+        q_ascii = re.sub(r"\b([a-zA-Z])\s+(\d+)\b", r"\1\2", q_ascii)
+        q_ascii = re.sub(r"(\w+)\.\s+(\w+)", r"\1.\2", q_ascii)
         candidates: Dict[str, List[EntityCandidate]] = {}
         best_overall = 0.0
 
@@ -276,6 +320,10 @@ class EntityMatcher:
             )
             or re.search(
                 r"ban\s+(?:ra|duoc)?\s*(?:tong cong\s*)?(?:bao nhieu|may)\s+(?!don|hoa don|bill|phieu|tien|dong|ngay|thang|khach|lan)[a-z]+\s+[a-z0-9]{2,}",
+                q_ascii,
+            )
+            or re.search(
+                r"\b(?:so|bao nhieu|may)\s+(?:lo|chai|lon|hop|vi|goi|vien|tuyp|bich|thung|ong|chiec|cai|ly|coc|suat|dia|to|phan|kg|lit)\s+(?!thuoc\b|hang\b|nao\b|gi\b|trong\b|ban\b)[a-z0-9]{2,}",
                 q_ascii,
             )
         )
@@ -299,6 +347,41 @@ class EntityMatcher:
                                 name=name,
                                 score=1.0,
                                 matched_span=norm_a,
+                            )
+                        )
+
+            # Tầng 1.5: Khớp phần tên chính của mặt hàng khi đã lược bỏ quy cách đóng gói (VD: 'Efticol 0,9% lốc 10 lọ x 10ml' -> 'efticol 0,9%')
+            if not exact_hits and kind == "item":
+                core_matches: List[Tuple[str, str, str]] = []
+                for code, name, norm_a in entries:
+                    core_a = re.sub(
+                        r"\s+(?:loc|hop|vi|chai|lon|goi|tuyp|lo|bich|thung|ong)\s+\d+.*$",
+                        "",
+                        norm_a,
+                    ).strip()
+                    # Không chấp nhận core_a nếu chỉ còn 1 từ chung chung (như 'thep', 'gach', 'son'...) hoặc là tên hàng đặc thù
+                    words = core_a.split()
+                    if (
+                        len(core_a) >= 4
+                        and len(words) >= 2
+                        and core_a not in {"thep hop", "gach ong", "ong nuoc"}
+                        and core_a != norm_a
+                        and core_a in q_ascii
+                        and re.search(
+                            r"(?<!\w)" + re.escape(core_a) + r"(?!\w)", q_ascii
+                        )
+                    ):
+                        core_matches.append((code, name, core_a))
+                if core_matches:
+                    sc_val = 0.96 if len(core_matches) == 1 else 0.88
+                    for code, name, core_a in core_matches:
+                        exact_hits.append(
+                            EntityCandidate(
+                                kind=kind,
+                                code=code,
+                                name=name,
+                                score=sc_val,
+                                matched_span=core_a,
                             )
                         )
 

@@ -1,0 +1,19 @@
+{
+  "id": "q_527c4e439966",
+  "question": "Tại ngày 02/09/2026 có bnhiu khách quá hạn góp z?",
+  "answer": {
+    "id": "q_527c4e439966",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.003,
+  "trace": {
+    "normalized_text": "tại ngày 02/09/2026 có bao nhiêu khách quá hạn góp vậy?",
+    "normalized_ascii": "tai ngay 02/09/2026 co bao nhieu khach qua han gop vay?",
+    "time_rule": "R8_exact_date",
+    "time_start": "2026-09-02",
+    "time_end": "2026-09-02",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

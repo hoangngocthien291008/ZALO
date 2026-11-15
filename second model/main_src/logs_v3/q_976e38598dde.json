@@ -1,0 +1,19 @@
+{
+  "id": "q_976e38598dde",
+  "question": "Th7/2026 nhóm khách thân thiết mang về dthu bnhiu?",
+  "answer": {
+    "id": "q_976e38598dde",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0006,
+  "trace": {
+    "normalized_text": "tháng 7/2026 nhóm khách thân thiết mang về doanh thu bao nhiêu?",
+    "normalized_ascii": "thang 7/2026 nhom khach than thiet mang ve doanh thu bao nhieu?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-07-01",
+    "time_end": "2026-07-31",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

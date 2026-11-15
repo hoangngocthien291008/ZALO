@@ -1,0 +1,22 @@
+{
+  "id": "q_e768afaaf811",
+  "question": "Doanh thu cao nhất rơi vào tháng nào trong 3 tháng từ th12/2025 đến th2/2026?",
+  "answer": {
+    "id": "q_e768afaaf811",
+    "type": "date",
+    "answer": "2026-01"
+  },
+  "elapsed_sec": 0.0601,
+  "trace": {
+    "normalized_text": "doanh thu cao nhất rơi vào tháng nào trong 3 tháng từ tháng 12/2025 đến tháng 2/2026?",
+    "normalized_ascii": "doanh thu cao nhat roi vao thang nao trong 3 thang tu thang 12/2025 den thang 2/2026?",
+    "time_rule": "R2b_month_range",
+    "time_start": "2025-12-01",
+    "time_end": "2026-02-28",
+    "entity_status": "not_needed",
+    "inferred_type": "date",
+    "fastpath_code": "pairs = [(revenue(p['start'], p['end']), p['label']) for p in T['periods']]\npairs = [x for x in pairs if x[0] > 0]\nfinal_result = max(pairs, key=lambda x: x[0])[1] if pairs else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

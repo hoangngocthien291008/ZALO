@@ -1,0 +1,22 @@
+{
+  "id": "q_6066d5e1f466",
+  "question": "12-2025 có mấy khách mua từ 6 đơn trở lên nhỉ?",
+  "answer": {
+    "id": "q_6066d5e1f466",
+    "type": "number",
+    "answer": 92
+  },
+  "elapsed_sec": 0.0168,
+  "trace": {
+    "normalized_text": "12-2025 có mấy khách mua từ 6 đơn trở lên nhỉ?",
+    "normalized_ascii": "12-2025 co may khach mua tu 6 don tro len nhi?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-12-01",
+    "time_end": "2025-12-31",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "df = revenue_lines()\ndf = df[df['cust_key'] != ''] if not df.empty else df\ncnts = df.groupby('cust_key')['order_id'].nunique() if not df.empty else pd.Series(dtype=int)\nqual_c = int((cnts >= 6).sum())\nfinal_result = qual_c if qual_c > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

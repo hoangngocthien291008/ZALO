@@ -1,0 +1,19 @@
+{
+  "id": "q_121c6959016d",
+  "question": "thang 4/2026 bn ngay wan mik ban dc tu 40tr tro len z nha e",
+  "answer": {
+    "id": "q_121c6959016d",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.001,
+  "trace": {
+    "normalized_text": "thang 4/2026 bao nhiêu ngay quán mình ban được tu 40 tr trở lên z nha e",
+    "normalized_ascii": "thang 4/2026 bao nhieu ngay quan minh ban duoc tu 40 tr tro len z nha e",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-04-01",
+    "time_end": "2026-04-30",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

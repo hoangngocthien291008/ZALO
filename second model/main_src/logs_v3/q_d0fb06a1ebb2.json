@@ -1,0 +1,20 @@
+{
+  "id": "q_d0fb06a1ebb2",
+  "question": "11-2025 khách nam đóng góp bao nhiêu phần trăm doanh thu?",
+  "answer": {
+    "id": "q_d0fb06a1ebb2",
+    "type": "unanswerable",
+    "reason": "Dữ liệu cửa hàng không ghi nhận giới tính của khách hàng."
+  },
+  "elapsed_sec": 0.003,
+  "trace": {
+    "normalized_text": "11-2025 khách nam đóng góp bao nhiêu phần trăm doanh thu?",
+    "normalized_ascii": "11-2025 khach nam dong gop bao nhieu phan tram doanh thu?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-11-01",
+    "time_end": "2025-11-30",
+    "entity_status": "not_found",
+    "inferred_type": "percent",
+    "gate": "U2_missing_gender"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "q_a904adc2606a",
+  "question": "Th2/2026 trong số khách có mua, mấy % mua từ 5 đơn trở lên vậy?",
+  "answer": {
+    "id": "q_a904adc2606a",
+    "type": "percent",
+    "answer": 35.89
+  },
+  "elapsed_sec": 0.0267,
+  "trace": {
+    "normalized_text": "tháng 2/2026 trong số khách có mua, mấy% mua từ 5 đơn trở lên vậy?",
+    "normalized_ascii": "thang 2/2026 trong so khach co mua, may% mua tu 5 don tro len vay?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-02-01",
+    "time_end": "2026-02-28",
+    "entity_status": "not_needed",
+    "inferred_type": "percent",
+    "fastpath_code": "df = revenue_lines()\ndf = df[df['cust_key'] != ''] if not df.empty else df\nif df.empty:\n    final_result = None\nelse:\n    cnts = df.groupby('cust_key')['order_id'].nunique()\n    tot_c = len(cnts)\n    qual_c = int((cnts >= 5).sum())\n    final_result = pct(qual_c, tot_c) if tot_c > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

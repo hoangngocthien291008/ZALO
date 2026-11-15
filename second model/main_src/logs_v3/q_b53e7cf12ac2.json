@@ -1,0 +1,28 @@
+{
+  "id": "q_b53e7cf12ac2",
+  "question": "Tháng 7/2025 top 5 hàng bán chạy nhất là gì?",
+  "answer": {
+    "id": "q_b53e7cf12ac2",
+    "type": "list",
+    "answer": [
+      "Cà phê sữa (M)",
+      "Trà đào cam sả (M)",
+      "Cà phê đen (M)",
+      "Bạc xỉu (M)",
+      "Trà sữa trân châu (M)"
+    ]
+  },
+  "elapsed_sec": 0.0199,
+  "trace": {
+    "normalized_text": "tháng 7/2025 top 5 hàng bán chạy nhất là gì?",
+    "normalized_ascii": "thang 7/2025 top 5 hang ban chay nhat la gi?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-07-01",
+    "time_end": "2025-07-31",
+    "entity_status": "not_needed",
+    "inferred_type": "list",
+    "fastpath_code": "df = item_lines()\nfinal_result = top_k(df, value_col='qty_base', k=5, key_col='item_code', name_col='item_name')",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

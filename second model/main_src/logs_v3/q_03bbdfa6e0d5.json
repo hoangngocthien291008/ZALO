@@ -1,0 +1,22 @@
+{
+  "id": "q_03bbdfa6e0d5",
+  "question": "Hom ni quan duoc may don roi?",
+  "answer": {
+    "id": "q_03bbdfa6e0d5",
+    "type": "number",
+    "answer": 68
+  },
+  "elapsed_sec": 0.0155,
+  "trace": {
+    "normalized_text": "hôm nay quan duoc may don roi?",
+    "normalized_ascii": "hom nay quan duoc may don roi?",
+    "time_rule": "R5_today",
+    "time_start": "2025-09-09",
+    "time_end": "2025-09-09",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "df = revenue_lines()\nord_rev = df.groupby('order_id')['amount'].sum() if not df.empty else pd.Series(dtype=float)\nord_rev = ord_rev[ord_rev >= 0.0] if 0.0 > 0 else ord_rev\ncnt = int(len(ord_rev))\nfinal_result = cnt if cnt > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

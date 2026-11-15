@@ -1,0 +1,22 @@
+{
+  "id": "q_c03e79a805ac",
+  "question": "Th9/2025 tiem tong doanh thu duoc bao nhieu vay?",
+  "answer": {
+    "id": "q_c03e79a805ac",
+    "type": "number",
+    "answer": 1117983600
+  },
+  "elapsed_sec": 0.0059,
+  "trace": {
+    "normalized_text": "tháng 9/2025 tiem tong doanh thu duoc bao nhiêu vay?",
+    "normalized_ascii": "thang 9/2025 tiem tong doanh thu duoc bao nhieu vay?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-09-01",
+    "time_end": "2025-09-30",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "rev = revenue()\nfinal_result = rev if rev > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

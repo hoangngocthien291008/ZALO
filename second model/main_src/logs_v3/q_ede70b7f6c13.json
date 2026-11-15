@@ -1,0 +1,22 @@
+{
+  "id": "q_ede70b7f6c13",
+  "question": "Th9/2025 3 khach nao chi nhieu tien nhat?",
+  "answer": {
+    "id": "q_ede70b7f6c13",
+    "type": "string",
+    "answer": "Châu Quang Khánh"
+  },
+  "elapsed_sec": 0.0189,
+  "trace": {
+    "normalized_text": "tháng 9/2025 3 khach nao chi nhieu tien nhat?",
+    "normalized_ascii": "thang 9/2025 3 khach nao chi nhieu tien nhat?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-09-01",
+    "time_end": "2025-09-30",
+    "entity_status": "not_needed",
+    "inferred_type": "string",
+    "fastpath_code": "df = revenue_lines()\ndf = df[df['cust_key'] != ''] if not df.empty else df\nfinal_result = top_k(df, value_col='amount', k=1, key_col='cust_key', name_col='cust_name')",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

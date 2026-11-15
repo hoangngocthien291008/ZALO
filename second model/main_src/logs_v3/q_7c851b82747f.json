@@ -1,0 +1,22 @@
+{
+  "id": "q_7c851b82747f",
+  "question": "Dthu tu dau nam toi het hom nay la bao nhieu z?",
+  "answer": {
+    "id": "q_7c851b82747f",
+    "type": "number",
+    "answer": 11376591900
+  },
+  "elapsed_sec": 0.0141,
+  "trace": {
+    "normalized_text": "doanh thu từ đầu nam toi het hôm nay la bao nhiêu vậy?",
+    "normalized_ascii": "doanh thu tu dau nam toi het hom nay la bao nhieu vay?",
+    "time_rule": "R3_ytd",
+    "time_start": "2025-01-01",
+    "time_end": "2025-10-28",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "rev = revenue()\nfinal_result = rev if rev > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

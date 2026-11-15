@@ -1,0 +1,19 @@
+{
+  "id": "q_ed68b2a7cb63",
+  "question": "Trong tổng số bịch bỉm bán tháng này, bỉm size M chiếm bao nhiêu %?",
+  "answer": {
+    "id": "q_ed68b2a7cb63",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0111,
+  "trace": {
+    "normalized_text": "trong tổng số bịch bỉm bán tháng này, bỉm size m chiếm bao nhiêu%?",
+    "normalized_ascii": "trong tong so bich bim ban thang nay, bim size m chiem bao nhieu%?",
+    "time_rule": "R12_this_month",
+    "time_start": "2026-06-01",
+    "time_end": "2026-06-30",
+    "entity_status": "not_found",
+    "inferred_type": "percent",
+    "gate": "G3_entity_below_0.70"
+  }
+}

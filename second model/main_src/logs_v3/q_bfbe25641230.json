@@ -1,0 +1,19 @@
+{
+  "id": "q_bfbe25641230",
+  "question": "06/2026 khach tra bot no mua chiu duoc bnhiu tien?",
+  "answer": {
+    "id": "q_bfbe25641230",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.001,
+  "trace": {
+    "normalized_text": "06/2026 khach tra bot no mua chịu duoc bao nhiêu tien?",
+    "normalized_ascii": "06/2026 khach tra bot no mua chiu duoc bao nhieu tien?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-06-01",
+    "time_end": "2026-06-30",
+    "entity_status": "exact",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

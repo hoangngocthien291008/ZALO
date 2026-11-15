@@ -1,0 +1,22 @@
+{
+  "id": "q_0da15db21978",
+  "question": "Th5/2025 thuốc kê đơn chiếm bao nhiêu % tổng dthu?",
+  "answer": {
+    "id": "q_0da15db21978",
+    "type": "percent",
+    "answer": 3.28
+  },
+  "elapsed_sec": 0.0141,
+  "trace": {
+    "normalized_text": "tháng 5/2025 thuốc kê đơn chiếm bao nhiêu% tổng doanh thu?",
+    "normalized_ascii": "thang 5/2025 thuoc ke don chiem bao nhieu% tong doanh thu?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-05-01",
+    "time_end": "2025-05-31",
+    "entity_status": "not_needed",
+    "inferred_type": "percent",
+    "fastpath_code": "df = revenue_lines()\np = V.get('products')\nrx_codes = set(p[p['is_prescription'] == True]['item_code']) if (p is not None and 'is_prescription' in p.columns) else set()\ntot = float(df['amount'].sum()) if not df.empty else 0.0\nrx_rev = float(df[df['item_code'].isin(rx_codes)]['amount'].sum()) if not df.empty else 0.0\nfinal_result = pct(rx_rev, tot) if tot > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

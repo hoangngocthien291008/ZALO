@@ -1,0 +1,22 @@
+{
+  "id": "q_90375e5beeab",
+  "question": "Tuần này tiệm bán được bao nhiêu đơn rồi nhỉ?",
+  "answer": {
+    "id": "q_90375e5beeab",
+    "type": "number",
+    "answer": 75
+  },
+  "elapsed_sec": 0.007,
+  "trace": {
+    "normalized_text": "tuần này tiệm bán được bao nhiêu đơn rồi nhỉ?",
+    "normalized_ascii": "tuan nay tiem ban duoc bao nhieu don roi nhi?",
+    "time_rule": "R9_this_week",
+    "time_start": "2025-04-07",
+    "time_end": "2025-04-09",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "df = revenue_lines()\nord_rev = df.groupby('order_id')['amount'].sum() if not df.empty else pd.Series(dtype=float)\nord_rev = ord_rev[ord_rev >= 0.0] if 0.0 > 0 else ord_rev\ncnt = int(len(ord_rev))\nfinal_result = cnt if cnt > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

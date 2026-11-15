@@ -1,0 +1,19 @@
+{
+  "id": "q_54e2a0754e8b",
+  "question": "Tháng 1/2026 nhóm cà phê bán được bao nhiêu ly?",
+  "answer": {
+    "id": "q_54e2a0754e8b",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.002,
+  "trace": {
+    "normalized_text": "tháng 1/2026 nhóm cà phê bán được bao nhiêu ly?",
+    "normalized_ascii": "thang 1/2026 nhom ca phe ban duoc bao nhieu ly?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-01-01",
+    "time_end": "2026-01-31",
+    "entity_status": "exact",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

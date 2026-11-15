@@ -1,0 +1,19 @@
+{
+  "id": "q_ad512cd0cb75",
+  "question": "3/26 thợ mô làm ra nhiều tiền nhất rứa?",
+  "answer": {
+    "id": "q_ad512cd0cb75",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0061,
+  "trace": {
+    "normalized_text": "3/26 thợ nào làm ra nhiều tiền nhất vậy?",
+    "normalized_ascii": "3/26 tho nao lam ra nhieu tien nhat vay?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-03-01",
+    "time_end": "2026-03-31",
+    "entity_status": "not_needed",
+    "inferred_type": "string",
+    "gate": "G4_safe_abstain"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "q_908d0d681cd8",
+  "question": "6-2026 co may ngay ban duoc tu 9.700.000 dong tro len?",
+  "answer": {
+    "id": "q_908d0d681cd8",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0006,
+  "trace": {
+    "normalized_text": "6-2026 co may ngay ban duoc tu 9.700.000 dong trở lên?",
+    "normalized_ascii": "6-2026 co may ngay ban duoc tu 9.700.000 dong tro len?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-06-01",
+    "time_end": "2026-06-30",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

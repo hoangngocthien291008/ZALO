@@ -1,0 +1,19 @@
+{
+  "id": "q_95aa9007198f",
+  "question": "Tháng 10/2025, trong các khách hàng, ai khó tính nhất?",
+  "answer": {
+    "id": "q_95aa9007198f",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.001,
+  "trace": {
+    "normalized_text": "tháng 10/2025, trong các khách hàng, ai khó tính nhất?",
+    "normalized_ascii": "thang 10/2025, trong cac khach hang, ai kho tinh nhat?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-10-01",
+    "time_end": "2025-10-31",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

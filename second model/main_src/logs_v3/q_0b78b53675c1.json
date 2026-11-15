@@ -1,0 +1,22 @@
+{
+  "id": "q_0b78b53675c1",
+  "question": "Tết âm lịch 2026 sp nào bán chạy nhất?",
+  "answer": {
+    "id": "q_0b78b53675c1",
+    "type": "string",
+    "answer": "Berberin 100mg Mekophar chai 100 viên"
+  },
+  "elapsed_sec": 0.1686,
+  "trace": {
+    "normalized_text": "tết âm lịch 2026 sản phẩm nào bán chạy nhất?",
+    "normalized_ascii": "tet am lich 2026 san pham nao ban chay nhat?",
+    "time_rule": "R1_tet",
+    "time_start": "2026-02-10",
+    "time_end": "2026-02-26",
+    "entity_status": "not_needed",
+    "inferred_type": "string",
+    "fastpath_code": "df = item_lines()\nfinal_result = top_k(df, value_col='qty_base', k=1, key_col='item_code', name_col='item_name')",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

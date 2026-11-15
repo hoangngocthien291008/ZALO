@@ -1,0 +1,19 @@
+{
+  "id": "q_3ed8a306be83",
+  "question": "Bìn quân 1 đơn th3/2026 bao nhiêu tiền?",
+  "answer": {
+    "id": "q_3ed8a306be83",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.001,
+  "trace": {
+    "normalized_text": "bìn quân 1 đơn tháng 3/2026 bao nhiêu tiền?",
+    "normalized_ascii": "bin quan 1 don thang 3/2026 bao nhieu tien?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-03-01",
+    "time_end": "2026-03-31",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

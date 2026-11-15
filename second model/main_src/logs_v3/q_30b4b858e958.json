@@ -1,0 +1,22 @@
+{
+  "id": "q_30b4b858e958",
+  "question": "Tóp 5 sp bán nhiều nhất tuần rồi là gì z?",
+  "answer": {
+    "id": "q_30b4b858e958",
+    "type": "string",
+    "answer": "Kẽm buộc 1mm"
+  },
+  "elapsed_sec": 0.0577,
+  "trace": {
+    "normalized_text": "tóp 5 sp bán nhiều nhất tuần rồi là gì vậy?",
+    "normalized_ascii": "top 5 sp ban nhieu nhat tuan roi la gi vay?",
+    "time_rule": "R10_last_week",
+    "time_start": "2025-05-05",
+    "time_end": "2025-05-11",
+    "entity_status": "not_needed",
+    "inferred_type": "string",
+    "fastpath_code": "df = item_lines()\nfinal_result = top_k(df, value_col='qty_base', k=1, key_col='item_code', name_col='item_name')",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

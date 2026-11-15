@@ -1,0 +1,19 @@
+{
+  "id": "q_e36c0b269181",
+  "question": "Số khách thành viên đăng ký mới th 5/26?",
+  "answer": {
+    "id": "q_e36c0b269181",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0015,
+  "trace": {
+    "normalized_text": "số khách thành viên đăng ký mới th 5/26?",
+    "normalized_ascii": "so khach thanh vien dang ky moi th 5/26?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-05-01",
+    "time_end": "2026-05-31",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

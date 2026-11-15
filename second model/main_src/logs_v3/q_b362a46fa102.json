@@ -1,0 +1,19 @@
+{
+  "id": "q_b362a46fa102",
+  "question": "Thang 5/2026 bim size M ban duoc may bich nhi, gop tat ca cac hang?",
+  "answer": {
+    "id": "q_b362a46fa102",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0086,
+  "trace": {
+    "normalized_text": "thang 5/2026 bim size m ban duoc may bich nhi, gop tat ca cac hang?",
+    "normalized_ascii": "thang 5/2026 bim size m ban duoc may bich nhi, gop tat ca cac hang?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-05-01",
+    "time_end": "2026-05-31",
+    "entity_status": "not_found",
+    "inferred_type": "number",
+    "gate": "G3_entity_below_0.70"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "q_ef0073de2935",
+  "question": "10/2025 tiệm mình thu được bao nhiêu doanh thu thế?",
+  "answer": {
+    "id": "q_ef0073de2935",
+    "type": "number",
+    "answer": 674966000
+  },
+  "elapsed_sec": 0.009,
+  "trace": {
+    "normalized_text": "10/2025 tiệm mình thu được bao nhiêu doanh thu thế?",
+    "normalized_ascii": "10/2025 tiem minh thu duoc bao nhieu doanh thu the?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-10-01",
+    "time_end": "2025-10-31",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "rev = revenue()\nfinal_result = rev if rev > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "q_3e9418af3a85",
+  "question": "Dthu của tiệm trong 7 ngày gần nhất được bnhiu vậy?",
+  "answer": {
+    "id": "q_3e9418af3a85",
+    "type": "number",
+    "answer": 236713100
+  },
+  "elapsed_sec": 0.023,
+  "trace": {
+    "normalized_text": "doanh thu của tiệm trong 7 ngày gần nhất được bao nhiêu vậy?",
+    "normalized_ascii": "doanh thu cua tiem trong 7 ngay gan nhat duoc bao nhieu vay?",
+    "time_rule": "R7_n_days",
+    "time_start": "2025-04-17",
+    "time_end": "2025-04-23",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "rev = revenue()\nfinal_result = rev if rev > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

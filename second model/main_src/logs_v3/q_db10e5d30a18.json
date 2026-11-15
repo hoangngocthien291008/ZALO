@@ -1,0 +1,19 @@
+{
+  "id": "q_db10e5d30a18",
+  "question": "Binh quan don hang tuan truoc gia tri bnhiu z?",
+  "answer": {
+    "id": "q_db10e5d30a18",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0014,
+  "trace": {
+    "normalized_text": "bình quân don hang tuần trước gia tri bao nhiêu vậy?",
+    "normalized_ascii": "binh quan don hang tuan truoc gia tri bao nhieu vay?",
+    "time_rule": "R10_last_week",
+    "time_start": "2025-01-27",
+    "time_end": "2025-02-02",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

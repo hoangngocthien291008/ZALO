@@ -1,0 +1,19 @@
+{
+  "id": "q_3d231754f550",
+  "question": "So với tháng ngay trước đó, dthu th4/2026 lên xuống mấy % vậy?",
+  "answer": {
+    "id": "q_3d231754f550",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.001,
+  "trace": {
+    "normalized_text": "so với tháng ngay trước đó, doanh thu tháng 4/2026 lên xuống mấy% vậy?",
+    "normalized_ascii": "so voi thang ngay truoc do, doanh thu thang 4/2026 len xuong may% vay?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-04-01",
+    "time_end": "2026-04-30",
+    "entity_status": "not_needed",
+    "inferred_type": "percent",
+    "gate": "G4_safe_abstain"
+  }
+}

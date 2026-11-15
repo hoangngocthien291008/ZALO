@@ -1,0 +1,22 @@
+{
+  "id": "q_1618b7c50ae7",
+  "question": "Trong khách mua th7/2025, mấy % mua từ 3 đh trở lên?",
+  "answer": {
+    "id": "q_1618b7c50ae7",
+    "type": "percent",
+    "answer": 69.31
+  },
+  "elapsed_sec": 0.0159,
+  "trace": {
+    "normalized_text": "trong khách mua tháng 7/2025, mấy% mua từ 3 đơn hàng trở lên?",
+    "normalized_ascii": "trong khach mua thang 7/2025, may% mua tu 3 don hang tro len?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-07-01",
+    "time_end": "2025-07-31",
+    "entity_status": "not_needed",
+    "inferred_type": "percent",
+    "fastpath_code": "df = revenue_lines()\ndf = df[df['cust_key'] != ''] if not df.empty else df\nif df.empty:\n    final_result = None\nelse:\n    cnts = df.groupby('cust_key')['order_id'].nunique()\n    tot_c = len(cnts)\n    qual_c = int((cnts >= 3).sum())\n    final_result = pct(qual_c, tot_c) if tot_c > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

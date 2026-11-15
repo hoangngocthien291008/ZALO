@@ -1,0 +1,19 @@
+{
+  "id": "q_ae10c252dc7a",
+  "question": "Tháng 9/2025 nhóm trà sữa bán được bao nhiêu ly?",
+  "answer": {
+    "id": "q_ae10c252dc7a",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0016,
+  "trace": {
+    "normalized_text": "tháng 9/2025 nhóm trà sữa bán được bao nhiêu ly?",
+    "normalized_ascii": "thang 9/2025 nhom tra sua ban duoc bao nhieu ly?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-09-01",
+    "time_end": "2025-09-30",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

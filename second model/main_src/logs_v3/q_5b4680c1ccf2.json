@@ -1,0 +1,22 @@
+{
+  "id": "q_5b4680c1ccf2",
+  "question": "Tuan nay ban chay nhat la mat hang nao?",
+  "answer": {
+    "id": "q_5b4680c1ccf2",
+    "type": "string",
+    "answer": "Bia Sài Gòn Special lon"
+  },
+  "elapsed_sec": 0.2495,
+  "trace": {
+    "normalized_text": "tuần này bán chạy nhat la mặt hàng nao?",
+    "normalized_ascii": "tuan nay ban chay nhat la mat hang nao?",
+    "time_rule": "R9_this_week",
+    "time_start": "2026-06-08",
+    "time_end": "2026-06-14",
+    "entity_status": "not_needed",
+    "inferred_type": "string",
+    "fastpath_code": "df = item_lines()\nfinal_result = top_k(df, value_col='qty_base', k=1, key_col='item_code', name_col='item_name')",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "q_107e86e608dc",
+  "question": "Th6/2025 hàng ko kê đơn bán đc bnhiu tiền ha?",
+  "answer": {
+    "id": "q_107e86e608dc",
+    "type": "number",
+    "answer": 264150700
+  },
+  "elapsed_sec": 0.0141,
+  "trace": {
+    "normalized_text": "tháng 6/2025 hàng không kê đơn bán được bao nhiêu tiền ha?",
+    "normalized_ascii": "thang 6/2025 hang khong ke don ban duoc bao nhieu tien ha?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-06-01",
+    "time_end": "2025-06-30",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "df = revenue_lines()\np = V.get('products')\nrx_codes = set(p[p['is_prescription'] == False]['item_code']) if (p is not None and 'is_prescription' in p.columns) else set()\nrx_rev = float(df[df['item_code'].isin(rx_codes)]['amount'].sum()) if not df.empty else 0.0\nfinal_result = money(rx_rev) if rx_rev > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

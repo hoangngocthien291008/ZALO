@@ -1,0 +1,19 @@
+{
+  "id": "q_20b7bbf203c7",
+  "question": "Hoa hồng từng thợ th 3/26, cho bảng xếp tiền giảm dần nghe?",
+  "answer": {
+    "id": "q_20b7bbf203c7",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0051,
+  "trace": {
+    "normalized_text": "hoa hồng từng thợ th 3/26, cho bảng xếp tiền giảm dần nghe?",
+    "normalized_ascii": "hoa hong tung tho th 3/26, cho bang xep tien giam dan nghe?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-03-01",
+    "time_end": "2026-03-31",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

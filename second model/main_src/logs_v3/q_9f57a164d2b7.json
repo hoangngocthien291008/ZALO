@@ -1,0 +1,26 @@
+{
+  "id": "q_9f57a164d2b7",
+  "question": "Doanh thu từng tháng của 3 tháng 1/2026, 2/2026, 3/2026 lần lượt là bao nhiêu?",
+  "answer": {
+    "id": "q_9f57a164d2b7",
+    "type": "list",
+    "answer": [
+      431915500,
+      513220500,
+      442066500
+    ]
+  },
+  "elapsed_sec": 0.0131,
+  "trace": {
+    "normalized_text": "doanh thu từng tháng của 3 tháng 1/2026, 2/2026, 3/2026 lần lượt là bao nhiêu?",
+    "normalized_ascii": "doanh thu tung thang cua 3 thang 1/2026, 2/2026, 3/2026 lan luot la bao nhieu?",
+    "time_rule": "R2b_month_list",
+    "time_start": "2026-01-01",
+    "time_end": "2026-03-31",
+    "entity_status": "not_needed",
+    "inferred_type": "list",
+    "fastpath_code": "revs = [revenue(p['start'], p['end']) for p in T['periods']]\nfinal_result = revs if (revs and all(r > 0 for r in revs)) else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

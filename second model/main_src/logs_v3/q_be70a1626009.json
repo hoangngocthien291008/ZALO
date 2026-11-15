@@ -1,0 +1,26 @@
+{
+  "id": "q_be70a1626009",
+  "question": "Cho xin doanh thu lần lượt từng T2/2026, T3/2026, T4/2026 nha",
+  "answer": {
+    "id": "q_be70a1626009",
+    "type": "list",
+    "answer": [
+      241785400,
+      298124200,
+      277089300
+    ]
+  },
+  "elapsed_sec": 0.0488,
+  "trace": {
+    "normalized_text": "cho xin doanh thu lần lượt từng tháng 2/2026, tháng 3/2026, tháng 4/2026 nha",
+    "normalized_ascii": "cho xin doanh thu lan luot tung thang 2/2026, thang 3/2026, thang 4/2026 nha",
+    "time_rule": "R2b_month_list",
+    "time_start": "2026-02-01",
+    "time_end": "2026-04-30",
+    "entity_status": "not_needed",
+    "inferred_type": "list",
+    "fastpath_code": "revs = [revenue(p['start'], p['end']) for p in T['periods']]\nfinal_result = revs if (revs and all(r > 0 for r in revs)) else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

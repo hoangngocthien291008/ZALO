@@ -1,0 +1,19 @@
+{
+  "id": "q_f3a93a869037",
+  "question": "7-2026 tien hang cac phieu tho Ha Loan Dat lam cong lai bnhiu?",
+  "answer": {
+    "id": "q_f3a93a869037",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0062,
+  "trace": {
+    "normalized_text": "7-2026 tien hang cac phieu tho ha loan dat lam cong lai bao nhiêu?",
+    "normalized_ascii": "7-2026 tien hang cac phieu tho ha loan dat lam cong lai bao nhieu?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-07-01",
+    "time_end": "2026-07-31",
+    "entity_status": "exact",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

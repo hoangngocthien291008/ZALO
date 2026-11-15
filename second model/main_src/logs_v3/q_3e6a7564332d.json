@@ -1,0 +1,22 @@
+{
+  "id": "q_3e6a7564332d",
+  "question": "Ngày nào trong tháng 10 năm 2025 tiệm bán được nhiều tiền nhất?",
+  "answer": {
+    "id": "q_3e6a7564332d",
+    "type": "date",
+    "answer": "2025-10-04"
+  },
+  "elapsed_sec": 0.0131,
+  "trace": {
+    "normalized_text": "ngày nào trong tháng 10 năm 2025 tiệm bán được nhiều tiền nhất?",
+    "normalized_ascii": "ngay nao trong thang 10 nam 2025 tiem ban duoc nhieu tien nhat?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-10-01",
+    "time_end": "2025-10-31",
+    "entity_status": "not_needed",
+    "inferred_type": "date",
+    "fastpath_code": "df = revenue_lines()\ndaily = df[df['date'] != ''].groupby('date', as_index=False)['amount'].sum() if not df.empty else pd.DataFrame()\ndaily = daily.sort_values(by=['amount', 'date'], ascending=[False, True], kind='mergesort') if not daily.empty else daily\nfinal_result = str(daily.iloc[0]['date'])[:10] if not daily.empty else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

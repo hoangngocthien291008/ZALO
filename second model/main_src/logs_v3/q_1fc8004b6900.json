@@ -1,0 +1,19 @@
+{
+  "id": "q_1fc8004b6900",
+  "question": "Th này sốp bán ra bnhiu lon sữa bột số 4 z, gộp hết mọi hãng?",
+  "answer": {
+    "id": "q_1fc8004b6900",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0105,
+  "trace": {
+    "normalized_text": "tháng này sốp bán ra bao nhiêu lon sữa bột số 4 z, gộp hết mọi hãng?",
+    "normalized_ascii": "thang nay sop ban ra bao nhieu lon sua bot so 4 z, gop het moi hang?",
+    "time_rule": "R12_this_month",
+    "time_start": "2026-06-01",
+    "time_end": "2026-06-30",
+    "entity_status": "exact",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "q_3c935a94dc79",
+  "question": "Đến hết 17/12/2025 chia tiền nợ còn lại theo tuổi nợ 0–7 ngày, 8–15 ngày và trên 15 ngày, từng nhóm có bao nhiêu tiền?",
+  "answer": {
+    "id": "q_3c935a94dc79",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0017,
+  "trace": {
+    "normalized_text": "đến hết 17/12/2025 chia tiền nợ còn lại theo tuổi nợ 0 – 7 ngày, 8 – 15 ngày và trên 15 ngày, từng nhóm có bao nhiêu tiền?",
+    "normalized_ascii": "den het 17/12/2025 chia tien no con lai theo tuoi no 0 – 7 ngay, 8 – 15 ngay va tren 15 ngay, tung nhom co bao nhieu tien?",
+    "time_rule": "R8_exact_date",
+    "time_start": "2025-12-17",
+    "time_end": "2025-12-17",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "q_f9c80cc2d330",
+  "question": "Tháng 11/25 tiệm bán tổng cộng đươcj bnhiu tiền?",
+  "answer": {
+    "id": "q_f9c80cc2d330",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0105,
+  "trace": {
+    "normalized_text": "tháng 11/25 tiệm bán tổng cộng đươcj bao nhiêu tiền?",
+    "normalized_ascii": "thang 11/25 tiem ban tong cong duocj bao nhieu tien?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-11-01",
+    "time_end": "2025-11-30",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

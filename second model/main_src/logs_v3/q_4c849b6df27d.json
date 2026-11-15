@@ -1,0 +1,22 @@
+{
+  "id": "q_4c849b6df27d",
+  "question": "Có bao nhiêu khách mua từ 9 đơn trở lên trong th12/2025 z?",
+  "answer": {
+    "id": "q_4c849b6df27d",
+    "type": "number",
+    "answer": 201
+  },
+  "elapsed_sec": 0.0267,
+  "trace": {
+    "normalized_text": "có bao nhiêu khách mua từ 9 đơn trở lên trong tháng 12/2025 vậy?",
+    "normalized_ascii": "co bao nhieu khach mua tu 9 don tro len trong thang 12/2025 vay?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-12-01",
+    "time_end": "2025-12-31",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "df = revenue_lines()\ndf = df[df['cust_key'] != ''] if not df.empty else df\ncnts = df.groupby('cust_key')['order_id'].nunique() if not df.empty else pd.Series(dtype=int)\nqual_c = int((cnts >= 9).sum())\nfinal_result = qual_c if qual_c > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

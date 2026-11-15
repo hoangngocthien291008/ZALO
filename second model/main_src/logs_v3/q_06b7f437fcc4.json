@@ -1,0 +1,19 @@
+{
+  "id": "q_06b7f437fcc4",
+  "question": "Tho Dam Lan An thang nay lam duoc tong bao nhieu tien roi?",
+  "answer": {
+    "id": "q_06b7f437fcc4",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0057,
+  "trace": {
+    "normalized_text": "tho dam lan an tháng này lam duoc tong bao nhiêu tien roi?",
+    "normalized_ascii": "tho dam lan an thang nay lam duoc tong bao nhieu tien roi?",
+    "time_rule": "R12_this_month",
+    "time_start": "2026-08-01",
+    "time_end": "2026-08-31",
+    "entity_status": "exact",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

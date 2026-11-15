@@ -1,0 +1,22 @@
+{
+  "id": "q_b963dcade0d3",
+  "question": "4/2026 có mấy đh bị huỷ hả?",
+  "answer": {
+    "id": "q_b963dcade0d3",
+    "type": "number",
+    "answer": 56
+  },
+  "elapsed_sec": 0.0138,
+  "trace": {
+    "normalized_text": "4/2026 có mấy đơn hàng bị huỷ hả?",
+    "normalized_ascii": "4/2026 co may don hang bi huy ha?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-04-01",
+    "time_end": "2026-04-30",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "sub = all_orders()\ncanc = len(sub[sub['status_norm'] == 'huy']['order_id'].unique()) if not sub.empty else 0\nfinal_result = int(canc)",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

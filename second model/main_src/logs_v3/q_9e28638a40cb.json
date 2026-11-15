@@ -1,0 +1,22 @@
+{
+  "id": "q_9e28638a40cb",
+  "question": "Từ đầu năm tới chừ tiệm bán được bao nhiêu tiền rồi?",
+  "answer": {
+    "id": "q_9e28638a40cb",
+    "type": "number",
+    "answer": 1123614700
+  },
+  "elapsed_sec": 0.0169,
+  "trace": {
+    "normalized_text": "từ đầu năm tới chừ tiệm bán được bao nhiêu tiền rồi?",
+    "normalized_ascii": "tu dau nam toi chu tiem ban duoc bao nhieu tien roi?",
+    "time_rule": "R3_ytd",
+    "time_start": "2026-01-01",
+    "time_end": "2026-04-04",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "rev = revenue()\nfinal_result = rev if rev > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

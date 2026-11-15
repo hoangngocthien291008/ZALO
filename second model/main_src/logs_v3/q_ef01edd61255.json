@@ -1,0 +1,19 @@
+{
+  "id": "q_ef01edd61255",
+  "question": "Tháng ba quán có tất cả bao nhiêu đơn bị huỷ thế?",
+  "answer": {
+    "id": "q_ef01edd61255",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0005,
+  "trace": {
+    "normalized_text": "tháng ba quán có tất cả bao nhiêu đơn bị huỷ thế?",
+    "normalized_ascii": "thang ba quan co tat ca bao nhieu don bi huy the?",
+    "time_rule": "none",
+    "time_start": "2026-08-21",
+    "time_end": "2026-08-21",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G2_missing_time"
+  }
+}

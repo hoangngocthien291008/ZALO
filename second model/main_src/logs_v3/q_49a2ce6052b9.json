@@ -1,0 +1,19 @@
+{
+  "id": "q_49a2ce6052b9",
+  "question": "Trong tháng 5/2026, bỉm size XL của mọi hãng bán được tổng cộng mấy bịch?",
+  "answer": {
+    "id": "q_49a2ce6052b9",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0,
+  "trace": {
+    "normalized_text": "trong tháng 5/2026, bỉm size xl của mọi hãng bán được tổng cộng mấy bịch?",
+    "normalized_ascii": "trong thang 5/2026, bim size xl cua moi hang ban duoc tong cong may bich?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-05-01",
+    "time_end": "2026-05-31",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

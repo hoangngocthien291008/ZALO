@@ -1,0 +1,21 @@
+{
+  "id": "q_e47610290a38",
+  "question": "Top năm món bán chayj nhất tuần này là những món nào?",
+  "answer": {
+    "id": "q_e47610290a38",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0162,
+  "trace": {
+    "normalized_text": "top năm món bán chạy nhất tuần này là những món nào?",
+    "normalized_ascii": "top nam mon ban chay nhat tuan nay la nhung mon nao?",
+    "time_rule": "R9_this_week",
+    "time_start": "2026-05-11",
+    "time_end": "2026-05-16",
+    "entity_status": "not_needed",
+    "inferred_type": "list",
+    "fastpath_code": "df = item_lines()\nfinal_result = top_k(df, value_col='qty_base', k=1, key_col='item_code', name_col='item_name')",
+    "fastpath_ok": true,
+    "gate": "G4_safe_abstain"
+  }
+}

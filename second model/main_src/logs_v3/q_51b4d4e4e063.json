@@ -1,0 +1,19 @@
+{
+  "id": "q_51b4d4e4e063",
+  "question": "Hết ngày hôm nay, tổng số tiền góp khách chưa trả, kể cả các kỳ chưa tới hạn, là bao nhiêu?",
+  "answer": {
+    "id": "q_51b4d4e4e063",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0025,
+  "trace": {
+    "normalized_text": "hết ngày hôm nay, tổng số tiền góp khách chưa trả, kể cả các kỳ chưa tới hạn, là bao nhiêu?",
+    "normalized_ascii": "het ngay hom nay, tong so tien gop khach chua tra, ke ca cac ky chua toi han, la bao nhieu?",
+    "time_rule": "R5_today",
+    "time_start": "2025-09-30",
+    "time_end": "2025-09-30",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

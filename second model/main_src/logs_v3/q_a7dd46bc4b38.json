@@ -1,0 +1,22 @@
+{
+  "id": "q_a7dd46bc4b38",
+  "question": "Xem giúp mình tháng 7/2025, hàng nào được khách ưa chuộng nhất?",
+  "answer": {
+    "id": "q_a7dd46bc4b38",
+    "type": "string",
+    "answer": "Rau muống xào tỏi"
+  },
+  "elapsed_sec": 0.1708,
+  "trace": {
+    "normalized_text": "xem giúp mình tháng 7/2025, hàng nào được khách ưa chuộng nhất?",
+    "normalized_ascii": "xem giup minh thang 7/2025, hang nao duoc khach ua chuong nhat?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-07-01",
+    "time_end": "2025-07-31",
+    "entity_status": "not_needed",
+    "inferred_type": "string",
+    "fastpath_code": "final_result = popular_item(T['start'], T['end'], k=1)",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

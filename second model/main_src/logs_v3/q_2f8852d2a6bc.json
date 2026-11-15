@@ -1,0 +1,22 @@
+{
+  "id": "q_2f8852d2a6bc",
+  "question": "Từ 1/1 đến hết hnay dthu năm nay đc bnhiu?",
+  "answer": {
+    "id": "q_2f8852d2a6bc",
+    "type": "number",
+    "answer": 14631081500
+  },
+  "elapsed_sec": 0.0045,
+  "trace": {
+    "normalized_text": "từ 1/1 đến hết hôm nay doanh thu năm nay được bao nhiêu?",
+    "normalized_ascii": "tu 1/1 den het hom nay doanh thu nam nay duoc bao nhieu?",
+    "time_rule": "R4_snapshot",
+    "time_start": null,
+    "time_end": "2026-03-23",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "rev = revenue()\nfinal_result = rev if rev > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

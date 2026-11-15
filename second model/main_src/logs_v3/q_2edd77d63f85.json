@@ -1,0 +1,22 @@
+{
+  "id": "q_2edd77d63f85",
+  "question": "Tỉ nệ huỷ đơn th7/2026 bnhiu %?",
+  "answer": {
+    "id": "q_2edd77d63f85",
+    "type": "percent",
+    "answer": 2.86
+  },
+  "elapsed_sec": 0.0107,
+  "trace": {
+    "normalized_text": "tỉ nệ huỷ đơn tháng 7/2026 bao nhiêu%?",
+    "normalized_ascii": "ti ne huy don thang 7/2026 bao nhieu%?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-07-01",
+    "time_end": "2026-07-31",
+    "entity_status": "not_needed",
+    "inferred_type": "percent",
+    "fastpath_code": "sub = all_orders()\ntot = len(sub['order_id'].unique()) if not sub.empty else 0\ncanc = len(sub[sub['status_norm'] == 'huy']['order_id'].unique()) if not sub.empty else 0\nfinal_result = pct(canc, tot) if tot > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

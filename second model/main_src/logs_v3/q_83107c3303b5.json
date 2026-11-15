@@ -1,0 +1,19 @@
+{
+  "id": "q_83107c3303b5",
+  "question": "Tuần trước bán được bao nhiêu tền ha?",
+  "answer": {
+    "id": "q_83107c3303b5",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0015,
+  "trace": {
+    "normalized_text": "tuần trước bán được bao nhiêu tền ha?",
+    "normalized_ascii": "tuan truoc ban duoc bao nhieu ten ha?",
+    "time_rule": "R10_last_week",
+    "time_start": "2025-04-21",
+    "time_end": "2025-04-27",
+    "entity_status": "not_found",
+    "inferred_type": "number",
+    "gate": "G3_entity_below_0.70"
+  }
+}

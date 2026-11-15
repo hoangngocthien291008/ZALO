@@ -1,0 +1,19 @@
+{
+  "id": "q_ee2df6a3e957",
+  "question": "tíh tới ngày 8/5/2026, 3 khách nợ nhìu nhứt là ai, từg ngừi kòn nợ bnhiu giùm nhoa",
+  "answer": {
+    "id": "q_ee2df6a3e957",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0011,
+  "trace": {
+    "normalized_text": "tíh tới ngày 8/5/2026, 3 khách nợ nhiều nhất là ai, từg ngừi kòn nợ bao nhiêu giùm nhoa",
+    "normalized_ascii": "tih toi ngay 8/5/2026, 3 khach no nhieu nhat la ai, tug ngui kon no bao nhieu gium nhoa",
+    "time_rule": "R8_exact_date",
+    "time_start": "2026-05-08",
+    "time_end": "2026-05-08",
+    "entity_status": "not_needed",
+    "inferred_type": "list",
+    "gate": "G4_safe_abstain"
+  }
+}

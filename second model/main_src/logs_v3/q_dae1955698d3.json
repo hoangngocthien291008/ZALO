@@ -1,0 +1,19 @@
+{
+  "id": "q_dae1955698d3",
+  "question": "Th này phí ship tổng cộng bnhiu?",
+  "answer": {
+    "id": "q_dae1955698d3",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0005,
+  "trace": {
+    "normalized_text": "tháng này phí ship tổng cộng bao nhiêu?",
+    "normalized_ascii": "thang nay phi ship tong cong bao nhieu?",
+    "time_rule": "R12_this_month",
+    "time_start": "2026-06-01",
+    "time_end": "2026-06-15",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

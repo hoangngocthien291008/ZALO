@@ -1,0 +1,22 @@
+{
+  "id": "q_99e67ed05dd8",
+  "question": "Ngay dthu cao nhat T7/2026, ngay nao nhi?",
+  "answer": {
+    "id": "q_99e67ed05dd8",
+    "type": "date",
+    "answer": "2026-07-05"
+  },
+  "elapsed_sec": 0.024,
+  "trace": {
+    "normalized_text": "ngay doanh thu cao nhất tháng 7/2026, ngay nao nhi?",
+    "normalized_ascii": "ngay doanh thu cao nhat thang 7/2026, ngay nao nhi?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-07-01",
+    "time_end": "2026-07-31",
+    "entity_status": "not_needed",
+    "inferred_type": "date",
+    "fastpath_code": "df = revenue_lines()\ndaily = df[df['date'] != ''].groupby('date', as_index=False)['amount'].sum() if not df.empty else pd.DataFrame()\ndaily = daily.sort_values(by=['amount', 'date'], ascending=[False, True], kind='mergesort') if not daily.empty else daily\nfinal_result = str(daily.iloc[0]['date'])[:10] if not daily.empty else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

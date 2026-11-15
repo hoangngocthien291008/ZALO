@@ -1,0 +1,22 @@
+{
+  "id": "q_4bb10819b3a3",
+  "question": "alo th3/2025 wan mik huy bnhiu don z ta",
+  "answer": {
+    "id": "q_4bb10819b3a3",
+    "type": "number",
+    "answer": 33
+  },
+  "elapsed_sec": 0.0162,
+  "trace": {
+    "normalized_text": "alo tháng 3/2025 quán mình huy bao nhiêu don vậy ta",
+    "normalized_ascii": "alo thang 3/2025 quan minh huy bao nhieu don vay ta",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-03-01",
+    "time_end": "2025-03-31",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "sub = all_orders()\ncanc = len(sub[sub['status_norm'] == 'huy']['order_id'].unique()) if not sub.empty else 0\nfinal_result = int(canc)",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

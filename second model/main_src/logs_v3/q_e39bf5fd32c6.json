@@ -1,0 +1,19 @@
+{
+  "id": "q_e39bf5fd32c6",
+  "question": "Tuần ni khách mô mua nhiều tiền nhất?",
+  "answer": {
+    "id": "q_e39bf5fd32c6",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0011,
+  "trace": {
+    "normalized_text": "tuần ni khách nào mua nhiều tiền nhất?",
+    "normalized_ascii": "tuan ni khach nao mua nhieu tien nhat?",
+    "time_rule": "none",
+    "time_start": "2025-08-28",
+    "time_end": "2025-08-28",
+    "entity_status": "not_needed",
+    "inferred_type": "string",
+    "gate": "G2_missing_time"
+  }
+}

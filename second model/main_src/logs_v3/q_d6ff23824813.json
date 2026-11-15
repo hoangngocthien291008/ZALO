@@ -1,0 +1,19 @@
+{
+  "id": "q_d6ff23824813",
+  "question": "08/2025 ai mua nhieu don nhat?",
+  "answer": {
+    "id": "q_d6ff23824813",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.001,
+  "trace": {
+    "normalized_text": "08/2025 ai mua nhieu don nhat?",
+    "normalized_ascii": "08/2025 ai mua nhieu don nhat?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-08-01",
+    "time_end": "2025-08-31",
+    "entity_status": "not_needed",
+    "inferred_type": "string",
+    "gate": "G4_safe_abstain"
+  }
+}

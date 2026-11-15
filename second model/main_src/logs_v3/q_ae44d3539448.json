@@ -1,0 +1,19 @@
+{
+  "id": "q_ae44d3539448",
+  "question": "T3/2026 Diệp Hồng Hồng ghi nợ thêm nhiêu, trả nợ lại nhiêu vậy?",
+  "answer": {
+    "id": "q_ae44d3539448",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0015,
+  "trace": {
+    "normalized_text": "tháng 3/2026 diệp hồng hồng ghi nợ thêm nhiêu, trả nợ lại nhiêu vậy?",
+    "normalized_ascii": "thang 3/2026 diep hong hong ghi no them nhieu, tra no lai nhieu vay?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-03-01",
+    "time_end": "2026-03-31",
+    "entity_status": "exact",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

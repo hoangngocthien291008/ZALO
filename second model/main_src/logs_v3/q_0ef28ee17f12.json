@@ -1,0 +1,22 @@
+{
+  "id": "q_0ef28ee17f12",
+  "question": "Số ly Nước ép cam (M) bán được trong tháng 3/2025 là bao nhiêu?",
+  "answer": {
+    "id": "q_0ef28ee17f12",
+    "type": "number",
+    "answer": 151
+  },
+  "elapsed_sec": 0.0396,
+  "trace": {
+    "normalized_text": "số ly nước ép cam (m) bán được trong tháng 3/2025 là bao nhiêu?",
+    "normalized_ascii": "so ly nuoc ep cam (m) ban duoc trong thang 3/2025 la bao nhieu?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-03-01",
+    "time_end": "2025-03-31",
+    "entity_status": "exact",
+    "inferred_type": "number",
+    "fastpath_code": "df = match_item(item_lines(), 'Nước ép cam (M)')\nq = float(df['qty_base'].sum()) if not df.empty else 0.0\nfinal_result = (int(round(q)) if abs(q - round(q)) < 1e-6 else round(q, 2)) if q > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "q_6ad74d9cb245",
+  "question": "Dthu binh quan mot dh tuan truoc bao nhieu tien?",
+  "answer": {
+    "id": "q_6ad74d9cb245",
+    "type": "number",
+    "answer": 250827000
+  },
+  "elapsed_sec": 0.0235,
+  "trace": {
+    "normalized_text": "doanh thu bình quân mot dh tuần trước bao nhiêu tien?",
+    "normalized_ascii": "doanh thu binh quan mot dh tuan truoc bao nhieu tien?",
+    "time_rule": "R10_last_week",
+    "time_start": "2025-05-12",
+    "time_end": "2025-05-18",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "rev = revenue()\nfinal_result = rev if rev > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

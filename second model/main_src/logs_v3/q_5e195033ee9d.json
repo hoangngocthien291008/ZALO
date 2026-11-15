@@ -1,0 +1,22 @@
+{
+  "id": "q_5e195033ee9d",
+  "question": "Doanh thu của Bia Sài Gòn Special lon trong tháng 8 năm 2025 là bao nhiêu?",
+  "answer": {
+    "id": "q_5e195033ee9d",
+    "type": "number",
+    "answer": 8624000
+  },
+  "elapsed_sec": 0.0548,
+  "trace": {
+    "normalized_text": "doanh thu của bia sài gòn special lon trong tháng 8 năm 2025 là bao nhiêu?",
+    "normalized_ascii": "doanh thu cua bia sai gon special lon trong thang 8 nam 2025 la bao nhieu?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-08-01",
+    "time_end": "2025-08-31",
+    "entity_status": "exact",
+    "inferred_type": "number",
+    "fastpath_code": "df = match_item(revenue_lines(), 'Bia Sài Gòn Special lon')\nrev = float(df['amount'].sum()) if not df.empty else 0.0\nfinal_result = money(rev) if rev > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

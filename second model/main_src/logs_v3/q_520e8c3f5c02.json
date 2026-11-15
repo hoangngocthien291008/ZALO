@@ -1,0 +1,20 @@
+{
+  "id": "q_520e8c3f5c02",
+  "question": "dthu cua don ban qua Zalo OA thang nay bnhiu?",
+  "answer": {
+    "id": "q_520e8c3f5c02",
+    "type": "unanswerable",
+    "reason": "Dữ liệu cửa hàng không ghi nhận kênh bán hàng."
+  },
+  "elapsed_sec": 0.0,
+  "trace": {
+    "normalized_text": "doanh thu cua don ban qua zalo oa tháng này bao nhiêu?",
+    "normalized_ascii": "doanh thu cua don ban qua zalo oa thang nay bao nhieu?",
+    "time_rule": "R12_this_month",
+    "time_start": "2026-09-01",
+    "time_end": "2026-09-10",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "U2_missing_channel"
+  }
+}

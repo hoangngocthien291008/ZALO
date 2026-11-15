@@ -1,0 +1,19 @@
+{
+  "id": "q_e2e4e0639619",
+  "question": "Trong tháng 11/2025, sản phẩm nào ngon nhất?",
+  "answer": {
+    "id": "q_e2e4e0639619",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0005,
+  "trace": {
+    "normalized_text": "trong tháng 11/2025, sản phẩm nào ngon nhất?",
+    "normalized_ascii": "trong thang 11/2025, san pham nao ngon nhat?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-11-01",
+    "time_end": "2025-11-30",
+    "entity_status": "not_needed",
+    "inferred_type": "string",
+    "gate": "G4_safe_abstain"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "q_fb409424a396",
+  "question": "nè mik hỏi xíu, hiện kòn bn lô chua ban het mà hạn dùng rơi zô 120 ngay toi",
+  "answer": {
+    "id": "q_fb409424a396",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0064,
+  "trace": {
+    "normalized_text": "nè mình hỏi xíu, hiện kòn bao nhiêu lô chua ban het mà hạn dùng rơi zô 120 ngay toi",
+    "normalized_ascii": "ne minh hoi xiu, hien kon bao nhieu lo chua ban het ma han dung roi zo 120 ngay toi",
+    "time_rule": "none",
+    "time_start": "2026-08-08",
+    "time_end": "2026-08-08",
+    "entity_status": "not_found",
+    "inferred_type": "number",
+    "gate": "G2_missing_time"
+  }
+}

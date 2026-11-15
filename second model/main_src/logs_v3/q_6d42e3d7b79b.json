@@ -1,0 +1,19 @@
+{
+  "id": "q_6d42e3d7b79b",
+  "question": "Den het ngay 01/06/2026, khach con chua dong bao nhieu tien thuoc cac ky gop da qua han?",
+  "answer": {
+    "id": "q_6d42e3d7b79b",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0046,
+  "trace": {
+    "normalized_text": "đến hết ngay 01/06/2026, khach con chua dong bao nhiêu tien thuoc cac ky gop da qua han?",
+    "normalized_ascii": "den het ngay 01/06/2026, khach con chua dong bao nhieu tien thuoc cac ky gop da qua han?",
+    "time_rule": "R4_snapshot",
+    "time_start": null,
+    "time_end": "2026-06-01",
+    "entity_status": "not_found",
+    "inferred_type": "number",
+    "gate": "G3_entity_below_0.70"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "q_113d86c3eb6a",
+  "question": "Dthu th8/2025 hơn hay kém tháng trước mấy %?",
+  "answer": {
+    "id": "q_113d86c3eb6a",
+    "type": "percent",
+    "answer": -2.27
+  },
+  "elapsed_sec": 0.0278,
+  "trace": {
+    "normalized_text": "doanh thu tháng 8/2025 hơn hay kém tháng trước mấy%?",
+    "normalized_ascii": "doanh thu thang 8/2025 hon hay kem thang truoc may%?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-08-01",
+    "time_end": "2025-08-31",
+    "entity_status": "not_needed",
+    "inferred_type": "percent",
+    "fastpath_code": "r_curr = revenue(T['start'], T['end'], T['shift'])\nr_prev = revenue(T['cmp_start'], T['cmp_end'], T['shift'])\nfinal_result = growth(r_curr, r_prev) if (r_prev > 0 and r_curr > 0) else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

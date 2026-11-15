@@ -1,0 +1,19 @@
+{
+  "id": "q_0ae9b7cf7003",
+  "question": "Cho tôi biết doanh thu các đơn của khách nhóm sỉ tháng 4/2026.",
+  "answer": {
+    "id": "q_0ae9b7cf7003",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0,
+  "trace": {
+    "normalized_text": "cho tôi biết doanh thu các đơn của khách nhóm sỉ tháng 4/2026.",
+    "normalized_ascii": "cho toi biet doanh thu cac don cua khach nhom si thang 4/2026.",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-04-01",
+    "time_end": "2026-04-30",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

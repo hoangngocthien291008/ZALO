@@ -1,0 +1,20 @@
+{
+  "id": "q_fbf739189e42",
+  "question": "Tính đến hết ngày 22/07/2026, khách hàng còn nợ cửa hàng tổng cộng bao nhiêu tiền?",
+  "answer": {
+    "id": "q_fbf739189e42",
+    "type": "unanswerable",
+    "reason": "Cửa hàng không lưu dữ liệu công nợ khách hàng."
+  },
+  "elapsed_sec": 0.0005,
+  "trace": {
+    "normalized_text": "tính đến hết ngày 22/07/2026, khách hàng còn nợ cửa hàng tổng cộng bao nhiêu tiền?",
+    "normalized_ascii": "tinh den het ngay 22/07/2026, khach hang con no cua hang tong cong bao nhieu tien?",
+    "time_rule": "R4_snapshot",
+    "time_start": null,
+    "time_end": "2026-07-22",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "U2_missing_debt"
+  }
+}

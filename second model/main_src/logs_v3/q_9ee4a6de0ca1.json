@@ -1,0 +1,19 @@
+{
+  "id": "q_9ee4a6de0ca1",
+  "question": "Tháng 1/2026 tiệm bán Kệ điện thoại để bàn được bao nhiêu tiền?",
+  "answer": {
+    "id": "q_9ee4a6de0ca1",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.004,
+  "trace": {
+    "normalized_text": "tháng 1/2026 tiệm bán kệ điện thoại để bàn được bao nhiêu tiền?",
+    "normalized_ascii": "thang 1/2026 tiem ban ke dien thoai de ban duoc bao nhieu tien?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-01-01",
+    "time_end": "2026-01-31",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "q_e5fc1ce4c0a1",
+  "question": "hom nay doanh thu cua hang bao nhieu?",
+  "answer": {
+    "id": "q_e5fc1ce4c0a1",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0006,
+  "trace": {
+    "normalized_text": "hôm nay doanh thu cua hang bao nhiêu?",
+    "normalized_ascii": "hom nay doanh thu cua hang bao nhieu?",
+    "time_rule": "R5_today",
+    "time_start": "2025-07-06",
+    "time_end": "2025-07-06",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

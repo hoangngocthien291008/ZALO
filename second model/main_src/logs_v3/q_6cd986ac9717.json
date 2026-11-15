@@ -1,0 +1,22 @@
+{
+  "id": "q_6cd986ac9717",
+  "question": "Số đơn huỷ th2/2025?",
+  "answer": {
+    "id": "q_6cd986ac9717",
+    "type": "number",
+    "answer": 20
+  },
+  "elapsed_sec": 0.0191,
+  "trace": {
+    "normalized_text": "số đơn huỷ tháng 2/2025?",
+    "normalized_ascii": "so don huy thang 2/2025?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-02-01",
+    "time_end": "2025-02-28",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "sub = all_orders()\ncanc = len(sub[sub['status_norm'] == 'huy']['order_id'].unique()) if not sub.empty else 0\nfinal_result = int(canc)",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

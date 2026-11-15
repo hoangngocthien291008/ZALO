@@ -1,0 +1,22 @@
+{
+  "id": "q_3f61cde37841",
+  "question": "Tháng 8/2025 ngày nào cửa hàng đắt khách nhất?",
+  "answer": {
+    "id": "q_3f61cde37841",
+    "type": "date",
+    "answer": "2025-08-02"
+  },
+  "elapsed_sec": 0.0106,
+  "trace": {
+    "normalized_text": "tháng 8/2025 ngày nào cửa hàng đắt khách nhất?",
+    "normalized_ascii": "thang 8/2025 ngay nao cua hang dat khach nhat?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-08-01",
+    "time_end": "2025-08-31",
+    "entity_status": "not_needed",
+    "inferred_type": "date",
+    "fastpath_code": "final_result = busiest_date(T['start'], T['end'], metric='orders')",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

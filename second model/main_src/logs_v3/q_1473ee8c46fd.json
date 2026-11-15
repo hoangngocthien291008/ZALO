@@ -1,0 +1,19 @@
+{
+  "id": "q_1473ee8c46fd",
+  "question": "So với cùng số ngày đầu tháng trước, dthu tháng này hơn hay kém bao nhiêu phần trăm ha?",
+  "answer": {
+    "id": "q_1473ee8c46fd",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0058,
+  "trace": {
+    "normalized_text": "so với cùng số ngày đầu tháng trước, doanh thu tháng này hơn hay kém bao nhiêu phần trăm ha?",
+    "normalized_ascii": "so voi cung so ngay dau thang truoc, doanh thu thang nay hon hay kem bao nhieu phan tram ha?",
+    "time_rule": "R12_this_month",
+    "time_start": "2025-04-01",
+    "time_end": "2025-04-17",
+    "entity_status": "not_found",
+    "inferred_type": "percent",
+    "gate": "G3_entity_below_0.70"
+  }
+}

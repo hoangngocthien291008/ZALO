@@ -1,0 +1,19 @@
+{
+  "id": "q_2ac539902fe6",
+  "question": "Thang 2/26 so voi cung thang nam truoc, doanh thu thay doi bao nhieu %?",
+  "answer": {
+    "id": "q_2ac539902fe6",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.003,
+  "trace": {
+    "normalized_text": "thang 2/26 so voi cung thang năm trước, doanh thu thay doi bao nhiêu%?",
+    "normalized_ascii": "thang 2/26 so voi cung thang nam truoc, doanh thu thay doi bao nhieu%?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-02-01",
+    "time_end": "2026-02-28",
+    "entity_status": "not_needed",
+    "inferred_type": "percent",
+    "gate": "G4_safe_abstain"
+  }
+}

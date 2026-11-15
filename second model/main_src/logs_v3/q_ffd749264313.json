@@ -1,0 +1,19 @@
+{
+  "id": "q_ffd749264313",
+  "question": "Doanh thu tháng 9/2025 so dới tháng trước lên hay xuống bao nhiêu % dậy?",
+  "answer": {
+    "id": "q_ffd749264313",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0011,
+  "trace": {
+    "normalized_text": "doanh thu tháng 9/2025 so dới tháng trước lên hay xuống bao nhiêu% dậy?",
+    "normalized_ascii": "doanh thu thang 9/2025 so doi thang truoc len hay xuong bao nhieu% day?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-09-01",
+    "time_end": "2025-09-30",
+    "entity_status": "not_needed",
+    "inferred_type": "percent",
+    "gate": "G4_safe_abstain"
+  }
+}

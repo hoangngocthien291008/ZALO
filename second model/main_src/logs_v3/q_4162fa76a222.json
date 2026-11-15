@@ -1,0 +1,19 @@
+{
+  "id": "q_4162fa76a222",
+  "question": "iPhone 13 th này bán đc mấy chiếc rồi?",
+  "answer": {
+    "id": "q_4162fa76a222",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0045,
+  "trace": {
+    "normalized_text": "iphone 13 tháng này bán được mấy chiếc rồi?",
+    "normalized_ascii": "iphone 13 thang nay ban duoc may chiec roi?",
+    "time_rule": "R12_this_month",
+    "time_start": "2026-09-01",
+    "time_end": "2026-09-30",
+    "entity_status": "not_found",
+    "inferred_type": "number",
+    "gate": "G3_entity_below_0.70"
+  }
+}

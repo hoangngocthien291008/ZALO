@@ -1,0 +1,19 @@
+{
+  "id": "q_4d20e306e0bc",
+  "question": "Cuoi ngay hom nay co may mat hang dang chay hang?",
+  "answer": {
+    "id": "q_4d20e306e0bc",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.005,
+  "trace": {
+    "normalized_text": "cuối ngày hôm nay co may mặt hàng dang chay hang?",
+    "normalized_ascii": "cuoi ngay hom nay co may mat hang dang chay hang?",
+    "time_rule": "R4_snapshot",
+    "time_start": null,
+    "time_end": "2026-06-07",
+    "entity_status": "not_found",
+    "inferred_type": "number",
+    "gate": "G3_entity_below_0.70"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "q_c64c6d29f583",
+  "question": "Tháng này quán bán ra tổng cộng mấy ly size M, cộng tất cả các món?",
+  "answer": {
+    "id": "q_c64c6d29f583",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0353,
+  "trace": {
+    "normalized_text": "tháng này quán bán ra tổng cộng mấy ly size m, cộng tất cả các món?",
+    "normalized_ascii": "thang nay quan ban ra tong cong may ly size m, cong tat ca cac mon?",
+    "time_rule": "R12_this_month",
+    "time_start": "2026-05-01",
+    "time_end": "2026-05-24",
+    "entity_status": "not_found",
+    "inferred_type": "number",
+    "gate": "G3_entity_below_0.70"
+  }
+}

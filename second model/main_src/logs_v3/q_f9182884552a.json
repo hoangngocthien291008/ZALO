@@ -1,0 +1,19 @@
+{
+  "id": "q_f9182884552a",
+  "question": "Tien hang nhap vo thang nay tong la bao nhieu z?",
+  "answer": {
+    "id": "q_f9182884552a",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0005,
+  "trace": {
+    "normalized_text": "tien hang nhap vo tháng này tong la bao nhiêu vậy?",
+    "normalized_ascii": "tien hang nhap vo thang nay tong la bao nhieu vay?",
+    "time_rule": "R12_this_month",
+    "time_start": "2026-08-01",
+    "time_end": "2026-08-08",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "q_244e072341dc",
+  "question": "Tiền nhập hàng th này, tổng bnhiu?",
+  "answer": {
+    "id": "q_244e072341dc",
+    "type": "number",
+    "answer": 209655700
+  },
+  "elapsed_sec": 0.0043,
+  "trace": {
+    "normalized_text": "tiền nhập hàng tháng này, tổng bao nhiêu?",
+    "normalized_ascii": "tien nhap hang thang nay, tong bao nhieu?",
+    "time_rule": "R12_this_month",
+    "time_start": "2026-09-01",
+    "time_end": "2026-09-19",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "imp = V.get('imports')\nif imp is None or imp.empty:\n    final_result = None\nelse:\n    sub = imp[(imp['date'] >= T['start']) & (imp['date'] <= T['end']) & (imp['date'] <= as_of_date)]\n    sub = sub[~sub['status'].str.lower().str.contains('huỷ|hủy|huy|cancel', na=False)]\n    if not sub.empty and '_is_receipt_total' in sub.columns and sub['_is_receipt_total'].all():\n        tot = float(sub.drop_duplicates(subset=['import_id'])['total_amount'].sum())\n    else:\n        tot = float(sub['total_amount'].sum()) if not sub.empty else 0.0\n    final_result = money(tot) if tot > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

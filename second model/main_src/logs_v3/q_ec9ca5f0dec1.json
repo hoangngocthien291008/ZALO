@@ -1,0 +1,22 @@
+{
+  "id": "q_ec9ca5f0dec1",
+  "question": "Cho tôi biết doanh thu tháng 12/2025.",
+  "answer": {
+    "id": "q_ec9ca5f0dec1",
+    "type": "number",
+    "answer": 448559000
+  },
+  "elapsed_sec": 0.0045,
+  "trace": {
+    "normalized_text": "cho tôi biết doanh thu tháng 12/2025.",
+    "normalized_ascii": "cho toi biet doanh thu thang 12/2025.",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-12-01",
+    "time_end": "2025-12-31",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "rev = revenue()\nfinal_result = rev if rev > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

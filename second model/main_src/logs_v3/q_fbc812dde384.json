@@ -1,0 +1,22 @@
+{
+  "id": "q_fbc812dde384",
+  "question": "Mặt hàng bán chạy nhất tháng 11 năm 2025 là gì thế?",
+  "answer": {
+    "id": "q_fbc812dde384",
+    "type": "string",
+    "answer": "Sữa pha sẵn GrowPLUS+ đỏ 110ml lốc 4"
+  },
+  "elapsed_sec": 0.0097,
+  "trace": {
+    "normalized_text": "mặt hàng bán chạy nhất tháng 11 năm 2025 là gì thế?",
+    "normalized_ascii": "mat hang ban chay nhat thang 11 nam 2025 la gi the?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-11-01",
+    "time_end": "2025-11-30",
+    "entity_status": "not_needed",
+    "inferred_type": "string",
+    "fastpath_code": "df = item_lines()\nfinal_result = top_k(df, value_col='qty_base', k=1, key_col='item_code', name_col='item_name')",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

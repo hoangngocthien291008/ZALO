@@ -1,0 +1,19 @@
+{
+  "id": "q_36f612a6b301",
+  "question": "Th4/2025 rieng ca chieu ban duoc tong bao nhieu tien vay?",
+  "answer": {
+    "id": "q_36f612a6b301",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0012,
+  "trace": {
+    "normalized_text": "tháng 4/2025 rieng ca chiều ban duoc tong bao nhiêu tien vay?",
+    "normalized_ascii": "thang 4/2025 rieng ca chieu ban duoc tong bao nhieu tien vay?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-04-01",
+    "time_end": "2025-04-30",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

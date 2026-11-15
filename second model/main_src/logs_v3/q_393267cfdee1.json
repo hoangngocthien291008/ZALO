@@ -1,0 +1,19 @@
+{
+  "id": "q_393267cfdee1",
+  "question": "Mấy lô còn tồn có hạn dùng từ 08/08/2026 tới hết 06/12/2026 đang đọng bnhiu tiền vốn ha?",
+  "answer": {
+    "id": "q_393267cfdee1",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0057,
+  "trace": {
+    "normalized_text": "mấy lô còn tồn có hạn dùng từ 08/08/2026 tới hết 06/12/2026 đang đọng bao nhiêu tiền vốn ha?",
+    "normalized_ascii": "may lo con ton co han dung tu 08/08/2026 toi het 06/12/2026 dang dong bao nhieu tien von ha?",
+    "time_rule": "R2_date_range",
+    "time_start": "2026-08-08",
+    "time_end": "2026-12-06",
+    "entity_status": "not_found",
+    "inferred_type": "number",
+    "gate": "G3_entity_below_0.70"
+  }
+}

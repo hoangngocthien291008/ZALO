@@ -1,0 +1,19 @@
+{
+  "id": "q_2dc771b39303",
+  "question": "Tháng 6/2026 có bao nhiêu ngày bán được từ 15 triệu trở lên ha?",
+  "answer": {
+    "id": "q_2dc771b39303",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.001,
+  "trace": {
+    "normalized_text": "tháng 6/2026 có bao nhiêu ngày bán được từ 15 triệu trở lên ha?",
+    "normalized_ascii": "thang 6/2026 co bao nhieu ngay ban duoc tu 15 trieu tro len ha?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-06-01",
+    "time_end": "2026-06-30",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

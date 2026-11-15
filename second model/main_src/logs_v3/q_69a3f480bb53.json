@@ -1,0 +1,22 @@
+{
+  "id": "q_69a3f480bb53",
+  "question": "Hqua dthu bnhiu thế?",
+  "answer": {
+    "id": "q_69a3f480bb53",
+    "type": "number",
+    "answer": 1392000
+  },
+  "elapsed_sec": 0.0034,
+  "trace": {
+    "normalized_text": "hôm qua doanh thu bao nhiêu thế?",
+    "normalized_ascii": "hom qua doanh thu bao nhieu the?",
+    "time_rule": "R6_yesterday",
+    "time_start": "2026-07-27",
+    "time_end": "2026-07-27",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "rev = revenue()\nfinal_result = rev if rev > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

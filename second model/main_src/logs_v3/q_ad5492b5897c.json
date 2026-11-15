@@ -1,0 +1,22 @@
+{
+  "id": "q_ad5492b5897c",
+  "question": "Tháng 6 năm 2025 tỉ lệ đơn huỷ là mấy % vậy?",
+  "answer": {
+    "id": "q_ad5492b5897c",
+    "type": "percent",
+    "answer": 2.95
+  },
+  "elapsed_sec": 0.0141,
+  "trace": {
+    "normalized_text": "tháng 6 năm 2025 tỉ lệ đơn huỷ là mấy% vậy?",
+    "normalized_ascii": "thang 6 nam 2025 ti le don huy la may% vay?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-06-01",
+    "time_end": "2025-06-30",
+    "entity_status": "not_needed",
+    "inferred_type": "percent",
+    "fastpath_code": "sub = all_orders()\ntot = len(sub['order_id'].unique()) if not sub.empty else 0\ncanc = len(sub[sub['status_norm'] == 'huy']['order_id'].unique()) if not sub.empty else 0\nfinal_result = pct(canc, tot) if tot > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

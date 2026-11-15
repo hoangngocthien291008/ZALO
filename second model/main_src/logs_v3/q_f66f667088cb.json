@@ -1,0 +1,22 @@
+{
+  "id": "q_f66f667088cb",
+  "question": "T6/2026 3 mặt hàng nào bán chạy nhất?",
+  "answer": {
+    "id": "q_f66f667088cb",
+    "type": "string",
+    "answer": "Mì Hảo Hảo tôm chua cay"
+  },
+  "elapsed_sec": 0.0171,
+  "trace": {
+    "normalized_text": "tháng 6/2026 3 mặt hàng nào bán chạy nhất?",
+    "normalized_ascii": "thang 6/2026 3 mat hang nao ban chay nhat?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-06-01",
+    "time_end": "2026-06-30",
+    "entity_status": "not_needed",
+    "inferred_type": "string",
+    "fastpath_code": "df = item_lines()\nfinal_result = top_k(df, value_col='qty_base', k=1, key_col='item_code', name_col='item_name')",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

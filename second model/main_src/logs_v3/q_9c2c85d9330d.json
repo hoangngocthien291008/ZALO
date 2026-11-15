@@ -1,0 +1,19 @@
+{
+  "id": "q_9c2c85d9330d",
+  "question": "So với 17 ngày ngay trước Tết, doanh thu dịp Tết 2026 thay đổi bao nhiêu phần trăm?",
+  "answer": {
+    "id": "q_9c2c85d9330d",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0021,
+  "trace": {
+    "normalized_text": "so với 17 ngày ngay trước tết, doanh thu dịp tết 2026 thay đổi bao nhiêu phần trăm?",
+    "normalized_ascii": "so voi 17 ngay ngay truoc tet, doanh thu dip tet 2026 thay doi bao nhieu phan tram?",
+    "time_rule": "R1_tet_compare",
+    "time_start": "2026-02-10",
+    "time_end": "2026-02-26",
+    "entity_status": "not_found",
+    "inferred_type": "percent",
+    "gate": "G3_entity_below_0.70"
+  }
+}

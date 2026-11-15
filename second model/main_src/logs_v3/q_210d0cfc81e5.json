@@ -1,0 +1,19 @@
+{
+  "id": "q_210d0cfc81e5",
+  "question": "Tinh tai ngay 08/08/2026, Berocca Performance vien sui tuyp 10 vien con lo gan het han nhat la het han ngay may?",
+  "answer": {
+    "id": "q_210d0cfc81e5",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.001,
+  "trace": {
+    "normalized_text": "tinh tai ngay 08/08/2026, berocca performance vien sui tuyp 10 vien con lo gan het han nhat la het han ngay may?",
+    "normalized_ascii": "tinh tai ngay 08/08/2026, berocca performance vien sui tuyp 10 vien con lo gan het han nhat la het han ngay may?",
+    "time_rule": "R8_exact_date",
+    "time_start": "2026-08-08",
+    "time_end": "2026-08-08",
+    "entity_status": "exact",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "q_f98cecea1595",
+  "question": "Khach nhom than thiet th 1/26 dong gop bao nhieu % tong doanh thu nhi?",
+  "answer": {
+    "id": "q_f98cecea1595",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0013,
+  "trace": {
+    "normalized_text": "khach nhom than thiet th 1/26 dong gop bao nhiêu% tong doanh thu nhi?",
+    "normalized_ascii": "khach nhom than thiet th 1/26 dong gop bao nhieu% tong doanh thu nhi?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-01-01",
+    "time_end": "2026-01-31",
+    "entity_status": "not_needed",
+    "inferred_type": "percent",
+    "gate": "G4_safe_abstain"
+  }
+}

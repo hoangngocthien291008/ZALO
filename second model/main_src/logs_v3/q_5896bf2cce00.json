@@ -1,0 +1,22 @@
+{
+  "id": "q_5896bf2cce00",
+  "question": "Tỉ lệ đh huỷ T4/2025 bnhiu % z?",
+  "answer": {
+    "id": "q_5896bf2cce00",
+    "type": "percent",
+    "answer": 1.87
+  },
+  "elapsed_sec": 0.0304,
+  "trace": {
+    "normalized_text": "tỉ lệ đơn hàng huỷ tháng 4/2025 bao nhiêu% vậy?",
+    "normalized_ascii": "ti le don hang huy thang 4/2025 bao nhieu% vay?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-04-01",
+    "time_end": "2025-04-30",
+    "entity_status": "exact",
+    "inferred_type": "percent",
+    "fastpath_code": "sub = all_orders()\ntot = len(sub['order_id'].unique()) if not sub.empty else 0\ncanc = len(sub[sub['status_norm'] == 'huy']['order_id'].unique()) if not sub.empty else 0\nfinal_result = pct(canc, tot) if tot > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

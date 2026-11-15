@@ -1,0 +1,19 @@
+{
+  "id": "q_611bf24dd2f9",
+  "question": "Xem giúp mình tháng 11/2025, nhà cung cấp uy tín của cửa hàng là ai?",
+  "answer": {
+    "id": "q_611bf24dd2f9",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0005,
+  "trace": {
+    "normalized_text": "xem giúp mình tháng 11/2025, nhà cung cấp uy tín của cửa hàng là ai?",
+    "normalized_ascii": "xem giup minh thang 11/2025, nha cung cap uy tin cua cua hang la ai?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-11-01",
+    "time_end": "2025-11-30",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "q_49f27251c376",
+  "question": "30 ngày gần nhất doanh thu được bao nhiêu?",
+  "answer": {
+    "id": "q_49f27251c376",
+    "type": "number",
+    "answer": 265652100
+  },
+  "elapsed_sec": 0.0167,
+  "trace": {
+    "normalized_text": "30 ngày gần nhất doanh thu được bao nhiêu?",
+    "normalized_ascii": "30 ngay gan nhat doanh thu duoc bao nhieu?",
+    "time_rule": "R7_n_days",
+    "time_start": "2026-03-05",
+    "time_end": "2026-04-03",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "rev = revenue()\nfinal_result = rev if rev > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

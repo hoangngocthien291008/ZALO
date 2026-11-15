@@ -1,0 +1,19 @@
+{
+  "id": "q_5816b4178500",
+  "question": "Th1/2026 dthu so với th1/2025 lên hay xuống bao nhiêu % thế?",
+  "answer": {
+    "id": "q_5816b4178500",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.001,
+  "trace": {
+    "normalized_text": "tháng 1/2026 doanh thu so với tháng 1/2025 lên hay xuống bao nhiêu% thế?",
+    "normalized_ascii": "thang 1/2026 doanh thu so voi thang 1/2025 len hay xuong bao nhieu% the?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-01-01",
+    "time_end": "2026-01-31",
+    "entity_status": "not_needed",
+    "inferred_type": "percent",
+    "gate": "G4_safe_abstain"
+  }
+}

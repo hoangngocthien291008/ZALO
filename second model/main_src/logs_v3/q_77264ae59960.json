@@ -1,0 +1,19 @@
+{
+  "id": "q_77264ae59960",
+  "question": "Trong tháng 7/2025 quán thu được bao nhiêu tiền khách trả bớt nợ cho các đơn mua thiếu?",
+  "answer": {
+    "id": "q_77264ae59960",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.002,
+  "trace": {
+    "normalized_text": "trong tháng 7/2025 quán thu được bao nhiêu tiền khách trả bớt nợ cho các đơn mua thiếu?",
+    "normalized_ascii": "trong thang 7/2025 quan thu duoc bao nhieu tien khach tra bot no cho cac don mua thieu?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-07-01",
+    "time_end": "2025-07-31",
+    "entity_status": "exact",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

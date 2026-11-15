@@ -1,0 +1,19 @@
+{
+  "id": "q_33cb3a334a80",
+  "question": "Tháng 8/2025 thợ Hà Loan Đạt mần được bao nhiêu lượt xe?",
+  "answer": {
+    "id": "q_33cb3a334a80",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.006,
+  "trace": {
+    "normalized_text": "tháng 8/2025 thợ hà loan đạt làm được bao nhiêu lượt xe?",
+    "normalized_ascii": "thang 8/2025 tho ha loan dat lam duoc bao nhieu luot xe?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-08-01",
+    "time_end": "2025-08-31",
+    "entity_status": "exact",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "q_facbc1f20a16",
+  "question": "Dthu th9, th10, th11/2025 lan luot bnhiu?",
+  "answer": {
+    "id": "q_facbc1f20a16",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.009,
+  "trace": {
+    "normalized_text": "doanh thu tháng 9, tháng 10, tháng 11/2025 lan lượt bao nhiêu?",
+    "normalized_ascii": "doanh thu thang 9, thang 10, thang 11/2025 lan luot bao nhieu?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-09-01",
+    "time_end": "2025-09-30",
+    "entity_status": "not_needed",
+    "inferred_type": "list",
+    "fastpath_code": "rev = revenue()\nfinal_result = rev if rev > 0 else None",
+    "fastpath_ok": true,
+    "gate": "G4_safe_abstain"
+  }
+}

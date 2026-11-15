@@ -1,0 +1,22 @@
+{
+  "id": "q_4067c5f50ef7",
+  "question": "Th2/2026 tiệm lên bnhiu phiếu sửa xe?",
+  "answer": {
+    "id": "q_4067c5f50ef7",
+    "type": "number",
+    "answer": 470
+  },
+  "elapsed_sec": 0.0075,
+  "trace": {
+    "normalized_text": "tháng 2/2026 tiệm lên bao nhiêu phiếu sửa xe?",
+    "normalized_ascii": "thang 2/2026 tiem len bao nhieu phieu sua xe?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-02-01",
+    "time_end": "2026-02-28",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "df = revenue_lines()\nord_rev = df.groupby('order_id')['amount'].sum() if not df.empty else pd.Series(dtype=float)\nord_rev = ord_rev[ord_rev >= 0.0] if 0.0 > 0 else ord_rev\ncnt = int(len(ord_rev))\nfinal_result = cnt if cnt > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

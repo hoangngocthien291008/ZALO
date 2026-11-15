@@ -1,0 +1,19 @@
+{
+  "id": "q_e4641e459f38",
+  "question": "Tuần rồi, 5 khách nào chi tiêu nhiều nhất?",
+  "answer": {
+    "id": "q_e4641e459f38",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0012,
+  "trace": {
+    "normalized_text": "tuần rồi, 5 khách nào chi tiêu nhiều nhất?",
+    "normalized_ascii": "tuan roi, 5 khach nao chi tieu nhieu nhat?",
+    "time_rule": "R10_last_week",
+    "time_start": "2025-09-01",
+    "time_end": "2025-09-07",
+    "entity_status": "not_needed",
+    "inferred_type": "string",
+    "gate": "G4_safe_abstain"
+  }
+}

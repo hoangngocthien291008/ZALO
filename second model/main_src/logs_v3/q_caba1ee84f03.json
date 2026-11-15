@@ -1,0 +1,19 @@
+{
+  "id": "q_caba1ee84f03",
+  "question": "Dthu từng tháng từ 02/2025 tới 04/2025 lần lượt bnhiu giùm?",
+  "answer": {
+    "id": "q_caba1ee84f03",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0,
+  "trace": {
+    "normalized_text": "doanh thu từng tháng từ 02/2025 tới 04/2025 lần lượt bao nhiêu giùm?",
+    "normalized_ascii": "doanh thu tung thang tu 02/2025 toi 04/2025 lan luot bao nhieu gium?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-02-01",
+    "time_end": "2025-02-28",
+    "entity_status": "not_needed",
+    "inferred_type": "list",
+    "gate": "G4_safe_abstain"
+  }
+}

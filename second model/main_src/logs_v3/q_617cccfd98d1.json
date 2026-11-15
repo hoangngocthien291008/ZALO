@@ -1,0 +1,22 @@
+{
+  "id": "q_617cccfd98d1",
+  "question": "Hồi T3/2025 bị huỷ mấy đơn vậy?",
+  "answer": {
+    "id": "q_617cccfd98d1",
+    "type": "number",
+    "answer": 19
+  },
+  "elapsed_sec": 0.0077,
+  "trace": {
+    "normalized_text": "hồi tháng 3/2025 bị huỷ mấy đơn vậy?",
+    "normalized_ascii": "hoi thang 3/2025 bi huy may don vay?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-03-01",
+    "time_end": "2025-03-31",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "sub = all_orders()\ncanc = len(sub[sub['status_norm'] == 'huy']['order_id'].unique()) if not sub.empty else 0\nfinal_result = int(canc)",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

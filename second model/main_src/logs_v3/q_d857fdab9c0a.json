@@ -1,0 +1,22 @@
+{
+  "id": "q_d857fdab9c0a",
+  "question": "ủa th4/2026 dthu shop mik tăng hay giảm mí % so vs thang trc zị hen 😅",
+  "answer": {
+    "id": "q_d857fdab9c0a",
+    "type": "percent",
+    "answer": -5.94
+  },
+  "elapsed_sec": 0.026,
+  "trace": {
+    "normalized_text": "ủa tháng 4/2026 doanh thu shop mình tăng hay giảm mí% so so với thang trước zị hen 😅",
+    "normalized_ascii": "ua thang 4/2026 doanh thu shop minh tang hay giam mi% so so voi thang truoc zi hen 😅",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-04-01",
+    "time_end": "2026-04-30",
+    "entity_status": "not_needed",
+    "inferred_type": "percent",
+    "fastpath_code": "r_curr = revenue(T['start'], T['end'], T['shift'])\nr_prev = revenue(T['cmp_start'], T['cmp_end'], T['shift'])\nfinal_result = growth(r_curr, r_prev) if (r_prev > 0 and r_curr > 0) else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

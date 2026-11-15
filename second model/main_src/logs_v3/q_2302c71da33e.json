@@ -1,0 +1,22 @@
+{
+  "id": "q_2302c71da33e",
+  "question": "bé ơi th10/2025 nhóm cơm mì cháo chiếm bnhiu % tổng dthu kả wán mik, thanks e",
+  "answer": {
+    "id": "q_2302c71da33e",
+    "type": "percent",
+    "answer": 10.8
+  },
+  "elapsed_sec": 0.0293,
+  "trace": {
+    "normalized_text": "bé ơi tháng 10/2025 nhóm cơm mì cháo chiếm bao nhiêu% tổng doanh thu kả quán mình, thanks e",
+    "normalized_ascii": "be oi thang 10/2025 nhom com mi chao chiem bao nhieu% tong doanh thu ka quan minh, thanks e",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-10-01",
+    "time_end": "2025-10-31",
+    "entity_status": "exact",
+    "inferred_type": "percent",
+    "fastpath_code": "df = revenue_lines()\ntot = float(df['amount'].sum()) if not df.empty else 0.0\ng_rev = float(df[df['item_group'].str.lower() == 'cơm mì cháo']['amount'].sum()) if not df.empty else 0.0\nfinal_result = pct(g_rev, tot) if tot > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

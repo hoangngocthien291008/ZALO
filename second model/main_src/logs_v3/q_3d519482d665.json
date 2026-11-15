@@ -1,0 +1,22 @@
+{
+  "id": "q_3d519482d665",
+  "question": "Bữa nay quán bán được mấy đơn rồi?",
+  "answer": {
+    "id": "q_3d519482d665",
+    "type": "number",
+    "answer": 61
+  },
+  "elapsed_sec": 0.0201,
+  "trace": {
+    "normalized_text": "hôm nay quán bán được mấy đơn rồi?",
+    "normalized_ascii": "hom nay quan ban duoc may don roi?",
+    "time_rule": "R5_today",
+    "time_start": "2026-04-10",
+    "time_end": "2026-04-10",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "df = revenue_lines()\nord_rev = df.groupby('order_id')['amount'].sum() if not df.empty else pd.Series(dtype=float)\nord_rev = ord_rev[ord_rev >= 0.0] if 0.0 > 0 else ord_rev\ncnt = int(len(ord_rev))\nfinal_result = cnt if cnt > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

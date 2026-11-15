@@ -1,0 +1,19 @@
+{
+  "id": "q_d0c41c37777e",
+  "question": "Tổng số đĩa nhóm chiên xào bán được trong tháng 1/2026 là bao nhiêu?",
+  "answer": {
+    "id": "q_d0c41c37777e",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0042,
+  "trace": {
+    "normalized_text": "tổng số đĩa nhóm chiên xào bán được trong tháng 1/2026 là bao nhiêu?",
+    "normalized_ascii": "tong so dia nhom chien xao ban duoc trong thang 1/2026 la bao nhieu?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-01-01",
+    "time_end": "2026-01-31",
+    "entity_status": "exact",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

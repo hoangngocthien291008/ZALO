@@ -1,0 +1,22 @@
+{
+  "id": "q_8fafcdce942f",
+  "question": "Từ đầu năm tới hnay tiệm bán được bnhiu tiền rồi?",
+  "answer": {
+    "id": "q_8fafcdce942f",
+    "type": "number",
+    "answer": 2454954900
+  },
+  "elapsed_sec": 0.0258,
+  "trace": {
+    "normalized_text": "từ đầu năm tới hôm nay tiệm bán được bao nhiêu tiền rồi?",
+    "normalized_ascii": "tu dau nam toi hom nay tiem ban duoc bao nhieu tien roi?",
+    "time_rule": "R3_ytd",
+    "time_start": "2025-01-01",
+    "time_end": "2025-09-23",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "rev = revenue()\nfinal_result = rev if rev > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

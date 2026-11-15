@@ -1,0 +1,22 @@
+{
+  "id": "q_92c6660df209",
+  "question": "T2/2025 tiem co bao nhieu don bi huy?",
+  "answer": {
+    "id": "q_92c6660df209",
+    "type": "number",
+    "answer": 48
+  },
+  "elapsed_sec": 0.0173,
+  "trace": {
+    "normalized_text": "tháng 2/2025 tiem co bao nhiêu don bi huy?",
+    "normalized_ascii": "thang 2/2025 tiem co bao nhieu don bi huy?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-02-01",
+    "time_end": "2025-02-28",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "sub = all_orders()\ncanc = len(sub[sub['status_norm'] == 'huy']['order_id'].unique()) if not sub.empty else 0\nfinal_result = int(canc)",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

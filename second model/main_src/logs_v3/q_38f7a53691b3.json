@@ -1,0 +1,22 @@
+{
+  "id": "q_38f7a53691b3",
+  "question": "1/2026 dthu hơn hay kém th trước bnhiu %?",
+  "answer": {
+    "id": "q_38f7a53691b3",
+    "type": "percent",
+    "answer": -4.58
+  },
+  "elapsed_sec": 0.035,
+  "trace": {
+    "normalized_text": "1/2026 doanh thu hơn hay kém tháng trước bao nhiêu%?",
+    "normalized_ascii": "1/2026 doanh thu hon hay kem thang truoc bao nhieu%?",
+    "time_rule": "R12b_last_month",
+    "time_start": "2026-08-01",
+    "time_end": "2026-08-31",
+    "entity_status": "not_needed",
+    "inferred_type": "percent",
+    "fastpath_code": "r_curr = revenue(T['start'], T['end'], T['shift'])\nr_prev = revenue(T['cmp_start'], T['cmp_end'], T['shift'])\nfinal_result = growth(r_curr, r_prev) if (r_prev > 0 and r_curr > 0) else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

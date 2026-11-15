@@ -1,0 +1,19 @@
+{
+  "id": "q_51f4751e4eb3",
+  "question": "Th3/2026, dthu các đơn trả xi ô đi và các đơn trả ví điện tử lần lượt là bnhiu?",
+  "answer": {
+    "id": "q_51f4751e4eb3",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.001,
+  "trace": {
+    "normalized_text": "tháng 3/2026, doanh thu các đơn trả cod và các đơn trả ví điện tử lần lượt là bao nhiêu?",
+    "normalized_ascii": "thang 3/2026, doanh thu cac don tra cod va cac don tra vi dien tu lan luot la bao nhieu?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-03-01",
+    "time_end": "2026-03-31",
+    "entity_status": "not_needed",
+    "inferred_type": "list",
+    "gate": "G4_safe_abstain"
+  }
+}

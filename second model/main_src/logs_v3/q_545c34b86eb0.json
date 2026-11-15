@@ -1,0 +1,22 @@
+{
+  "id": "q_545c34b86eb0",
+  "question": "Chong quý 1/2025 tiệm bán được bao nhiêu đơn?",
+  "answer": {
+    "id": "q_545c34b86eb0",
+    "type": "number",
+    "answer": 4080
+  },
+  "elapsed_sec": 0.0079,
+  "trace": {
+    "normalized_text": "chong quý 1/2025 tiệm bán được bao nhiêu đơn?",
+    "normalized_ascii": "chong quy 1/2025 tiem ban duoc bao nhieu don?",
+    "time_rule": "R11_quarter",
+    "time_start": "2025-01-01",
+    "time_end": "2025-03-31",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "df = revenue_lines()\nord_rev = df.groupby('order_id')['amount'].sum() if not df.empty else pd.Series(dtype=float)\nord_rev = ord_rev[ord_rev >= 0.0] if 0.0 > 0 else ord_rev\ncnt = int(len(ord_rev))\nfinal_result = cnt if cnt > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

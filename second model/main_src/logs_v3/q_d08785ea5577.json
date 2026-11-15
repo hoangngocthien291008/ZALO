@@ -1,0 +1,19 @@
+{
+  "id": "q_d08785ea5577",
+  "question": "12-2025 tiem ban dien thoai, tinh ca may moi lan may cu, trung binh moi may gia bao nhieu vay?",
+  "answer": {
+    "id": "q_d08785ea5577",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.002,
+  "trace": {
+    "normalized_text": "12-2025 tiem ban dien thoai, tinh ca may moi lan may cu, trung bình moi may gia bao nhiêu vay?",
+    "normalized_ascii": "12-2025 tiem ban dien thoai, tinh ca may moi lan may cu, trung binh moi may gia bao nhieu vay?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-12-01",
+    "time_end": "2025-12-31",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

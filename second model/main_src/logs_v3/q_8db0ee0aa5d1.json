@@ -1,0 +1,19 @@
+{
+  "id": "q_8db0ee0aa5d1",
+  "question": "Tháng ni khách phãi trả tổng bao nhiêu?",
+  "answer": {
+    "id": "q_8db0ee0aa5d1",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0005,
+  "trace": {
+    "normalized_text": "tháng ni khách phãi trả tổng bao nhiêu?",
+    "normalized_ascii": "thang ni khach phai tra tong bao nhieu?",
+    "time_rule": "none",
+    "time_start": "2026-07-31",
+    "time_end": "2026-07-31",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G2_missing_time"
+  }
+}

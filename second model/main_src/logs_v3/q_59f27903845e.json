@@ -1,0 +1,19 @@
+{
+  "id": "q_59f27903845e",
+  "question": "Tới hôm nay, xe đã giao tổng cộng mấy cuộn Dây điện Cadivi VCmd 2x2.5 cuộn 100m cho khách đặt tháng 4/2025?",
+  "answer": {
+    "id": "q_59f27903845e",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0006,
+  "trace": {
+    "normalized_text": "tới hôm nay, xe đã giao tổng cộng mấy cuộn dây điện cadivi vcmd 2 x 2.5 cuộn 100 m cho khách đặt tháng 4/2025?",
+    "normalized_ascii": "toi hom nay, xe da giao tong cong may cuon day dien cadivi vcmd 2 x 2.5 cuon 100 m cho khach dat thang 4/2025?",
+    "time_rule": "R5_today",
+    "time_start": "2025-05-01",
+    "time_end": "2025-05-01",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

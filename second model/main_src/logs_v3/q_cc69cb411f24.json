@@ -1,0 +1,22 @@
+{
+  "id": "q_cc69cb411f24",
+  "question": "có bao nhiêu đơn huỷ trong th10/2025",
+  "answer": {
+    "id": "q_cc69cb411f24",
+    "type": "number",
+    "answer": 27
+  },
+  "elapsed_sec": 0.0188,
+  "trace": {
+    "normalized_text": "có bao nhiêu đơn huỷ trong tháng 10/2025",
+    "normalized_ascii": "co bao nhieu don huy trong thang 10/2025",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-10-01",
+    "time_end": "2025-10-31",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "sub = all_orders()\ncanc = len(sub[sub['status_norm'] == 'huy']['order_id'].unique()) if not sub.empty else 0\nfinal_result = int(canc)",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

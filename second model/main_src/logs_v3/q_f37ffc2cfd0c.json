@@ -1,0 +1,19 @@
+{
+  "id": "q_f37ffc2cfd0c",
+  "question": "Đến ngày 23/09/2026 tiền khách còn nợ chia theo tuổi nợ 0–7, 8–15 và trên 15 ngày, mỗi nhóm bnhiu?",
+  "answer": {
+    "id": "q_f37ffc2cfd0c",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0025,
+  "trace": {
+    "normalized_text": "đến ngày 23/09/2026 tiền khách còn nợ chia theo tuổi nợ 0 – 7, 8 – 15 và trên 15 ngày, mỗi nhóm bao nhiêu?",
+    "normalized_ascii": "den ngay 23/09/2026 tien khach con no chia theo tuoi no 0 – 7, 8 – 15 va tren 15 ngay, moi nhom bao nhieu?",
+    "time_rule": "R8_exact_date",
+    "time_start": "2026-09-23",
+    "time_end": "2026-09-23",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

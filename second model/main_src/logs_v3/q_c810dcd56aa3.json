@@ -1,0 +1,19 @@
+{
+  "id": "q_c810dcd56aa3",
+  "question": "Sau lần tăng giá Topping Thạch cà phê lên 7.400 đồng, số phần bán ra trong 30 ngày kể từ ngày tăng thay đổi bao nhiêu % so với 30 ngày liền trước?",
+  "answer": {
+    "id": "q_c810dcd56aa3",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0011,
+  "trace": {
+    "normalized_text": "sau lần tăng giá topping thạch cà phê lên 7.400 đồng, số phần bán ra trong 30 ngày kể từ ngày tăng thay đổi bao nhiêu% so với 30 ngày liền trước?",
+    "normalized_ascii": "sau lan tang gia topping thach ca phe len 7.400 dong, so phan ban ra trong 30 ngay ke tu ngay tang thay doi bao nhieu% so voi 30 ngay lien truoc?",
+    "time_rule": "none",
+    "time_start": "2026-08-21",
+    "time_end": "2026-08-21",
+    "entity_status": "exact",
+    "inferred_type": "percent",
+    "gate": "G2_missing_time"
+  }
+}

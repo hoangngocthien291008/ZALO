@@ -1,0 +1,22 @@
+{
+  "id": "q_ca1e5f9e682b",
+  "question": "Giửa tháng 3/2025, tháng 4/2025 và tháng 5/2025, tháng nào quán có doanh thu cao nhất ạ?",
+  "answer": {
+    "id": "q_ca1e5f9e682b",
+    "type": "date",
+    "answer": "2025-03"
+  },
+  "elapsed_sec": 0.0459,
+  "trace": {
+    "normalized_text": "giửa tháng 3/2025, tháng 4/2025 và tháng 5/2025, tháng nào quán có doanh thu cao nhất ạ?",
+    "normalized_ascii": "giua thang 3/2025, thang 4/2025 va thang 5/2025, thang nao quan co doanh thu cao nhat a?",
+    "time_rule": "R2b_month_list",
+    "time_start": "2025-03-01",
+    "time_end": "2025-05-31",
+    "entity_status": "not_needed",
+    "inferred_type": "date",
+    "fastpath_code": "pairs = [(revenue(p['start'], p['end']), p['label']) for p in T['periods']]\npairs = [x for x in pairs if x[0] > 0]\nfinal_result = max(pairs, key=lambda x: x[0])[1] if pairs else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "q_1c0046277ff9",
+  "question": "Bảng hoa hồng thợ th7/2026, ai nhiều tiền thì xếp lên trên nghe.",
+  "answer": {
+    "id": "q_1c0046277ff9",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0076,
+  "trace": {
+    "normalized_text": "bảng hoa hồng thợ tháng 7/2026, ai nhiều tiền thì xếp lên trên nghe.",
+    "normalized_ascii": "bang hoa hong tho thang 7/2026, ai nhieu tien thi xep len tren nghe.",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-07-01",
+    "time_end": "2026-07-31",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

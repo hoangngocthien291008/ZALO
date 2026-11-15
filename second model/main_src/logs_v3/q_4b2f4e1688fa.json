@@ -1,0 +1,22 @@
+{
+  "id": "q_4b2f4e1688fa",
+  "question": "T4/2026 có mấy đơn bị huỷ ha?",
+  "answer": {
+    "id": "q_4b2f4e1688fa",
+    "type": "number",
+    "answer": 29
+  },
+  "elapsed_sec": 0.0246,
+  "trace": {
+    "normalized_text": "tháng 4/2026 có mấy đơn bị huỷ ha?",
+    "normalized_ascii": "thang 4/2026 co may don bi huy ha?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-04-01",
+    "time_end": "2026-04-30",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "sub = all_orders()\ncanc = len(sub[sub['status_norm'] == 'huy']['order_id'].unique()) if not sub.empty else 0\nfinal_result = int(canc)",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

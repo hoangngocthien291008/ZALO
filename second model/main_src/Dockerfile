@@ -1,47 +1,37 @@
 # ==============================================================================
 # Dockerfile - Zalo AI Challenge 2026 (Task: DataMate)
-# Architecture: Schema-Aware Code-Act Agent (Qwen/Qwen2.5-Coder-14B-Instruct)
-# Target Hardware: 2 x NVIDIA RTX 5090 (Blackwell, CUDA >= 12.8) / Colab L4
+# Official Base Image: vllm/vllm-openai:v0.10.1.1 (CUDA >= 12.8, Blackwell Support)
+# Target Hardware: 2 x NVIDIA RTX 5090 (64GB VRAM) / NVIDIA L4 (24GB VRAM)
 # ==============================================================================
-FROM nvidia/cuda:12.8.0-cudnn-devel-ubuntu22.04
+FROM vllm/vllm-openai:v0.10.1.1
 
-ENV DEBIAN_FRONTEND=noninteractive \
+ENTRYPOINT []
+
+ENV HF_HUB_OFFLINE=1 \
+    TRANSFORMERS_OFFLINE=1 \
+    PIP_NO_CACHE_DIR=1 \
+    NCCL_P2P_DISABLE=1 \
     PYTHONUNBUFFERED=1 \
     PYTHONDONTWRITEBYTECODE=1 \
     PYTHONHASHSEED=0 \
-    HF_HUB_OFFLINE=1 \
-    TRANSFORMERS_OFFLINE=1 \
     TOKENIZERS_PARALLELISM=false \
-    CUBLAS_WORKSPACE_CONFIG=:4096:8 \
-    MODEL_DIR=/models/Qwen2.5-Coder-14B-Instruct
+    CUBLAS_WORKSPACE_CONFIG=:4096:8
 
-RUN apt-get update && apt-get install -y --no-install-recommends \
-    python3 \
-    python3-pip \
-    python3-dev \
-    git \
-    ca-certificates \
-    && rm -rf /var/lib/apt/lists/*
+WORKDIR /code
 
-WORKDIR /workspace
+# Cài đặt các thư viện phụ thuộc
+COPY requirements.txt /code/requirements.txt
+RUN pip install --no-cache-dir -r /code/requirements.txt && \
+    pip install --no-cache-dir --no-deps nvidia-nccl-cu12==2.27.7
 
-# Cài đặt thư viện Python cố định phiên bản
-COPY requirements.txt /workspace/requirements.txt
-RUN pip3 install --no-cache-dir --upgrade pip && \
-    pip3 install --no-cache-dir -r /workspace/requirements.txt
+# Sao chép các thành phần theo cấu trúc quy định của Ban Tổ Chức (Section 4)
+COPY models/ /code/models/
+COPY training_code/ /code/training_code/
+COPY predict.sh README.md /code/
+COPY src/ /code/src/
 
-# Sao chép toàn bộ mã nguồn vào /workspace/main_src
-COPY . /workspace/main_src
+# Cấp quyền thực thi cho entrypoint
+RUN chmod +x /code/predict.sh && \
+    mkdir -p /result/logs /tmp/datamate /code/models
 
-# Sao chép script thực thi predict.sh ra các đường dẫn chuẩn theo guideline
-RUN mkdir -p /code /workspace/main_src && \
-    cp /workspace/main_src/predict.sh /workspace/predict.sh && \
-    cp /workspace/main_src/predict.sh /code/predict.sh && \
-    cp /workspace/main_src/predict.sh /predict.sh && \
-    chmod +x /workspace/predict.sh /code/predict.sh /predict.sh /workspace/main_src/predict.sh && \
-    ln -s /workspace/main_src /code/main_src
-
-# Tạo sẵn thư mục kết quả và thư mục tạm (vì /data được mount ở chế độ read-only)
-RUN mkdir -p /result/logs /tmp/datamate /models
-
-CMD ["/bin/bash", "/workspace/predict.sh"]
+CMD ["bash", "/code/predict.sh"]

@@ -1,0 +1,22 @@
+{
+  "id": "q_766d53528ee4",
+  "question": "Tháng 2/25 qua tháng 3/25 rồi tháng 4/25, dthu có tăng liên tục ko ta?",
+  "answer": {
+    "id": "q_766d53528ee4",
+    "type": "boolean",
+    "answer": false
+  },
+  "elapsed_sec": 0.0344,
+  "trace": {
+    "normalized_text": "tháng 2/25 qua tháng 3/25 rồi tháng 4/25, doanh thu có tăng liên tục không ta?",
+    "normalized_ascii": "thang 2/25 qua thang 3/25 roi thang 4/25, doanh thu co tang lien tuc khong ta?",
+    "time_rule": "R2b_month_list",
+    "time_start": "2025-02-01",
+    "time_end": "2025-04-30",
+    "entity_status": "not_needed",
+    "inferred_type": "boolean",
+    "fastpath_code": "revs = [revenue(p['start'], p['end']) for p in T['periods']]\nfinal_result = None if (len(revs) < 2 or any(r == 0 for r in revs)) else all(revs[i+1] > revs[i] for i in range(len(revs)-1))",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

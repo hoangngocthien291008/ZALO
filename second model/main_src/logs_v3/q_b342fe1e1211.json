@@ -1,0 +1,19 @@
+{
+  "id": "q_b342fe1e1211",
+  "question": "Th4/2026 thợ nào làm ra dthu cao nhất?",
+  "answer": {
+    "id": "q_b342fe1e1211",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0055,
+  "trace": {
+    "normalized_text": "tháng 4/2026 thợ nào làm ra doanh thu cao nhất?",
+    "normalized_ascii": "thang 4/2026 tho nao lam ra doanh thu cao nhat?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-04-01",
+    "time_end": "2026-04-30",
+    "entity_status": "not_needed",
+    "inferred_type": "string",
+    "gate": "G4_safe_abstain"
+  }
+}

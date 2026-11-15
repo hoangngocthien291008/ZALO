@@ -1,0 +1,22 @@
+{
+  "id": "q_75f74a3060c8",
+  "question": "Th2/2026 trung binh mot don duoc bao nhieu doanh thu?",
+  "answer": {
+    "id": "q_75f74a3060c8",
+    "type": "number",
+    "answer": 533470
+  },
+  "elapsed_sec": 0.0202,
+  "trace": {
+    "normalized_text": "tháng 2/2026 trung bình mot don duoc bao nhiêu doanh thu?",
+    "normalized_ascii": "thang 2/2026 trung binh mot don duoc bao nhieu doanh thu?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-02-01",
+    "time_end": "2026-02-28",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "df = revenue_lines()\nif not df.empty and 'status' in df.columns:\n    df = df[~(df['status'].str.lower().str.contains('bảo hành|bao hanh', na=False) & (df['amount'] == 0))]\nn_ord = len(df['order_id'].unique()) if not df.empty else 0\ntot = float(df['amount'].sum()) if not df.empty else 0.0\nfinal_result = int((tot / n_ord) + 0.5) if (n_ord > 0 and tot > 0) else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

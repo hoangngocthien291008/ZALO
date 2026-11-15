@@ -1,0 +1,22 @@
+{
+  "id": "q_0ed1ebc4fe4d",
+  "question": "Khách mua ít nhất 4 đơng trong tháng 11/2025 có mấy người?",
+  "answer": {
+    "id": "q_0ed1ebc4fe4d",
+    "type": "number",
+    "answer": 153
+  },
+  "elapsed_sec": 0.0156,
+  "trace": {
+    "normalized_text": "khách mua ít nhất 4 đơng trong tháng 11/2025 có mấy người?",
+    "normalized_ascii": "khach mua it nhat 4 dong trong thang 11/2025 co may nguoi?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-11-01",
+    "time_end": "2025-11-30",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "df = revenue_lines()\ndf = df[df['cust_key'] != ''] if not df.empty else df\ncnts = df.groupby('cust_key')['order_id'].nunique() if not df.empty else pd.Series(dtype=int)\nqual_c = int((cnts >= 4).sum())\nfinal_result = qual_c if qual_c > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "q_f75e58af3bcb",
+  "question": "Bao nhiêu khách mua ít nhất 4 đơn trong tháng 10 năm 2025?",
+  "answer": {
+    "id": "q_f75e58af3bcb",
+    "type": "number",
+    "answer": 48
+  },
+  "elapsed_sec": 0.0087,
+  "trace": {
+    "normalized_text": "bao nhiêu khách mua ít nhất 4 đơn trong tháng 10 năm 2025?",
+    "normalized_ascii": "bao nhieu khach mua it nhat 4 don trong thang 10 nam 2025?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-10-01",
+    "time_end": "2025-10-31",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "df = revenue_lines()\ndf = df[df['cust_key'] != ''] if not df.empty else df\ncnts = df.groupby('cust_key')['order_id'].nunique() if not df.empty else pd.Series(dtype=int)\nqual_c = int((cnts >= 4).sum())\nfinal_result = qual_c if qual_c > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

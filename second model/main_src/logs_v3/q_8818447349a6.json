@@ -1,0 +1,20 @@
+{
+  "id": "q_8818447349a6",
+  "question": "Th này đơn bán qua Zalo OA dthu bnhiu, còn đơn bán tại quầy bnhiu?",
+  "answer": {
+    "id": "q_8818447349a6",
+    "type": "unanswerable",
+    "reason": "Dữ liệu cửa hàng không ghi nhận kênh bán hàng."
+  },
+  "elapsed_sec": 0.001,
+  "trace": {
+    "normalized_text": "tháng này đơn bán qua zalo oa doanh thu bao nhiêu, còn đơn bán tại quầy bao nhiêu?",
+    "normalized_ascii": "thang nay don ban qua zalo oa doanh thu bao nhieu, con don ban tai quay bao nhieu?",
+    "time_rule": "R12_this_month",
+    "time_start": "2026-09-01",
+    "time_end": "2026-09-19",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "U2_missing_channel"
+  }
+}

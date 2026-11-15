@@ -1,0 +1,22 @@
+{
+  "id": "q_afc5f7f5f476",
+  "question": "Hnay dthu duoc bnhiu roi?",
+  "answer": {
+    "id": "q_afc5f7f5f476",
+    "type": "number",
+    "answer": 50275700
+  },
+  "elapsed_sec": 0.0123,
+  "trace": {
+    "normalized_text": "hôm nay doanh thu duoc bao nhiêu roi?",
+    "normalized_ascii": "hom nay doanh thu duoc bao nhieu roi?",
+    "time_rule": "R5_today",
+    "time_start": "2026-04-06",
+    "time_end": "2026-04-06",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "rev = revenue()\nfinal_result = rev if rev > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

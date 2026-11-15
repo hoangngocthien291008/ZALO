@@ -1,0 +1,19 @@
+{
+  "id": "q_4b3bc2d8b207",
+  "question": "Den het ngay 13/12/2025 tiem con bao nhieu khach no chua tra xong?",
+  "answer": {
+    "id": "q_4b3bc2d8b207",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0,
+  "trace": {
+    "normalized_text": "đến hết ngay 13/12/2025 tiem con bao nhiêu khach no chua tra xong?",
+    "normalized_ascii": "den het ngay 13/12/2025 tiem con bao nhieu khach no chua tra xong?",
+    "time_rule": "R4_snapshot",
+    "time_start": null,
+    "time_end": "2025-12-13",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

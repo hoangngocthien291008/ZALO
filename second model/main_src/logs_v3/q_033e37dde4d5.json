@@ -1,0 +1,19 @@
+{
+  "id": "q_033e37dde4d5",
+  "question": "Tuần này bán được tổng cộng bao nhiêu gói rồi ha?",
+  "answer": {
+    "id": "q_033e37dde4d5",
+    "type": "abstain"
+  },
+  "elapsed_sec": 3.8927,
+  "trace": {
+    "normalized_text": "tuần này bán được tổng cộng bao nhiêu gói rồi ha?",
+    "normalized_ascii": "tuan nay ban duoc tong cong bao nhieu goi roi ha?",
+    "time_rule": "R9_this_week",
+    "time_start": "2026-06-22",
+    "time_end": "2026-06-25",
+    "entity_status": "not_found",
+    "inferred_type": "number",
+    "gate": "G3_entity_below_0.70"
+  }
+}

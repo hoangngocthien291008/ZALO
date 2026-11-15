@@ -1,0 +1,22 @@
+{
+  "id": "q_009187cd2960",
+  "question": "Tháng 5/2026 bán ra bao nhiêu cây Ống PVC Bình Minh D50 cây 4m?",
+  "answer": {
+    "id": "q_009187cd2960",
+    "type": "number",
+    "answer": 41
+  },
+  "elapsed_sec": 11.9664,
+  "trace": {
+    "normalized_text": "tháng 5/2026 bán ra bao nhiêu cây ống pvc bình minh d 50 cây 4 m?",
+    "normalized_ascii": "thang 5/2026 ban ra bao nhieu cay ong pvc binh minh d 50 cay 4 m?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-05-01",
+    "time_end": "2026-05-31",
+    "entity_status": "fuzzy",
+    "inferred_type": "number",
+    "fastpath_code": "df = match_item(item_lines(), 'Ống PVC Bình Minh D50 cây 4m')\nq = float(df['qty_base'].sum()) if not df.empty else 0.0\nfinal_result = (int(round(q)) if abs(q - round(q)) < 1e-6 else round(q, 2)) if q > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "q_94f634ace6b1",
+  "question": "08/2025 tinh tien khach phai tra sau khi tru bot va tien may cu thu lai, binh quan mot don la may dong?",
+  "answer": {
+    "id": "q_94f634ace6b1",
+    "type": "number",
+    "answer": 4587048
+  },
+  "elapsed_sec": 0.0065,
+  "trace": {
+    "normalized_text": "08/2025 tinh tien khach phai tra sau khi tru bot va tien may cu thu lai, bình quân mot don la may dong?",
+    "normalized_ascii": "08/2025 tinh tien khach phai tra sau khi tru bot va tien may cu thu lai, binh quan mot don la may dong?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-08-01",
+    "time_end": "2025-08-31",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "df = revenue_lines()\nif not df.empty and 'status' in df.columns:\n    df = df[~(df['status'].str.lower().str.contains('bảo hành|bao hanh', na=False) & (df['amount'] == 0))]\nn_ord = len(df['order_id'].unique()) if not df.empty else 0\ntot = float(df['amount'].sum()) if not df.empty else 0.0\nfinal_result = int((tot / n_ord) + 0.5) if (n_ord > 0 and tot > 0) else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

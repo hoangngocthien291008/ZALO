@@ -1,0 +1,19 @@
+{
+  "id": "q_a119f396d2af",
+  "question": "2-2025 bao nhieu phan tram don bi huy?",
+  "answer": {
+    "id": "q_a119f396d2af",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0016,
+  "trace": {
+    "normalized_text": "2-2025 bao nhiêu phần trăm don bi huy?",
+    "normalized_ascii": "2-2025 bao nhieu phan tram don bi huy?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-02-01",
+    "time_end": "2025-02-28",
+    "entity_status": "not_found",
+    "inferred_type": "percent",
+    "gate": "G3_entity_below_0.70"
+  }
+}

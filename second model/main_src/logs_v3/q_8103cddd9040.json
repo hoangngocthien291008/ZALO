@@ -1,0 +1,26 @@
+{
+  "id": "q_8103cddd9040",
+  "question": "3 món bán chạy nhất tháng 8 năm 2026 là món nào?",
+  "answer": {
+    "id": "q_8103cddd9040",
+    "type": "list",
+    "answer": [
+      "Bia Tiger lon",
+      "Bia Sài Gòn Special lon",
+      "Bia Heineken lon"
+    ]
+  },
+  "elapsed_sec": 0.0207,
+  "trace": {
+    "normalized_text": "3 món bán chạy nhất tháng 8 năm 2026 là món nào?",
+    "normalized_ascii": "3 mon ban chay nhat thang 8 nam 2026 la mon nao?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-08-01",
+    "time_end": "2026-08-31",
+    "entity_status": "not_needed",
+    "inferred_type": "list",
+    "fastpath_code": "df = item_lines()\nfinal_result = top_k(df, value_col='qty_base', k=3, key_col='item_code', name_col='item_name')",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

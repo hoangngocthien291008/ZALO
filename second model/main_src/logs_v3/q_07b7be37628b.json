@@ -1,0 +1,19 @@
+{
+  "id": "q_07b7be37628b",
+  "question": "Tháng này tới hôm nay, doanh thu so với cùng kỳ tháng trước thay đổi bao nhiêu phần trăm?",
+  "answer": {
+    "id": "q_07b7be37628b",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0067,
+  "trace": {
+    "normalized_text": "tháng này tới hôm nay, doanh thu so với cùng kỳ tháng trước thay đổi bao nhiêu phần trăm?",
+    "normalized_ascii": "thang nay toi hom nay, doanh thu so voi cung ky thang truoc thay doi bao nhieu phan tram?",
+    "time_rule": "R12_this_month",
+    "time_start": "2026-06-01",
+    "time_end": "2026-06-30",
+    "entity_status": "not_found",
+    "inferred_type": "percent",
+    "gate": "G3_entity_below_0.70"
+  }
+}

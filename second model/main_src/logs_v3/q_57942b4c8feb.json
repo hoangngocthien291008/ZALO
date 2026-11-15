@@ -1,0 +1,22 @@
+{
+  "id": "q_57942b4c8feb",
+  "question": "Th11/2025 đếm đh huỷ được bnhiu?",
+  "answer": {
+    "id": "q_57942b4c8feb",
+    "type": "number",
+    "answer": 43
+  },
+  "elapsed_sec": 0.0134,
+  "trace": {
+    "normalized_text": "tháng 11/2025 đếm đơn hàng huỷ được bao nhiêu?",
+    "normalized_ascii": "thang 11/2025 dem don hang huy duoc bao nhieu?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-11-01",
+    "time_end": "2025-11-30",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "sub = all_orders()\ncanc = len(sub[sub['status_norm'] == 'huy']['order_id'].unique()) if not sub.empty else 0\nfinal_result = int(canc)",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "q_45cb42f4dc7b",
+  "question": "Doanh thu th8/2025 so voi thang lien truoc thay doi may %?",
+  "answer": {
+    "id": "q_45cb42f4dc7b",
+    "type": "percent",
+    "answer": 4.48
+  },
+  "elapsed_sec": 0.0251,
+  "trace": {
+    "normalized_text": "doanh thu tháng 8/2025 so voi thang liền trước thay doi may%?",
+    "normalized_ascii": "doanh thu thang 8/2025 so voi thang lien truoc thay doi may%?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-08-01",
+    "time_end": "2025-08-31",
+    "entity_status": "not_needed",
+    "inferred_type": "percent",
+    "fastpath_code": "r_curr = revenue(T['start'], T['end'], T['shift'])\nr_prev = revenue(T['cmp_start'], T['cmp_end'], T['shift'])\nfinal_result = growth(r_curr, r_prev) if (r_prev > 0 and r_curr > 0) else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

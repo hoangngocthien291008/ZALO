@@ -1,0 +1,19 @@
+{
+  "id": "q_f9c2f8a2a73e",
+  "question": "Tháng 10/2025 bán Canh chua cá tràu được bao nhiêu tiền?",
+  "answer": {
+    "id": "q_f9c2f8a2a73e",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.001,
+  "trace": {
+    "normalized_text": "tháng 10/2025 bán canh chua cá tràu được bao nhiêu tiền?",
+    "normalized_ascii": "thang 10/2025 ban canh chua ca trau duoc bao nhieu tien?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-10-01",
+    "time_end": "2025-10-31",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "q_5bfa542cd172",
+  "question": "6-2025 tổng tiền khách phải trả là bnhiu nhỉ?",
+  "answer": {
+    "id": "q_5bfa542cd172",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0011,
+  "trace": {
+    "normalized_text": "6-2025 tổng tiền khách phải trả là bao nhiêu nhỉ?",
+    "normalized_ascii": "6-2025 tong tien khach phai tra la bao nhieu nhi?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-06-01",
+    "time_end": "2025-06-30",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

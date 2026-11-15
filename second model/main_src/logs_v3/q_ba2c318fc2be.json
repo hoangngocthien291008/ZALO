@@ -1,0 +1,19 @@
+{
+  "id": "q_ba2c318fc2be",
+  "question": "11/2025 tien cac don ban tai quay chiem may % tong doanh thu ca thang vay?",
+  "answer": {
+    "id": "q_ba2c318fc2be",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0,
+  "trace": {
+    "normalized_text": "11/2025 tien cac don ban tai quay chiem may% tong doanh thu ca thang vay?",
+    "normalized_ascii": "11/2025 tien cac don ban tai quay chiem may% tong doanh thu ca thang vay?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-11-01",
+    "time_end": "2025-11-30",
+    "entity_status": "not_needed",
+    "inferred_type": "percent",
+    "gate": "G4_safe_abstain"
+  }
+}

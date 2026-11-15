@@ -1,0 +1,19 @@
+{
+  "id": "q_a6a66b57f28c",
+  "question": "Hqua bán được tổng cộng mấy lon?",
+  "answer": {
+    "id": "q_a6a66b57f28c",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.001,
+  "trace": {
+    "normalized_text": "hôm qua bán được tổng cộng mấy lon?",
+    "normalized_ascii": "hom qua ban duoc tong cong may lon?",
+    "time_rule": "R6_yesterday",
+    "time_start": "2026-07-11",
+    "time_end": "2026-07-11",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

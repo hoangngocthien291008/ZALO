@@ -1,0 +1,22 @@
+{
+  "id": "q_56f2859cb47d",
+  "question": "Doanh thu bình quân 1 đơn T12/2025 là bao nhiêu nhỉ?",
+  "answer": {
+    "id": "q_56f2859cb47d",
+    "type": "number",
+    "answer": 470469
+  },
+  "elapsed_sec": 0.0109,
+  "trace": {
+    "normalized_text": "doanh thu bình quân 1 đơn tháng 12/2025 là bao nhiêu nhỉ?",
+    "normalized_ascii": "doanh thu binh quan 1 don thang 12/2025 la bao nhieu nhi?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-12-01",
+    "time_end": "2025-12-31",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "df = revenue_lines()\nif not df.empty and 'status' in df.columns:\n    df = df[~(df['status'].str.lower().str.contains('bảo hành|bao hanh', na=False) & (df['amount'] == 0))]\nn_ord = len(df['order_id'].unique()) if not df.empty else 0\ntot = float(df['amount'].sum()) if not df.empty else 0.0\nfinal_result = int((tot / n_ord) + 0.5) if (n_ord > 0 and tot > 0) else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

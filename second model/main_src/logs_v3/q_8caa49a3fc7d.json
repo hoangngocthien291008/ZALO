@@ -1,0 +1,22 @@
+{
+  "id": "q_8caa49a3fc7d",
+  "question": "Tháng này các thuốc có hoạt chất Vitamin C bán được bnhiu tiền?",
+  "answer": {
+    "id": "q_8caa49a3fc7d",
+    "type": "number",
+    "answer": 702100
+  },
+  "elapsed_sec": 0.021,
+  "trace": {
+    "normalized_text": "tháng này các thuốc có hoạt chất vitamin c bán được bao nhiêu tiền?",
+    "normalized_ascii": "thang nay cac thuoc co hoat chat vitamin c ban duoc bao nhieu tien?",
+    "time_rule": "R12_this_month",
+    "time_start": "2026-05-01",
+    "time_end": "2026-05-10",
+    "entity_status": "exact",
+    "inferred_type": "number",
+    "fastpath_code": "df = revenue_lines()\np = V.get('products')\nsub_p = p[p['active_ingredient'].str.lower().str.strip() == 'vitamin c'] if (p is not None and 'active_ingredient' in p.columns) else pd.DataFrame()\ncodes = set(sub_p['item_code']) if not sub_p.empty else set()\nrev = float(df[df['item_code'].isin(codes)]['amount'].sum()) if (not df.empty and codes) else 0.0\nfinal_result = money(rev) if rev > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

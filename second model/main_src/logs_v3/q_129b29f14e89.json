@@ -1,0 +1,19 @@
+{
+  "id": "q_129b29f14e89",
+  "question": "Tháng 6/2025 quán đánh hàng về hết bao nhiêu tiền?",
+  "answer": {
+    "id": "q_129b29f14e89",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0,
+  "trace": {
+    "normalized_text": "tháng 6/2025 quán đánh hàng về hết bao nhiêu tiền?",
+    "normalized_ascii": "thang 6/2025 quan danh hang ve het bao nhieu tien?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-06-01",
+    "time_end": "2025-06-30",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

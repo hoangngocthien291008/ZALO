@@ -1,0 +1,22 @@
+{
+  "id": "q_8ef1f824e97e",
+  "question": "Trong tháng 1 năm 2026, bao nhiêu đơn có ít nhất một mặt hàng nhóm dùng ngoài?",
+  "answer": {
+    "id": "q_8ef1f824e97e",
+    "type": "number",
+    "answer": 2570
+  },
+  "elapsed_sec": 0.0302,
+  "trace": {
+    "normalized_text": "trong tháng 1 năm 2026, bao nhiêu đơn có ít nhất một mặt hàng nhóm dùng ngoài?",
+    "normalized_ascii": "trong thang 1 nam 2026, bao nhieu don co it nhat mot mat hang nhom dung ngoai?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-01-01",
+    "time_end": "2026-01-31",
+    "entity_status": "exact",
+    "inferred_type": "number",
+    "fastpath_code": "df = revenue_lines()\nord_rev = df.groupby('order_id')['amount'].sum() if not df.empty else pd.Series(dtype=float)\nord_rev = ord_rev[ord_rev >= 0.0] if 0.0 > 0 else ord_rev\ncnt = int(len(ord_rev))\nfinal_result = cnt if cnt > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

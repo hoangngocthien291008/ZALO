@@ -1,0 +1,19 @@
+{
+  "id": "q_0c0a1a780164",
+  "question": "Thang nay don tra bang vi dien tu duoc bao nhieu dthu?",
+  "answer": {
+    "id": "q_0c0a1a780164",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0,
+  "trace": {
+    "normalized_text": "tháng này don tra bang vi dien tu duoc bao nhiêu doanh thu?",
+    "normalized_ascii": "thang nay don tra bang vi dien tu duoc bao nhieu doanh thu?",
+    "time_rule": "R12_this_month",
+    "time_start": "2026-07-01",
+    "time_end": "2026-07-22",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

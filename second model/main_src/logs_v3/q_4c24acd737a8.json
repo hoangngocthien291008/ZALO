@@ -1,0 +1,19 @@
+{
+  "id": "q_4c24acd737a8",
+  "question": "Đơn bán 02/2026, trừ tiền bớt với tiền máy cũ thu lại rồi, khách phải trả tổng cộng bao nhiêu vậy?",
+  "answer": {
+    "id": "q_4c24acd737a8",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0025,
+  "trace": {
+    "normalized_text": "đơn bán 02/2026, trừ tiền bớt với tiền máy cũ thu lại rồi, khách phải trả tổng cộng bao nhiêu vậy?",
+    "normalized_ascii": "don ban 02/2026, tru tien bot voi tien may cu thu lai roi, khach phai tra tong cong bao nhieu vay?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-02-01",
+    "time_end": "2026-02-28",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

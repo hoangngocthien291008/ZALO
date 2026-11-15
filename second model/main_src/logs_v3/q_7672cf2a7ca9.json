@@ -1,0 +1,22 @@
+{
+  "id": "q_7672cf2a7ca9",
+  "question": "Năm ni, tính từ đầu năm đến hết hôm nay, doanh thu của tiệm được bao nhiêu?",
+  "answer": {
+    "id": "q_7672cf2a7ca9",
+    "type": "number",
+    "answer": 877769700
+  },
+  "elapsed_sec": 0.0187,
+  "trace": {
+    "normalized_text": "năm ni, tính từ đầu năm đến hết hôm nay, doanh thu của tiệm được bao nhiêu?",
+    "normalized_ascii": "nam ni, tinh tu dau nam den het hom nay, doanh thu cua tiem duoc bao nhieu?",
+    "time_rule": "R3_ytd",
+    "time_start": "2026-01-01",
+    "time_end": "2026-04-03",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "rev = revenue()\nfinal_result = rev if rev > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

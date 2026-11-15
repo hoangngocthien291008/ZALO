@@ -1,0 +1,22 @@
+{
+  "id": "q_188436bf8db3",
+  "question": "Quý 2/2025 quán có tổng cộng bao nhiêu đơn hàng?",
+  "answer": {
+    "id": "q_188436bf8db3",
+    "type": "number",
+    "answer": 15110
+  },
+  "elapsed_sec": 0.0381,
+  "trace": {
+    "normalized_text": "quý 2/2025 quán có tổng cộng bao nhiêu đơn hàng?",
+    "normalized_ascii": "quy 2/2025 quan co tong cong bao nhieu don hang?",
+    "time_rule": "R11_quarter",
+    "time_start": "2025-04-01",
+    "time_end": "2025-06-30",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "df = revenue_lines()\nord_rev = df.groupby('order_id')['amount'].sum() if not df.empty else pd.Series(dtype=float)\nord_rev = ord_rev[ord_rev >= 0.0] if 0.0 > 0 else ord_rev\ncnt = int(len(ord_rev))\nfinal_result = cnt if cnt > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

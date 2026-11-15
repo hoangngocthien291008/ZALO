@@ -1,0 +1,19 @@
+{
+  "id": "q_95f39e8f5fd0",
+  "question": "01/2026 tính tất cả các hãng, bỉm size NB được mấy % tổng số bịch bỉm bán ra nhỉ?",
+  "answer": {
+    "id": "q_95f39e8f5fd0",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0153,
+  "trace": {
+    "normalized_text": "01/2026 tính tất cả các hãng, bỉm size nb được mấy% tổng số bịch bỉm bán ra nhỉ?",
+    "normalized_ascii": "01/2026 tinh tat ca cac hang, bim size nb duoc may% tong so bich bim ban ra nhi?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-01-01",
+    "time_end": "2026-01-31",
+    "entity_status": "not_found",
+    "inferred_type": "percent",
+    "gate": "G3_entity_below_0.70"
+  }
+}

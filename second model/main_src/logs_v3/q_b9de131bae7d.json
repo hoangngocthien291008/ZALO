@@ -1,0 +1,19 @@
+{
+  "id": "q_b9de131bae7d",
+  "question": "chị ơi mik mún bít xíu, trog th8/2025 khach nao tong tien mua hang cao nhut, thanks e nha",
+  "answer": {
+    "id": "q_b9de131bae7d",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0017,
+  "trace": {
+    "normalized_text": "chị ơi mình mún bít xíu, trong tháng 8/2025 khach nao tong tien mua hang cao nhất, thanks e nha",
+    "normalized_ascii": "chi oi minh mun bit xiu, trong thang 8/2025 khach nao tong tien mua hang cao nhat, thanks e nha",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-08-01",
+    "time_end": "2025-08-31",
+    "entity_status": "not_needed",
+    "inferred_type": "string",
+    "gate": "G4_safe_abstain"
+  }
+}

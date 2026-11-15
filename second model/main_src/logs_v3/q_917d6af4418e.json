@@ -1,0 +1,19 @@
+{
+  "id": "q_917d6af4418e",
+  "question": "e ơi check jùm, quý 2/2026 bên mik dòng máy nào kó nhìu lượt bảo hành nhứt á 🤔",
+  "answer": {
+    "id": "q_917d6af4418e",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0034,
+  "trace": {
+    "normalized_text": "e ơi check jùm, quý 2/2026 bên mình dòng máy nào kó nhiều lượt bảo hành nhất á 🤔",
+    "normalized_ascii": "e oi check jum, quy 2/2026 ben minh dong may nao ko nhieu luot bao hanh nhat a 🤔",
+    "time_rule": "R11_quarter",
+    "time_start": "2026-04-01",
+    "time_end": "2026-06-30",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

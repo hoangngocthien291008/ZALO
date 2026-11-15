@@ -1,0 +1,22 @@
+{
+  "id": "q_c4b294bc0479",
+  "question": "Tong tien ban quy 2/2025 la bao nhieu?",
+  "answer": {
+    "id": "q_c4b294bc0479",
+    "type": "number",
+    "answer": 1480662000
+  },
+  "elapsed_sec": 0.0088,
+  "trace": {
+    "normalized_text": "tong tien ban quy 2/2025 la bao nhiêu?",
+    "normalized_ascii": "tong tien ban quy 2/2025 la bao nhieu?",
+    "time_rule": "R11_quarter",
+    "time_start": "2025-04-01",
+    "time_end": "2025-06-30",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "rev = revenue()\nfinal_result = rev if rev > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

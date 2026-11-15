@@ -1,0 +1,19 @@
+{
+  "id": "q_7e5199bfe720",
+  "question": "Thang nay nhap hagn het bnhiu tien roi?",
+  "answer": {
+    "id": "q_7e5199bfe720",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.001,
+  "trace": {
+    "normalized_text": "tháng này nhap hagn het bao nhiêu tien roi?",
+    "normalized_ascii": "thang nay nhap hagn het bao nhieu tien roi?",
+    "time_rule": "R12_this_month",
+    "time_start": "2026-07-01",
+    "time_end": "2026-07-22",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

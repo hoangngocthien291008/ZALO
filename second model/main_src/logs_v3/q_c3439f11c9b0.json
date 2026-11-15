@@ -1,0 +1,19 @@
+{
+  "id": "q_c3439f11c9b0",
+  "question": "Hàng sẽ hết hạn trong 180 ngày tới còn tồn bao nhiêu tiền vốn?",
+  "answer": {
+    "id": "q_c3439f11c9b0",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0006,
+  "trace": {
+    "normalized_text": "hàng sẽ hết hạn trong 180 ngày tới còn tồn bao nhiêu tiền vốn?",
+    "normalized_ascii": "hang se het han trong 180 ngay toi con ton bao nhieu tien von?",
+    "time_rule": "none",
+    "time_start": "2026-08-08",
+    "time_end": "2026-08-08",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G2_missing_time"
+  }
+}

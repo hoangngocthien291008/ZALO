@@ -1,0 +1,22 @@
+{
+  "id": "q_c34ede239480",
+  "question": "Trong tháng 5 năm 2026 cửa hàng bán được mấy cây Ống PVC Bình Minh D90 cây 4m?",
+  "answer": {
+    "id": "q_c34ede239480",
+    "type": "number",
+    "answer": 56
+  },
+  "elapsed_sec": 0.0221,
+  "trace": {
+    "normalized_text": "trong tháng 5 năm 2026 cửa hàng bán được mấy cây ống pvc bình minh d 90 cây 4 m?",
+    "normalized_ascii": "trong thang 5 nam 2026 cua hang ban duoc may cay ong pvc binh minh d 90 cay 4 m?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-05-01",
+    "time_end": "2026-05-31",
+    "entity_status": "fuzzy",
+    "inferred_type": "number",
+    "fastpath_code": "df = match_item(item_lines(), 'Ống PVC Bình Minh D90 cây 4m')\nq = float(df['qty_base'].sum()) if not df.empty else 0.0\nfinal_result = (int(round(q)) if abs(q - round(q)) < 1e-6 else round(q, 2)) if q > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

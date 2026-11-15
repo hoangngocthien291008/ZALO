@@ -1,0 +1,19 @@
+{
+  "id": "q_ff9f21f3aa6c",
+  "question": "Chéc giùm tại ngày 02/06/2026 tiệm còn mấy khách có công nợ?",
+  "answer": {
+    "id": "q_ff9f21f3aa6c",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0016,
+  "trace": {
+    "normalized_text": "chéc giùm tại ngày 02/06/2026 tiệm còn mấy khách có công nợ?",
+    "normalized_ascii": "chec gium tai ngay 02/06/2026 tiem con may khach co cong no?",
+    "time_rule": "R8_exact_date",
+    "time_start": "2026-06-02",
+    "time_end": "2026-06-02",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

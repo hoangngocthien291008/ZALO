@@ -1,0 +1,19 @@
+{
+  "id": "q_5971d8343cc7",
+  "question": "Tháng 9/2025 Cháo ngao bán được mấy nồi?",
+  "answer": {
+    "id": "q_5971d8343cc7",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.001,
+  "trace": {
+    "normalized_text": "tháng 9/2025 cháo ngao bán được mấy nồi?",
+    "normalized_ascii": "thang 9/2025 chao ngao ban duoc may noi?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-09-01",
+    "time_end": "2025-09-30",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

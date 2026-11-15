@@ -1,0 +1,19 @@
+{
+  "id": "q_b88ec465ade3",
+  "question": "Th7/2025 có mấy món có mặt trong ít nhất 128 đơn vậy?",
+  "answer": {
+    "id": "q_b88ec465ade3",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0012,
+  "trace": {
+    "normalized_text": "tháng 7/2025 có mấy món có mặt trong ít nhất 128 đơn vậy?",
+    "normalized_ascii": "thang 7/2025 co may mon co mat trong it nhat 128 don vay?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-07-01",
+    "time_end": "2025-07-31",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

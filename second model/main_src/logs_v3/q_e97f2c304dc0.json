@@ -1,0 +1,22 @@
+{
+  "id": "q_e97f2c304dc0",
+  "question": "3-2026 nhom ho cam cum chiem may phan tram tong doanh thu?",
+  "answer": {
+    "id": "q_e97f2c304dc0",
+    "type": "percent",
+    "answer": 9.44
+  },
+  "elapsed_sec": 0.03,
+  "trace": {
+    "normalized_text": "3-2026 nhom ho cam cum chiem may phần trăm tong doanh thu?",
+    "normalized_ascii": "3-2026 nhom ho cam cum chiem may phan tram tong doanh thu?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-03-01",
+    "time_end": "2026-03-31",
+    "entity_status": "exact",
+    "inferred_type": "percent",
+    "fastpath_code": "df = revenue_lines()\ntot = float(df['amount'].sum()) if not df.empty else 0.0\ng_rev = float(df[df['item_group'].str.lower() == 'ho cảm cúm']['amount'].sum()) if not df.empty else 0.0\nfinal_result = pct(g_rev, tot) if tot > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

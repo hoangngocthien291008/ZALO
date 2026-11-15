@@ -1,0 +1,19 @@
+{
+  "id": "q_c0a590d269df",
+  "question": "Tuần trước bán đc tổng mấy chai, tính hết các mặt hàng bán theo chai?",
+  "answer": {
+    "id": "q_c0a590d269df",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.001,
+  "trace": {
+    "normalized_text": "tuần trước bán được tổng mấy chai, tính hết các mặt hàng bán theo chai?",
+    "normalized_ascii": "tuan truoc ban duoc tong may chai, tinh het cac mat hang ban theo chai?",
+    "time_rule": "R10_last_week",
+    "time_start": "2026-03-23",
+    "time_end": "2026-03-29",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

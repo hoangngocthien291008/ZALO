@@ -1,0 +1,22 @@
+{
+  "id": "q_e9bb51886662",
+  "question": "Th11/2025 tổng cộng bán đc bnhiu tiền?",
+  "answer": {
+    "id": "q_e9bb51886662",
+    "type": "number",
+    "answer": 747455000
+  },
+  "elapsed_sec": 0.0055,
+  "trace": {
+    "normalized_text": "tháng 11/2025 tổng cộng bán được bao nhiêu tiền?",
+    "normalized_ascii": "thang 11/2025 tong cong ban duoc bao nhieu tien?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-11-01",
+    "time_end": "2025-11-30",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "rev = revenue()\nfinal_result = rev if rev > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

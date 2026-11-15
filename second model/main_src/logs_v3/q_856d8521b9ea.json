@@ -1,0 +1,19 @@
+{
+  "id": "q_856d8521b9ea",
+  "question": "Dau nam den hnay tong so dh bnhiu?",
+  "answer": {
+    "id": "q_856d8521b9ea",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.001,
+  "trace": {
+    "normalized_text": "dau nam den hôm nay tong so dh bao nhiêu?",
+    "normalized_ascii": "dau nam den hom nay tong so dh bao nhieu?",
+    "time_rule": "R3_ytd",
+    "time_start": "2026-01-01",
+    "time_end": "2026-05-16",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

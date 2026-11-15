@@ -1,0 +1,19 @@
+{
+  "id": "q_468d8ef6f198",
+  "question": "Th nay nhom khach si mua tong bnhiu dthu?",
+  "answer": {
+    "id": "q_468d8ef6f198",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0012,
+  "trace": {
+    "normalized_text": "tháng này nhom khach si mua tong bao nhiêu doanh thu?",
+    "normalized_ascii": "thang nay nhom khach si mua tong bao nhieu doanh thu?",
+    "time_rule": "R12_this_month",
+    "time_start": "2026-08-01",
+    "time_end": "2026-08-08",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

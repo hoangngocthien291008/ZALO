@@ -1,0 +1,19 @@
+{
+  "id": "q_b33016c0dd71",
+  "question": "Tính tới hôm nay, tiền góp quá hạn khách chưa trả là bao nhiêu?",
+  "answer": {
+    "id": "q_b33016c0dd71",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.002,
+  "trace": {
+    "normalized_text": "tính tới hôm nay, tiền góp quá hạn khách chưa trả là bao nhiêu?",
+    "normalized_ascii": "tinh toi hom nay, tien gop qua han khach chua tra la bao nhieu?",
+    "time_rule": "R5_today",
+    "time_start": "2025-12-15",
+    "time_end": "2025-12-15",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

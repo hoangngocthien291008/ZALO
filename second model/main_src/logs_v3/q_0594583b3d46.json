@@ -1,0 +1,19 @@
+{
+  "id": "q_0594583b3d46",
+  "question": "Đến hết hôm nay, các hợp đồng trả góp còn lại bao nhiêu tiền chưa góp, tính cả kỳ chưa tới hạn?",
+  "answer": {
+    "id": "q_0594583b3d46",
+    "type": "abstain"
+  },
+  "elapsed_sec": 2.7369,
+  "trace": {
+    "normalized_text": "đến hết hôm nay, các hợp đồng trả góp còn lại bao nhiêu tiền chưa góp, tính cả kỳ chưa tới hạn?",
+    "normalized_ascii": "den het hom nay, cac hop dong tra gop con lai bao nhieu tien chua gop, tinh ca ky chua toi han?",
+    "time_rule": "R4_snapshot",
+    "time_start": null,
+    "time_end": "2025-10-18",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

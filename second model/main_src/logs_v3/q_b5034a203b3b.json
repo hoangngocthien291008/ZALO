@@ -1,0 +1,22 @@
+{
+  "id": "q_b5034a203b3b",
+  "question": "Tu dau thang nay toi het hom nay doanh thu tang hay giam bao nhieu % so voi cung ky thang truoc?",
+  "answer": {
+    "id": "q_b5034a203b3b",
+    "type": "percent",
+    "answer": 4.39
+  },
+  "elapsed_sec": 0.0085,
+  "trace": {
+    "normalized_text": "từ đầu tháng này toi het hôm nay doanh thu tang hay giam bao nhiêu% so voi cùng kỳ tháng trước?",
+    "normalized_ascii": "tu dau thang nay toi het hom nay doanh thu tang hay giam bao nhieu% so voi cung ky thang truoc?",
+    "time_rule": "R12_this_month",
+    "time_start": "2026-05-01",
+    "time_end": "2026-05-23",
+    "entity_status": "not_needed",
+    "inferred_type": "percent",
+    "fastpath_code": "r_curr = revenue(T['start'], T['end'], T['shift'])\nr_prev = revenue(T['cmp_start'], T['cmp_end'], T['shift'])\nfinal_result = growth(r_curr, r_prev) if (r_prev > 0 and r_curr > 0) else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

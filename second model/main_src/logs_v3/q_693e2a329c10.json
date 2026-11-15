@@ -1,0 +1,19 @@
+{
+  "id": "q_693e2a329c10",
+  "question": "Top 5 khach chi nhieu tien nhat tuan roi la ai vay?",
+  "answer": {
+    "id": "q_693e2a329c10",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.001,
+  "trace": {
+    "normalized_text": "top 5 khach chi nhieu tien nhat tuần rồi la ai vay?",
+    "normalized_ascii": "top 5 khach chi nhieu tien nhat tuan roi la ai vay?",
+    "time_rule": "R10_last_week",
+    "time_start": "2025-07-21",
+    "time_end": "2025-07-27",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

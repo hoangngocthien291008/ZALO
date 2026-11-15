@@ -1,0 +1,22 @@
+{
+  "id": "q_49286a4905a7",
+  "question": "Dthu th 7/26 được nhiêu z?",
+  "answer": {
+    "id": "q_49286a4905a7",
+    "type": "number",
+    "answer": 269826600
+  },
+  "elapsed_sec": 0.0177,
+  "trace": {
+    "normalized_text": "doanh thu th 7/26 được nhiêu vậy?",
+    "normalized_ascii": "doanh thu th 7/26 duoc nhieu vay?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-07-01",
+    "time_end": "2026-07-31",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "rev = revenue()\nfinal_result = rev if rev > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

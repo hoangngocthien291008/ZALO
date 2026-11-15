@@ -1,0 +1,22 @@
+{
+  "id": "q_c2ba3823e50f",
+  "question": "Ti le huy don T2/2025 bao nhieu %?",
+  "answer": {
+    "id": "q_c2ba3823e50f",
+    "type": "percent",
+    "answer": 1.98
+  },
+  "elapsed_sec": 0.0266,
+  "trace": {
+    "normalized_text": "tỉ lệ huy don tháng 2/2025 bao nhiêu%?",
+    "normalized_ascii": "ti le huy don thang 2/2025 bao nhieu%?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-02-01",
+    "time_end": "2025-02-28",
+    "entity_status": "exact",
+    "inferred_type": "percent",
+    "fastpath_code": "sub = all_orders()\ntot = len(sub['order_id'].unique()) if not sub.empty else 0\ncanc = len(sub[sub['status_norm'] == 'huy']['order_id'].unique()) if not sub.empty else 0\nfinal_result = pct(canc, tot) if tot > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

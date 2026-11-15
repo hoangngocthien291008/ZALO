@@ -1,0 +1,22 @@
+{
+  "id": "q_99f979b5d0b4",
+  "question": "So với tháng trước đó, 7/2026 dthu lên hay xuống mấy %?",
+  "answer": {
+    "id": "q_99f979b5d0b4",
+    "type": "percent",
+    "answer": 3.07
+  },
+  "elapsed_sec": 0.0106,
+  "trace": {
+    "normalized_text": "so với tháng trước đó, 7/2026 doanh thu lên hay xuống mấy%?",
+    "normalized_ascii": "so voi thang truoc do, 7/2026 doanh thu len hay xuong may%?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-07-01",
+    "time_end": "2026-07-31",
+    "entity_status": "not_needed",
+    "inferred_type": "percent",
+    "fastpath_code": "r_curr = revenue(T['start'], T['end'], T['shift'])\nr_prev = revenue(T['cmp_start'], T['cmp_end'], T['shift'])\nfinal_result = growth(r_curr, r_prev) if (r_prev > 0 and r_curr > 0) else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "q_ce16270f4c20",
+  "question": "30 ngay gan nhat quan ban duoc tat ca bao nheiu ly?",
+  "answer": {
+    "id": "q_ce16270f4c20",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.001,
+  "trace": {
+    "normalized_text": "30 ngay gan nhat quan ban duoc tat ca bao nheiu ly?",
+    "normalized_ascii": "30 ngay gan nhat quan ban duoc tat ca bao nheiu ly?",
+    "time_rule": "R7_n_days",
+    "time_start": "2025-11-28",
+    "time_end": "2025-12-27",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

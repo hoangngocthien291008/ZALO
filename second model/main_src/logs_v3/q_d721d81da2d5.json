@@ -1,0 +1,19 @@
+{
+  "id": "q_d721d81da2d5",
+  "question": "Tới hết ngày 28/12/2025, anh xem giúp em tổng tiền khách còn nợ ở các đơn đã đặt quá 7 ngày là bao nhiêu ạ?",
+  "answer": {
+    "id": "q_d721d81da2d5",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.001,
+  "trace": {
+    "normalized_text": "tới hết ngày 28/12/2025, anh xem giúp em tổng tiền khách còn nợ ở các đơn đã đặt quá 7 ngày là bao nhiêu ạ?",
+    "normalized_ascii": "toi het ngay 28/12/2025, anh xem giup em tong tien khach con no o cac don da dat qua 7 ngay la bao nhieu a?",
+    "time_rule": "R8_exact_date",
+    "time_start": "2025-12-28",
+    "time_end": "2025-12-28",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

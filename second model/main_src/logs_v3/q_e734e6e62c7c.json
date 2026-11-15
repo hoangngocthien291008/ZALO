@@ -1,0 +1,19 @@
+{
+  "id": "q_e734e6e62c7c",
+  "question": "Tới hôm nay, khoản trả góp của khách Lương Khoa Hoàng còn lại bao nhiêu tiền chưa góp, kể cả kỳ chưa tới hạn?",
+  "answer": {
+    "id": "q_e734e6e62c7c",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.002,
+  "trace": {
+    "normalized_text": "tới hôm nay, khoản trả góp của khách lương khoa hoàng còn lại bao nhiêu tiền chưa góp, kể cả kỳ chưa tới hạn?",
+    "normalized_ascii": "toi hom nay, khoan tra gop cua khach luong khoa hoang con lai bao nhieu tien chua gop, ke ca ky chua toi han?",
+    "time_rule": "R5_today",
+    "time_start": "2026-04-23",
+    "time_end": "2026-04-23",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

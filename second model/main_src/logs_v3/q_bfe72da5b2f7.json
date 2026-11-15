@@ -1,0 +1,22 @@
+{
+  "id": "q_bfe72da5b2f7",
+  "question": "08/2025 dthu bình quân mỗi đơn được bnhiu?",
+  "answer": {
+    "id": "q_bfe72da5b2f7",
+    "type": "number",
+    "answer": 1356573
+  },
+  "elapsed_sec": 0.0077,
+  "trace": {
+    "normalized_text": "08/2025 doanh thu bình quân mỗi đơn được bao nhiêu?",
+    "normalized_ascii": "08/2025 doanh thu binh quan moi don duoc bao nhieu?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-08-01",
+    "time_end": "2025-08-31",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "df = revenue_lines()\nif not df.empty and 'status' in df.columns:\n    df = df[~(df['status'].str.lower().str.contains('bảo hành|bao hanh', na=False) & (df['amount'] == 0))]\nn_ord = len(df['order_id'].unique()) if not df.empty else 0\ntot = float(df['amount'].sum()) if not df.empty else 0.0\nfinal_result = int((tot / n_ord) + 0.5) if (n_ord > 0 and tot > 0) else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

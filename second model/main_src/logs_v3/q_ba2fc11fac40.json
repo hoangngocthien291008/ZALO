@@ -1,0 +1,19 @@
+{
+  "id": "q_ba2fc11fac40",
+  "question": "Dthu khách nhóm thân thiết 08/2025, nhiêu z?",
+  "answer": {
+    "id": "q_ba2fc11fac40",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0,
+  "trace": {
+    "normalized_text": "doanh thu khách nhóm thân thiết 08/2025, nhiêu vậy?",
+    "normalized_ascii": "doanh thu khach nhom than thiet 08/2025, nhieu vay?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-08-01",
+    "time_end": "2025-08-31",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

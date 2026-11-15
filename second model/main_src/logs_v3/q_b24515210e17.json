@@ -1,0 +1,21 @@
+{
+  "id": "q_b24515210e17",
+  "question": "Th 6/25 lãi gộp được nhiêu vậy?",
+  "answer": {
+    "id": "q_b24515210e17",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0031,
+  "trace": {
+    "normalized_text": "th 6/25 lãi gộp được nhiêu vậy?",
+    "normalized_ascii": "th 6/25 lai gop duoc nhieu vay?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-06-01",
+    "time_end": "2025-06-30",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "final_result = gross_profit(T['start'], T['end'], T['shift'])",
+    "fastpath_ok": true,
+    "gate": "G4_safe_abstain"
+  }
+}

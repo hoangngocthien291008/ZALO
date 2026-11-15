@@ -1,0 +1,22 @@
+{
+  "id": "q_e6ccb4744594",
+  "question": "Ngày nào th 1/26 quán bánnhiều tiền nhất z?",
+  "answer": {
+    "id": "q_e6ccb4744594",
+    "type": "date",
+    "answer": "2026-01-10"
+  },
+  "elapsed_sec": 0.0254,
+  "trace": {
+    "normalized_text": "ngày nào th 1/26 quán bánnhiều tiền nhất vậy?",
+    "normalized_ascii": "ngay nao th 1/26 quan bannhieu tien nhat vay?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-01-01",
+    "time_end": "2026-01-31",
+    "entity_status": "not_needed",
+    "inferred_type": "date",
+    "fastpath_code": "df = revenue_lines()\ndaily = df[df['date'] != ''].groupby('date', as_index=False)['amount'].sum() if not df.empty else pd.DataFrame()\ndaily = daily.sort_values(by=['amount', 'date'], ascending=[False, True], kind='mergesort') if not daily.empty else daily\nfinal_result = str(daily.iloc[0]['date'])[:10] if not daily.empty else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

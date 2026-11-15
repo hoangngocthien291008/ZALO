@@ -1,0 +1,19 @@
+{
+  "id": "q_a225dc12182c",
+  "question": "Trong tháng 9/2025, ai là thợ chăm chỉ nhất?",
+  "answer": {
+    "id": "q_a225dc12182c",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0051,
+  "trace": {
+    "normalized_text": "trong tháng 9/2025, ai là thợ chăm chỉ nhất?",
+    "normalized_ascii": "trong thang 9/2025, ai la tho cham chi nhat?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-09-01",
+    "time_end": "2025-09-30",
+    "entity_status": "not_needed",
+    "inferred_type": "string",
+    "gate": "G4_safe_abstain"
+  }
+}

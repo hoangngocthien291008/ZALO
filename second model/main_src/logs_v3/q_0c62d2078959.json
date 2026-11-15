@@ -1,0 +1,22 @@
+{
+  "id": "q_0c62d2078959",
+  "question": "Thang 6 nam 2025 quan co may don bi huy?",
+  "answer": {
+    "id": "q_0c62d2078959",
+    "type": "number",
+    "answer": 76
+  },
+  "elapsed_sec": 0.027,
+  "trace": {
+    "normalized_text": "thang 6 nam 2025 quan co may don bi huy?",
+    "normalized_ascii": "thang 6 nam 2025 quan co may don bi huy?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-06-01",
+    "time_end": "2025-06-30",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "sub = all_orders()\ncanc = len(sub[sub['status_norm'] == 'huy']['order_id'].unique()) if not sub.empty else 0\nfinal_result = int(canc)",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "q_a29355405c06",
+  "question": "6-2025 tiệm bán được mấy chiếc điện thoại, gộp cả máy mới với máy cũ nhé?",
+  "answer": {
+    "id": "q_a29355405c06",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.007,
+  "trace": {
+    "normalized_text": "6-2025 tiệm bán được mấy chiếc điện thoại, gộp cả máy mới với máy cũ nhé?",
+    "normalized_ascii": "6-2025 tiem ban duoc may chiec dien thoai, gop ca may moi voi may cu nhe?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-06-01",
+    "time_end": "2025-06-30",
+    "entity_status": "not_found",
+    "inferred_type": "number",
+    "gate": "G3_entity_below_0.70"
+  }
+}

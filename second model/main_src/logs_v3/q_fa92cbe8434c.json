@@ -1,0 +1,19 @@
+{
+  "id": "q_fa92cbe8434c",
+  "question": "Tháng 6/25 mỗi đơn trung bình đem về bao nhiêu doanh thu vậy?",
+  "answer": {
+    "id": "q_fa92cbe8434c",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.001,
+  "trace": {
+    "normalized_text": "tháng 6/25 mỗi đơn trung bình đem về bao nhiêu doanh thu vậy?",
+    "normalized_ascii": "thang 6/25 moi don trung binh dem ve bao nhieu doanh thu vay?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-06-01",
+    "time_end": "2025-06-30",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

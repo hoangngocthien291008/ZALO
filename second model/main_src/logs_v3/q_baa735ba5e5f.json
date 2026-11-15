@@ -1,0 +1,19 @@
+{
+  "id": "q_baa735ba5e5f",
+  "question": "6-2025 khách trả món vì món bị lỗi nhiều hơn hay vì gọi nhầm nhiều hơn hả?",
+  "answer": {
+    "id": "q_baa735ba5e5f",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.003,
+  "trace": {
+    "normalized_text": "6-2025 khách trả món vì món bị lỗi nhiều hơn hay vì gọi nhầm nhiều hơn hả?",
+    "normalized_ascii": "6-2025 khach tra mon vi mon bi loi nhieu hon hay vi goi nham nhieu hon ha?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-06-01",
+    "time_end": "2025-06-30",
+    "entity_status": "exact",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

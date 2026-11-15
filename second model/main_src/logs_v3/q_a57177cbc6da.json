@@ -1,0 +1,22 @@
+{
+  "id": "q_a57177cbc6da",
+  "question": "30 ngày qua kể cả hôm nay dthu đc bnhiu?",
+  "answer": {
+    "id": "q_a57177cbc6da",
+    "type": "number",
+    "answer": 9206500
+  },
+  "elapsed_sec": 0.015,
+  "trace": {
+    "normalized_text": "30 ngày qua kể cả hôm nay doanh thu được bao nhiêu?",
+    "normalized_ascii": "30 ngay qua ke ca hom nay doanh thu duoc bao nhieu?",
+    "time_rule": "R5_today",
+    "time_start": "2026-03-20",
+    "time_end": "2026-03-20",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "rev = revenue()\nfinal_result = rev if rev > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

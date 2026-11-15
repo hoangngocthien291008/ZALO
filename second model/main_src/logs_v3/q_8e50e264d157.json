@@ -1,0 +1,22 @@
+{
+  "id": "q_8e50e264d157",
+  "question": "Th này ko tính phụ kiện, trung bình 1 máy đt bán đc bnhiu tiền?",
+  "answer": {
+    "id": "q_8e50e264d157",
+    "type": "number",
+    "answer": 1628303500
+  },
+  "elapsed_sec": 0.0049,
+  "trace": {
+    "normalized_text": "tháng này không tính phụ kiện, trung bình 1 máy đt bán được bao nhiêu tiền?",
+    "normalized_ascii": "thang nay khong tinh phu kien, trung binh 1 may dt ban duoc bao nhieu tien?",
+    "time_rule": "R12_this_month",
+    "time_start": "2026-09-01",
+    "time_end": "2026-09-30",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "rev = revenue()\nfinal_result = rev if rev > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

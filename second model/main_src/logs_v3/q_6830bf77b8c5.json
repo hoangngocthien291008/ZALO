@@ -1,0 +1,19 @@
+{
+  "id": "q_6830bf77b8c5",
+  "question": "Trong tháng 11/2025, ai là nhà cung cấp đáng tin cậy của cửa hàng?",
+  "answer": {
+    "id": "q_6830bf77b8c5",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.001,
+  "trace": {
+    "normalized_text": "trong tháng 11/2025, ai là nhà cung cấp đáng tin cậy của cửa hàng?",
+    "normalized_ascii": "trong thang 11/2025, ai la nha cung cap dang tin cay cua cua hang?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-11-01",
+    "time_end": "2025-11-30",
+    "entity_status": "not_needed",
+    "inferred_type": "string",
+    "gate": "G4_safe_abstain"
+  }
+}

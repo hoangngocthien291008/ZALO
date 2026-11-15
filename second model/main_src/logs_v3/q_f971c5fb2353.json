@@ -1,0 +1,22 @@
+{
+  "id": "q_f971c5fb2353",
+  "question": "Mực rán nước mắm lên giá 146.000đ ngày 29/05/2025, số đĩa bán trong 14 ngày kể từ 29/05/2025 cao hay thấp hơn 14 ngày liền trước bao nhiêu %?",
+  "answer": {
+    "id": "q_f971c5fb2353",
+    "type": "percent",
+    "answer": 5.77
+  },
+  "elapsed_sec": 0.0441,
+  "trace": {
+    "normalized_text": "mực rán nước mắm lên giá 146.000 đ ngày 29/05/2025, số đĩa bán trong 14 ngày kể từ 29/05/2025 cao hay thấp hơn 14 ngày liền trước bao nhiêu%?",
+    "normalized_ascii": "muc ran nuoc mam len gia 146.000 d ngay 29/05/2025, so dia ban trong 14 ngay ke tu 29/05/2025 cao hay thap hon 14 ngay lien truoc bao nhieu%?",
+    "time_rule": "R2_price_effect",
+    "time_start": "2025-05-29",
+    "time_end": "2025-06-11",
+    "entity_status": "not_needed",
+    "inferred_type": "percent",
+    "fastpath_code": "r_curr = revenue(T['start'], T['end'], T['shift'])\nr_prev = revenue(T['cmp_start'], T['cmp_end'], T['shift'])\nfinal_result = growth(r_curr, r_prev) if (r_prev > 0 and r_curr > 0) else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

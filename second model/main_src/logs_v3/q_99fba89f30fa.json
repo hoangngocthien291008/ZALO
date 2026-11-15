@@ -1,0 +1,19 @@
+{
+  "id": "q_99fba89f30fa",
+  "question": "Nhân viên mã NV005 tháng 6/2026, tiền bán được nhiêu z?",
+  "answer": {
+    "id": "q_99fba89f30fa",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.001,
+  "trace": {
+    "normalized_text": "nhân viên mã nv 005 tháng 6/2026, tiền bán được nhiêu vậy?",
+    "normalized_ascii": "nhan vien ma nv 005 thang 6/2026, tien ban duoc nhieu vay?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-06-01",
+    "time_end": "2026-06-30",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

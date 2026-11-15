@@ -1,0 +1,19 @@
+{
+  "id": "q_c16ed84d6481",
+  "question": "Trong số khách có mua T7/2025, bao nhiêu phần trăm mua từ 6 đơn trở lên?",
+  "answer": {
+    "id": "q_c16ed84d6481",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.002,
+  "trace": {
+    "normalized_text": "trong số khách có mua tháng 7/2025, bao nhiêu phần trăm mua từ 6 đơn trở lên?",
+    "normalized_ascii": "trong so khach co mua thang 7/2025, bao nhieu phan tram mua tu 6 don tro len?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-07-01",
+    "time_end": "2025-07-31",
+    "entity_status": "not_found",
+    "inferred_type": "percent",
+    "gate": "G3_entity_below_0.70"
+  }
+}

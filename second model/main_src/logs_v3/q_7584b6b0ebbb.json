@@ -1,0 +1,21 @@
+{
+  "id": "q_7584b6b0ebbb",
+  "question": "Dthu th8, th9, th10/2025 có tăng liên tục hông?",
+  "answer": {
+    "id": "q_7584b6b0ebbb",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0158,
+  "trace": {
+    "normalized_text": "doanh thu tháng 8, tháng 9, tháng 10/2025 có tăng liên tục không?",
+    "normalized_ascii": "doanh thu thang 8, thang 9, thang 10/2025 co tang lien tuc khong?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-08-01",
+    "time_end": "2026-08-31",
+    "entity_status": "not_needed",
+    "inferred_type": "boolean",
+    "fastpath_code": "rev = revenue()\nfinal_result = rev if rev > 0 else None",
+    "fastpath_ok": true,
+    "gate": "G4_safe_abstain"
+  }
+}

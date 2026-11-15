@@ -1,0 +1,22 @@
+{
+  "id": "q_3d543c5b23c8",
+  "question": "Th6/2025 dthu nhóm bỉm tã chiếm bnhiu % dthu cả tháng?",
+  "answer": {
+    "id": "q_3d543c5b23c8",
+    "type": "percent",
+    "answer": 22.74
+  },
+  "elapsed_sec": 0.0102,
+  "trace": {
+    "normalized_text": "tháng 6/2025 doanh thu nhóm bỉm tã chiếm bao nhiêu% doanh thu cả tháng?",
+    "normalized_ascii": "thang 6/2025 doanh thu nhom bim ta chiem bao nhieu% doanh thu ca thang?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-06-01",
+    "time_end": "2025-06-30",
+    "entity_status": "exact",
+    "inferred_type": "percent",
+    "fastpath_code": "df = revenue_lines()\ntot = float(df['amount'].sum()) if not df.empty else 0.0\ng_rev = float(df[df['item_group'].str.lower() == 'bỉm tã']['amount'].sum()) if not df.empty else 0.0\nfinal_result = pct(g_rev, tot) if tot > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

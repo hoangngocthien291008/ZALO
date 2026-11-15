@@ -1,0 +1,22 @@
+{
+  "id": "q_79b2abb21862",
+  "question": "Hôm qua tiệm thu về bao nhiêu doanh thu?",
+  "answer": {
+    "id": "q_79b2abb21862",
+    "type": "number",
+    "answer": 5602000
+  },
+  "elapsed_sec": 0.0124,
+  "trace": {
+    "normalized_text": "hôm qua tiệm thu về bao nhiêu doanh thu?",
+    "normalized_ascii": "hom qua tiem thu ve bao nhieu doanh thu?",
+    "time_rule": "R6_yesterday",
+    "time_start": "2025-10-04",
+    "time_end": "2025-10-04",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "rev = revenue()\nfinal_result = rev if rev > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

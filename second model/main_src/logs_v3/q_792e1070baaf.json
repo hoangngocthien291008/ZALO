@@ -1,0 +1,19 @@
+{
+  "id": "q_792e1070baaf",
+  "question": "T10/2025 máy Samsung chiếm bnhiu % tổng số máy bán ra?",
+  "answer": {
+    "id": "q_792e1070baaf",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.003,
+  "trace": {
+    "normalized_text": "tháng 10/2025 máy samsung chiếm bao nhiêu% tổng số máy bán ra?",
+    "normalized_ascii": "thang 10/2025 may samsung chiem bao nhieu% tong so may ban ra?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-10-01",
+    "time_end": "2025-10-31",
+    "entity_status": "not_needed",
+    "inferred_type": "percent",
+    "gate": "G4_safe_abstain"
+  }
+}

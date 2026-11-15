@@ -1,0 +1,19 @@
+{
+  "id": "q_2bd15109007c",
+  "question": "30 ngày gần nhất quán bán đc tổng bnhiu lon vậy?",
+  "answer": {
+    "id": "q_2bd15109007c",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.003,
+  "trace": {
+    "normalized_text": "30 ngày gần nhất quán bán được tổng bao nhiêu lon vậy?",
+    "normalized_ascii": "30 ngay gan nhat quan ban duoc tong bao nhieu lon vay?",
+    "time_rule": "R7_n_days",
+    "time_start": "2026-01-19",
+    "time_end": "2026-02-17",
+    "entity_status": "not_found",
+    "inferred_type": "number",
+    "gate": "G3_entity_below_0.70"
+  }
+}

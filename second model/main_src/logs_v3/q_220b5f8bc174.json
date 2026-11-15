@@ -1,0 +1,22 @@
+{
+  "id": "q_220b5f8bc174",
+  "question": "ad oi th3/2026 tien ban shop mik cao hay thap hon thang trc do bnhiu %",
+  "answer": {
+    "id": "q_220b5f8bc174",
+    "type": "percent",
+    "answer": -5.06
+  },
+  "elapsed_sec": 0.0067,
+  "trace": {
+    "normalized_text": "ad oi tháng 3/2026 tien ban shop mình cao hay thap hon thang trước do bao nhiêu%",
+    "normalized_ascii": "ad oi thang 3/2026 tien ban shop minh cao hay thap hon thang truoc do bao nhieu%",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-03-01",
+    "time_end": "2026-03-31",
+    "entity_status": "not_needed",
+    "inferred_type": "percent",
+    "fastpath_code": "r_curr = revenue(T['start'], T['end'], T['shift'])\nr_prev = revenue(T['cmp_start'], T['cmp_end'], T['shift'])\nfinal_result = growth(r_curr, r_prev) if (r_prev > 0 and r_curr > 0) else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

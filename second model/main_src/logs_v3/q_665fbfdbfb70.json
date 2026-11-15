@@ -1,0 +1,20 @@
+{
+  "id": "q_665fbfdbfb70",
+  "question": "Đơn bán tại quầy tháng ni, doanh thu mấy đồng?",
+  "answer": {
+    "id": "q_665fbfdbfb70",
+    "type": "unanswerable",
+    "reason": "Dữ liệu cửa hàng không ghi nhận kênh bán hàng."
+  },
+  "elapsed_sec": 0.0008,
+  "trace": {
+    "normalized_text": "đơn bán tại quầy tháng ni, doanh thu mấy đồng?",
+    "normalized_ascii": "don ban tai quay thang ni, doanh thu may dong?",
+    "time_rule": "none",
+    "time_start": "2026-08-21",
+    "time_end": "2026-08-21",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "U2_missing_channel"
+  }
+}

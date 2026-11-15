@@ -1,0 +1,19 @@
+{
+  "id": "q_7ab1e13137e3",
+  "question": "Nợ còn lại đến ngày 17/06/2026, tách theo tuổi nợ 0–7, 8–15 và trên 15 ngày, mỗi nhóm bnhiu tiền?",
+  "answer": {
+    "id": "q_7ab1e13137e3",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0022,
+  "trace": {
+    "normalized_text": "nợ còn lại đến ngày 17/06/2026, tách theo tuổi nợ 0 – 7, 8 – 15 và trên 15 ngày, mỗi nhóm bao nhiêu tiền?",
+    "normalized_ascii": "no con lai den ngay 17/06/2026, tach theo tuoi no 0 – 7, 8 – 15 va tren 15 ngay, moi nhom bao nhieu tien?",
+    "time_rule": "R8_exact_date",
+    "time_start": "2026-06-17",
+    "time_end": "2026-06-17",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

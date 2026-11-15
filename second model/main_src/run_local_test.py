@@ -129,6 +129,37 @@ def evaluate_prediction(pred: Dict[str, Any], gold: Dict[str, Any]) -> str:
     return "wrong"
 
 
+def score_predictions(
+    predictions: Any, answers: Dict[str, Any]
+) -> Dict[str, Any]:
+    """Chấm điểm tập dự đoán theo chuẩn Penalized Accuracy của cuộc thi."""
+    if isinstance(predictions, list):
+        predictions = {
+            r["id"]: r for r in predictions if isinstance(r, dict) and "id" in r
+        }
+    correct, wrong, abstain = 0, 0, 0
+    total = len(predictions)
+    for qid, pred in predictions.items():
+        if qid not in answers:
+            continue
+        res = evaluate_prediction(pred, answers[qid])
+        if res == "correct":
+            correct += 1
+        elif res == "wrong":
+            wrong += 1
+        else:
+            abstain += 1
+    pa = (correct - wrong) / max(total, 1)
+    print("=" * 55)
+    print(f"KẾT QUẢ ĐÁNH GIÁ (N = {total}):")
+    print(f"  - Đúng (+1)    : {correct}")
+    print(f"  - Sai (-1)     : {wrong}")
+    print(f"  - Bỏ qua (0)   : {abstain}")
+    print(f"  - Điểm PA      : {pa:.4f}")
+    print("=" * 55)
+    return {"correct": correct, "wrong": wrong, "abstain": abstain, "PA": pa}
+
+
 def run_unit_tests(calendar_path: str) -> None:
     """Chạy bộ kiểm thử đơn vị (Unit Tests) cho Preprocessor, TimeResolver, Formatters."""
     print("=" * 72)

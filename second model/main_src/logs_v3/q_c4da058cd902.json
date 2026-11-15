@@ -1,0 +1,19 @@
+{
+  "id": "q_c4da058cd902",
+  "question": "Tháng 2/2026 trong nhóm máy mới, mặt hàng nào bán được nhiều máy nhất?",
+  "answer": {
+    "id": "q_c4da058cd902",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.003,
+  "trace": {
+    "normalized_text": "tháng 2/2026 trong nhóm máy mới, mặt hàng nào bán được nhiều máy nhất?",
+    "normalized_ascii": "thang 2/2026 trong nhom may moi, mat hang nao ban duoc nhieu may nhat?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-02-01",
+    "time_end": "2026-02-28",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

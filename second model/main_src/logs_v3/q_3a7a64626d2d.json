@@ -1,0 +1,19 @@
+{
+  "id": "q_3a7a64626d2d",
+  "question": "Dthu từ khách nhóm thân thiết th này chiếm mấy % tổng dthu?",
+  "answer": {
+    "id": "q_3a7a64626d2d",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.001,
+  "trace": {
+    "normalized_text": "doanh thu từ khách nhóm thân thiết tháng này chiếm mấy% tổng doanh thu?",
+    "normalized_ascii": "doanh thu tu khach nhom than thiet thang nay chiem may% tong doanh thu?",
+    "time_rule": "R12_this_month",
+    "time_start": "2026-09-01",
+    "time_end": "2026-09-19",
+    "entity_status": "not_needed",
+    "inferred_type": "percent",
+    "gate": "G4_safe_abstain"
+  }
+}

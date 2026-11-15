@@ -1,0 +1,19 @@
+{
+  "id": "q_d622b78573c8",
+  "question": "Tháng này bán được bao nhiêu chiếc iPhone 16 Pro Max?",
+  "answer": {
+    "id": "q_d622b78573c8",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0038,
+  "trace": {
+    "normalized_text": "tháng này bán được bao nhiêu chiếc iphone 16 pro max?",
+    "normalized_ascii": "thang nay ban duoc bao nhieu chiec iphone 16 pro max?",
+    "time_rule": "R12_this_month",
+    "time_start": "2026-07-01",
+    "time_end": "2026-07-31",
+    "entity_status": "not_found",
+    "inferred_type": "number",
+    "gate": "G3_entity_below_0.70"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "q_ff354156a3c4",
+  "question": "Dthu nhóm khách sỉ chiếm mấy % tổng dthu tháng 6/26?",
+  "answer": {
+    "id": "q_ff354156a3c4",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0006,
+  "trace": {
+    "normalized_text": "doanh thu nhóm khách sỉ chiếm mấy% tổng doanh thu tháng 6/26?",
+    "normalized_ascii": "doanh thu nhom khach si chiem may% tong doanh thu thang 6/26?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-06-01",
+    "time_end": "2026-06-30",
+    "entity_status": "not_needed",
+    "inferred_type": "percent",
+    "gate": "G4_safe_abstain"
+  }
+}

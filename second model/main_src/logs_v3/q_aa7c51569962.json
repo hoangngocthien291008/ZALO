@@ -1,0 +1,19 @@
+{
+  "id": "q_aa7c51569962",
+  "question": "Dthu th2/2025 so tháng liền trước lên hay xuống bnhiu %?",
+  "answer": {
+    "id": "q_aa7c51569962",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0005,
+  "trace": {
+    "normalized_text": "doanh thu tháng 2/2025 so tháng liền trước lên hay xuống bao nhiêu%?",
+    "normalized_ascii": "doanh thu thang 2/2025 so thang lien truoc len hay xuong bao nhieu%?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-02-01",
+    "time_end": "2025-02-28",
+    "entity_status": "not_needed",
+    "inferred_type": "percent",
+    "gate": "G4_safe_abstain"
+  }
+}

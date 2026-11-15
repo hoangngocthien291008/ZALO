@@ -1,0 +1,22 @@
+{
+  "id": "q_bd0fbda87c14",
+  "question": "Tháng 11/25 thuốc có hoạt chất Loratadin bán được bnhiu tiền?",
+  "answer": {
+    "id": "q_bd0fbda87c14",
+    "type": "number",
+    "answer": 2036700
+  },
+  "elapsed_sec": 0.0275,
+  "trace": {
+    "normalized_text": "tháng 11/25 thuốc có hoạt chất loratadin bán được bao nhiêu tiền?",
+    "normalized_ascii": "thang 11/25 thuoc co hoat chat loratadin ban duoc bao nhieu tien?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-11-01",
+    "time_end": "2025-11-30",
+    "entity_status": "exact",
+    "inferred_type": "number",
+    "fastpath_code": "df = revenue_lines()\np = V.get('products')\nsub_p = p[p['active_ingredient'].str.lower().str.strip() == 'loratadin'] if (p is not None and 'active_ingredient' in p.columns) else pd.DataFrame()\ncodes = set(sub_p['item_code']) if not sub_p.empty else set()\nrev = float(df[df['item_code'].isin(codes)]['amount'].sum()) if (not df.empty and codes) else 0.0\nfinal_result = money(rev) if rev > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

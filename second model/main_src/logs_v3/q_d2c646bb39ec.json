@@ -1,0 +1,19 @@
+{
+  "id": "q_d2c646bb39ec",
+  "question": "Tiền khách còn nợ đến hết 06/09/2026, nhiêu z?",
+  "answer": {
+    "id": "q_d2c646bb39ec",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0005,
+  "trace": {
+    "normalized_text": "tiền khách còn nợ đến hết 06/09/2026, nhiêu vậy?",
+    "normalized_ascii": "tien khach con no den het 06/09/2026, nhieu vay?",
+    "time_rule": "R8_exact_date",
+    "time_start": "2026-09-06",
+    "time_end": "2026-09-06",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

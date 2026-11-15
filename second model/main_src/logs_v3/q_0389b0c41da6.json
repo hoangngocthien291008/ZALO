@@ -1,0 +1,22 @@
+{
+  "id": "q_0389b0c41da6",
+  "question": "Dịp Tết âm lịch 2026 có doanh thu hơn hay kém 17 ngày trước Tết bao nhiêu %?",
+  "answer": {
+    "id": "q_0389b0c41da6",
+    "type": "percent",
+    "answer": -16.02
+  },
+  "elapsed_sec": 0.0259,
+  "trace": {
+    "normalized_text": "dịp tết âm lịch 2026 có doanh thu hơn hay kém 17 ngày trước tết bao nhiêu%?",
+    "normalized_ascii": "dip tet am lich 2026 co doanh thu hon hay kem 17 ngay truoc tet bao nhieu%?",
+    "time_rule": "R1_tet_compare",
+    "time_start": "2026-02-10",
+    "time_end": "2026-02-26",
+    "entity_status": "not_needed",
+    "inferred_type": "percent",
+    "fastpath_code": "r_curr = revenue(T['start'], T['end'], T['shift'])\nr_prev = revenue(T['cmp_start'], T['cmp_end'], T['shift'])\nfinal_result = growth(r_curr, r_prev) if (r_prev > 0 and r_curr > 0) else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

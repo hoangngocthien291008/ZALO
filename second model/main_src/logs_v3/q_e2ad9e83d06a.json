@@ -1,0 +1,19 @@
+{
+  "id": "q_e2ad9e83d06a",
+  "question": "chị ơi, tih toi het ngay 27/9/2026 tong tien khach kòn nợ shop mik bnhiu đó ha chị",
+  "answer": {
+    "id": "q_e2ad9e83d06a",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.002,
+  "trace": {
+    "normalized_text": "chị ơi, tih toi het ngay 27/9/2026 tong tien khach kòn nợ shop mình bao nhiêu đó ha chị",
+    "normalized_ascii": "chi oi, tih toi het ngay 27/9/2026 tong tien khach kon no shop minh bao nhieu do ha chi",
+    "time_rule": "R8_exact_date",
+    "time_start": "2026-09-27",
+    "time_end": "2026-09-27",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

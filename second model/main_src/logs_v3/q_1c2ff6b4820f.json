@@ -1,0 +1,21 @@
+{
+  "id": "q_1c2ff6b4820f",
+  "question": "2/2026 hàng mô lãi gộp nhiều nhất rứa?",
+  "answer": {
+    "id": "q_1c2ff6b4820f",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0055,
+  "trace": {
+    "normalized_text": "2/2026 hàng nào lãi gộp nhiều nhất vậy?",
+    "normalized_ascii": "2/2026 hang nao lai gop nhieu nhat vay?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-02-01",
+    "time_end": "2026-02-28",
+    "entity_status": "not_needed",
+    "inferred_type": "string",
+    "fastpath_code": "final_result = top_gross_profit_item(T['start'], T['end'], k=1)",
+    "fastpath_ok": true,
+    "gate": "G4_safe_abstain"
+  }
+}

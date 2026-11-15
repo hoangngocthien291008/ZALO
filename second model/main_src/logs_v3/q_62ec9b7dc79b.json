@@ -1,0 +1,28 @@
+{
+  "id": "q_62ec9b7dc79b",
+  "question": "Cho tôi 5 mặt hàng bán chạy nhất trong tháng 3/2025.",
+  "answer": {
+    "id": "q_62ec9b7dc79b",
+    "type": "list",
+    "answer": [
+      "Xi măng Hà Tiên PCB40 bao 50kg",
+      "Xi măng INSEE Power-S bao 50kg",
+      "Gạch ống 8x8x18 Tuynel",
+      "Băng keo điện Nano 20 yard",
+      "Lưới B40 mạ kẽm khổ 1.5m"
+    ]
+  },
+  "elapsed_sec": 0.0092,
+  "trace": {
+    "normalized_text": "cho tôi 5 mặt hàng bán chạy nhất trong tháng 3/2025.",
+    "normalized_ascii": "cho toi 5 mat hang ban chay nhat trong thang 3/2025.",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-03-01",
+    "time_end": "2025-03-31",
+    "entity_status": "not_needed",
+    "inferred_type": "list",
+    "fastpath_code": "df = item_lines()\nfinal_result = top_k(df, value_col='qty_base', k=5, key_col='item_code', name_col='item_name')",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

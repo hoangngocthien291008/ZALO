@@ -1,0 +1,22 @@
+{
+  "id": "q_fb4bf09137a7",
+  "question": "dthu th9/2025 wa th10/2025 rui th11/2025 co tang lien tuc khoong??",
+  "answer": {
+    "id": "q_fb4bf09137a7",
+    "type": "boolean",
+    "answer": true
+  },
+  "elapsed_sec": 0.0745,
+  "trace": {
+    "normalized_text": "doanh thu tháng 9/2025 wa tháng 10/2025 rui tháng 11/2025 co tang liên tục không??",
+    "normalized_ascii": "doanh thu thang 9/2025 wa thang 10/2025 rui thang 11/2025 co tang lien tuc khong??",
+    "time_rule": "R2b_month_list",
+    "time_start": "2025-09-01",
+    "time_end": "2025-11-30",
+    "entity_status": "not_needed",
+    "inferred_type": "boolean",
+    "fastpath_code": "revs = [revenue(p['start'], p['end']) for p in T['periods']]\nfinal_result = None if (len(revs) < 2 or any(r == 0 for r in revs)) else all(revs[i+1] > revs[i] for i in range(len(revs)-1))",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

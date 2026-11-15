@@ -1,0 +1,22 @@
+{
+  "id": "q_7f61dbb4d934",
+  "question": "8-2025 có bnhiu đơn doanh thu từ 40.000 đồng trở lên?",
+  "answer": {
+    "id": "q_7f61dbb4d934",
+    "type": "number",
+    "answer": 1210
+  },
+  "elapsed_sec": 0.0168,
+  "trace": {
+    "normalized_text": "8-2025 có bao nhiêu đơn doanh thu từ 40.000 đồng trở lên?",
+    "normalized_ascii": "8-2025 co bao nhieu don doanh thu tu 40.000 dong tro len?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-08-01",
+    "time_end": "2025-08-31",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "df = revenue_lines()\nord_rev = df.groupby('order_id')['amount'].sum() if not df.empty else pd.Series(dtype=float)\nord_rev = ord_rev[ord_rev >= 40000.0] if 40000.0 > 0 else ord_rev\ncnt = int(len(ord_rev))\nfinal_result = cnt if cnt > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

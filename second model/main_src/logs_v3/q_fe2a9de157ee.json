@@ -1,0 +1,22 @@
+{
+  "id": "q_fe2a9de157ee",
+  "question": "Tháng 12/2025 có bao nhiêu ngày đạt doanh thu từ 18.000.000 đồng trở lên?",
+  "answer": {
+    "id": "q_fe2a9de157ee",
+    "type": "number",
+    "answer": 7
+  },
+  "elapsed_sec": 0.0052,
+  "trace": {
+    "normalized_text": "tháng 12/2025 có bao nhiêu ngày đạt doanh thu từ 18.000.000 đồng trở lên?",
+    "normalized_ascii": "thang 12/2025 co bao nhieu ngay dat doanh thu tu 18.000.000 dong tro len?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-12-01",
+    "time_end": "2025-12-31",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "df = revenue_lines()\ndaily = df.groupby('date')['amount'].sum() if not df.empty else pd.Series(dtype=float)\ncnt = int((daily >= 18000000.0).sum())\nfinal_result = cnt if cnt > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

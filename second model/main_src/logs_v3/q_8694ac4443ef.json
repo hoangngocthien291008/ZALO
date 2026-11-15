@@ -1,0 +1,22 @@
+{
+  "id": "q_8694ac4443ef",
+  "question": "Tháng 1/2026 có bao nhiêu đơn mua hàng nhóm bia?",
+  "answer": {
+    "id": "q_8694ac4443ef",
+    "type": "number",
+    "answer": 1814
+  },
+  "elapsed_sec": 0.019,
+  "trace": {
+    "normalized_text": "tháng 1/2026 có bao nhiêu đơn mua hàng nhóm bia?",
+    "normalized_ascii": "thang 1/2026 co bao nhieu don mua hang nhom bia?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-01-01",
+    "time_end": "2026-01-31",
+    "entity_status": "exact",
+    "inferred_type": "number",
+    "fastpath_code": "df = revenue_lines()\nord_rev = df.groupby('order_id')['amount'].sum() if not df.empty else pd.Series(dtype=float)\nord_rev = ord_rev[ord_rev >= 0.0] if 0.0 > 0 else ord_rev\ncnt = int(len(ord_rev))\nfinal_result = cnt if cnt > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

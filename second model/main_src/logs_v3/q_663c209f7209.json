@@ -1,0 +1,22 @@
+{
+  "id": "q_663c209f7209",
+  "question": "Hom qua chot duoc may don?",
+  "answer": {
+    "id": "q_663c209f7209",
+    "type": "number",
+    "answer": 73
+  },
+  "elapsed_sec": 0.015,
+  "trace": {
+    "normalized_text": "hôm qua chot duoc may don?",
+    "normalized_ascii": "hom qua chot duoc may don?",
+    "time_rule": "R6_yesterday",
+    "time_start": "2026-05-19",
+    "time_end": "2026-05-19",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "df = revenue_lines()\nord_rev = df.groupby('order_id')['amount'].sum() if not df.empty else pd.Series(dtype=float)\nord_rev = ord_rev[ord_rev >= 0.0] if 0.0 > 0 else ord_rev\ncnt = int(len(ord_rev))\nfinal_result = cnt if cnt > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

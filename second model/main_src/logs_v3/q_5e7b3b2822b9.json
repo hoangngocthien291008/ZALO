@@ -1,0 +1,19 @@
+{
+  "id": "q_5e7b3b2822b9",
+  "question": "Tu khi Hapacol 250 hop 24 goi tang gia len 2.100d/goi, so goi ban trong 7 ngay ke tu ngay tang so voi 7 ngay lien truoc nhieu hay it hon bao nhieu %?",
+  "answer": {
+    "id": "q_5e7b3b2822b9",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.001,
+  "trace": {
+    "normalized_text": "tu khi hapacol 250 hop 24 goi tang gia len 2.100 d / goi, so goi ban trong 7 ngay ke tu ngay tang so voi 7 ngay liền trước nhieu hay it hon bao nhiêu%?",
+    "normalized_ascii": "tu khi hapacol 250 hop 24 goi tang gia len 2.100 d / goi, so goi ban trong 7 ngay ke tu ngay tang so voi 7 ngay lien truoc nhieu hay it hon bao nhieu%?",
+    "time_rule": "none",
+    "time_start": "2026-08-08",
+    "time_end": "2026-08-08",
+    "entity_status": "exact",
+    "inferred_type": "percent",
+    "gate": "G2_missing_time"
+  }
+}

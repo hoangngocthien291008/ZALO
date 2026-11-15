@@ -1,0 +1,19 @@
+{
+  "id": "q_b5e65648c9dc",
+  "question": "Th5/2026 khách huỷ đơn chủ yếu vì sao z?",
+  "answer": {
+    "id": "q_b5e65648c9dc",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0,
+  "trace": {
+    "normalized_text": "tháng 5/2026 khách huỷ đơn chủ yếu vì sao vậy?",
+    "normalized_ascii": "thang 5/2026 khach huy don chu yeu vi sao vay?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-05-01",
+    "time_end": "2026-05-31",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

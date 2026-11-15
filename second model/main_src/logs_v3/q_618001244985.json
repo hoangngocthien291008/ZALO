@@ -1,0 +1,22 @@
+{
+  "id": "q_618001244985",
+  "question": "8-2025 bi huy may don?",
+  "answer": {
+    "id": "q_618001244985",
+    "type": "number",
+    "answer": 16
+  },
+  "elapsed_sec": 0.0068,
+  "trace": {
+    "normalized_text": "8-2025 bi huy may don?",
+    "normalized_ascii": "8-2025 bi huy may don?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-08-01",
+    "time_end": "2025-08-31",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "sub = all_orders()\ncanc = len(sub[sub['status_norm'] == 'huy']['order_id'].unique()) if not sub.empty else 0\nfinal_result = int(canc)",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "q_8ab2403c8c80",
+  "question": "Th7/2026 quán đc bnhiu dthu?",
+  "answer": {
+    "id": "q_8ab2403c8c80",
+    "type": "number",
+    "answer": 837243500
+  },
+  "elapsed_sec": 0.0186,
+  "trace": {
+    "normalized_text": "tháng 7/2026 quán được bao nhiêu doanh thu?",
+    "normalized_ascii": "thang 7/2026 quan duoc bao nhieu doanh thu?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-07-01",
+    "time_end": "2026-07-31",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "rev = revenue()\nfinal_result = rev if rev > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

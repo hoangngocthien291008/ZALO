@@ -1,0 +1,22 @@
+{
+  "id": "q_34a5b4766a27",
+  "question": "Phiếu có thu tiền tháng 8 năm 2025 trung bình 1 phiếu bao nhiêu tiền hè?",
+  "answer": {
+    "id": "q_34a5b4766a27",
+    "type": "number",
+    "answer": 450000
+  },
+  "elapsed_sec": 0.0077,
+  "trace": {
+    "normalized_text": "phiếu có thu tiền tháng 8 năm 2025 trung bình 1 phiếu bao nhiêu tiền hè?",
+    "normalized_ascii": "phieu co thu tien thang 8 nam 2025 trung binh 1 phieu bao nhieu tien he?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-08-01",
+    "time_end": "2025-08-31",
+    "entity_status": "exact",
+    "inferred_type": "number",
+    "fastpath_code": "df = match_item(revenue_lines(), 'bình')\nrev = float(df['amount'].sum()) if not df.empty else 0.0\nfinal_result = money(rev) if rev > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

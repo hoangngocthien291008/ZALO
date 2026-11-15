@@ -1,0 +1,22 @@
+{
+  "id": "q_08f075b54698",
+  "question": "Từ đầu năm tới hết hnay tiệm có tổng cộng bnhiu đh rồi?",
+  "answer": {
+    "id": "q_08f075b54698",
+    "type": "number",
+    "answer": 14783
+  },
+  "elapsed_sec": 0.0274,
+  "trace": {
+    "normalized_text": "từ đầu năm tới hết hôm nay tiệm có tổng cộng bao nhiêu đơn hàng rồi?",
+    "normalized_ascii": "tu dau nam toi het hom nay tiem co tong cong bao nhieu don hang roi?",
+    "time_rule": "R3_ytd",
+    "time_start": "2025-01-01",
+    "time_end": "2025-09-12",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "df = revenue_lines()\nord_rev = df.groupby('order_id')['amount'].sum() if not df.empty else pd.Series(dtype=float)\nord_rev = ord_rev[ord_rev >= 0.0] if 0.0 > 0 else ord_rev\ncnt = int(len(ord_rev))\nfinal_result = cnt if cnt > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

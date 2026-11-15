@@ -1,0 +1,19 @@
+{
+  "id": "q_aea7033d3c8c",
+  "question": "alo, th5/2026 đơn bán trên sàn thương mại điện tử với đơn bán wa Zalo OA, tung ben dthu bnhiu",
+  "answer": {
+    "id": "q_aea7033d3c8c",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0,
+  "trace": {
+    "normalized_text": "alo, tháng 5/2026 đơn bán trên sàn thương mại điện tử với đơn bán wa zalo oa, tung ben doanh thu bao nhiêu",
+    "normalized_ascii": "alo, thang 5/2026 don ban tren san thuong mai dien tu voi don ban wa zalo oa, tung ben doanh thu bao nhieu",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-05-01",
+    "time_end": "2026-05-31",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

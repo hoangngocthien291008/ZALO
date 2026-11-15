@@ -1,0 +1,22 @@
+{
+  "id": "q_07ceefc30333",
+  "question": "T4/2026 tính cả tháng thì sp nào lãi gộp nhiều nhất?",
+  "answer": {
+    "id": "q_07ceefc30333",
+    "type": "string",
+    "answer": "Trà đào cam sả (M)"
+  },
+  "elapsed_sec": 0.1807,
+  "trace": {
+    "normalized_text": "tháng 4/2026 tính cả tháng thì sản phẩm nào lãi gộp nhiều nhất?",
+    "normalized_ascii": "thang 4/2026 tinh ca thang thi san pham nao lai gop nhieu nhat?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-04-01",
+    "time_end": "2026-04-30",
+    "entity_status": "not_needed",
+    "inferred_type": "string",
+    "fastpath_code": "final_result = top_gross_profit_item(T['start'], T['end'], k=1)",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

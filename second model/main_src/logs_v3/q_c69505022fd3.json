@@ -1,0 +1,19 @@
+{
+  "id": "q_c69505022fd3",
+  "question": "e ơi cko a xin cái bảng tien hoa hồng kua mọi thợ th11/2025 nha, xep tu cao xuong thap",
+  "answer": {
+    "id": "q_c69505022fd3",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0066,
+  "trace": {
+    "normalized_text": "e ơi cho a xin cái bảng tien hoa hồng của mọi thợ tháng 11/2025 nha, xep tu cao xuong thap",
+    "normalized_ascii": "e oi cho a xin cai bang tien hoa hong cua moi tho thang 11/2025 nha, xep tu cao xuong thap",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-11-01",
+    "time_end": "2025-11-30",
+    "entity_status": "not_needed",
+    "inferred_type": "string",
+    "gate": "G4_safe_abstain"
+  }
+}

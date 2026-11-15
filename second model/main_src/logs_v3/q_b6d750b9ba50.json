@@ -1,0 +1,19 @@
+{
+  "id": "q_b6d750b9ba50",
+  "question": "Có bao nhiêu chiếc xe Wave Alpha được mang tới sửa tháng 12/2025, mỗi xe tính một lần?",
+  "answer": {
+    "id": "q_b6d750b9ba50",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.3712,
+  "trace": {
+    "normalized_text": "có bao nhiêu chiếc xe wave alpha được mang tới sửa tháng 12/2025, mỗi xe tính một lần?",
+    "normalized_ascii": "co bao nhieu chiec xe wave alpha duoc mang toi sua thang 12/2025, moi xe tinh mot lan?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-12-01",
+    "time_end": "2025-12-31",
+    "entity_status": "not_found",
+    "inferred_type": "number",
+    "gate": "G3_entity_below_0.70"
+  }
+}

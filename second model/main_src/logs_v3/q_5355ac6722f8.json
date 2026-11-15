@@ -1,0 +1,19 @@
+{
+  "id": "q_5355ac6722f8",
+  "question": "Tháng 6/2026 tổng tiền phí ship là bao nhiêu?",
+  "answer": {
+    "id": "q_5355ac6722f8",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0015,
+  "trace": {
+    "normalized_text": "tháng 6/2026 tổng tiền phí ship là bao nhiêu?",
+    "normalized_ascii": "thang 6/2026 tong tien phi ship la bao nhieu?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-06-01",
+    "time_end": "2026-06-30",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

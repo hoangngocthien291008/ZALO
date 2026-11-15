@@ -1,0 +1,22 @@
+{
+  "id": "q_5860bae9659f",
+  "question": "Dthu th này so với cùng số ngày đầu th trước hơn hay kém mấy % z?",
+  "answer": {
+    "id": "q_5860bae9659f",
+    "type": "percent",
+    "answer": -2.72
+  },
+  "elapsed_sec": 0.0331,
+  "trace": {
+    "normalized_text": "doanh thu tháng này so với cùng số ngày đầu tháng trước hơn hay kém mấy% vậy?",
+    "normalized_ascii": "doanh thu thang nay so voi cung so ngay dau thang truoc hon hay kem may% vay?",
+    "time_rule": "R12_this_month",
+    "time_start": "2026-01-01",
+    "time_end": "2026-01-28",
+    "entity_status": "not_needed",
+    "inferred_type": "percent",
+    "fastpath_code": "r_curr = revenue(T['start'], T['end'], T['shift'])\nr_prev = revenue(T['cmp_start'], T['cmp_end'], T['shift'])\nfinal_result = growth(r_curr, r_prev) if (r_prev > 0 and r_curr > 0) else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "q_6172ede181a5",
+  "question": "Dthu tháng 3 năm 2026 của đơn bán qua Zalo OA và của đơn bán qua điện thoại, mỗi kênh bnhiu?",
+  "answer": {
+    "id": "q_6172ede181a5",
+    "type": "unanswerable",
+    "reason": "Dữ liệu cửa hàng không ghi nhận kênh bán hàng."
+  },
+  "elapsed_sec": 0.0005,
+  "trace": {
+    "normalized_text": "doanh thu tháng 3 năm 2026 của đơn bán qua zalo oa và của đơn bán qua điện thoại, mỗi kênh bao nhiêu?",
+    "normalized_ascii": "doanh thu thang 3 nam 2026 cua don ban qua zalo oa va cua don ban qua dien thoai, moi kenh bao nhieu?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-03-01",
+    "time_end": "2026-03-31",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "U2_missing_channel"
+  }
+}

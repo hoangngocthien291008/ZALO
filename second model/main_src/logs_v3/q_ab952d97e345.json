@@ -1,0 +1,22 @@
+{
+  "id": "q_ab952d97e345",
+  "question": "Trong 7 ngày gần nhất có bao nhiêu mặt hàng không bán được cái nào?",
+  "answer": {
+    "id": "q_ab952d97e345",
+    "type": "number",
+    "answer": 8
+  },
+  "elapsed_sec": 0.0266,
+  "trace": {
+    "normalized_text": "trong 7 ngày gần nhất có bao nhiêu mặt hàng không bán được cái nào?",
+    "normalized_ascii": "trong 7 ngay gan nhat co bao nhieu mat hang khong ban duoc cai nao?",
+    "time_rule": "R7_n_days",
+    "time_start": "2026-02-11",
+    "time_end": "2026-02-17",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "before = filter_items_in_period(V.get('sales'), '2000-01-01', T['start'], as_of_date)\nbefore = before[(before['date'] < T['start']) & (~before['is_service_fee'])] if not before.empty else pd.DataFrame()\ncurr = item_lines()\nunsold_codes = (set(before['item_code']) if not before.empty else set()) - (set(curr['item_code']) if not curr.empty else set())\np = V.get('products')\nif p is not None and not p.empty and not p[p['item_code'].isin(unsold_codes)].empty:\n    names = p[p['item_code'].isin(unsold_codes)].sort_values('item_code')['item_name'].tolist()\nelif not before.empty:\n    names = before[before['item_code'].isin(unsold_codes)].drop_duplicates('item_code').sort_values('item_code')['item_name'].tolist()\nelse:\n    names = []\nnames = [str(n).strip() for n in names if str(n).strip().lower() not in ('khách lẻ', 'nan', 'none', '', 'đơn hàng')]\nfinal_result = len(names)",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

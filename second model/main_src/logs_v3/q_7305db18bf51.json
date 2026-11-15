@@ -1,0 +1,22 @@
+{
+  "id": "q_7305db18bf51",
+  "question": "Tính đến hôm nay, trong mọi đơn bán chịu, có mấy đơn ghi ngày phải trả trong tháng 4/2026?",
+  "answer": {
+    "id": "q_7305db18bf51",
+    "type": "number",
+    "answer": 11516
+  },
+  "elapsed_sec": 0.0134,
+  "trace": {
+    "normalized_text": "tính đến hôm nay, trong mọi đơn bán chịu, có mấy đơn ghi ngày phải trả trong tháng 4/2026?",
+    "normalized_ascii": "tinh den hom nay, trong moi don ban chiu, co may don ghi ngay phai tra trong thang 4/2026?",
+    "time_rule": "R4_snapshot",
+    "time_start": null,
+    "time_end": "2026-03-02",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "df = revenue_lines()\nord_rev = df.groupby('order_id')['amount'].sum() if not df.empty else pd.Series(dtype=float)\nord_rev = ord_rev[ord_rev >= 0.0] if 0.0 > 0 else ord_rev\ncnt = int(len(ord_rev))\nfinal_result = cnt if cnt > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

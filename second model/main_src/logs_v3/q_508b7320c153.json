@@ -1,0 +1,22 @@
+{
+  "id": "q_508b7320c153",
+  "question": "Trong quý 3 năm 2025, doanh thu của cửa hàng được bao nhiêu tiền?",
+  "answer": {
+    "id": "q_508b7320c153",
+    "type": "number",
+    "answer": 261978500
+  },
+  "elapsed_sec": 0.0082,
+  "trace": {
+    "normalized_text": "trong quý 3 năm 2025, doanh thu của cửa hàng được bao nhiêu tiền?",
+    "normalized_ascii": "trong quy 3 nam 2025, doanh thu cua cua hang duoc bao nhieu tien?",
+    "time_rule": "R11_quarter",
+    "time_start": "2025-07-01",
+    "time_end": "2025-09-30",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "rev = revenue()\nfinal_result = rev if rev > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "q_6e929cf36203",
+  "question": "Khách trung thực nhất tháng 10/2025 là ai?",
+  "answer": {
+    "id": "q_6e929cf36203",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0005,
+  "trace": {
+    "normalized_text": "khách trung thực nhất tháng 10/2025 là ai?",
+    "normalized_ascii": "khach trung thuc nhat thang 10/2025 la ai?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-10-01",
+    "time_end": "2025-10-31",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

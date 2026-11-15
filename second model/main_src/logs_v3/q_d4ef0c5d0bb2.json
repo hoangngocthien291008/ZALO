@@ -1,0 +1,28 @@
+{
+  "id": "q_d4ef0c5d0bb2",
+  "question": "Top 5 mat hang ban chay nhat th7/2025 la nhung mon nao?",
+  "answer": {
+    "id": "q_d4ef0c5d0bb2",
+    "type": "list",
+    "answer": [
+      "Khăn ướt Bobby không mùi 100 tờ",
+      "Sữa pha sẵn GrowPLUS+ đỏ 110ml lốc 4",
+      "Sữa tắm gội Johnson's Baby 500ml",
+      "Tã dán Bobby size M 76 miếng",
+      "Tã quần Huggies Dry size L 68 miếng"
+    ]
+  },
+  "elapsed_sec": 0.0102,
+  "trace": {
+    "normalized_text": "top 5 mặt hàng bán chạy nhat tháng 7/2025 la nhung mon nao?",
+    "normalized_ascii": "top 5 mat hang ban chay nhat thang 7/2025 la nhung mon nao?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-07-01",
+    "time_end": "2025-07-31",
+    "entity_status": "not_needed",
+    "inferred_type": "list",
+    "fastpath_code": "df = item_lines()\nfinal_result = top_k(df, value_col='qty_base', k=5, key_col='item_code', name_col='item_name')",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

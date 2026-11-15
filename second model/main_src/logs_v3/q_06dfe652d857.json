@@ -1,0 +1,22 @@
+{
+  "id": "q_06dfe652d857",
+  "question": "Lãi ròng của quán trong 10/2025 là bao nhiêu?",
+  "answer": {
+    "id": "q_06dfe652d857",
+    "type": "number",
+    "answer": -37337379
+  },
+  "elapsed_sec": 0.0282,
+  "trace": {
+    "normalized_text": "lãi ròng của quán trong 10/2025 là bao nhiêu?",
+    "normalized_ascii": "lai rong cua quan trong 10/2025 la bao nhieu?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-10-01",
+    "time_end": "2025-10-31",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "final_result = net_profit(T['start'], T['end'])",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

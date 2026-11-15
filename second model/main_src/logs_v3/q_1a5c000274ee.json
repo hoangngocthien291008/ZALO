@@ -1,0 +1,22 @@
+{
+  "id": "q_1a5c000274ee",
+  "question": "Tuan nay quan ban duoc may don roi?",
+  "answer": {
+    "id": "q_1a5c000274ee",
+    "type": "number",
+    "answer": 1288
+  },
+  "elapsed_sec": 0.025,
+  "trace": {
+    "normalized_text": "tuần này quan ban duoc may don roi?",
+    "normalized_ascii": "tuan nay quan ban duoc may don roi?",
+    "time_rule": "R9_this_week",
+    "time_start": "2025-11-03",
+    "time_end": "2025-11-09",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "df = revenue_lines()\nord_rev = df.groupby('order_id')['amount'].sum() if not df.empty else pd.Series(dtype=float)\nord_rev = ord_rev[ord_rev >= 0.0] if 0.0 > 0 else ord_rev\ncnt = int(len(ord_rev))\nfinal_result = cnt if cnt > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "q_b3c75e9f2c97",
+  "question": "Tuần trước tổng bnhiu đh z?",
+  "answer": {
+    "id": "q_b3c75e9f2c97",
+    "type": "number",
+    "answer": 520
+  },
+  "elapsed_sec": 0.0143,
+  "trace": {
+    "normalized_text": "tuần trước tổng bao nhiêu đơn hàng vậy?",
+    "normalized_ascii": "tuan truoc tong bao nhieu don hang vay?",
+    "time_rule": "R10_last_week",
+    "time_start": "2025-02-17",
+    "time_end": "2025-02-23",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "df = revenue_lines()\nord_rev = df.groupby('order_id')['amount'].sum() if not df.empty else pd.Series(dtype=float)\nord_rev = ord_rev[ord_rev >= 0.0] if 0.0 > 0 else ord_rev\ncnt = int(len(ord_rev))\nfinal_result = cnt if cnt > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

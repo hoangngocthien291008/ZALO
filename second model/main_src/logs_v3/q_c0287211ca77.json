@@ -1,0 +1,22 @@
+{
+  "id": "q_c0287211ca77",
+  "question": "10/2025 trong so khach co mua, bao nhieu % khach mua tu 3 don tro len?",
+  "answer": {
+    "id": "q_c0287211ca77",
+    "type": "percent",
+    "answer": 66.67
+  },
+  "elapsed_sec": 0.0158,
+  "trace": {
+    "normalized_text": "10/2025 trong so khach co mua, bao nhiêu% khach mua tu 3 don trở lên?",
+    "normalized_ascii": "10/2025 trong so khach co mua, bao nhieu% khach mua tu 3 don tro len?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-10-01",
+    "time_end": "2025-10-31",
+    "entity_status": "not_needed",
+    "inferred_type": "percent",
+    "fastpath_code": "df = revenue_lines()\ndf = df[df['cust_key'] != ''] if not df.empty else df\nif df.empty:\n    final_result = None\nelse:\n    cnts = df.groupby('cust_key')['order_id'].nunique()\n    tot_c = len(cnts)\n    qual_c = int((cnts >= 3).sum())\n    final_result = pct(qual_c, tot_c) if tot_c > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

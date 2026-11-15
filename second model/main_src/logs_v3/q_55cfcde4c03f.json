@@ -1,0 +1,19 @@
+{
+  "id": "q_55cfcde4c03f",
+  "question": "tuần trc ca chiều dduowcj mí đơn tổg cộg zị ha",
+  "answer": {
+    "id": "q_55cfcde4c03f",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0,
+  "trace": {
+    "normalized_text": "tuần trước ca chiều được mí đơn tổg cộg zị ha",
+    "normalized_ascii": "tuan truoc ca chieu duoc mi don tog cog zi ha",
+    "time_rule": "R10_last_week",
+    "time_start": "2026-02-09",
+    "time_end": "2026-02-15",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

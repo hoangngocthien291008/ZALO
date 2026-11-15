@@ -1,0 +1,22 @@
+{
+  "id": "q_5d6f195dd3e7",
+  "question": "Hồi tháng 1 năm 2025 bình quân mỗi đơn đem về bao nhiêu doanh thu thế?",
+  "answer": {
+    "id": "q_5d6f195dd3e7",
+    "type": "number",
+    "answer": 1256267
+  },
+  "elapsed_sec": 0.009,
+  "trace": {
+    "normalized_text": "hồi tháng 1 năm 2025 bình quân mỗi đơn đem về bao nhiêu doanh thu thế?",
+    "normalized_ascii": "hoi thang 1 nam 2025 binh quan moi don dem ve bao nhieu doanh thu the?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-01-01",
+    "time_end": "2025-01-31",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "df = revenue_lines()\nif not df.empty and 'status' in df.columns:\n    df = df[~(df['status'].str.lower().str.contains('bảo hành|bao hanh', na=False) & (df['amount'] == 0))]\nn_ord = len(df['order_id'].unique()) if not df.empty else 0\ntot = float(df['amount'].sum()) if not df.empty else 0.0\nfinal_result = int((tot / n_ord) + 0.5) if (n_ord > 0 and tot > 0) else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

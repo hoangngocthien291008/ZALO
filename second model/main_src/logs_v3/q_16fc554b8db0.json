@@ -1,0 +1,22 @@
+{
+  "id": "q_16fc554b8db0",
+  "question": "Th7/2026 ca sáng có tổng cộng mấy đơn?",
+  "answer": {
+    "id": "q_16fc554b8db0",
+    "type": "number",
+    "answer": 5964
+  },
+  "elapsed_sec": 0.0244,
+  "trace": {
+    "normalized_text": "tháng 7/2026 ca sáng có tổng cộng mấy đơn?",
+    "normalized_ascii": "thang 7/2026 ca sang co tong cong may don?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-07-01",
+    "time_end": "2026-07-31",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "df = revenue_lines()\nord_rev = df.groupby('order_id')['amount'].sum() if not df.empty else pd.Series(dtype=float)\nord_rev = ord_rev[ord_rev >= 0.0] if 0.0 > 0 else ord_rev\ncnt = int(len(ord_rev))\nfinal_result = cnt if cnt > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

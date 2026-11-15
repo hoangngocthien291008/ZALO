@@ -1,0 +1,19 @@
+{
+  "id": "q_3f0d7d1b1eb1",
+  "question": "9/2025 khach Ha Duy Trung no them bao nhieu tien, tra bot duoc bao nhieu?",
+  "answer": {
+    "id": "q_3f0d7d1b1eb1",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0,
+  "trace": {
+    "normalized_text": "9/2025 khach ha duy trung no them bao nhiêu tien, tra bot duoc bao nhiêu?",
+    "normalized_ascii": "9/2025 khach ha duy trung no them bao nhieu tien, tra bot duoc bao nhieu?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-09-01",
+    "time_end": "2025-09-30",
+    "entity_status": "exact",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "q_3b70619cf8cc",
+  "question": "cko e coi tổng tiền hàng kác đơn nv Từ Hùng Hằng bán trog th4/2025 jùm mik nha 🙏",
+  "answer": {
+    "id": "q_3b70619cf8cc",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.002,
+  "trace": {
+    "normalized_text": "cho e coi tổng tiền hàng kác đơn nv từ hùng hằng bán trong tháng 4/2025 jùm mình nha 🙏",
+    "normalized_ascii": "cho e coi tong tien hang kac don nv tu hung hang ban trong thang 4/2025 jum minh nha 🙏",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-04-01",
+    "time_end": "2025-04-30",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

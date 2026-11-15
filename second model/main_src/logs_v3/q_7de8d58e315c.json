@@ -1,0 +1,19 @@
+{
+  "id": "q_7de8d58e315c",
+  "question": "Tháng 9/2025 tiệm thay dầu láp cho bao nhiêu lượt xe?",
+  "answer": {
+    "id": "q_7de8d58e315c",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0055,
+  "trace": {
+    "normalized_text": "tháng 9/2025 tiệm thay dầu láp cho bao nhiêu lượt xe?",
+    "normalized_ascii": "thang 9/2025 tiem thay dau lap cho bao nhieu luot xe?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-09-01",
+    "time_end": "2025-09-30",
+    "entity_status": "exact",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

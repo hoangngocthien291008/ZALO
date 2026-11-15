@@ -1,0 +1,19 @@
+{
+  "id": "q_3a9665052018",
+  "question": "Đơn có thu lại máy cũ 4-2026 chiếm mấy % tổng đơn?",
+  "answer": {
+    "id": "q_3a9665052018",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.003,
+  "trace": {
+    "normalized_text": "đơn có thu lại máy cũ 4-2026 chiếm mấy% tổng đơn?",
+    "normalized_ascii": "don co thu lai may cu 4-2026 chiem may% tong don?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-04-01",
+    "time_end": "2026-04-30",
+    "entity_status": "not_needed",
+    "inferred_type": "percent",
+    "gate": "G4_safe_abstain"
+  }
+}

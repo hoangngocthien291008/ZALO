@@ -1,0 +1,19 @@
+{
+  "id": "q_393d0d4ee0e2",
+  "question": "Bữa qua bán ra được nhiêu lon vậy?",
+  "answer": {
+    "id": "q_393d0d4ee0e2",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0,
+  "trace": {
+    "normalized_text": "hôm qua bán ra được nhiêu lon vậy?",
+    "normalized_ascii": "hom qua ban ra duoc nhieu lon vay?",
+    "time_rule": "R6_yesterday",
+    "time_start": "2026-04-15",
+    "time_end": "2026-04-15",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "q_78b932b4a560",
+  "question": "Hết ngày 22/07/2026, hàng còn dư trong kho của quán tính theo giá vốn là bao nhiêu tiền?",
+  "answer": {
+    "id": "q_78b932b4a560",
+    "type": "unanswerable",
+    "reason": "Cửa hàng không có bảng theo dõi tồn kho."
+  },
+  "elapsed_sec": 0.0005,
+  "trace": {
+    "normalized_text": "hết ngày 22/07/2026, hàng còn dư trong kho của quán tính theo giá vốn là bao nhiêu tiền?",
+    "normalized_ascii": "het ngay 22/07/2026, hang con du trong kho cua quan tinh theo gia von la bao nhieu tien?",
+    "time_rule": "R8_exact_date",
+    "time_start": "2026-07-22",
+    "time_end": "2026-07-22",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "U2_missing_inventory"
+  }
+}

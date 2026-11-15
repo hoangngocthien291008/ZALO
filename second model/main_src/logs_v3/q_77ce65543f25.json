@@ -1,0 +1,22 @@
+{
+  "id": "q_77ce65543f25",
+  "question": "T12/2025 dthu trung bình mỗi đơn bnhiu?",
+  "answer": {
+    "id": "q_77ce65543f25",
+    "type": "number",
+    "answer": 44644
+  },
+  "elapsed_sec": 0.028,
+  "trace": {
+    "normalized_text": "tháng 12/2025 doanh thu trung bình mỗi đơn bao nhiêu?",
+    "normalized_ascii": "thang 12/2025 doanh thu trung binh moi don bao nhieu?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-12-01",
+    "time_end": "2025-12-31",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "df = revenue_lines()\nif not df.empty and 'status' in df.columns:\n    df = df[~(df['status'].str.lower().str.contains('bảo hành|bao hanh', na=False) & (df['amount'] == 0))]\nn_ord = len(df['order_id'].unique()) if not df.empty else 0\ntot = float(df['amount'].sum()) if not df.empty else 0.0\nfinal_result = int((tot / n_ord) + 0.5) if (n_ord > 0 and tot > 0) else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

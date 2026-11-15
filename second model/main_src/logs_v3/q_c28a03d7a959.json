@@ -1,0 +1,19 @@
+{
+  "id": "q_c28a03d7a959",
+  "question": "Tính luôn hôm nay thì 7 ngày gần nhất quán bán ra được bao nhiêu ly z?",
+  "answer": {
+    "id": "q_c28a03d7a959",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.001,
+  "trace": {
+    "normalized_text": "tính luôn hôm nay thì 7 ngày gần nhất quán bán ra được bao nhiêu ly vậy?",
+    "normalized_ascii": "tinh luon hom nay thi 7 ngay gan nhat quan ban ra duoc bao nhieu ly vay?",
+    "time_rule": "R7_n_days",
+    "time_start": "2025-06-17",
+    "time_end": "2025-06-23",
+    "entity_status": "not_found",
+    "inferred_type": "number",
+    "gate": "G3_entity_below_0.70"
+  }
+}

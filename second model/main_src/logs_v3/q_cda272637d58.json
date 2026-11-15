@@ -1,0 +1,19 @@
+{
+  "id": "q_cda272637d58",
+  "question": "Tháng này doanh thu các đơn trả bằng chuyển khoản được bao nhiêu?",
+  "answer": {
+    "id": "q_cda272637d58",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0006,
+  "trace": {
+    "normalized_text": "tháng này doanh thu các đơn trả bằng chuyển khoản được bao nhiêu?",
+    "normalized_ascii": "thang nay doanh thu cac don tra bang chuyen khoan duoc bao nhieu?",
+    "time_rule": "R12_this_month",
+    "time_start": "2026-08-01",
+    "time_end": "2026-08-21",
+    "entity_status": "exact",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

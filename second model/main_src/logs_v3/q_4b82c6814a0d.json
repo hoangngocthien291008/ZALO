@@ -1,0 +1,19 @@
+{
+  "id": "q_4b82c6814a0d",
+  "question": "Bỏ phụ kiện ra thì dthu máy mới th này chiếm bnhiu % tổng dthu máy?",
+  "answer": {
+    "id": "q_4b82c6814a0d",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0016,
+  "trace": {
+    "normalized_text": "bỏ phụ kiện ra thì doanh thu máy mới tháng này chiếm bao nhiêu% tổng doanh thu máy?",
+    "normalized_ascii": "bo phu kien ra thi doanh thu may moi thang nay chiem bao nhieu% tong doanh thu may?",
+    "time_rule": "R12_this_month",
+    "time_start": "2026-09-01",
+    "time_end": "2026-09-30",
+    "entity_status": "not_needed",
+    "inferred_type": "percent",
+    "gate": "G4_safe_abstain"
+  }
+}

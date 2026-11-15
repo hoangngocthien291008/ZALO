@@ -1,0 +1,22 @@
+{
+  "id": "q_86198c3c128b",
+  "question": "Tuần này 5 mặt hàng nào bán chạy nhất?",
+  "answer": {
+    "id": "q_86198c3c128b",
+    "type": "string",
+    "answer": "Prednisolon 5mg Boston chai 500 viên"
+  },
+  "elapsed_sec": 0.0146,
+  "trace": {
+    "normalized_text": "tuần này 5 mặt hàng nào bán chạy nhất?",
+    "normalized_ascii": "tuan nay 5 mat hang nao ban chay nhat?",
+    "time_rule": "R9_this_week",
+    "time_start": "2025-07-14",
+    "time_end": "2025-07-20",
+    "entity_status": "not_needed",
+    "inferred_type": "string",
+    "fastpath_code": "df = item_lines()\nfinal_result = top_k(df, value_col='qty_base', k=1, key_col='item_code', name_col='item_name')",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

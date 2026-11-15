@@ -1,0 +1,19 @@
+{
+  "id": "q_7826ef06d11c",
+  "question": "Top 3 dòng máy bán nhiều máy nhất th1/2026, xếp từ cao xuống thấp giúp mình?",
+  "answer": {
+    "id": "q_7826ef06d11c",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0021,
+  "trace": {
+    "normalized_text": "top 3 dòng máy bán nhiều máy nhất tháng 1/2026, xếp từ cao xuống thấp giúp mình?",
+    "normalized_ascii": "top 3 dong may ban nhieu may nhat thang 1/2026, xep tu cao xuong thap giup minh?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-01-01",
+    "time_end": "2026-01-31",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

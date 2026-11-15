@@ -1,0 +1,19 @@
+{
+  "id": "q_59b28582f30e",
+  "question": "Đến ngày 06/07/2025 tiền khách còn nợ chia theo tuổi nợ 0–7, 8–15 và trên 15 ngày thì mỗi nhóm nhiêu z?",
+  "answer": {
+    "id": "q_59b28582f30e",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0007,
+  "trace": {
+    "normalized_text": "đến ngày 06/07/2025 tiền khách còn nợ chia theo tuổi nợ 0 – 7, 8 – 15 và trên 15 ngày thì mỗi nhóm nhiêu vậy?",
+    "normalized_ascii": "den ngay 06/07/2025 tien khach con no chia theo tuoi no 0 – 7, 8 – 15 va tren 15 ngay thi moi nhom nhieu vay?",
+    "time_rule": "R8_exact_date",
+    "time_start": "2025-07-06",
+    "time_end": "2025-07-06",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

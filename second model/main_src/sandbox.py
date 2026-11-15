@@ -53,7 +53,7 @@ def filter_items_in_period(
     shift: Optional[str] = None,
 ) -> pd.DataFrame:
     """
-    Kế thừa từ query_executors.py cũ:
+    Kế thừa từ query_executors.py cũ (tối ưu hóa bằng Vectorized Boolean Mask):
     - Lọc bản ghi trong khoảng [start_date, end_date], loại bỏ bản ghi sau as_of_date (Rulebook §5).
     - Lọc theo ca sáng (06:00-13:59) / ca chiều (14:00-21:59) (Rulebook §2 Mục 37).
     - Loại bỏ hoàn toàn đơn huỷ và đơn trả hàng (kể cả trả 1 phần -> loại cả đơn, Rulebook §1).
@@ -61,35 +61,47 @@ def filter_items_in_period(
     if items_df is None or items_df.empty:
         return pd.DataFrame()
 
-    df = items_df.copy()
+    mask = pd.Series(True, index=items_df.index)
 
-    if as_of_date and "date" in df.columns:
-        df = df[df["date"] <= as_of_date]
+    if "date" in items_df.columns:
+        d_col = items_df["date"]
+        if as_of_date:
+            mask &= d_col <= as_of_date
+        if start_date:
+            mask &= d_col >= start_date
+        if end_date:
+            mask &= d_col <= end_date
 
-    if start_date and "date" in df.columns:
-        df = df[df["date"] >= start_date]
-    if end_date and "date" in df.columns:
-        df = df[df["date"] <= end_date]
+    if "is_valid" in items_df.columns:
+        mask &= items_df["is_valid"] == True
 
-    if shift and "raw_date" in df.columns:
+    df = items_df.loc[mask]
+    if df.empty:
+        return df
 
-        def match_shift(val: Any) -> bool:
-            s = str(val)
-            m = re.search(r"(\d{1,2}):(\d{2})", s)
-            if not m:
-                return True
-            hour = int(m.group(1))
+    if shift:
+        if "hour" in df.columns and df["hour"].notna().any():
+            h_col = df["hour"]
             if shift == "morning":
-                return 6 <= hour <= 13
+                df = df[h_col.isna() | ((h_col >= 6) & (h_col <= 13))]
             elif shift == "afternoon":
-                return 14 <= hour <= 21
-            return True
+                df = df[h_col.isna() | ((h_col >= 14) & (h_col <= 21))]
+        elif "raw_date" in df.columns:
+            def match_shift(val: Any) -> bool:
+                s = str(val)
+                m = re.search(r"(\d{1,2}):(\d{2})", s)
+                if not m:
+                    return True
+                hour = int(m.group(1))
+                if shift == "morning":
+                    return 6 <= hour <= 13
+                elif shift == "afternoon":
+                    return 14 <= hour <= 21
+                return True
 
-        df = df[df["raw_date"].apply(match_shift)]
+            df = df[df["raw_date"].apply(match_shift)]
 
-    if "is_valid" in df.columns:
-        df = df[df["is_valid"] == True]
-    elif "status" in df.columns:
+    if "is_valid" not in df.columns and "status" in df.columns:
         if "order_id" in df.columns:
             bad_orders = set(
                 df[
@@ -1094,6 +1106,695 @@ def build_sandbox_globals(
             d += timedelta(days=1)
         return c
 
+    def _cost_map() -> Tuple[Dict[str, float], Dict[str, float]]:
+        p_df = bundle.views.get("products")
+        by_code: Dict[str, float] = {}
+        by_name: Dict[str, float] = {}
+        if p_df is not None and not p_df.empty and "cost_price" in p_df.columns:
+            for _, row in p_df.iterrows():
+                cp = float(row.get("cost_price", 0.0) or 0.0)
+                if cp > 0:
+                    ic = str(row.get("item_code", "")).strip()
+                    inm = str(row.get("item_name", "")).strip().lower()
+                    if ic:
+                        by_code[ic] = cp
+                    if inm:
+                        by_name[inm] = cp
+        return by_code, by_name
+
+    def _gross_profit_lines(
+        start: Optional[str] = t_dict["start"],
+        end: Optional[str] = t_dict["end"],
+        shift: Optional[str] = t_dict["shift"],
+    ) -> Optional[pd.DataFrame]:
+        by_code, by_name = _cost_map()
+        if not by_code and not by_name:
+            return None
+        lines = _item_lines(start, end, shift)
+        if lines.empty:
+            return pd.DataFrame()
+        df = lines.copy()
+        costs = df["item_code"].astype(str).str.strip().map(by_code)
+        missing_mask = costs.isna()
+        if missing_mask.any():
+            costs.loc[missing_mask] = (
+                df.loc[missing_mask, "item_name"]
+                .astype(str)
+                .str.strip()
+                .str.lower()
+                .map(by_name)
+            )
+        costs = costs.fillna(0.0)
+        df["cost_total"] = df["qty_base"] * costs
+        df["gross_profit"] = df["amount"] - df["cost_total"]
+        return df
+
+    def _gross_profit(
+        start: Optional[str] = t_dict["start"],
+        end: Optional[str] = t_dict["end"],
+        shift: Optional[str] = t_dict["shift"],
+    ) -> Any:
+        df = _gross_profit_lines(start, end, shift)
+        if df is None:
+            return _unanswerable("Thiếu dữ liệu giá vốn (cost_price) để tính lãi gộp")
+        if df.empty:
+            return None
+        return _money(df["gross_profit"].sum())
+
+    def _top_gross_profit_item(
+        start: Optional[str] = t_dict["start"],
+        end: Optional[str] = t_dict["end"],
+        k: int = 1,
+        ascending: bool = False,
+    ) -> Any:
+        df = _gross_profit_lines(start, end)
+        if df is None:
+            return _unanswerable("Thiếu dữ liệu giá vốn (cost_price) để xếp hạng lãi gộp")
+        if df.empty:
+            return None
+        return _top_k(df, value_col="gross_profit", k=k, ascending=ascending)
+
+    def _total_expense(
+        start: Optional[str] = t_dict["start"],
+        end: Optional[str] = t_dict["end"],
+        category_query: Optional[str] = None,
+    ) -> Any:
+        exp_df = bundle.views.get("expenses")
+        if exp_df is None or exp_df.empty:
+            return _unanswerable("Cửa hàng không có bảng dữ liệu chi phí (expenses)")
+        sub = exp_df
+        if "date" in sub.columns:
+            mask = pd.Series(True, index=sub.index)
+            if as_of_date:
+                mask &= sub["date"] <= as_of_date
+            if start:
+                mask &= sub["date"] >= start
+            if end:
+                mask &= sub["date"] <= end
+            sub = sub.loc[mask]
+        if sub.empty:
+            return None
+        if category_query:
+            q_a = strip_accents(str(category_query).lower()).strip()
+            cat_match = pd.Series(False, index=sub.index)
+            for col in ("category", "description"):
+                if col in sub.columns:
+                    cat_match |= (
+                        sub[col]
+                        .fillna("")
+                        .astype(str)
+                        .apply(lambda s: q_a in strip_accents(s.lower()))
+                    )
+            sub = sub[cat_match]
+            if sub.empty:
+                return None
+        tot = float(sub["amount"].sum())
+        return _money(tot) if tot != 0 else None
+
+    def _net_profit(
+        start: Optional[str] = t_dict["start"],
+        end: Optional[str] = t_dict["end"],
+    ) -> Any:
+        exp_df = bundle.views.get("expenses")
+        if exp_df is None or exp_df.empty:
+            return _unanswerable("Thiếu bảng chi phí (expenses) để tính lãi ròng")
+        gp_df = _gross_profit_lines(start, end)
+        if gp_df is None:
+            return _unanswerable("Thiếu giá vốn (cost_price) để tính lãi ròng")
+        gp_val = float(gp_df["gross_profit"].sum()) if not gp_df.empty else 0.0
+        sub_exp = exp_df
+        if "date" in sub_exp.columns:
+            mask = pd.Series(True, index=sub_exp.index)
+            if as_of_date:
+                mask &= sub_exp["date"] <= as_of_date
+            if start:
+                mask &= sub_exp["date"] >= start
+            if end:
+                mask &= sub_exp["date"] <= end
+            sub_exp = sub_exp.loc[mask]
+        exp_val = float(sub_exp["amount"].sum()) if not sub_exp.empty else 0.0
+        if gp_df.empty and sub_exp.empty:
+            return None
+        return _money(gp_val - exp_val)
+
+    def _valid_imports(
+        start: Optional[str] = t_dict["start"],
+        end: Optional[str] = t_dict["end"],
+    ) -> pd.DataFrame:
+        imp_df = bundle.views.get("imports")
+        if imp_df is None or imp_df.empty:
+            return pd.DataFrame()
+        mask = pd.Series(True, index=imp_df.index)
+        if "is_valid" in imp_df.columns:
+            mask &= imp_df["is_valid"] == True
+        if "date" in imp_df.columns:
+            if as_of_date:
+                mask &= imp_df["date"] <= as_of_date
+            if start:
+                mask &= imp_df["date"] >= start
+            if end:
+                mask &= imp_df["date"] <= end
+        return imp_df.loc[mask]
+
+    def _total_import_amount(
+        start: Optional[str] = t_dict["start"],
+        end: Optional[str] = t_dict["end"],
+        supplier_query: Optional[str] = None,
+    ) -> Any:
+        imp_df = bundle.views.get("imports")
+        if imp_df is None or imp_df.empty:
+            return _unanswerable("Cửa hàng không có dữ liệu nhập hàng (imports)")
+        sub = _valid_imports(start, end)
+        if sub.empty:
+            return None
+        if supplier_query and "supplier" in sub.columns:
+            q_a = strip_accents(str(supplier_query).lower()).strip()
+            sub = sub[
+                sub["supplier"]
+                .fillna("")
+                .astype(str)
+                .apply(lambda s: q_a in strip_accents(s.lower()))
+            ]
+            if sub.empty:
+                return None
+        tot = float(sub["amount"].sum())
+        return _money(tot) if tot != 0 else None
+
+    def _top_supplier_by_amount(
+        start: Optional[str] = t_dict["start"],
+        end: Optional[str] = t_dict["end"],
+        k: int = 1,
+    ) -> Any:
+        imp_df = bundle.views.get("imports")
+        if imp_df is None or imp_df.empty:
+            return _unanswerable("Cửa hàng không có dữ liệu nhà cung cấp (imports)")
+        sub = _valid_imports(start, end)
+        if sub.empty or "supplier" not in sub.columns:
+            return None
+        sub = sub[
+            sub["supplier"].fillna("").astype(str).str.strip().str.lower().isin(["", "nan", "none"]) == False
+        ]
+        if sub.empty:
+            return None
+        key_c = "supplier_id" if "supplier_id" in sub.columns else "supplier"
+        grouped = sub.groupby([key_c, "supplier"], as_index=False)["amount"].sum()
+        grouped = grouped.sort_values(
+            by=["amount", key_c], ascending=[False, True], kind="mergesort"
+        )
+        names = [str(x).strip() for x in grouped["supplier"].tolist()][:k]
+        if not names:
+            return None
+        return names[0] if k == 1 else names
+
+    def _main_supplier(
+        start: Optional[str] = t_dict["start"],
+        end: Optional[str] = t_dict["end"],
+    ) -> Any:
+        imp_df = bundle.views.get("imports")
+        if imp_df is None or imp_df.empty:
+            return _unanswerable("Cửa hàng không có dữ liệu nhà cung cấp (imports)")
+        sub = _valid_imports(start, end)
+        if sub.empty or "supplier" not in sub.columns:
+            return None
+        sub = sub[
+            sub["supplier"].fillna("").astype(str).str.strip().str.lower().isin(["", "nan", "none"]) == False
+        ]
+        if sub.empty:
+            return None
+        key_c = "supplier_id" if "supplier_id" in sub.columns else "supplier"
+        id_c = "import_id" if "import_id" in sub.columns else "date"
+        grouped = (
+            sub.groupby([key_c, "supplier"], as_index=False)
+            .agg(receipts=(id_c, "nunique"), total_amt=("amount", "sum"))
+            .sort_values(
+                by=["receipts", "total_amt", key_c],
+                ascending=[False, False, True],
+                kind="mergesort",
+            )
+        )
+        if grouped.empty:
+            return None
+        return str(grouped.iloc[0]["supplier"]).strip()
+
+    def _peak_hour(
+        start: Optional[str] = t_dict["start"],
+        end: Optional[str] = t_dict["end"],
+    ) -> Any:
+        lines = _revenue_lines(start, end, None)
+        if lines.empty:
+            return None
+        df = lines.copy()
+        if "hour" not in df.columns or df["hour"].isna().all():
+            if "raw_date" not in df.columns:
+                return _unanswerable("Dữ liệu đơn hàng không có thông tin giờ bán")
+            def _ext_h(val: Any) -> Optional[int]:
+                m = re.search(r"(\d{1,2}):(\d{2})", str(val))
+                return int(m.group(1)) if m else None
+            df["hour"] = df["raw_date"].apply(_ext_h)
+        df = df[df["hour"].notna()].copy()
+        if df.empty:
+            return _unanswerable("Dữ liệu đơn hàng không có thông tin giờ bán")
+        df["hour"] = df["hour"].astype(int)
+        grouped = (
+            df.groupby("hour", as_index=False)
+            .agg(orders=("order_id", "nunique"), rev=("amount", "sum"))
+            .sort_values(
+                by=["orders", "rev", "hour"],
+                ascending=[False, False, True],
+                kind="mergesort",
+            )
+        )
+        if grouped.empty:
+            return None
+        return int(grouped.iloc[0]["hour"])
+
+    def _busiest_date(
+        start: Optional[str] = t_dict["start"],
+        end: Optional[str] = t_dict["end"],
+        metric: str = "orders",
+        ascending: bool = False,
+    ) -> Optional[str]:
+        lines = _revenue_lines(start, end, None)
+        if lines.empty or "date" not in lines.columns:
+            return None
+        grouped = lines.groupby("date", as_index=False).agg(
+            orders=("order_id", "nunique"), rev=("amount", "sum")
+        )
+        if grouped.empty:
+            return None
+        if metric == "revenue":
+            grouped = grouped.sort_values(
+                by=["rev", "orders", "date"],
+                ascending=[ascending, ascending, True],
+                kind="mergesort",
+            )
+        else:
+            grouped = grouped.sort_values(
+                by=["orders", "rev", "date"],
+                ascending=[ascending, ascending, True],
+                kind="mergesort",
+            )
+        return format_date(str(grouped.iloc[0]["date"]))
+
+    def _non_walkin_lines(df: pd.DataFrame) -> pd.DataFrame:
+        if df.empty or "cust_name" not in df.columns:
+            return pd.DataFrame()
+        cn_low = df["cust_name"].fillna("").astype(str).str.strip().str.lower()
+        bad = cn_low.isin(["", "nan", "none", "khách lẻ", "khach le", "khách vãng lai", "khach vang lai"])
+        return df[~bad]
+
+    def _loyal_customer(
+        start: Optional[str] = t_dict["start"],
+        end: Optional[str] = t_dict["end"],
+        k: int = 1,
+    ) -> Any:
+        lines = _non_walkin_lines(_revenue_lines(start, end))
+        if lines.empty:
+            return None
+        key_c = "cust_key" if "cust_key" in lines.columns else "cust_name"
+        grouped = (
+            lines.groupby([key_c, "cust_name"], as_index=False)
+            .agg(orders=("order_id", "nunique"), rev=("amount", "sum"))
+            .sort_values(
+                by=["orders", "rev", key_c],
+                ascending=[False, False, True],
+                kind="mergesort",
+            )
+        )
+        names = [str(x).strip() for x in grouped["cust_name"].tolist()][:k]
+        if not names:
+            return None
+        return names[0] if k == 1 else names
+
+    def _big_spender_customer(
+        start: Optional[str] = t_dict["start"],
+        end: Optional[str] = t_dict["end"],
+        min_orders: int = 3,
+    ) -> Optional[str]:
+        lines = _non_walkin_lines(_revenue_lines(start, end))
+        if lines.empty:
+            return None
+        key_c = "cust_key" if "cust_key" in lines.columns else "cust_name"
+        grouped = (
+            lines.groupby([key_c, "cust_name"], as_index=False)
+            .agg(orders=("order_id", "nunique"), rev=("amount", "sum"))
+        )
+        grouped = grouped[grouped["orders"] >= min_orders].copy()
+        if grouped.empty:
+            return None
+        grouped["aov"] = grouped["rev"] / grouped["orders"]
+        grouped = grouped.sort_values(
+            by=["aov", "rev", key_c],
+            ascending=[False, False, True],
+            kind="mergesort",
+        )
+        return str(grouped.iloc[0]["cust_name"]).strip()
+
+    def _fickle_customer(
+        start: Optional[str] = t_dict["start"],
+        end: Optional[str] = t_dict["end"],
+    ) -> Optional[str]:
+        s_df = bundle.views.get("sales")
+        if s_df is None or s_df.empty:
+            return None
+        mask = pd.Series(True, index=s_df.index)
+        if "date" in s_df.columns:
+            if as_of_date:
+                mask &= s_df["date"] <= as_of_date
+            if start:
+                mask &= s_df["date"] >= start
+            if end:
+                mask &= s_df["date"] <= end
+        if "is_cancelled" in s_df.columns:
+            mask &= s_df["is_cancelled"] == True
+        sub = _non_walkin_lines(s_df.loc[mask])
+        if sub.empty:
+            return None
+        key_c = "cust_key" if "cust_key" in sub.columns else "cust_name"
+        grouped = (
+            sub.groupby([key_c, "cust_name"], as_index=False)
+            .agg(cancels=("order_id", "nunique"))
+            .sort_values(
+                by=["cancels", key_c], ascending=[False, True], kind="mergesort"
+            )
+        )
+        if grouped.empty or int(grouped.iloc[0]["cancels"]) == 0:
+            return None
+        return str(grouped.iloc[0]["cust_name"]).strip()
+
+    def _popular_item(
+        start: Optional[str] = t_dict["start"],
+        end: Optional[str] = t_dict["end"],
+        k: int = 1,
+    ) -> Any:
+        lines = _item_lines(start, end)
+        if lines.empty:
+            return None
+        grouped = (
+            lines.groupby(["item_code", "item_name"], as_index=False)
+            .agg(orders=("order_id", "nunique"), qty=("qty_base", "sum"))
+            .sort_values(
+                by=["orders", "qty", "item_code"],
+                ascending=[False, False, True],
+                kind="mergesort",
+            )
+        )
+        names = [str(x).strip() for x in grouped["item_name"].tolist()][:k]
+        if not names:
+            return None
+        return names[0] if k == 1 else names
+
+    def _items_in_min_orders(
+        min_orders: int,
+        start: Optional[str] = t_dict["start"],
+        end: Optional[str] = t_dict["end"],
+    ) -> List[str]:
+        lines = _item_lines(start, end)
+        if lines.empty:
+            return []
+        grouped = (
+            lines.groupby(["item_code", "item_name"], as_index=False)
+            .agg(orders=("order_id", "nunique"), qty=("qty_base", "sum"))
+        )
+        grouped = grouped[grouped["orders"] >= int(min_orders)].sort_values(
+            by=["orders", "qty", "item_code"],
+            ascending=[False, False, True],
+            kind="mergesort",
+        )
+        return [str(x).strip() for x in grouped["item_name"].tolist()]
+
+    def _best_staff_by_revenue(
+        start: Optional[str] = t_dict["start"],
+        end: Optional[str] = t_dict["end"],
+        k: int = 1,
+        ascending: bool = False,
+    ) -> Any:
+        lines = _revenue_lines(start, end)
+        if lines.empty or "staff" not in lines.columns:
+            return _unanswerable("Dữ liệu bán hàng không có cột nhân viên (staff)")
+        sub = lines[
+            lines["staff"].fillna("").astype(str).str.strip().str.lower().isin(["", "nan", "none"]) == False
+        ]
+        if sub.empty:
+            return None
+        grouped = (
+            sub.groupby("staff", as_index=False)
+            .agg(rev=("amount", "sum"), orders=("order_id", "nunique"))
+            .sort_values(
+                by=["rev", "orders", "staff"],
+                ascending=[ascending, ascending, True],
+                kind="mergesort",
+            )
+        )
+        names = [str(x).strip() for x in grouped["staff"].tolist()][:k]
+        if not names:
+            return None
+        return names[0] if k == 1 else names
+
+    def _hardworking_staff(
+        start: Optional[str] = t_dict["start"],
+        end: Optional[str] = t_dict["end"],
+        k: int = 1,
+    ) -> Any:
+        lines = _revenue_lines(start, end)
+        if lines.empty or "staff" not in lines.columns:
+            return _unanswerable("Dữ liệu bán hàng không có cột nhân viên (staff)")
+        sub = lines[
+            lines["staff"].fillna("").astype(str).str.strip().str.lower().isin(["", "nan", "none"]) == False
+        ]
+        if sub.empty:
+            return None
+        grouped = (
+            sub.groupby("staff", as_index=False)
+            .agg(orders=("order_id", "nunique"), rev=("amount", "sum"))
+            .sort_values(
+                by=["orders", "rev", "staff"],
+                ascending=[False, False, True],
+                kind="mergesort",
+            )
+        )
+        names = [str(x).strip() for x in grouped["staff"].tolist()][:k]
+        if not names:
+            return None
+        return names[0] if k == 1 else names
+
+    def _qty_by_base_unit(
+        unit_query: str,
+        start: Optional[str] = t_dict["start"],
+        end: Optional[str] = t_dict["end"],
+    ) -> Optional[int]:
+        lines = _item_lines(start, end)
+        if lines.empty:
+            return None
+        uq = strip_accents(str(unit_query).lower()).strip()
+        p_df = bundle.views.get("products")
+        valid_codes: set = set()
+        if p_df is not None and not p_df.empty and "base_unit" in p_df.columns:
+            for _, row in p_df.iterrows():
+                bu = strip_accents(str(row.get("base_unit", "")).lower()).strip()
+                if bu == uq:
+                    valid_codes.add(str(row.get("item_code", "")).strip())
+        if valid_codes:
+            sub = lines[lines["item_code"].astype(str).str.strip().isin(valid_codes)]
+            if not sub.empty:
+                tot = float(sub["qty_base"].sum())
+                return int(round_half_up(tot, 0)) if tot > 0 else None
+        if "unit" in lines.columns:
+            sub_u = lines[
+                lines["unit"]
+                .fillna("")
+                .astype(str)
+                .apply(lambda s: strip_accents(s.lower()).strip() == uq)
+            ]
+            if not sub_u.empty:
+                tot = float(sub_u["qty"].sum())
+                return int(round_half_up(tot, 0)) if tot > 0 else None
+        return None
+
+    def _qty_by_coffee_size(
+        size_char: str,
+        start: Optional[str] = t_dict["start"],
+        end: Optional[str] = t_dict["end"],
+    ) -> Optional[int]:
+        lines = _item_lines(start, end)
+        if lines.empty:
+            return None
+        sz = str(size_char).strip().upper()
+        pat = re.compile(rf"(?:\(\s*size\s*{sz}\s*\)|\(\s*{sz}\s*\)|\bsize\s+{sz}\b)", re.IGNORECASE)
+        mask = pd.Series(False, index=lines.index)
+        for col in ("unit", "item_name"):
+            if col in lines.columns:
+                mask |= lines[col].fillna("").astype(str).apply(lambda s: bool(pat.search(s)))
+        sub = lines[mask]
+        if sub.empty:
+            return None
+        tot = float(sub["qty"].sum()) if "qty" in sub.columns else float(sub["qty_base"].sum())
+        return int(round_half_up(tot, 0)) if tot > 0 else None
+
+    def _revenue_by_payment(
+        method_query: str,
+        start: Optional[str] = t_dict["start"],
+        end: Optional[str] = t_dict["end"],
+        shift: Optional[str] = t_dict["shift"],
+    ) -> Any:
+        lines = _revenue_lines(start, end, shift)
+        if lines.empty:
+            return None
+        if "payment_method" not in lines.columns or (lines["payment_method"].fillna("").str.strip() == "").all():
+            return _unanswerable("Dữ liệu cửa hàng không có thông tin phương thức thanh toán")
+        mq = strip_accents(str(method_query).lower()).strip()
+        pm_ascii = lines["payment_method"].fillna("").astype(str).apply(lambda s: strip_accents(s.lower()))
+        if mq in ("tien mat", "cash"):
+            mask = pm_ascii.str.contains(r"tien mat|cash", regex=True)
+        elif mq in ("chuyen khoan", "ck", "bank"):
+            mask = pm_ascii.str.contains(r"chuyen khoan|\bck\b|banking", regex=True)
+        elif mq in ("the", "card", "pos", "quet the"):
+            mask = pm_ascii.str.contains(r"\bthe\b|card|pos|quet the|visa|master", regex=True)
+        elif mq in ("vi dien tu", "vi", "momo", "vnpay", "zalopay"):
+            if mq in ("momo", "vnpay", "zalopay"):
+                mask = pm_ascii.str.contains(re.escape(mq), regex=True)
+            else:
+                mask = pm_ascii.str.contains(r"vi dien tu|momo|vnpay|zalopay|shopeepay|apple pay", regex=True)
+        elif mq in ("cod", "thu ho"):
+            mask = pm_ascii.str.contains(r"\bcod\b|thu ho", regex=True)
+        else:
+            mask = pm_ascii.str.contains(re.escape(mq), regex=True)
+        sub = lines[mask]
+        if sub.empty:
+            return None
+        tot = float(sub["amount"].sum())
+        return _money(tot) if tot > 0 else None
+
+    def _revenue_by_channel(
+        channel_query: str,
+        start: Optional[str] = t_dict["start"],
+        end: Optional[str] = t_dict["end"],
+        shift: Optional[str] = t_dict["shift"],
+    ) -> Any:
+        lines = _revenue_lines(start, end, shift)
+        if lines.empty:
+            return None
+        if "channel" not in lines.columns or (lines["channel"].fillna("").str.strip() == "").all():
+            return _unanswerable("Dữ liệu cửa hàng không có thông tin kênh bán hàng")
+        cq = strip_accents(str(channel_query).lower()).strip()
+        ch_ascii = lines["channel"].fillna("").astype(str).apply(lambda s: strip_accents(s.lower()))
+        if cq in ("tai quay", "truc tiep", "offline", "tai quan", "tai cua hang"):
+            mask = ch_ascii.str.contains(r"tai quay|truc tiep|offline|tai quan|tai cua hang|pos", regex=True)
+        elif cq in ("online", "truc tuyen", "app", "website", "web"):
+            if cq in ("website", "web"):
+                mask = ch_ascii.str.contains(r"web", regex=True)
+            else:
+                mask = ~ch_ascii.str.contains(r"tai quay|truc tiep|offline|tai quan|tai cua hang", regex=True) & (ch_ascii != "")
+        else:
+            mask = ch_ascii.str.contains(re.escape(cq), regex=True)
+        sub = lines[mask]
+        if sub.empty:
+            return None
+        tot = float(sub["amount"].sum())
+        return _money(tot) if tot > 0 else None
+
+    def _revenue_by_cust_group(
+        group_query: str,
+        start: Optional[str] = t_dict["start"],
+        end: Optional[str] = t_dict["end"],
+        metric: str = "revenue",
+    ) -> Any:
+        lines = _revenue_lines(start, end)
+        if lines.empty:
+            return None
+        gq = strip_accents(str(group_query).lower()).strip()
+        c_df = bundle.views.get("customers")
+        matched_cids: set = set()
+        matched_cnames: set = set()
+        if c_df is not None and not c_df.empty and "cust_group" in c_df.columns:
+            for _, row in c_df.iterrows():
+                cg = strip_accents(str(row.get("cust_group", "")).lower()).strip()
+                if gq in cg or (gq in ("vip",) and "vip" in cg) or (gq in ("than thiet",) and "than thiet" in cg) or (gq in ("thuong", "khach thuong") and "thuong" in cg):
+                    cid = str(row.get("cust_id", "")).strip()
+                    cnm = str(row.get("cust_name", "")).strip().lower()
+                    if cid:
+                        matched_cids.add(cid)
+                    if cnm:
+                        matched_cnames.add(cnm)
+        mask = pd.Series(False, index=lines.index)
+        if matched_cids or matched_cnames:
+            if "cust_key" in lines.columns:
+                mask |= lines["cust_key"].astype(str).str.strip().isin(matched_cids)
+            if "cust_name" in lines.columns:
+                mask |= lines["cust_name"].astype(str).str.strip().str.lower().isin(matched_cnames)
+        elif "cust_group" in lines.columns:
+            mask |= lines["cust_group"].fillna("").astype(str).apply(lambda s: gq in strip_accents(s.lower()))
+        else:
+            return _unanswerable("Dữ liệu không có thông tin phân nhóm khách hàng")
+        sub = lines[mask]
+        if sub.empty:
+            return None
+        if metric == "orders":
+            return int(sub["order_id"].nunique())
+        if metric == "customers":
+            key_c = "cust_key" if "cust_key" in sub.columns else "cust_name"
+            return int(sub[key_c].nunique())
+        tot = float(sub["amount"].sum())
+        return _money(tot) if tot > 0 else None
+
+    def _weekday_avg_revenue(
+        iso_weekday: int,
+        start: Optional[str] = t_dict["start"],
+        end: Optional[str] = t_dict["end"],
+    ) -> Optional[int]:
+        if not start or not end:
+            return None
+        eff_end = min(end, as_of_date) if as_of_date else end
+        if eff_end < start:
+            return None
+        wd_count = _count_weekday(start, eff_end, int(iso_weekday))
+        if wd_count <= 0:
+            return None
+        lines = _revenue_lines(start, eff_end)
+        if lines.empty:
+            return None
+        if "iso_weekday" in lines.columns:
+            sub = lines[lines["iso_weekday"] == int(iso_weekday)]
+        else:
+            sub = lines[
+                pd.to_datetime(lines["date"], errors="coerce").dt.isoweekday() == int(iso_weekday)
+            ]
+        tot = float(sub["amount"].sum()) if not sub.empty else 0.0
+        if tot <= 0:
+            return None
+        return _money(tot / wd_count)
+
+    def _rank_table(
+        df: pd.DataFrame,
+        key_col: str,
+        name_col: str,
+        value_cols: List[str],
+        k: int = 3,
+        col_names: Optional[List[str]] = None,
+        ascending: bool = False,
+    ) -> Optional[Dict[str, Any]]:
+        if df is None or df.empty:
+            return None
+        agg_dict = {vc: "sum" for vc in value_cols}
+        grouped = df.groupby([key_col, name_col], as_index=False).agg(agg_dict)
+        grouped = grouped[
+            grouped[name_col].fillna("").astype(str).str.strip().str.lower().isin(["", "nan", "none", "khách lẻ", "đơn hàng"]) == False
+        ]
+        if grouped.empty:
+            return None
+        sort_cols = [value_cols[0], key_col]
+        sort_asc = [ascending, True]
+        grouped = grouped.sort_values(by=sort_cols, ascending=sort_asc, kind="mergesort").head(k)
+        headers = col_names if col_names and len(col_names) == 1 + len(value_cols) else [name_col] + value_cols
+        rows = []
+        for _, r in grouped.iterrows():
+            row_vals: List[Any] = [str(r[name_col]).strip()]
+            for vc in value_cols:
+                v = float(r[vc])
+                row_vals.append(_money(v) if vc in ("amount", "gross_profit", "rev", "cost_total") else int(round_half_up(v, 0)))
+            rows.append(row_vals)
+        return {"columns": headers, "rows": rows}
+
     safe_builtins = {
         "abs": abs,
         "all": all,
@@ -1158,6 +1859,31 @@ def build_sandbox_globals(
         "UNANSWERABLE": _unanswerable,
         "clean_currency_str": clean_currency_str,
         "strip_accents": strip_accents,
+        "gross_profit_lines": _gross_profit_lines,
+        "gross_profit": _gross_profit,
+        "top_gross_profit_item": _top_gross_profit_item,
+        "total_expense": _total_expense,
+        "net_profit": _net_profit,
+        "valid_imports": _valid_imports,
+        "total_import_amount": _total_import_amount,
+        "top_supplier_by_amount": _top_supplier_by_amount,
+        "main_supplier": _main_supplier,
+        "peak_hour": _peak_hour,
+        "busiest_date": _busiest_date,
+        "loyal_customer": _loyal_customer,
+        "big_spender_customer": _big_spender_customer,
+        "fickle_customer": _fickle_customer,
+        "popular_item": _popular_item,
+        "items_in_min_orders": _items_in_min_orders,
+        "best_staff_by_revenue": _best_staff_by_revenue,
+        "hardworking_staff": _hardworking_staff,
+        "qty_by_base_unit": _qty_by_base_unit,
+        "qty_by_coffee_size": _qty_by_coffee_size,
+        "revenue_by_payment": _revenue_by_payment,
+        "revenue_by_channel": _revenue_by_channel,
+        "revenue_by_cust_group": _revenue_by_cust_group,
+        "weekday_avg_revenue": _weekday_avg_revenue,
+        "rank_table": _rank_table,
     }
 
 
@@ -1256,6 +1982,7 @@ class Sandbox:
         ents: EntityResult,
         cal: Optional[CalendarResolver],
         as_of_date: str,
+        fast_local: bool = False,
     ) -> SandboxResult:
         t0 = time.monotonic()
         if not code or not code.strip():
@@ -1277,8 +2004,33 @@ class Sandbox:
 
         g_dict = build_sandbox_globals(bundle, tctx, ents, cal, as_of_date)
 
+        if fast_local:
+            buf = io.StringIO()
+            try:
+                with contextlib.redirect_stdout(buf):
+                    exec(compile(code, "<llm_code>", "exec"), g_dict)
+                if "final_result" not in g_dict:
+                    msg = {
+                        "ok": False,
+                        "error_type": "NoFinalResult",
+                        "tb": "Thiếu biến `final_result`.",
+                        "stdout": buf.getvalue()[: self.max_stdout],
+                    }
+                else:
+                    msg = {
+                        "ok": True,
+                        "value": to_native(g_dict["final_result"]),
+                        "stdout": buf.getvalue()[: self.max_stdout],
+                    }
+            except BaseException as e:
+                msg = {
+                    "ok": False,
+                    "error_type": type(e).__name__,
+                    "tb": traceback.format_exc(limit=5),
+                    "stdout": buf.getvalue()[: self.max_stdout],
+                }
         # Trên Linux / Docker / Colab: sử dụng multiprocessing.get_context('fork')
-        if sys.platform != "win32" and "fork" in mp.get_all_start_methods():
+        elif sys.platform != "win32" and "fork" in mp.get_all_start_methods():
             ctx = mp.get_context("fork")
             parent_conn, child_conn = ctx.Pipe(duplex=False)
             proc = ctx.Process(

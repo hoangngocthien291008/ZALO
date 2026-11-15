@@ -1,0 +1,19 @@
+{
+  "id": "q_d9f743469198",
+  "question": "Sua dac Ong Tho 380g len 26k tu 13/11/2025, so hop ban 30 ngay tu hom do so voi 30 ngay truoc tang hay giam bnhiu % nhi?",
+  "answer": {
+    "id": "q_d9f743469198",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0,
+  "trace": {
+    "normalized_text": "sua dac ong tho 380 g len 26 k tu 13/11/2025, so hop ban 30 ngay tu hom do so voi 30 ngay truoc tang hay giam bao nhiêu% nhi?",
+    "normalized_ascii": "sua dac ong tho 380 g len 26 k tu 13/11/2025, so hop ban 30 ngay tu hom do so voi 30 ngay truoc tang hay giam bao nhieu% nhi?",
+    "time_rule": "R8_exact_date",
+    "time_start": "2025-11-13",
+    "time_end": "2025-11-13",
+    "entity_status": "exact",
+    "inferred_type": "percent",
+    "gate": "G4_safe_abstain"
+  }
+}

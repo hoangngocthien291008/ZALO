@@ -1,0 +1,22 @@
+{
+  "id": "q_1a312c2f71ac",
+  "question": "Nước kiềm Ion Life 19L lên giá 79.500đ ngày 18/10/2025; lượng bình bán trong 30 ngày kể từ 18/10/2025 thay đổi bao nhiêu phần trăm so với 30 ngày liền trước?",
+  "answer": {
+    "id": "q_1a312c2f71ac",
+    "type": "percent",
+    "answer": 33.33
+  },
+  "elapsed_sec": 0.0388,
+  "trace": {
+    "normalized_text": "nước kiềm ion life 19 l lên giá 79.500 đ ngày 18/10/2025; lượng bình bán trong 30 ngày kể từ 18/10/2025 thay đổi bao nhiêu phần trăm so với 30 ngày liền trước?",
+    "normalized_ascii": "nuoc kiem ion life 19 l len gia 79.500 d ngay 18/10/2025; luong binh ban trong 30 ngay ke tu 18/10/2025 thay doi bao nhieu phan tram so voi 30 ngay lien truoc?",
+    "time_rule": "R2_price_effect",
+    "time_start": "2025-10-18",
+    "time_end": "2025-11-16",
+    "entity_status": "exact",
+    "inferred_type": "percent",
+    "fastpath_code": "df_after = match_item(item_lines(T['start'], T['end']), 'Nước kiềm Ion Life 19L')\ndf_before = match_item(item_lines(T['cmp_start'], T['cmp_end']), 'Nước kiềm Ion Life 19L')\nq_after = float(df_after['qty_base'].sum()) if not df_after.empty else 0.0\nq_before = float(df_before['qty_base'].sum()) if not df_before.empty else 0.0\nfinal_result = growth(q_after, q_before) if (q_before > 0 and q_after > 0) else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "q_cd3203f2d813",
+  "question": "Tháng 9 năm 2025 Nurofen for Children hỗn dịch chai 60ml bán được mấy chai vậy?",
+  "answer": {
+    "id": "q_cd3203f2d813",
+    "type": "number",
+    "answer": 120
+  },
+  "elapsed_sec": 0.0565,
+  "trace": {
+    "normalized_text": "tháng 9 năm 2025 nurofen for children hỗn dịch chai 60 ml bán được mấy chai vậy?",
+    "normalized_ascii": "thang 9 nam 2025 nurofen for children hon dich chai 60 ml ban duoc may chai vay?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-09-01",
+    "time_end": "2025-09-30",
+    "entity_status": "exact",
+    "inferred_type": "number",
+    "fastpath_code": "df = match_item(item_lines(), 'Nurofen for Children hon dich chai 60ml')\nq = float(df['qty_base'].sum()) if not df.empty else 0.0\nfinal_result = (int(round(q)) if abs(q - round(q)) < 1e-6 else round(q, 2)) if q > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

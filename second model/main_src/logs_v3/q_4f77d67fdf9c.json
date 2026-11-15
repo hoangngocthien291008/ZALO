@@ -1,0 +1,22 @@
+{
+  "id": "q_4f77d67fdf9c",
+  "question": "T11/2025 bao nhieu ngay doanh thu tu 9.500.000d tro lne?",
+  "answer": {
+    "id": "q_4f77d67fdf9c",
+    "type": "number",
+    "answer": 13
+  },
+  "elapsed_sec": 0.0147,
+  "trace": {
+    "normalized_text": "tháng 11/2025 bao nhiêu ngay doanh thu tu 9.500.000 d tro lne?",
+    "normalized_ascii": "thang 11/2025 bao nhieu ngay doanh thu tu 9.500.000 d tro lne?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-11-01",
+    "time_end": "2025-11-30",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "df = revenue_lines()\ndaily = df.groupby('date')['amount'].sum() if not df.empty else pd.Series(dtype=float)\ncnt = int((daily >= 9500000.0).sum())\nfinal_result = cnt if cnt > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

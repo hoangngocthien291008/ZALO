@@ -1,0 +1,22 @@
+{
+  "id": "q_b4ad3b8d023f",
+  "question": "Tháng 9/2025 mặt hàng Topping Thạch cà phê bán được tổng cộng bao nhiêu phần?",
+  "answer": {
+    "id": "q_b4ad3b8d023f",
+    "type": "number",
+    "answer": 115
+  },
+  "elapsed_sec": 0.0513,
+  "trace": {
+    "normalized_text": "tháng 9/2025 mặt hàng topping thạch cà phê bán được tổng cộng bao nhiêu phần?",
+    "normalized_ascii": "thang 9/2025 mat hang topping thach ca phe ban duoc tong cong bao nhieu phan?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-09-01",
+    "time_end": "2025-09-30",
+    "entity_status": "exact",
+    "inferred_type": "number",
+    "fastpath_code": "df = match_item(item_lines(), 'Topping Thạch cà phê')\nq = float(df['qty_base'].sum()) if not df.empty else 0.0\nfinal_result = (int(round(q)) if abs(q - round(q)) < 1e-6 else round(q, 2)) if q > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

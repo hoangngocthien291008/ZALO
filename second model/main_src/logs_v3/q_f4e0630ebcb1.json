@@ -1,0 +1,22 @@
+{
+  "id": "q_f4e0630ebcb1",
+  "question": "Bữa nay quán bán được bao nhiêu tiền rồi?",
+  "answer": {
+    "id": "q_f4e0630ebcb1",
+    "type": "number",
+    "answer": 9485500
+  },
+  "elapsed_sec": 0.0198,
+  "trace": {
+    "normalized_text": "hôm nay quán bán được bao nhiêu tiền rồi?",
+    "normalized_ascii": "hom nay quan ban duoc bao nhieu tien roi?",
+    "time_rule": "R5_today",
+    "time_start": "2025-07-26",
+    "time_end": "2025-07-26",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "rev = revenue()\nfinal_result = rev if rev > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

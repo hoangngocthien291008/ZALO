@@ -1,0 +1,19 @@
+{
+  "id": "q_1d7f8fb3a5df",
+  "question": "Tháng 8/2025 khách ở Trường Chinh mua nhiều tiềng hơn hay khách ở Lạc Long Quân?",
+  "answer": {
+    "id": "q_1d7f8fb3a5df",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0019,
+  "trace": {
+    "normalized_text": "tháng 8/2025 khách ở trường chinh mua nhiều tiền hơn hay khách ở lạc long quân?",
+    "normalized_ascii": "thang 8/2025 khach o truong chinh mua nhieu tien hon hay khach o lac long quan?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-08-01",
+    "time_end": "2025-08-31",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "q_2e131da8a651",
+  "question": "Th6/2026 đơn bị huỷ chiếm mấy % z?",
+  "answer": {
+    "id": "q_2e131da8a651",
+    "type": "percent",
+    "answer": 2.15
+  },
+  "elapsed_sec": 0.0152,
+  "trace": {
+    "normalized_text": "tháng 6/2026 đơn bị huỷ chiếm mấy% vậy?",
+    "normalized_ascii": "thang 6/2026 don bi huy chiem may% vay?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-06-01",
+    "time_end": "2026-06-30",
+    "entity_status": "not_needed",
+    "inferred_type": "percent",
+    "fastpath_code": "sub = all_orders()\ntot = len(sub['order_id'].unique()) if not sub.empty else 0\ncanc = len(sub[sub['status_norm'] == 'huy']['order_id'].unique()) if not sub.empty else 0\nfinal_result = pct(canc, tot) if tot > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

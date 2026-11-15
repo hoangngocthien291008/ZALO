@@ -1,0 +1,19 @@
+{
+  "id": "q_0ac818a0f5f2",
+  "question": "T2/2026 don huy chiem bao nhieu phan tram?",
+  "answer": {
+    "id": "q_0ac818a0f5f2",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0399,
+  "trace": {
+    "normalized_text": "tháng 2/2026 don huy chiem bao nhiêu phần trăm?",
+    "normalized_ascii": "thang 2/2026 don huy chiem bao nhieu phan tram?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-02-01",
+    "time_end": "2026-02-28",
+    "entity_status": "not_found",
+    "inferred_type": "percent",
+    "gate": "G3_entity_below_0.70"
+  }
+}

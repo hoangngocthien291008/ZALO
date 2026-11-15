@@ -1,0 +1,26 @@
+{
+  "id": "q_32ee3f6d23b0",
+  "question": "Doanh thu tháng 11/2025, 12/2025 và 1/2026 từng tháng là bao nhiêu?",
+  "answer": {
+    "id": "q_32ee3f6d23b0",
+    "type": "list",
+    "answer": [
+      1082991000,
+      1220545900,
+      1066528100
+    ]
+  },
+  "elapsed_sec": 0.0204,
+  "trace": {
+    "normalized_text": "doanh thu tháng 11/2025, 12/2025 và 1/2026 từng tháng là bao nhiêu?",
+    "normalized_ascii": "doanh thu thang 11/2025, 12/2025 va 1/2026 tung thang la bao nhieu?",
+    "time_rule": "R2b_month_list",
+    "time_start": "2025-11-01",
+    "time_end": "2026-01-31",
+    "entity_status": "not_needed",
+    "inferred_type": "list",
+    "fastpath_code": "revs = [revenue(p['start'], p['end']) for p in T['periods']]\nfinal_result = revs if (revs and all(r > 0 for r in revs)) else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

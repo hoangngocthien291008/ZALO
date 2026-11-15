@@ -1,0 +1,19 @@
+{
+  "id": "q_427b79554ed7",
+  "question": "Nước giặt xả D-nee 3000ml tháng 9/2025, tiềng báng nhiêu z?",
+  "answer": {
+    "id": "q_427b79554ed7",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.001,
+  "trace": {
+    "normalized_text": "nước giặt xả d - nee 3000 ml tháng 9/2025, tiền báng nhiêu vậy?",
+    "normalized_ascii": "nuoc giat xa d - nee 3000 ml thang 9/2025, tien bang nhieu vay?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-09-01",
+    "time_end": "2025-09-30",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

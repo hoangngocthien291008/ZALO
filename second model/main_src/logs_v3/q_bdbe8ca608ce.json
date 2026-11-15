@@ -1,0 +1,22 @@
+{
+  "id": "q_bdbe8ca608ce",
+  "question": "Thang nao dthu cao nhat trong 3 thang 2/2026, 3/2026, 4/2026 ha?",
+  "answer": {
+    "id": "q_bdbe8ca608ce",
+    "type": "date",
+    "answer": "2026-03"
+  },
+  "elapsed_sec": 0.0752,
+  "trace": {
+    "normalized_text": "thang nao doanh thu cao nhất trong 3 thang 2/2026, 3/2026, 4/2026 ha?",
+    "normalized_ascii": "thang nao doanh thu cao nhat trong 3 thang 2/2026, 3/2026, 4/2026 ha?",
+    "time_rule": "R2b_month_list",
+    "time_start": "2026-02-01",
+    "time_end": "2026-04-30",
+    "entity_status": "not_needed",
+    "inferred_type": "date",
+    "fastpath_code": "pairs = [(revenue(p['start'], p['end']), p['label']) for p in T['periods']]\npairs = [x for x in pairs if x[0] > 0]\nfinal_result = max(pairs, key=lambda x: x[0])[1] if pairs else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

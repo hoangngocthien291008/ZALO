@@ -1,0 +1,22 @@
+{
+  "id": "q_7260611e1637",
+  "question": "Thangs nay NV001 ban duoc bao nhieeu tien roi?",
+  "answer": {
+    "id": "q_7260611e1637",
+    "type": "number",
+    "answer": 949477000
+  },
+  "elapsed_sec": 0.0255,
+  "trace": {
+    "normalized_text": "tháng nay nv 001 ban duoc bao nhiều tien roi?",
+    "normalized_ascii": "thang nay nv 001 ban duoc bao nhieu tien roi?",
+    "time_rule": "R12_this_month",
+    "time_start": "2026-07-01",
+    "time_end": "2026-07-22",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "rev = revenue()\nfinal_result = rev if rev > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

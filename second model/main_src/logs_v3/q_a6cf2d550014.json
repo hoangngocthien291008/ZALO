@@ -1,0 +1,19 @@
+{
+  "id": "q_a6cf2d550014",
+  "question": "Tháng 11 năm 2025, nhóm gạo có mặt hàng nào bán được nhiều kg nhất?",
+  "answer": {
+    "id": "q_a6cf2d550014",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.001,
+  "trace": {
+    "normalized_text": "tháng 11 năm 2025, nhóm gạo có mặt hàng nào bán được nhiều kg nhất?",
+    "normalized_ascii": "thang 11 nam 2025, nhom gao co mat hang nao ban duoc nhieu kg nhat?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-11-01",
+    "time_end": "2025-11-30",
+    "entity_status": "exact",
+    "inferred_type": "string",
+    "gate": "G4_safe_abstain"
+  }
+}

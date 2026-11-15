@@ -1,0 +1,19 @@
+{
+  "id": "q_30afaf6d51ca",
+  "question": "Thang 11 nam 2025 ngay nao doanh thu cao nhta?",
+  "answer": {
+    "id": "q_30afaf6d51ca",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.001,
+  "trace": {
+    "normalized_text": "thang 11 nam 2025 ngay nao doanh thu cao nhta?",
+    "normalized_ascii": "thang 11 nam 2025 ngay nao doanh thu cao nhta?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-11-01",
+    "time_end": "2025-11-30",
+    "entity_status": "not_needed",
+    "inferred_type": "date",
+    "gate": "G4_safe_abstain"
+  }
+}

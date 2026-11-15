@@ -1,0 +1,22 @@
+{
+  "id": "q_b2bbe9c1e9fc",
+  "question": "Tháng 2/2025 bán ra bao nhiêu ly Cà phê sữa (M)?",
+  "answer": {
+    "id": "q_b2bbe9c1e9fc",
+    "type": "number",
+    "answer": 269
+  },
+  "elapsed_sec": 0.0389,
+  "trace": {
+    "normalized_text": "tháng 2/2025 bán ra bao nhiêu ly cà phê sữa (m)?",
+    "normalized_ascii": "thang 2/2025 ban ra bao nhieu ly ca phe sua (m)?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-02-01",
+    "time_end": "2025-02-28",
+    "entity_status": "exact",
+    "inferred_type": "number",
+    "fastpath_code": "df = match_item(item_lines(), 'Ca phe sua (M)')\nq = float(df['qty_base'].sum()) if not df.empty else 0.0\nfinal_result = (int(round(q)) if abs(q - round(q)) < 1e-6 else round(q, 2)) if q > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

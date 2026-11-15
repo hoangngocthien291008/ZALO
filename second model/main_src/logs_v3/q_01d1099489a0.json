@@ -1,0 +1,22 @@
+{
+  "id": "q_01d1099489a0",
+  "question": "Từ đầu tháng này tới hết hnay, dthu cao hay thấp hơn cùng kỳ tháng trước mấy %?",
+  "answer": {
+    "id": "q_01d1099489a0",
+    "type": "percent",
+    "answer": -2.94
+  },
+  "elapsed_sec": 21.347,
+  "trace": {
+    "normalized_text": "từ đầu tháng này tới hết hôm nay, doanh thu cao hay thấp hơn cùng kỳ tháng trước mấy%?",
+    "normalized_ascii": "tu dau thang nay toi het hom nay, doanh thu cao hay thap hon cung ky thang truoc may%?",
+    "time_rule": "R12_this_month",
+    "time_start": "2025-03-01",
+    "time_end": "2025-03-18",
+    "entity_status": "not_needed",
+    "inferred_type": "percent",
+    "fastpath_code": "r_curr = revenue(T['start'], T['end'], T['shift'])\nr_prev = revenue(T['cmp_start'], T['cmp_end'], T['shift'])\nfinal_result = growth(r_curr, r_prev) if (r_prev > 0 and r_curr > 0) else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

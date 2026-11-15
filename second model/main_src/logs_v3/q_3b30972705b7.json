@@ -1,0 +1,22 @@
+{
+  "id": "q_3b30972705b7",
+  "question": "T1/2025 ban duoc bao nhieu tien?",
+  "answer": {
+    "id": "q_3b30972705b7",
+    "type": "number",
+    "answer": 1006269600
+  },
+  "elapsed_sec": 0.006,
+  "trace": {
+    "normalized_text": "tháng 1/2025 ban duoc bao nhiêu tien?",
+    "normalized_ascii": "thang 1/2025 ban duoc bao nhieu tien?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-01-01",
+    "time_end": "2025-01-31",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "rev = revenue()\nfinal_result = rev if rev > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

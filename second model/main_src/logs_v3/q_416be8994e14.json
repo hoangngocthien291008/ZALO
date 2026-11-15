@@ -1,0 +1,19 @@
+{
+  "id": "q_416be8994e14",
+  "question": "T3/2025 co bao nhieu ngay doanh thu dat tu 34.000.000 dong tro len?",
+  "answer": {
+    "id": "q_416be8994e14",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0,
+  "trace": {
+    "normalized_text": "tháng 3/2025 co bao nhiêu ngay doanh thu dat tu 34.000.000 dong trở lên?",
+    "normalized_ascii": "thang 3/2025 co bao nhieu ngay doanh thu dat tu 34.000.000 dong tro len?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-03-01",
+    "time_end": "2025-03-31",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

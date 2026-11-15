@@ -1,0 +1,22 @@
+{
+  "id": "q_af1b6f2ebf9b",
+  "question": "Từ đầu năm tới nay dthu đc bnhiu z?",
+  "answer": {
+    "id": "q_af1b6f2ebf9b",
+    "type": "number",
+    "answer": 3084538200
+  },
+  "elapsed_sec": 0.0236,
+  "trace": {
+    "normalized_text": "từ đầu năm tới nay doanh thu được bao nhiêu vậy?",
+    "normalized_ascii": "tu dau nam toi nay doanh thu duoc bao nhieu vay?",
+    "time_rule": "R3_ytd",
+    "time_start": "2025-01-01",
+    "time_end": "2025-11-22",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "rev = revenue()\nfinal_result = rev if rev > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

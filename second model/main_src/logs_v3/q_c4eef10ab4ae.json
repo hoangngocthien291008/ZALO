@@ -1,0 +1,22 @@
+{
+  "id": "q_c4eef10ab4ae",
+  "question": "1-2026 món nào đem về lãi gộp cao nhất?",
+  "answer": {
+    "id": "q_c4eef10ab4ae",
+    "type": "string",
+    "answer": "Trà đào cam sả (M)"
+  },
+  "elapsed_sec": 0.0348,
+  "trace": {
+    "normalized_text": "1-2026 món nào đem về lãi gộp cao nhất?",
+    "normalized_ascii": "1-2026 mon nao dem ve lai gop cao nhat?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-01-01",
+    "time_end": "2026-01-31",
+    "entity_status": "not_needed",
+    "inferred_type": "string",
+    "fastpath_code": "final_result = top_gross_profit_item(T['start'], T['end'], k=1)",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

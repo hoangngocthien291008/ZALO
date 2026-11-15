@@ -1,0 +1,19 @@
+{
+  "id": "q_408c2137f088",
+  "question": "02/2026 mặt hàng nào lời nhiều nhất z?",
+  "answer": {
+    "id": "q_408c2137f088",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.003,
+  "trace": {
+    "normalized_text": "02/2026 mặt hàng nào lời nhiều nhất vậy?",
+    "normalized_ascii": "02/2026 mat hang nao loi nhieu nhat vay?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-02-01",
+    "time_end": "2026-02-28",
+    "entity_status": "not_needed",
+    "inferred_type": "string",
+    "gate": "G4_safe_abstain"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "q_647711394825",
+  "question": "10-2025 nhân viên Đinh Đạt Đức bán được bnhiu tiền vậy?",
+  "answer": {
+    "id": "q_647711394825",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.001,
+  "trace": {
+    "normalized_text": "10-2025 nhân viên đinh đạt đức bán được bao nhiêu tiền vậy?",
+    "normalized_ascii": "10-2025 nhan vien dinh dat duc ban duoc bao nhieu tien vay?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-10-01",
+    "time_end": "2025-10-31",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

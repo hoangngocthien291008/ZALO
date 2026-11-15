@@ -1,0 +1,19 @@
+{
+  "id": "q_fc4223c66403",
+  "question": "Anh xem giúp em, tháng 12/2025 khách nhóm sỉ chiếm bao nhiêu phần trăm tổng doanh thu ạ?",
+  "answer": {
+    "id": "q_fc4223c66403",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.002,
+  "trace": {
+    "normalized_text": "anh xem giúp em, tháng 12/2025 khách nhóm sỉ chiếm bao nhiêu phần trăm tổng doanh thu ạ?",
+    "normalized_ascii": "anh xem giup em, thang 12/2025 khach nhom si chiem bao nhieu phan tram tong doanh thu a?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-12-01",
+    "time_end": "2025-12-31",
+    "entity_status": "not_found",
+    "inferred_type": "percent",
+    "gate": "G3_entity_below_0.70"
+  }
+}

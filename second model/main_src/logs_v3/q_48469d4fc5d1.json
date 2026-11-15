@@ -1,0 +1,19 @@
+{
+  "id": "q_48469d4fc5d1",
+  "question": "Th8/2025 doanh thu ngay nao cao nhat?",
+  "answer": {
+    "id": "q_48469d4fc5d1",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0,
+  "trace": {
+    "normalized_text": "tháng 8/2025 doanh thu ngay nao cao nhất?",
+    "normalized_ascii": "thang 8/2025 doanh thu ngay nao cao nhat?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-08-01",
+    "time_end": "2025-08-31",
+    "entity_status": "not_needed",
+    "inferred_type": "date",
+    "gate": "G4_safe_abstain"
+  }
+}

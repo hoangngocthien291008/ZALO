@@ -1,0 +1,22 @@
+{
+  "id": "q_dad922a3924a",
+  "question": "Tuần trước dthu được bnhiu z?",
+  "answer": {
+    "id": "q_dad922a3924a",
+    "type": "number",
+    "answer": 52408300
+  },
+  "elapsed_sec": 0.0133,
+  "trace": {
+    "normalized_text": "tuần trước doanh thu được bao nhiêu vậy?",
+    "normalized_ascii": "tuan truoc doanh thu duoc bao nhieu vay?",
+    "time_rule": "R10_last_week",
+    "time_start": "2025-06-16",
+    "time_end": "2025-06-22",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "rev = revenue()\nfinal_result = rev if rev > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

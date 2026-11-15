@@ -1,0 +1,22 @@
+{
+  "id": "q_978b7f61250e",
+  "question": "T11/2025 nhóm thực phẩm chức năng chiếm mấy % dthu?",
+  "answer": {
+    "id": "q_978b7f61250e",
+    "type": "percent",
+    "answer": 24.91
+  },
+  "elapsed_sec": 0.0206,
+  "trace": {
+    "normalized_text": "tháng 11/2025 nhóm thực phẩm chức năng chiếm mấy% doanh thu?",
+    "normalized_ascii": "thang 11/2025 nhom thuc pham chuc nang chiem may% doanh thu?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-11-01",
+    "time_end": "2025-11-30",
+    "entity_status": "exact",
+    "inferred_type": "percent",
+    "fastpath_code": "df = revenue_lines()\ntot = float(df['amount'].sum()) if not df.empty else 0.0\ng_rev = float(df[df['item_group'].str.lower() == 'thực phẩm chức năng']['amount'].sum()) if not df.empty else 0.0\nfinal_result = pct(g_rev, tot) if tot > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

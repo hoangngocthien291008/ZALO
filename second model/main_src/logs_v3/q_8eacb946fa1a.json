@@ -1,0 +1,19 @@
+{
+  "id": "q_8eacb946fa1a",
+  "question": "Tien ban hang 7 ngay gan nhat duoc bao nhieu?",
+  "answer": {
+    "id": "q_8eacb946fa1a",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0011,
+  "trace": {
+    "normalized_text": "tien ban hang 7 ngay gan nhat duoc bao nhiêu?",
+    "normalized_ascii": "tien ban hang 7 ngay gan nhat duoc bao nhieu?",
+    "time_rule": "R7_n_days",
+    "time_start": "2026-04-01",
+    "time_end": "2026-04-07",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "q_78f694893432",
+  "question": "Thang nay bim size L, tinh tat ca cac hang, ban duoc bao nhieu bich?",
+  "answer": {
+    "id": "q_78f694893432",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.001,
+  "trace": {
+    "normalized_text": "tháng này bim size l, tinh tat ca cac hang, ban duoc bao nhiêu bich?",
+    "normalized_ascii": "thang nay bim size l, tinh tat ca cac hang, ban duoc bao nhieu bich?",
+    "time_rule": "R12_this_month",
+    "time_start": "2026-06-01",
+    "time_end": "2026-06-30",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

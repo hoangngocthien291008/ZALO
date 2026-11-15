@@ -1,0 +1,19 @@
+{
+  "id": "q_429155557e11",
+  "question": "Tiền bán 6/2026 so tháng liền trước thay đổi mấy phần trawm?",
+  "answer": {
+    "id": "q_429155557e11",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0021,
+  "trace": {
+    "normalized_text": "tiền bán 6/2026 so tháng liền trước thay đổi mấy phần trăm?",
+    "normalized_ascii": "tien ban 6/2026 so thang lien truoc thay doi may phan tram?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-06-01",
+    "time_end": "2026-06-30",
+    "entity_status": "not_found",
+    "inferred_type": "percent",
+    "gate": "G3_entity_below_0.70"
+  }
+}

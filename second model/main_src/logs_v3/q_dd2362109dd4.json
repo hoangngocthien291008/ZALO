@@ -1,0 +1,19 @@
+{
+  "id": "q_dd2362109dd4",
+  "question": "Từ khi Bạc xỉu (M) lên 35.000 đồng/ly, 14 ngày đầu bán nhiều hay ít ly hơn 14 ngày liền trước mấy % z?",
+  "answer": {
+    "id": "q_dd2362109dd4",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.001,
+  "trace": {
+    "normalized_text": "từ khi bạc xỉu (m) lên 35.000 đồng / ly, 14 ngày đầu bán nhiều hay ít ly hơn 14 ngày liền trước mấy% vậy?",
+    "normalized_ascii": "tu khi bac xiu (m) len 35.000 dong / ly, 14 ngay dau ban nhieu hay it ly hon 14 ngay lien truoc may% vay?",
+    "time_rule": "none",
+    "time_start": "2026-08-21",
+    "time_end": "2026-08-21",
+    "entity_status": "exact",
+    "inferred_type": "percent",
+    "gate": "G2_missing_time"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "q_d5157cc4acfe",
+  "question": "Tháng 10/25 nhóm mắt mũi họng thu được bnhiu tiền?",
+  "answer": {
+    "id": "q_d5157cc4acfe",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0005,
+  "trace": {
+    "normalized_text": "tháng 10/25 nhóm mắt mũi họng thu được bao nhiêu tiền?",
+    "normalized_ascii": "thang 10/25 nhom mat mui hong thu duoc bao nhieu tien?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-10-01",
+    "time_end": "2025-10-31",
+    "entity_status": "exact",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

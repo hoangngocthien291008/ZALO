@@ -1,0 +1,19 @@
+{
+  "id": "q_ed4d0362d039",
+  "question": "Mặt hàng có doanh thu cao nhất của nhóm sơn trong tháng 11/2025 là mặt hàng nào?",
+  "answer": {
+    "id": "q_ed4d0362d039",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0,
+  "trace": {
+    "normalized_text": "mặt hàng có doanh thu cao nhất của nhóm sơn trong tháng 11/2025 là mặt hàng nào?",
+    "normalized_ascii": "mat hang co doanh thu cao nhat cua nhom son trong thang 11/2025 la mat hang nao?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-11-01",
+    "time_end": "2025-11-30",
+    "entity_status": "not_needed",
+    "inferred_type": "string",
+    "gate": "G4_safe_abstain"
+  }
+}

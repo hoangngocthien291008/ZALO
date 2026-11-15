@@ -1,0 +1,21 @@
+{
+  "id": "q_cb0b3be99b62",
+  "question": "Doanh thu tháng 7/2026 so với tháng 7 năm rồi tăng hay giảm mấy %?",
+  "answer": {
+    "id": "q_cb0b3be99b62",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0157,
+  "trace": {
+    "normalized_text": "doanh thu tháng 7/2026 so với tháng 7 năm rồi tăng hay giảm mấy%?",
+    "normalized_ascii": "doanh thu thang 7/2026 so voi thang 7 nam roi tang hay giam may%?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-07-01",
+    "time_end": "2026-07-31",
+    "entity_status": "not_needed",
+    "inferred_type": "percent",
+    "fastpath_code": "r_curr = revenue(T['start'], T['end'], T['shift'])\nr_prev = revenue(T['cmp_start'], T['cmp_end'], T['shift'])\nfinal_result = growth(r_curr, r_prev) if (r_prev > 0 and r_curr > 0) else None",
+    "fastpath_ok": true,
+    "gate": "G4_safe_abstain"
+  }
+}

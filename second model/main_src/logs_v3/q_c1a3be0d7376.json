@@ -1,0 +1,19 @@
+{
+  "id": "q_c1a3be0d7376",
+  "question": "Cuoi ngay 01/06/2025 tiem co may mat hang het hang?",
+  "answer": {
+    "id": "q_c1a3be0d7376",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0013,
+  "trace": {
+    "normalized_text": "cuối ngày 01/06/2025 tiem co may mặt hàng het hang?",
+    "normalized_ascii": "cuoi ngay 01/06/2025 tiem co may mat hang het hang?",
+    "time_rule": "R4_snapshot",
+    "time_start": null,
+    "time_end": "2025-06-01",
+    "entity_status": "not_found",
+    "inferred_type": "number",
+    "gate": "G3_entity_below_0.70"
+  }
+}

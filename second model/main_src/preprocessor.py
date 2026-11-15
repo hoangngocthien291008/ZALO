@@ -96,6 +96,15 @@ class Preprocessor:
         "tuaanf": "tuần",
         "nafm": "năm",
         "nawm": "năm",
+        "trog": "trong",
+        "nhut": "nhất",
+        "nhứt": "nhất",
+        "nhieudon": "nhiều đơn",
+        "nhiềuđơn": "nhiều đơn",
+        "luot": "lượt",
+        "lựơt": "lượt",
+        "tieng": "tiền",
+        "tiềng": "tiền",
     }
 
     # Danh sách các từ tiếng Anh / tên thương hiệu có hình thức giống Telex phải được bảo vệ
@@ -298,6 +307,19 @@ class Preprocessor:
         "vs": "so với",
         "zậy": "vậy",
         "zay": "vậy",
+        "dza": "vậy",
+        "dzạ": "vậy",
+        "rua": "vậy",
+        "rứa": "vậy",
+        "cko": "cho",
+        "kua": "của",
+        "wan": "quán",
+        "wán": "quán",
+        "man": "làm",
+        "mần": "làm",
+        "hsd": "hạn sử dụng",
+        "goi": "rồi",
+        "gồi": "rồi",
     }
 
     def __init__(
@@ -352,12 +374,12 @@ class Preprocessor:
             (r"\b(bữa qua|bua qua|hom qua)\b", "hôm qua"),
             (r"\b(bao nhiu|bao nhieu)\b", "bao nhiêu"),
             (r"\b(d thu)\b", "doanh thu"),
-            (r"\b(tháng nay|thang nay)\b", "tháng này"),
+            (r"\b(tháng nay|thang nay|th nay|th này)\b", "tháng này"),
             (r"\b(tuần nay|tuan nay)\b", "tuần này"),
             (r"\b(tuần trước|tuan truoc)\b", "tuần trước"),
             (r"\b(tuần rồi|tuan roi)\b", "tuần rồi"),
-            (r"\b(tháng trước|thang truoc)\b", "tháng trước"),
-            (r"\b(tháng rồi|thang roi)\b", "tháng rồi"),
+            (r"\b(tháng trước|thang truoc|th truoc|th trước|th trc)\b", "tháng trước"),
+            (r"\b(tháng rồi|thang roi|th roi|th rồi)\b", "tháng rồi"),
             (r"\b(năm ngoái|nam ngoai)\b", "năm ngoái"),
             (r"\b(năm trước|nam truoc)\b", "năm trước"),
             (r"\b(năm nay|nam nay)\b", "năm nay"),
@@ -403,6 +425,16 @@ class Preprocessor:
             (r"\b(lai gop)\b", "lãi gộp"),
             (r"\b(lai rong)\b", "lãi ròng"),
             (r"\b(gia von)\b", "giá vốn"),
+            (r"\b(xi ô đi|xi o di)\b", "cod"),
+            (r"\b(huê hồng|hue hong|hoa hong)\b", "hoa hồng"),
+            (r"\b(hàng mô|hang mo)\b", "hàng nào"),
+            (r"\b(sản phẩm mô|san pham mo|sp mô|sp mo)\b", "sản phẩm nào"),
+            (r"\b(món mô|mon mo)\b", "món nào"),
+            (r"\b(thợ mô|tho mo)\b", "thợ nào"),
+            (r"\b(dòng xe mô|dong xe mo)\b", "dòng xe nào"),
+            (r"\b(khách mô|khach mo)\b", "khách nào"),
+            (r"\b(tháng mô|thang mo)\b", "tháng nào"),
+            (r"\b(ngày mô|ngay mo)\b", "ngày nào"),
         ]
 
         for pat, repl in multi_word_rules:
@@ -452,7 +484,7 @@ class Preprocessor:
 
             if tok == "th" and i + 1 < n_toks and (
                 re.match(r"^\d+$", raw_tokens[i + 1])
-                or raw_tokens[i + 1] in ("trước", "này", "rồi", "sau")
+                or raw_tokens[i + 1] in ("trước", "truoc", "trc", "này", "nay", "rồi", "roi", "sau")
             ):
                 fixes.append((tok, "tháng"))
                 out_tokens.append("tháng")

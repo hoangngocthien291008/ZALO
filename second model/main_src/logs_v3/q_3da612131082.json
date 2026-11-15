@@ -1,0 +1,19 @@
+{
+  "id": "q_3da612131082",
+  "question": "Th2/2026 thợ mô hoa hồng cao nhất?",
+  "answer": {
+    "id": "q_3da612131082",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0068,
+  "trace": {
+    "normalized_text": "tháng 2/2026 thợ nào hoa hồng cao nhất?",
+    "normalized_ascii": "thang 2/2026 tho nao hoa hong cao nhat?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-02-01",
+    "time_end": "2026-02-28",
+    "entity_status": "not_needed",
+    "inferred_type": "string",
+    "gate": "G4_safe_abstain"
+  }
+}

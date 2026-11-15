@@ -1,0 +1,19 @@
+{
+  "id": "q_ec61b4f5b9ab",
+  "question": "tuần trước số đơn ca chiều cao hay thấp hơn ca sáng bao nhiêu phần trăm?",
+  "answer": {
+    "id": "q_ec61b4f5b9ab",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0046,
+  "trace": {
+    "normalized_text": "tuần trước số đơn ca chiều cao hay thấp hơn ca sáng bao nhiêu phần trăm?",
+    "normalized_ascii": "tuan truoc so don ca chieu cao hay thap hon ca sang bao nhieu phan tram?",
+    "time_rule": "R10_last_week",
+    "time_start": "2025-05-05",
+    "time_end": "2025-05-11",
+    "entity_status": "not_found",
+    "inferred_type": "percent",
+    "gate": "G3_entity_below_0.70"
+  }
+}

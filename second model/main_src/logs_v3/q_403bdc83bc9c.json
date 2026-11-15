@@ -1,0 +1,21 @@
+{
+  "id": "q_403bdc83bc9c",
+  "question": "Top 5 khách hàng có công nợ lớn nhất đến hết ngày 12/05/2026 và số nợ của từng người?",
+  "answer": {
+    "id": "q_403bdc83bc9c",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0633,
+  "trace": {
+    "normalized_text": "top 5 khách hàng có công nợ lớn nhất đến hết ngày 12/05/2026 và số nợ của từng người?",
+    "normalized_ascii": "top 5 khach hang co cong no lon nhat den het ngay 12/05/2026 va so no cua tung nguoi?",
+    "time_rule": "R4_snapshot",
+    "time_start": null,
+    "time_end": "2026-05-12",
+    "entity_status": "not_needed",
+    "inferred_type": "table",
+    "fastpath_code": "odf = V.get('orders')\nif odf is None or odf.empty:\n    final_result = None\nelse:\n    sub = odf[(odf['status_norm'] != 'huy') & (~odf['payment_method'].str.lower().str.contains('cod|sàn|shopee|lazada|tiki|tiktok', na=False))]\n    sub = sub[(sub['date'] <= as_of_date) & (sub['debt'] > 0) & (~sub['cust_name'].str.lower().str.contains('khách lẻ|khach le|^$', na=False))]\n    grp = sub.groupby(['cust_id', 'cust_name'], as_index=False)['debt'].sum().sort_values(by=['debt', 'cust_id'], ascending=[False, True], kind='mergesort').head(5)\n    rows = [[r['cust_name'], money(r['debt'])] for _, r in grp.iterrows()]\n    final_result = {'columns': ['khach_hang', 'so_tien_no'], 'rows': rows} if rows else None",
+    "fastpath_ok": true,
+    "gate": "G4_safe_abstain"
+  }
+}

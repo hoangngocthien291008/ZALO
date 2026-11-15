@@ -1,0 +1,19 @@
+{
+  "id": "q_d790faf2293a",
+  "question": "Tu dau nam den hom nay bna duoc bnhiu tien roi?",
+  "answer": {
+    "id": "q_d790faf2293a",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.001,
+  "trace": {
+    "normalized_text": "từ đầu nam den hôm nay bna duoc bao nhiêu tien roi?",
+    "normalized_ascii": "tu dau nam den hom nay bna duoc bao nhieu tien roi?",
+    "time_rule": "R3_ytd",
+    "time_start": "2025-01-01",
+    "time_end": "2025-08-18",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

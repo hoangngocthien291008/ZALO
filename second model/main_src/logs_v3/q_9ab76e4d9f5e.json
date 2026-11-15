@@ -1,0 +1,22 @@
+{
+  "id": "q_9ab76e4d9f5e",
+  "question": "Tuần rồi 3 khách nào mua nhiều tiền nhất vậy?",
+  "answer": {
+    "id": "q_9ab76e4d9f5e",
+    "type": "string",
+    "answer": "Lưu Bảo Long"
+  },
+  "elapsed_sec": 0.0151,
+  "trace": {
+    "normalized_text": "tuần rồi 3 khách nào mua nhiều tiền nhất vậy?",
+    "normalized_ascii": "tuan roi 3 khach nao mua nhieu tien nhat vay?",
+    "time_rule": "R10_last_week",
+    "time_start": "2025-09-15",
+    "time_end": "2025-09-21",
+    "entity_status": "not_needed",
+    "inferred_type": "string",
+    "fastpath_code": "df = revenue_lines()\ndf = df[df['cust_key'] != ''] if not df.empty else df\nfinal_result = top_k(df, value_col='amount', k=1, key_col='cust_key', name_col='cust_name')",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

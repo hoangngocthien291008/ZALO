@@ -1,0 +1,22 @@
+{
+  "id": "q_effb17cba303",
+  "question": "Dem giup minh so don T9/2025 co tien hang tu 55.000d tro len nhe",
+  "answer": {
+    "id": "q_effb17cba303",
+    "type": "number",
+    "answer": 876
+  },
+  "elapsed_sec": 0.0187,
+  "trace": {
+    "normalized_text": "dem giúp minh so don tháng 9/2025 co tien hang tu 55.000 d trở lên nhe",
+    "normalized_ascii": "dem giup minh so don thang 9/2025 co tien hang tu 55.000 d tro len nhe",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-09-01",
+    "time_end": "2025-09-30",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "df = revenue_lines()\nord_rev = df.groupby('order_id')['amount'].sum() if not df.empty else pd.Series(dtype=float)\nord_rev = ord_rev[ord_rev >= 55000.0] if 55000.0 > 0 else ord_rev\ncnt = int(len(ord_rev))\nfinal_result = cnt if cnt > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "q_f9f2c930f630",
+  "question": "7 ngày gần nhất cửa hàng bán được mấy đơn?",
+  "answer": {
+    "id": "q_f9f2c930f630",
+    "type": "number",
+    "answer": 497
+  },
+  "elapsed_sec": 0.0125,
+  "trace": {
+    "normalized_text": "7 ngày gần nhất cửa hàng bán được mấy đơn?",
+    "normalized_ascii": "7 ngay gan nhat cua hang ban duoc may don?",
+    "time_rule": "R7_n_days",
+    "time_start": "2026-03-17",
+    "time_end": "2026-03-23",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "df = revenue_lines()\nord_rev = df.groupby('order_id')['amount'].sum() if not df.empty else pd.Series(dtype=float)\nord_rev = ord_rev[ord_rev >= 0.0] if 0.0 > 0 else ord_rev\ncnt = int(len(ord_rev))\nfinal_result = cnt if cnt > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

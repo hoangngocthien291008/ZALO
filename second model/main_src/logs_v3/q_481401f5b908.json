@@ -1,0 +1,19 @@
+{
+  "id": "q_481401f5b908",
+  "question": "Tính tại ngày 08/08/2026, lô Augmentin 625mg hộp 2 vỉ x 7 viên cận date nhứt hết hạn ngày nào?",
+  "answer": {
+    "id": "q_481401f5b908",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0,
+  "trace": {
+    "normalized_text": "tính tại ngày 08/08/2026, lô augmentin 625 mg hộp 2 vỉ x 7 viên cận date nhất hết hạn ngày nào?",
+    "normalized_ascii": "tinh tai ngay 08/08/2026, lo augmentin 625 mg hop 2 vi x 7 vien can date nhat het han ngay nao?",
+    "time_rule": "R8_exact_date",
+    "time_start": "2026-08-08",
+    "time_end": "2026-08-08",
+    "entity_status": "exact",
+    "inferred_type": "date",
+    "gate": "G4_safe_abstain"
+  }
+}

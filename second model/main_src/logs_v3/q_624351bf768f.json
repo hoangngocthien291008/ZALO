@@ -1,0 +1,19 @@
+{
+  "id": "q_624351bf768f",
+  "question": "6/2025 các đơn trả bằng chuyển khoản đem về bao nhiêu doanh thu?",
+  "answer": {
+    "id": "q_624351bf768f",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0005,
+  "trace": {
+    "normalized_text": "6/2025 các đơn trả bằng chuyển khoản đem về bao nhiêu doanh thu?",
+    "normalized_ascii": "6/2025 cac don tra bang chuyen khoan dem ve bao nhieu doanh thu?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-06-01",
+    "time_end": "2025-06-30",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

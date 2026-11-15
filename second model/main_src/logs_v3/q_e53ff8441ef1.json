@@ -1,0 +1,19 @@
+{
+  "id": "q_e53ff8441ef1",
+  "question": "Tiem ban th7/2025 duoc tong cong bao nhieu tien nhi?",
+  "answer": {
+    "id": "q_e53ff8441ef1",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0025,
+  "trace": {
+    "normalized_text": "tiem ban tháng 7/2025 duoc tong cong bao nhiêu tien nhi?",
+    "normalized_ascii": "tiem ban thang 7/2025 duoc tong cong bao nhieu tien nhi?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-07-01",
+    "time_end": "2025-07-31",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

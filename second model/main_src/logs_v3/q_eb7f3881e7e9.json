@@ -1,0 +1,22 @@
+{
+  "id": "q_eb7f3881e7e9",
+  "question": "Trong tháng 6 năm 2025, tiệm bán được nhiều tiền nhất vào ngày nào?",
+  "answer": {
+    "id": "q_eb7f3881e7e9",
+    "type": "date",
+    "answer": "2025-06-28"
+  },
+  "elapsed_sec": 0.0111,
+  "trace": {
+    "normalized_text": "trong tháng 6 năm 2025, tiệm bán được nhiều tiền nhất vào ngày nào?",
+    "normalized_ascii": "trong thang 6 nam 2025, tiem ban duoc nhieu tien nhat vao ngay nao?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-06-01",
+    "time_end": "2025-06-30",
+    "entity_status": "not_needed",
+    "inferred_type": "date",
+    "fastpath_code": "df = revenue_lines()\ndaily = df[df['date'] != ''].groupby('date', as_index=False)['amount'].sum() if not df.empty else pd.DataFrame()\ndaily = daily.sort_values(by=['amount', 'date'], ascending=[False, True], kind='mergesort') if not daily.empty else daily\nfinal_result = str(daily.iloc[0]['date'])[:10] if not daily.empty else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

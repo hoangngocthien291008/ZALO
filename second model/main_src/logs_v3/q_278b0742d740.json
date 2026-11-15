@@ -1,0 +1,19 @@
+{
+  "id": "q_278b0742d740",
+  "question": "Th4/2026 có bao nhiêu mặt hàng có mặt trong từ 84 đơn khác nhau trở lên?",
+  "answer": {
+    "id": "q_278b0742d740",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.001,
+  "trace": {
+    "normalized_text": "tháng 4/2026 có bao nhiêu mặt hàng có mặt trong từ 84 đơn khác nhau trở lên?",
+    "normalized_ascii": "thang 4/2026 co bao nhieu mat hang co mat trong tu 84 don khac nhau tro len?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-04-01",
+    "time_end": "2026-04-30",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

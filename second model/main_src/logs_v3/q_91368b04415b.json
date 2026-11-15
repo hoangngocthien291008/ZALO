@@ -1,0 +1,22 @@
+{
+  "id": "q_91368b04415b",
+  "question": "cko mik bít xíu, tuan trc dthu ca chieu cao hay thap hon ca sang bnhiu %",
+  "answer": {
+    "id": "q_91368b04415b",
+    "type": "percent",
+    "answer": -1.58
+  },
+  "elapsed_sec": 0.04,
+  "trace": {
+    "normalized_text": "cho mình bít xíu, tuan trước doanh thu ca chiều cao hay thap hon ca sáng bao nhiêu%",
+    "normalized_ascii": "cho minh bit xiu, tuan truoc doanh thu ca chieu cao hay thap hon ca sang bao nhieu%",
+    "time_rule": "R10_last_week",
+    "time_start": "2026-08-17",
+    "time_end": "2026-08-23",
+    "entity_status": "not_needed",
+    "inferred_type": "percent",
+    "fastpath_code": "r_curr = revenue(T['start'], T['end'], T['shift'])\nr_prev = revenue(T['start'], T['end'], T['cmp_shift'])\nfinal_result = growth(r_curr, r_prev) if (r_prev > 0 and r_curr > 0) else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

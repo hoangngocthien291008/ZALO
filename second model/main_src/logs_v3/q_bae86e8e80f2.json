@@ -1,0 +1,19 @@
+{
+  "id": "q_bae86e8e80f2",
+  "question": "Tiền bán 06/2026, nhiêu z?",
+  "answer": {
+    "id": "q_bae86e8e80f2",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0016,
+  "trace": {
+    "normalized_text": "tiền bán 06/2026, nhiêu vậy?",
+    "normalized_ascii": "tien ban 06/2026, nhieu vay?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-06-01",
+    "time_end": "2026-06-30",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

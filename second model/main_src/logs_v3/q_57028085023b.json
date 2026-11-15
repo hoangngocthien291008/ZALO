@@ -1,0 +1,21 @@
+{
+  "id": "q_57028085023b",
+  "question": "Lợi nhuận gộp 2/2026 được bnhiu?",
+  "answer": {
+    "id": "q_57028085023b",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.002,
+  "trace": {
+    "normalized_text": "lợi nhuận gộp 2/2026 được bao nhiêu?",
+    "normalized_ascii": "loi nhuan gop 2/2026 duoc bao nhieu?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-02-01",
+    "time_end": "2026-02-28",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "final_result = gross_profit(T['start'], T['end'], T['shift'])",
+    "fastpath_ok": true,
+    "gate": "G4_safe_abstain"
+  }
+}

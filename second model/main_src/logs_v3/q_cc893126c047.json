@@ -1,0 +1,19 @@
+{
+  "id": "q_cc893126c047",
+  "question": "Tháng 11 năm 2025, nhóm chăm sóc cá nhân thì mặt hàng nào thu về nhiều tiền nhất?",
+  "answer": {
+    "id": "q_cc893126c047",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.001,
+  "trace": {
+    "normalized_text": "tháng 11 năm 2025, nhóm chăm sóc cá nhân thì mặt hàng nào thu về nhiều tiền nhất?",
+    "normalized_ascii": "thang 11 nam 2025, nhom cham soc ca nhan thi mat hang nao thu ve nhieu tien nhat?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-11-01",
+    "time_end": "2025-11-30",
+    "entity_status": "exact",
+    "inferred_type": "string",
+    "gate": "G4_safe_abstain"
+  }
+}

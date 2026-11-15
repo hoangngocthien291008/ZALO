@@ -1,0 +1,19 @@
+{
+  "id": "q_ed841139ac0a",
+  "question": "Bữa ni tiệm bán được bao nhiêu tiền rồi?",
+  "answer": {
+    "id": "q_ed841139ac0a",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0024,
+  "trace": {
+    "normalized_text": "bữa ni tiệm bán được bao nhiêu tiền rồi?",
+    "normalized_ascii": "bua ni tiem ban duoc bao nhieu tien roi?",
+    "time_rule": "none",
+    "time_start": "2026-06-18",
+    "time_end": "2026-06-18",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G2_missing_time"
+  }
+}

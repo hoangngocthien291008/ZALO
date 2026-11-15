@@ -1,0 +1,19 @@
+{
+  "id": "q_58215441e762",
+  "question": "Doanh thu thang 5/2026 dem so voi thang 5 nam ngoai thi thay doi bao nhieu phan tram?",
+  "answer": {
+    "id": "q_58215441e762",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.005,
+  "trace": {
+    "normalized_text": "doanh thu thang 5/2026 dem so voi thang 5 năm ngoái thi thay doi bao nhiêu phần trăm?",
+    "normalized_ascii": "doanh thu thang 5/2026 dem so voi thang 5 nam ngoai thi thay doi bao nhieu phan tram?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-05-01",
+    "time_end": "2026-05-31",
+    "entity_status": "not_found",
+    "inferred_type": "percent",
+    "gate": "G3_entity_below_0.70"
+  }
+}

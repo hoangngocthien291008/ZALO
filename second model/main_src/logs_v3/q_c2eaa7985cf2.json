@@ -1,0 +1,19 @@
+{
+  "id": "q_c2eaa7985cf2",
+  "question": "T5/2026 doanh thu so voi T5/2025 len hay xuong bao nhieu % z?",
+  "answer": {
+    "id": "q_c2eaa7985cf2",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0012,
+  "trace": {
+    "normalized_text": "tháng 5/2026 doanh thu so voi tháng 5/2025 len hay xuong bao nhiêu% vậy?",
+    "normalized_ascii": "thang 5/2026 doanh thu so voi thang 5/2025 len hay xuong bao nhieu% vay?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-05-01",
+    "time_end": "2026-05-31",
+    "entity_status": "not_needed",
+    "inferred_type": "percent",
+    "gate": "G4_safe_abstain"
+  }
+}

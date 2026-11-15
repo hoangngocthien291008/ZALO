@@ -1,0 +1,22 @@
+{
+  "id": "q_8fef6f1e6ff0",
+  "question": "Hôm nay bán đc mấy đơn rồi ta?",
+  "answer": {
+    "id": "q_8fef6f1e6ff0",
+    "type": "number",
+    "answer": 128
+  },
+  "elapsed_sec": 0.0223,
+  "trace": {
+    "normalized_text": "hôm nay bán được mấy đơn rồi ta?",
+    "normalized_ascii": "hom nay ban duoc may don roi ta?",
+    "time_rule": "R5_today",
+    "time_start": "2026-02-20",
+    "time_end": "2026-02-20",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "df = revenue_lines()\nord_rev = df.groupby('order_id')['amount'].sum() if not df.empty else pd.Series(dtype=float)\nord_rev = ord_rev[ord_rev >= 0.0] if 0.0 > 0 else ord_rev\ncnt = int(len(ord_rev))\nfinal_result = cnt if cnt > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

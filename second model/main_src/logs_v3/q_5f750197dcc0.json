@@ -1,0 +1,19 @@
+{
+  "id": "q_5f750197dcc0",
+  "question": "Cho mình hỏi tháng này khách nhóm thân thiết đóng góp bao nhiêu phần trăm trên tổng doanh thu của quán?",
+  "answer": {
+    "id": "q_5f750197dcc0",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0041,
+  "trace": {
+    "normalized_text": "cho mình hỏi tháng này khách nhóm thân thiết đóng góp bao nhiêu phần trăm trên tổng doanh thu của quán?",
+    "normalized_ascii": "cho minh hoi thang nay khach nhom than thiet dong gop bao nhieu phan tram tren tong doanh thu cua quan?",
+    "time_rule": "R12_this_month",
+    "time_start": "2026-07-01",
+    "time_end": "2026-07-22",
+    "entity_status": "not_found",
+    "inferred_type": "percent",
+    "gate": "G3_entity_below_0.70"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "q_f1c0ff1d2330",
+  "question": "Hết ngày 08/08/2026, hàng tồn trong kho tính giá vốn là bao nhiêu tiền?",
+  "answer": {
+    "id": "q_f1c0ff1d2330",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.001,
+  "trace": {
+    "normalized_text": "hết ngày 08/08/2026, hàng tồn trong kho tính giá vốn là bao nhiêu tiền?",
+    "normalized_ascii": "het ngay 08/08/2026, hang ton trong kho tinh gia von la bao nhieu tien?",
+    "time_rule": "R8_exact_date",
+    "time_start": "2026-08-08",
+    "time_end": "2026-08-08",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

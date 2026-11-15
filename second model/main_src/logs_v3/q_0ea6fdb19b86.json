@@ -1,0 +1,22 @@
+{
+  "id": "q_0ea6fdb19b86",
+  "question": "So số lọ Efticol 0,9% lốc 10 lọ x 10ml bán ra trong 30 ngày kể từ ngày 26/01/2026, ngày tăng giá lên 2.800đ, với 30 ngày ngay trước ngày đó: tăng hay giảm bao nhiêu %?",
+  "answer": {
+    "id": "q_0ea6fdb19b86",
+    "type": "percent",
+    "answer": -27.94
+  },
+  "elapsed_sec": 0.1098,
+  "trace": {
+    "normalized_text": "so số lọ efticol 0,9% lốc 10 lọ x 10 ml bán ra trong 30 ngày kể từ ngày 26/01/2026, ngày tăng giá lên 2.800 đ, với 30 ngày ngay trước ngày đó: tăng hay giảm bao nhiêu%?",
+    "normalized_ascii": "so so lo efticol 0,9% loc 10 lo x 10 ml ban ra trong 30 ngay ke tu ngay 26/01/2026, ngay tang gia len 2.800 d, voi 30 ngay ngay truoc ngay do: tang hay giam bao nhieu%?",
+    "time_rule": "R2_price_effect",
+    "time_start": "2026-01-26",
+    "time_end": "2026-02-24",
+    "entity_status": "exact",
+    "inferred_type": "percent",
+    "fastpath_code": "df_after = match_item(item_lines(T['start'], T['end']), 'Efticol 0,9% lốc 10 lọ x 10ml')\ndf_before = match_item(item_lines(T['cmp_start'], T['cmp_end']), 'Efticol 0,9% lốc 10 lọ x 10ml')\nq_after = float(df_after['qty_base'].sum()) if not df_after.empty else 0.0\nq_before = float(df_before['qty_base'].sum()) if not df_before.empty else 0.0\nfinal_result = growth(q_after, q_before) if (q_before > 0 and q_after > 0) else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "q_935d887c9cd9",
+  "question": "Tính đến hết ngày 16/07/2025, có bao nhiêu khách còn nợ cửa hàng?",
+  "answer": {
+    "id": "q_935d887c9cd9",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0006,
+  "trace": {
+    "normalized_text": "tính đến hết ngày 16/07/2025, có bao nhiêu khách còn nợ cửa hàng?",
+    "normalized_ascii": "tinh den het ngay 16/07/2025, co bao nhieu khach con no cua hang?",
+    "time_rule": "R4_snapshot",
+    "time_start": null,
+    "time_end": "2025-07-16",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

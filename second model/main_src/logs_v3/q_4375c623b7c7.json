@@ -1,0 +1,22 @@
+{
+  "id": "q_4375c623b7c7",
+  "question": "Trong tháng 1, ngày mà tiệm bán ra nhiều tiền nhất là ngày nào nhỉ?",
+  "answer": {
+    "id": "q_4375c623b7c7",
+    "type": "date",
+    "answer": "2026-01-31"
+  },
+  "elapsed_sec": 0.0095,
+  "trace": {
+    "normalized_text": "trong tháng 1, ngày mà tiệm bán ra nhiều tiền nhất là ngày nào nhỉ?",
+    "normalized_ascii": "trong thang 1, ngay ma tiem ban ra nhieu tien nhat la ngay nao nhi?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-01-01",
+    "time_end": "2026-01-31",
+    "entity_status": "not_needed",
+    "inferred_type": "date",
+    "fastpath_code": "df = revenue_lines()\ndaily = df[df['date'] != ''].groupby('date', as_index=False)['amount'].sum() if not df.empty else pd.DataFrame()\ndaily = daily.sort_values(by=['amount', 'date'], ascending=[False, True], kind='mergesort') if not daily.empty else daily\nfinal_result = str(daily.iloc[0]['date'])[:10] if not daily.empty else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

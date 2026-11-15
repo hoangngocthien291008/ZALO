@@ -1,0 +1,22 @@
+{
+  "id": "q_4fe561cc6493",
+  "question": "07/2025 tỉ lệ đơn huỷ bnhiu %?",
+  "answer": {
+    "id": "q_4fe561cc6493",
+    "type": "percent",
+    "answer": 1.91
+  },
+  "elapsed_sec": 0.0161,
+  "trace": {
+    "normalized_text": "07/2025 tỉ lệ đơn huỷ bao nhiêu%?",
+    "normalized_ascii": "07/2025 ti le don huy bao nhieu%?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-07-01",
+    "time_end": "2025-07-31",
+    "entity_status": "exact",
+    "inferred_type": "percent",
+    "fastpath_code": "sub = all_orders()\ntot = len(sub['order_id'].unique()) if not sub.empty else 0\ncanc = len(sub[sub['status_norm'] == 'huy']['order_id'].unique()) if not sub.empty else 0\nfinal_result = pct(canc, tot) if tot > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

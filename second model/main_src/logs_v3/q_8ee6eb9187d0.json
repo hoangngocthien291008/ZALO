@@ -1,0 +1,22 @@
+{
+  "id": "q_8ee6eb9187d0",
+  "question": "Trong th8/2025, đơn có doanh thu từ 52.000đ trở lên đếm được mấy đơn vậy?",
+  "answer": {
+    "id": "q_8ee6eb9187d0",
+    "type": "number",
+    "answer": 837
+  },
+  "elapsed_sec": 0.0282,
+  "trace": {
+    "normalized_text": "trong tháng 8/2025, đơn có doanh thu từ 52.000 đ trở lên đếm được mấy đơn vậy?",
+    "normalized_ascii": "trong thang 8/2025, don co doanh thu tu 52.000 d tro len dem duoc may don vay?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-08-01",
+    "time_end": "2025-08-31",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "df = revenue_lines()\nord_rev = df.groupby('order_id')['amount'].sum() if not df.empty else pd.Series(dtype=float)\nord_rev = ord_rev[ord_rev >= 52000.0] if 52000.0 > 0 else ord_rev\ncnt = int(len(ord_rev))\nfinal_result = cnt if cnt > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "q_8cb214a6bdcd",
+  "question": "Tháng 5/2026 báng đượt mấy máy, không kể phụ kiện nha?",
+  "answer": {
+    "id": "q_8cb214a6bdcd",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0012,
+  "trace": {
+    "normalized_text": "tháng 5/2026 báng đượt mấy máy, không kể phụ kiện nha?",
+    "normalized_ascii": "thang 5/2026 bang duot may may, khong ke phu kien nha?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-05-01",
+    "time_end": "2026-05-31",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

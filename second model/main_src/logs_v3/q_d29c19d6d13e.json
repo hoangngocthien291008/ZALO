@@ -1,0 +1,19 @@
+{
+  "id": "q_d29c19d6d13e",
+  "question": "Tiền bán hàng của cửa hàng trong quý 1 năm 2025 là bao nhiêu?",
+  "answer": {
+    "id": "q_d29c19d6d13e",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.001,
+  "trace": {
+    "normalized_text": "tiền bán hàng của cửa hàng trong quý 1 năm 2025 là bao nhiêu?",
+    "normalized_ascii": "tien ban hang cua cua hang trong quy 1 nam 2025 la bao nhieu?",
+    "time_rule": "R11_quarter",
+    "time_start": "2025-01-01",
+    "time_end": "2025-03-31",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

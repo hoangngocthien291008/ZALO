@@ -1,0 +1,28 @@
+{
+  "id": "q_81ad9f46a16d",
+  "question": "Top 5 khách hàng mua nhiều tiền nhất tuần rồi là ai?",
+  "answer": {
+    "id": "q_81ad9f46a16d",
+    "type": "list",
+    "answer": [
+      "Kiều Hà Minh",
+      "Quách Hồng Thanh",
+      "Đặng Hoa Trang",
+      "Diệp Đức Lan",
+      "Đoàn Quang Dương"
+    ]
+  },
+  "elapsed_sec": 0.0135,
+  "trace": {
+    "normalized_text": "top 5 khách hàng mua nhiều tiền nhất tuần rồi là ai?",
+    "normalized_ascii": "top 5 khach hang mua nhieu tien nhat tuan roi la ai?",
+    "time_rule": "R10_last_week",
+    "time_start": "2025-12-22",
+    "time_end": "2025-12-28",
+    "entity_status": "not_needed",
+    "inferred_type": "list",
+    "fastpath_code": "df = revenue_lines()\ndf = df[df['cust_key'] != ''] if not df.empty else df\nfinal_result = top_k(df, value_col='amount', k=5, key_col='cust_key', name_col='cust_name')",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

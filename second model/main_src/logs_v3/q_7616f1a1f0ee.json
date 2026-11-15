@@ -1,0 +1,22 @@
+{
+  "id": "q_7616f1a1f0ee",
+  "question": "Doanh thu T1/2026 quán được bao nhiêu hỉ?",
+  "answer": {
+    "id": "q_7616f1a1f0ee",
+    "type": "number",
+    "answer": 222284500
+  },
+  "elapsed_sec": 0.0131,
+  "trace": {
+    "normalized_text": "doanh thu tháng 1/2026 quán được bao nhiêu hỉ?",
+    "normalized_ascii": "doanh thu thang 1/2026 quan duoc bao nhieu hi?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-01-01",
+    "time_end": "2026-01-31",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "rev = revenue()\nfinal_result = rev if rev > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

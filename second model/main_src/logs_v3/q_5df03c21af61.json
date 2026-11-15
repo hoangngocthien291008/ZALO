@@ -1,0 +1,21 @@
+{
+  "id": "q_5df03c21af61",
+  "question": "Số đh ca chiều th4/2025 nhiều hay ít hơn ca sáng mấy %?",
+  "answer": {
+    "id": "q_5df03c21af61",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.034,
+  "trace": {
+    "normalized_text": "số đơn hàng ca chiều tháng 4/2025 nhiều hay ít hơn ca sáng mấy%?",
+    "normalized_ascii": "so don hang ca chieu thang 4/2025 nhieu hay it hon ca sang may%?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-04-01",
+    "time_end": "2025-04-30",
+    "entity_status": "not_needed",
+    "inferred_type": "percent",
+    "fastpath_code": "df = revenue_lines()\nord_rev = df.groupby('order_id')['amount'].sum() if not df.empty else pd.Series(dtype=float)\nord_rev = ord_rev[ord_rev >= 0.0] if 0.0 > 0 else ord_rev\ncnt = int(len(ord_rev))\nfinal_result = cnt if cnt > 0 else None",
+    "fastpath_ok": true,
+    "gate": "G4_safe_abstain"
+  }
+}

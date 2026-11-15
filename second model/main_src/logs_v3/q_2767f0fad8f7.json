@@ -1,0 +1,22 @@
+{
+  "id": "q_2767f0fad8f7",
+  "question": "Tháng 6/2026 cửa hàng bán được tổng cộng bao nhiêu tiền?",
+  "answer": {
+    "id": "q_2767f0fad8f7",
+    "type": "number",
+    "answer": 432382000
+  },
+  "elapsed_sec": 0.0107,
+  "trace": {
+    "normalized_text": "tháng 6/2026 cửa hàng bán được tổng cộng bao nhiêu tiền?",
+    "normalized_ascii": "thang 6/2026 cua hang ban duoc tong cong bao nhieu tien?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-06-01",
+    "time_end": "2026-06-30",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "rev = revenue()\nfinal_result = rev if rev > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "q_9f2824253517",
+  "question": "xem júp mik nha, tháng này thợ Đàm Lan An làm đc mí phiếu sửa xe hen",
+  "answer": {
+    "id": "q_9f2824253517",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0069,
+  "trace": {
+    "normalized_text": "xem júp mình nha, tháng này thợ đàm lan an làm được mí phiếu sửa xe hen",
+    "normalized_ascii": "xem jup minh nha, thang nay tho dam lan an lam duoc mi phieu sua xe hen",
+    "time_rule": "R12_this_month",
+    "time_start": "2026-08-01",
+    "time_end": "2026-08-31",
+    "entity_status": "exact",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

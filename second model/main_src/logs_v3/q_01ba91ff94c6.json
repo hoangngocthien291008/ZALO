@@ -1,0 +1,28 @@
+{
+  "id": "q_01ba91ff94c6",
+  "question": "Tuần rồi 5 món bán chạy nhất là những món nàoo?",
+  "answer": {
+    "id": "q_01ba91ff94c6",
+    "type": "list",
+    "answer": [
+      "Lẩu Thái tôm cá (nhỏ)",
+      "Canh chua cá lóc",
+      "Bia Tiger Bạc lon",
+      "Bia Sài Gòn Special lon",
+      "Cánh gà chiên nước mắm"
+    ]
+  },
+  "elapsed_sec": 86.1732,
+  "trace": {
+    "normalized_text": "tuần rồi 5 món bán chạy nhất là những món nàoo?",
+    "normalized_ascii": "tuan roi 5 mon ban chay nhat la nhung mon naoo?",
+    "time_rule": "R10_last_week",
+    "time_start": "2025-11-03",
+    "time_end": "2025-11-09",
+    "entity_status": "not_needed",
+    "inferred_type": "list",
+    "fastpath_code": "df = item_lines()\nfinal_result = top_k(df, value_col='qty_base', k=5, key_col='item_code', name_col='item_name')",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

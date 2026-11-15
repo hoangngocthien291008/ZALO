@@ -1,0 +1,19 @@
+{
+  "id": "q_06de4545fe25",
+  "question": "T1/2026 có bao nhiêu mặt hàng có mặt trong ít nhất 187 đơn vậy?",
+  "answer": {
+    "id": "q_06de4545fe25",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0013,
+  "trace": {
+    "normalized_text": "tháng 1/2026 có bao nhiêu mặt hàng có mặt trong ít nhất 187 đơn vậy?",
+    "normalized_ascii": "thang 1/2026 co bao nhieu mat hang co mat trong it nhat 187 don vay?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-01-01",
+    "time_end": "2026-01-31",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

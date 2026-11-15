@@ -2,7 +2,7 @@ import argparse
 import json
 import os
 import time
-from typing import Any, Dict, List, Optional
+from typing import Any, Dict, List, Optional, Tuple
 
 from .agent import DataMateAgent, LLMConfig
 from .entity_matcher import EntityMatcher
@@ -34,6 +34,9 @@ class DataMatePipeline:
         load_in_4bit: bool = True,
         lora_adapter_path: Optional[str] = None,
         sandbox_timeout_s: float = 10.0,
+        require_dual_execution_agreement: bool = True,
+        enable_p_true_gate: bool = True,
+        p_true_threshold: float = 0.65,
     ) -> None:
         self.data_root = data_root_dir
         self.log_dir = log_dir
@@ -54,6 +57,7 @@ class DataMatePipeline:
         self.sandbox = Sandbox(timeout_s=sandbox_timeout_s)
         self._shop_vocab_cache: Dict[str, Any] = {}
 
+        rulebook_file = os.path.join(data_root_dir, "rulebook.md")
         eff_provider = llm_provider if use_llm else "heuristic_only"
         llm_cfg = LLMConfig(
             provider=eff_provider,
@@ -61,6 +65,10 @@ class DataMatePipeline:
             api_base=llm_api_base,
             load_in_4bit=load_in_4bit,
             lora_adapter_path=lora_adapter_path,
+            require_dual_execution_agreement=require_dual_execution_agreement,
+            enable_p_true_gate=enable_p_true_gate,
+            p_true_threshold=p_true_threshold,
+            rulebook_path=rulebook_file if os.path.exists(rulebook_file) else None,
         )
         self.agent = DataMateAgent(
             llm_config=llm_cfg,
@@ -153,30 +161,160 @@ class DataMatePipeline:
         extra: Optional[Dict[str, Any]] = None,
     ) -> None:
         """
-        Ghi log chi tiết từng câu hỏi vào /result/logs/<id>.json phục vụ khâu phúc khảo
-        và đối soát tính tái lập của Ban Tổ Chức (Rule 8).
+        Ghi log chi tiết từng câu hỏi vào /result/logs/ theo đúng quy định ZAC 2026 Guideline Section 3.3.
+        Các trường bắt buộc:
+        - id: question ID
+        - answer: final answer (e.g. {"type": "number", "answer": ...})
+        - elapsed_ms: non-negative integer wall-clock milliseconds
+        - thinking: reasoning string hoặc null
+        - code: mã code đã thực thi hoặc null
+        - output: kết quả tính toán hoặc null
         """
         if not self.log_dir or not qid:
             return
-        log_file = os.path.join(self.log_dir, f"{qid}.json")
+        os.makedirs(self.log_dir, exist_ok=True)
+        extra = extra or {}
+
+        # 1. Trích xuất thinking
+        thinking = extra.get("thinking")
+        if not thinking and "trace" in extra:
+            thinking = extra["trace"].get("thinking")
+
+        # 2. Trích xuất code
+        code = (
+            extra.get("code")
+            or extra.get("fastpath_code")
+            or (extra.get("round1", {}).get("code") if isinstance(extra.get("round1"), dict) else None)
+        )
+
+        # 3. Trích xuất output
+        output = extra.get("output", answer_obj.get("answer"))
+
+        # 4. Tính toán elapsed_ms (non-negative integer wall-clock milliseconds)
+        elapsed_ms = int(max(1, round(elapsed * 1000)))
+
         data = {
             "id": qid,
-            "question": question,
             "answer": answer_obj,
-            "elapsed_sec": round(elapsed, 4),
-            "trace": extra or {},
+            "elapsed_ms": elapsed_ms,
+            "thinking": thinking,
+            "code": code,
+            "output": output,
+            "question": question,
+            "trace": extra,
         }
+
+        # Ghi file riêng theo từng câu hỏi: /result/logs/<qid>.json
+        log_file = os.path.join(self.log_dir, f"{qid}.json")
         try:
             with open(log_file, "w", encoding="utf-8") as f:
                 json.dump(data, f, ensure_ascii=False, indent=2)
         except Exception:
             pass
 
+    def run_batch_inference(
+        self,
+        questions_path: str,
+        output_submission_path: str,
+        batch_size: int = 8,
+    ) -> Tuple[List[Dict[str, Any]], Dict[str, int]]:
+        """
+        Chạy toàn bộ tập câu hỏi theo Batch 4 giai đoạn (Fast-Path -> SLM Round 1 -> SLM Round 2
+        -> Dual-Perspective Execution Verification + Kadavath P(True) Gate) và trả về thống kê chi tiết.
+        """
+        with open(questions_path, "r", encoding="utf-8") as f:
+            questions = [json.loads(line) for line in f if line.strip()]
+
+        total = len(questions)
+        print(
+            f"[DataMatePipeline v2] Loaded {total} questions from {questions_path}. Preparing contexts...",
+            flush=True,
+        )
+
+        prepared_items = []
+        missing_bundle_qids = set()
+        q_map: Dict[str, Dict[str, Any]] = {}
+        for q in questions:
+            qid = str(q.get("id", ""))
+            biz_id = str(q.get("business_id", ""))
+            question = str(q.get("question", ""))
+            as_of_date = str(q.get("as_of_date", ""))
+            q_map[qid] = q
+
+            bundle = self.get_shop_bundle(biz_id)
+            if bundle is None:
+                missing_bundle_qids.add(qid)
+                continue
+
+            shop_vocab = self._shop_vocab_cache.get(biz_id)
+            if shop_vocab is None:
+                shop_vocab = self.entity_matcher.extract_shop_vocab(bundle.entity_index)
+                self._shop_vocab_cache[biz_id] = shop_vocab
+            self.preprocessor.set_shop_vocab(shop_vocab)
+
+            nq = self.preprocessor.normalize(question)
+            tctx = self.time_resolver.resolve(nq, as_of_date)
+            ents = self.entity_matcher.match(nq, bundle.entity_index)
+            prepared_items.append((qid, nq, bundle, tctx, ents, as_of_date))
+
+        def _prog(stage: str, done: int, tot: int) -> None:
+            print(f"  -> [{stage.upper()}] {done}/{tot} processed...", flush=True)
+
+        t_batch_start = time.time()
+        outcomes = self.agent.solve_batch(
+            prepared_items, batch_size=batch_size, progress_callback=_prog
+        )
+        t_batch_elapsed = time.time() - t_batch_start
+        avg_elapsed = t_batch_elapsed / max(1, len(questions))
+
+        out_dir = os.path.dirname(output_submission_path)
+        if out_dir and not os.path.exists(out_dir):
+            os.makedirs(out_dir, exist_ok=True)
+
+        results: List[Dict[str, Any]] = []
+        gate_stats: Dict[str, int] = {}
+        with open(output_submission_path, "w", encoding="utf-8") as out_f:
+            for q in questions:
+                qid = str(q.get("id", ""))
+                question = str(q.get("question", ""))
+                if qid in missing_bundle_qids or qid not in outcomes:
+                    ans = make_submission_record(qid, "abstain", None)
+                    gate = "G0_missing_shop_bundle"
+                    trace = {"gate": gate}
+                else:
+                    oc = outcomes[qid]
+                    ans = make_submission_record(
+                        qid=qid,
+                        ans_type=oc.get("ans_type", "abstain"),
+                        answer=oc.get("answer"),
+                        reason=oc.get("reason", ""),
+                        is_currency=oc.get("is_currency", True),
+                        month_only=oc.get("month_only", False),
+                    )
+                    trace = oc.get("trace", {})
+                    gate = str(trace.get("gate", "unknown"))
+
+                gate_stats[gate] = gate_stats.get(gate, 0) + 1
+                results.append(ans)
+                out_f.write(dumps_submission_record(ans) + "\n")
+                self.write_log(qid, question, ans, avg_elapsed, extra=trace)
+            out_f.flush()
+
+        print(
+            f"[DataMatePipeline v2] Successfully generated {len(results)} records to {output_submission_path}!",
+            flush=True,
+        )
+        return results, gate_stats
+
     def run_all(self, questions_path: str, output_submission_path: str) -> List[Dict[str, Any]]:
         """
         Chạy toàn bộ tập câu hỏi questions.jsonl và ghi tăng dần (incremental flush)
         ra file submission.jsonl.
         """
+        if self.agent.cfg.provider.lower() != "heuristic_only":
+            res, _ = self.run_batch_inference(questions_path, output_submission_path, batch_size=8)
+            return res
+
         with open(questions_path, "r", encoding="utf-8") as f:
             questions = [json.loads(line) for line in f if line.strip()]
 

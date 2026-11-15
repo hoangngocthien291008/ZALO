@@ -1,0 +1,19 @@
+{
+  "id": "q_7470c487f115",
+  "question": "Khách Lưu Sơn Hằng tháng 10 năm 2025 nợ thêm bnhiu, trả đc bnhiu? Cho số nợ thêm trước rồi số trả được.",
+  "answer": {
+    "id": "q_7470c487f115",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.001,
+  "trace": {
+    "normalized_text": "khách lưu sơn hằng tháng 10 năm 2025 nợ thêm bao nhiêu, trả được bao nhiêu? cho số nợ thêm trước rồi số trả được.",
+    "normalized_ascii": "khach luu son hang thang 10 nam 2025 no them bao nhieu, tra duoc bao nhieu? cho so no them truoc roi so tra duoc.",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-10-01",
+    "time_end": "2025-10-31",
+    "entity_status": "exact",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

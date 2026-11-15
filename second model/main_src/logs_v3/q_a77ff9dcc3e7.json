@@ -1,0 +1,26 @@
+{
+  "id": "q_a77ff9dcc3e7",
+  "question": "be oi th10/2025 top 3 mon ban nhiu nhut la j z ha",
+  "answer": {
+    "id": "q_a77ff9dcc3e7",
+    "type": "list",
+    "answer": [
+      "Cà phê sữa (M)",
+      "Cà phê đen (M)",
+      "Bạc Xỉu (m)"
+    ]
+  },
+  "elapsed_sec": 0.0188,
+  "trace": {
+    "normalized_text": "be oi tháng 10/2025 top 3 món ban nhiều nhất la j vậy ha",
+    "normalized_ascii": "be oi thang 10/2025 top 3 mon ban nhieu nhat la j vay ha",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-10-01",
+    "time_end": "2025-10-31",
+    "entity_status": "not_needed",
+    "inferred_type": "list",
+    "fastpath_code": "df = item_lines()\nfinal_result = top_k(df, value_col='qty_base', k=3, key_col='item_code', name_col='item_name')",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

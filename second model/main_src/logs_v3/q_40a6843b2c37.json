@@ -1,0 +1,22 @@
+{
+  "id": "q_40a6843b2c37",
+  "question": "Tong tien ban hang hom qua?",
+  "answer": {
+    "id": "q_40a6843b2c37",
+    "type": "number",
+    "answer": 4038000
+  },
+  "elapsed_sec": 0.0092,
+  "trace": {
+    "normalized_text": "tong tien ban hang hôm qua?",
+    "normalized_ascii": "tong tien ban hang hom qua?",
+    "time_rule": "R6_yesterday",
+    "time_start": "2025-11-05",
+    "time_end": "2025-11-05",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "rev = revenue()\nfinal_result = rev if rev > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "q_78b9ca050ca1",
+  "question": "Th này khách phải trả tiệm tổng cộng bnhiu, xau khi trừ tiền bớt và tiền thu máy cũ?",
+  "answer": {
+    "id": "q_78b9ca050ca1",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0021,
+  "trace": {
+    "normalized_text": "tháng này khách phải trả tiệm tổng cộng bao nhiêu, xau khi trừ tiền bớt và tiền thu máy cũ?",
+    "normalized_ascii": "thang nay khach phai tra tiem tong cong bao nhieu, xau khi tru tien bot va tien thu may cu?",
+    "time_rule": "R12_this_month",
+    "time_start": "2026-09-01",
+    "time_end": "2026-09-30",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

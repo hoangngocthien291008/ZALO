@@ -1,0 +1,19 @@
+{
+  "id": "q_8865baf2a84d",
+  "question": "Th6/2026 dthu ca chiều so ca sáng chênh bnhiu %?",
+  "answer": {
+    "id": "q_8865baf2a84d",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0011,
+  "trace": {
+    "normalized_text": "tháng 6/2026 doanh thu ca chiều so ca sáng chênh bao nhiêu%?",
+    "normalized_ascii": "thang 6/2026 doanh thu ca chieu so ca sang chenh bao nhieu%?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-06-01",
+    "time_end": "2026-06-30",
+    "entity_status": "not_needed",
+    "inferred_type": "percent",
+    "gate": "G4_safe_abstain"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "q_411cb8ae0f94",
+  "question": "Lô Oresol 245 DHG hộp 20 gói gần hết hạn nhất, hsd là ngày mấy z?",
+  "answer": {
+    "id": "q_411cb8ae0f94",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.001,
+  "trace": {
+    "normalized_text": "lô oresol 245 dhg hộp 20 gói gần hết hạn nhất, hạn sử dụng là ngày mấy vậy?",
+    "normalized_ascii": "lo oresol 245 dhg hop 20 goi gan het han nhat, han su dung la ngay may vay?",
+    "time_rule": "none",
+    "time_start": "2026-08-08",
+    "time_end": "2026-08-08",
+    "entity_status": "exact",
+    "inferred_type": "number",
+    "gate": "G2_missing_time"
+  }
+}

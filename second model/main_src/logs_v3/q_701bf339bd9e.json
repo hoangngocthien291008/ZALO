@@ -1,0 +1,19 @@
+{
+  "id": "q_701bf339bd9e",
+  "question": "Tháng 11 năm 2025 tiền thu máy cũ đã trừ vào các đơn cộng lại được bnhiu?",
+  "answer": {
+    "id": "q_701bf339bd9e",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0011,
+  "trace": {
+    "normalized_text": "tháng 11 năm 2025 tiền thu máy cũ đã trừ vào các đơn cộng lại được bao nhiêu?",
+    "normalized_ascii": "thang 11 nam 2025 tien thu may cu da tru vao cac don cong lai duoc bao nhieu?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-11-01",
+    "time_end": "2025-11-30",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

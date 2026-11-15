@@ -1,0 +1,19 @@
+{
+  "id": "q_344459d9755f",
+  "question": "Doanh thu từ đầu tháng này đến hết hôm nay hơn hay kém cùng kỳ tháng trước bao nhiêu phần trăm?",
+  "answer": {
+    "id": "q_344459d9755f",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0029,
+  "trace": {
+    "normalized_text": "doanh thu từ đầu tháng này đến hết hôm nay hơn hay kém cùng kỳ tháng trước bao nhiêu phần trăm?",
+    "normalized_ascii": "doanh thu tu dau thang nay den het hom nay hon hay kem cung ky thang truoc bao nhieu phan tram?",
+    "time_rule": "R12_this_month",
+    "time_start": "2025-11-01",
+    "time_end": "2025-11-23",
+    "entity_status": "not_found",
+    "inferred_type": "percent",
+    "gate": "G3_entity_below_0.70"
+  }
+}

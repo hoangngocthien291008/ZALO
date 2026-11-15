@@ -1,0 +1,22 @@
+{
+  "id": "q_b40a1380b99c",
+  "question": "Khách mua từ 12 đơn trở lên T4/2026, chiếm bnhiu % số khách có mua tháng đó?",
+  "answer": {
+    "id": "q_b40a1380b99c",
+    "type": "percent",
+    "answer": 75.45
+  },
+  "elapsed_sec": 0.0231,
+  "trace": {
+    "normalized_text": "khách mua từ 12 đơn trở lên tháng 4/2026, chiếm bao nhiêu% số khách có mua tháng đó?",
+    "normalized_ascii": "khach mua tu 12 don tro len thang 4/2026, chiem bao nhieu% so khach co mua thang do?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-04-01",
+    "time_end": "2026-04-30",
+    "entity_status": "not_needed",
+    "inferred_type": "percent",
+    "fastpath_code": "df = revenue_lines()\ndf = df[df['cust_key'] != ''] if not df.empty else df\nif df.empty:\n    final_result = None\nelse:\n    cnts = df.groupby('cust_key')['order_id'].nunique()\n    tot_c = len(cnts)\n    qual_c = int((cnts >= 12).sum())\n    final_result = pct(qual_c, tot_c) if tot_c > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "q_3992410a9fd6",
+  "question": "30 ngày gần nhất bán được bao nhiêu tiền",
+  "answer": {
+    "id": "q_3992410a9fd6",
+    "type": "number",
+    "answer": 1155251700
+  },
+  "elapsed_sec": 0.006,
+  "trace": {
+    "normalized_text": "30 ngày gần nhất bán được bao nhiêu tiền",
+    "normalized_ascii": "30 ngay gan nhat ban duoc bao nhieu tien",
+    "time_rule": "R7_n_days",
+    "time_start": "2026-04-11",
+    "time_end": "2026-05-10",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "rev = revenue()\nfinal_result = rev if rev > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

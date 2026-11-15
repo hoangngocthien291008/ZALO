@@ -1,0 +1,22 @@
+{
+  "id": "q_e634d19ed4f2",
+  "question": "Gas Petrolimex 12kg đổi giá từ 520.000đ lên 546.000đ vào ngày 31/10/2025. 30 ngày kể từ ngày đó bán được nhiều hay ít hơn 30 ngày liền trước bao nhiêu %, tính theo bình?",
+  "answer": {
+    "id": "q_e634d19ed4f2",
+    "type": "percent",
+    "answer": 5.43
+  },
+  "elapsed_sec": 0.0592,
+  "trace": {
+    "normalized_text": "gas petrolimex 12 kg đổi giá từ 520.000 đ lên 546.000 đ vào ngày 31/10/2025. 30 ngày kể từ ngày đó bán được nhiều hay ít hơn 30 ngày liền trước bao nhiêu%, tính theo bình?",
+    "normalized_ascii": "gas petrolimex 12 kg doi gia tu 520.000 d len 546.000 d vao ngay 31/10/2025. 30 ngay ke tu ngay do ban duoc nhieu hay it hon 30 ngay lien truoc bao nhieu%, tinh theo binh?",
+    "time_rule": "R2_price_effect",
+    "time_start": "2025-10-31",
+    "time_end": "2025-11-29",
+    "entity_status": "exact",
+    "inferred_type": "percent",
+    "fastpath_code": "df_after = match_item(item_lines(T['start'], T['end']), 'Gas Petrolimex 12kg')\ndf_before = match_item(item_lines(T['cmp_start'], T['cmp_end']), 'Gas Petrolimex 12kg')\nq_after = float(df_after['qty_base'].sum()) if not df_after.empty else 0.0\nq_before = float(df_before['qty_base'].sum()) if not df_before.empty else 0.0\nfinal_result = growth(q_after, q_before) if (q_before > 0 and q_after > 0) else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

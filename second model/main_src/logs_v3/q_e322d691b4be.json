@@ -1,0 +1,22 @@
+{
+  "id": "q_e322d691b4be",
+  "question": "So voi th2/2025, doanh thu th2/2026 tang truong may %?",
+  "answer": {
+    "id": "q_e322d691b4be",
+    "type": "percent",
+    "answer": 29.16
+  },
+  "elapsed_sec": 0.0323,
+  "trace": {
+    "normalized_text": "so voi tháng 2/2025, doanh thu tháng 2/2026 tang truong may%?",
+    "normalized_ascii": "so voi thang 2/2025, doanh thu thang 2/2026 tang truong may%?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-02-01",
+    "time_end": "2025-02-28",
+    "entity_status": "not_needed",
+    "inferred_type": "percent",
+    "fastpath_code": "r_curr = revenue(T['start'], T['end'], T['shift'])\nr_prev = revenue(T['cmp_start'], T['cmp_end'], T['shift'])\nfinal_result = growth(r_curr, r_prev) if (r_prev > 0 and r_curr > 0) else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

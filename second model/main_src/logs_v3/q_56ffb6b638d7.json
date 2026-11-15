@@ -1,0 +1,19 @@
+{
+  "id": "q_56ffb6b638d7",
+  "question": "Má lợn nướng nước mắm đổi giá từ 99.000đ lên 104.000đ vào ngày 15/04/2026. 30 ngày kể từ ngày đó bán được nhiều hay ít hơn 30 ngày liền trước bao nhiêu %, tính theo đĩa?",
+  "answer": {
+    "id": "q_56ffb6b638d7",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0013,
+  "trace": {
+    "normalized_text": "má lợn nướng nước mắm đổi giá từ 99.000 đ lên 104.000 đ vào ngày 15/04/2026. 30 ngày kể từ ngày đó bán được nhiều hay ít hơn 30 ngày liền trước bao nhiêu%, tính theo đĩa?",
+    "normalized_ascii": "ma lon nuong nuoc mam doi gia tu 99.000 d len 104.000 d vao ngay 15/04/2026. 30 ngay ke tu ngay do ban duoc nhieu hay it hon 30 ngay lien truoc bao nhieu%, tinh theo dia?",
+    "time_rule": "R2_price_effect",
+    "time_start": "2026-04-15",
+    "time_end": "2026-05-14",
+    "entity_status": "exact",
+    "inferred_type": "percent",
+    "gate": "G4_safe_abstain"
+  }
+}

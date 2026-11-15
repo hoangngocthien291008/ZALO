@@ -1,0 +1,19 @@
+{
+  "id": "q_fbe115817066",
+  "question": "Tính tới ngày 16/06/2025, còn bnhiu khách thiếu tiền tiệm z?",
+  "answer": {
+    "id": "q_fbe115817066",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0006,
+  "trace": {
+    "normalized_text": "tính tới ngày 16/06/2025, còn bao nhiêu khách thiếu tiền tiệm vậy?",
+    "normalized_ascii": "tinh toi ngay 16/06/2025, con bao nhieu khach thieu tien tiem vay?",
+    "time_rule": "R8_exact_date",
+    "time_start": "2025-06-16",
+    "time_end": "2025-06-16",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

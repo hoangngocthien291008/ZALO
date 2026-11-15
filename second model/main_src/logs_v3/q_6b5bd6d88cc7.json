@@ -1,0 +1,19 @@
+{
+  "id": "q_6b5bd6d88cc7",
+  "question": "Quý 4/2025 phiếu bảo hành chiếm bnhiu % số phiếu thu tiền rứa?",
+  "answer": {
+    "id": "q_6b5bd6d88cc7",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0054,
+  "trace": {
+    "normalized_text": "quý 4/2025 phiếu bảo hành chiếm bao nhiêu% số phiếu thu tiền vậy?",
+    "normalized_ascii": "quy 4/2025 phieu bao hanh chiem bao nhieu% so phieu thu tien vay?",
+    "time_rule": "R11_quarter",
+    "time_start": "2025-10-01",
+    "time_end": "2025-12-31",
+    "entity_status": "not_needed",
+    "inferred_type": "percent",
+    "gate": "G4_safe_abstain"
+  }
+}

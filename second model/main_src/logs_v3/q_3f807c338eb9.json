@@ -1,0 +1,19 @@
+{
+  "id": "q_3f807c338eb9",
+  "question": "Nhóm gỏi T12/2025 bán được tổng cộng bnhiu tiền?",
+  "answer": {
+    "id": "q_3f807c338eb9",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0011,
+  "trace": {
+    "normalized_text": "nhóm gỏi tháng 12/2025 bán được tổng cộng bao nhiêu tiền?",
+    "normalized_ascii": "nhom goi thang 12/2025 ban duoc tong cong bao nhieu tien?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-12-01",
+    "time_end": "2025-12-31",
+    "entity_status": "exact",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

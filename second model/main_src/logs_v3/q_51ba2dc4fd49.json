@@ -1,0 +1,22 @@
+{
+  "id": "q_51ba2dc4fd49",
+  "question": "Tuần trước doanh thu bình quân mỗi đơn hàng là bao nhiêu?",
+  "answer": {
+    "id": "q_51ba2dc4fd49",
+    "type": "number",
+    "answer": 44894
+  },
+  "elapsed_sec": 0.0175,
+  "trace": {
+    "normalized_text": "tuần trước doanh thu bình quân mỗi đơn hàng là bao nhiêu?",
+    "normalized_ascii": "tuan truoc doanh thu binh quan moi don hang la bao nhieu?",
+    "time_rule": "R10_last_week",
+    "time_start": "2025-12-01",
+    "time_end": "2025-12-07",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "df = revenue_lines()\nif not df.empty and 'status' in df.columns:\n    df = df[~(df['status'].str.lower().str.contains('bảo hành|bao hanh', na=False) & (df['amount'] == 0))]\nn_ord = len(df['order_id'].unique()) if not df.empty else 0\ntot = float(df['amount'].sum()) if not df.empty else 0.0\nfinal_result = int((tot / n_ord) + 0.5) if (n_ord > 0 and tot > 0) else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

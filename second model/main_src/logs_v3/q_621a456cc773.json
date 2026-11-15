@@ -1,0 +1,22 @@
+{
+  "id": "q_621a456cc773",
+  "question": "T1/2026 khách mua từ 2 đơn trở lên là mấy người z?",
+  "answer": {
+    "id": "q_621a456cc773",
+    "type": "number",
+    "answer": 143
+  },
+  "elapsed_sec": 0.0078,
+  "trace": {
+    "normalized_text": "tháng 1/2026 khách mua từ 2 đơn trở lên là mấy người vậy?",
+    "normalized_ascii": "thang 1/2026 khach mua tu 2 don tro len la may nguoi vay?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-01-01",
+    "time_end": "2026-01-31",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "df = revenue_lines()\ndf = df[df['cust_key'] != ''] if not df.empty else df\ncnts = df.groupby('cust_key')['order_id'].nunique() if not df.empty else pd.Series(dtype=int)\nqual_c = int((cnts >= 2).sum())\nfinal_result = qual_c if qual_c > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

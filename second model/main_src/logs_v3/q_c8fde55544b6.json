@@ -1,0 +1,19 @@
+{
+  "id": "q_c8fde55544b6",
+  "question": "Có mấy đợt giao hàng trong 11/2025?",
+  "answer": {
+    "id": "q_c8fde55544b6",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0013,
+  "trace": {
+    "normalized_text": "có mấy đợt giao hàng trong 11/2025?",
+    "normalized_ascii": "co may dot giao hang trong 11/2025?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-11-01",
+    "time_end": "2025-11-30",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

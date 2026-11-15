@@ -1,0 +1,21 @@
+{
+  "id": "q_e4f0a9bdf74b",
+  "question": "Dip Tet 2026 hang ban nhieu nhat la hang chi?",
+  "answer": {
+    "id": "q_e4f0a9bdf74b",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0159,
+  "trace": {
+    "normalized_text": "dip tet 2026 hang ban nhiều nhất la hang chi?",
+    "normalized_ascii": "dip tet 2026 hang ban nhieu nhat la hang chi?",
+    "time_rule": "R1_tet",
+    "time_start": "2026-02-10",
+    "time_end": "2026-02-26",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "df = item_lines()\nfinal_result = top_k(df, value_col='qty_base', k=1, key_col='item_code', name_col='item_name')",
+    "fastpath_ok": true,
+    "gate": "G4_safe_abstain"
+  }
+}

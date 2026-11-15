@@ -1,0 +1,19 @@
+{
+  "id": "q_5c681795e6a0",
+  "question": "Trong các đơn đặt tháng 11/2025, tính tới hôm nay có bao nhiêu đơn đã được giao từ 2 đợt trở lên?",
+  "answer": {
+    "id": "q_5c681795e6a0",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.001,
+  "trace": {
+    "normalized_text": "trong các đơn đặt tháng 11/2025, tính tới hôm nay có bao nhiêu đơn đã được giao từ 2 đợt trở lên?",
+    "normalized_ascii": "trong cac don dat thang 11/2025, tinh toi hom nay co bao nhieu don da duoc giao tu 2 dot tro len?",
+    "time_rule": "R5_today",
+    "time_start": "2025-12-01",
+    "time_end": "2025-12-01",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "q_1c7bef344864",
+  "question": "th6/2026 shop mik giam voucher cko khach het bnhiu tieenf?",
+  "answer": {
+    "id": "q_1c7bef344864",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.002,
+  "trace": {
+    "normalized_text": "tháng 6/2026 shop mình giam voucher cho khach het bao nhiêu tiền?",
+    "normalized_ascii": "thang 6/2026 shop minh giam voucher cho khach het bao nhieu tien?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-06-01",
+    "time_end": "2026-06-30",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

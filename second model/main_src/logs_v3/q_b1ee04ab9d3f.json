@@ -1,0 +1,19 @@
+{
+  "id": "q_b1ee04ab9d3f",
+  "question": "Th2, th3, th4/2026 tháng nào tiệm bán được nhiều tiền nhất z?",
+  "answer": {
+    "id": "q_b1ee04ab9d3f",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0013,
+  "trace": {
+    "normalized_text": "tháng 2, tháng 3, tháng 4/2026 tháng nào tiệm bán được nhiều tiền nhất vậy?",
+    "normalized_ascii": "thang 2, thang 3, thang 4/2026 thang nao tiem ban duoc nhieu tien nhat vay?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-02-01",
+    "time_end": "2026-02-28",
+    "entity_status": "not_needed",
+    "inferred_type": "date",
+    "gate": "G4_safe_abstain"
+  }
+}

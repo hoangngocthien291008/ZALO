@@ -1,0 +1,22 @@
+{
+  "id": "q_55929bed8ced",
+  "question": "mk tinh set nguog tang qa ne, th2/2025 bn don tien hang tu 190k tro len gium mik nha",
+  "answer": {
+    "id": "q_55929bed8ced",
+    "type": "number",
+    "answer": 501
+  },
+  "elapsed_sec": 0.0178,
+  "trace": {
+    "normalized_text": "mình tinh set nguog tang qa ne, tháng 2/2025 bao nhiêu don tien hang tu 190 k trở lên giúp mình nha",
+    "normalized_ascii": "minh tinh set nguog tang qa ne, thang 2/2025 bao nhieu don tien hang tu 190 k tro len giup minh nha",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-02-01",
+    "time_end": "2025-02-28",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "df = revenue_lines()\nord_rev = df.groupby('order_id')['amount'].sum() if not df.empty else pd.Series(dtype=float)\nord_rev = ord_rev[ord_rev >= 190000.0] if 190000.0 > 0 else ord_rev\ncnt = int(len(ord_rev))\nfinal_result = cnt if cnt > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

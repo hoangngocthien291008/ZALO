@@ -1,0 +1,22 @@
+{
+  "id": "q_55e2e56d2787",
+  "question": "Thang 5 nam 2026 ngay nao tiem ban duoc nhieu tien nhat vay?",
+  "answer": {
+    "id": "q_55e2e56d2787",
+    "type": "date",
+    "answer": "2026-05-30"
+  },
+  "elapsed_sec": 0.0192,
+  "trace": {
+    "normalized_text": "thang 5 nam 2026 ngay nao tiem ban duoc nhieu tien nhat vay?",
+    "normalized_ascii": "thang 5 nam 2026 ngay nao tiem ban duoc nhieu tien nhat vay?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-05-01",
+    "time_end": "2026-05-31",
+    "entity_status": "not_needed",
+    "inferred_type": "date",
+    "fastpath_code": "df = revenue_lines()\ndaily = df[df['date'] != ''].groupby('date', as_index=False)['amount'].sum() if not df.empty else pd.DataFrame()\ndaily = daily.sort_values(by=['amount', 'date'], ascending=[False, True], kind='mergesort') if not daily.empty else daily\nfinal_result = str(daily.iloc[0]['date'])[:10] if not daily.empty else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

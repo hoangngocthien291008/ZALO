@@ -1,0 +1,22 @@
+{
+  "id": "q_4217e6c4305e",
+  "question": "Th11/2025 Bánh tiramisu bán đc mấy cái?",
+  "answer": {
+    "id": "q_4217e6c4305e",
+    "type": "number",
+    "answer": 69
+  },
+  "elapsed_sec": 0.066,
+  "trace": {
+    "normalized_text": "tháng 11/2025 bánh tiramisu bán được mấy cái?",
+    "normalized_ascii": "thang 11/2025 banh tiramisu ban duoc may cai?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-11-01",
+    "time_end": "2025-11-30",
+    "entity_status": "exact",
+    "inferred_type": "number",
+    "fastpath_code": "df = match_item(item_lines(), 'Bánh tiramisu')\nq = float(df['qty_base'].sum()) if not df.empty else 0.0\nfinal_result = (int(round(q)) if abs(q - round(q)) < 1e-6 else round(q, 2)) if q > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

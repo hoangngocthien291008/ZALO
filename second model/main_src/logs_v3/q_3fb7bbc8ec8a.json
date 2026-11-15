@@ -1,0 +1,19 @@
+{
+  "id": "q_3fb7bbc8ec8a",
+  "question": "Th8/2025 bán được bao nhiêu máy không tính phụ kiện?",
+  "answer": {
+    "id": "q_3fb7bbc8ec8a",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0025,
+  "trace": {
+    "normalized_text": "tháng 8/2025 bán được bao nhiêu máy không tính phụ kiện?",
+    "normalized_ascii": "thang 8/2025 ban duoc bao nhieu may khong tinh phu kien?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-08-01",
+    "time_end": "2025-08-31",
+    "entity_status": "not_found",
+    "inferred_type": "number",
+    "gate": "G3_entity_below_0.70"
+  }
+}

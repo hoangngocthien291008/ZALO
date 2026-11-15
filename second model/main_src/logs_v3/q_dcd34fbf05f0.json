@@ -1,0 +1,19 @@
+{
+  "id": "q_dcd34fbf05f0",
+  "question": "T2/2026, tính theo số bịch, bỉm Huggies chiếm bao nhiêu % lượng bỉm tiệm bán?",
+  "answer": {
+    "id": "q_dcd34fbf05f0",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.001,
+  "trace": {
+    "normalized_text": "tháng 2/2026, tính theo số bịch, bỉm huggies chiếm bao nhiêu% lượng bỉm tiệm bán?",
+    "normalized_ascii": "thang 2/2026, tinh theo so bich, bim huggies chiem bao nhieu% luong bim tiem ban?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-02-01",
+    "time_end": "2026-02-28",
+    "entity_status": "not_needed",
+    "inferred_type": "percent",
+    "gate": "G4_safe_abstain"
+  }
+}

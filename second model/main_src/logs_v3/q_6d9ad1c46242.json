@@ -1,0 +1,22 @@
+{
+  "id": "q_6d9ad1c46242",
+  "question": "Tuần trước tổng doanh thu được bao nhiêu nhỉ?",
+  "answer": {
+    "id": "q_6d9ad1c46242",
+    "type": "number",
+    "answer": 122462500
+  },
+  "elapsed_sec": 0.0049,
+  "trace": {
+    "normalized_text": "tuần trước tổng doanh thu được bao nhiêu nhỉ?",
+    "normalized_ascii": "tuan truoc tong doanh thu duoc bao nhieu nhi?",
+    "time_rule": "R10_last_week",
+    "time_start": "2026-05-25",
+    "time_end": "2026-05-31",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "rev = revenue()\nfinal_result = rev if rev > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

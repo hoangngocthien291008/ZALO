@@ -1,0 +1,19 @@
+{
+  "id": "q_b127103da0d2",
+  "question": "Luong Chi Duc thang 4/26 ban tong cong bnhiu tien?",
+  "answer": {
+    "id": "q_b127103da0d2",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0064,
+  "trace": {
+    "normalized_text": "luong chi duc thang 4/26 ban tong cong bao nhiêu tien?",
+    "normalized_ascii": "luong chi duc thang 4/26 ban tong cong bao nhieu tien?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-04-01",
+    "time_end": "2026-04-30",
+    "entity_status": "exact",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

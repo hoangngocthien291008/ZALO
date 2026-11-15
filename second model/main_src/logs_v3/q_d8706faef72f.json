@@ -1,0 +1,19 @@
+{
+  "id": "q_d8706faef72f",
+  "question": "Hqua bán được nhiêu tiền z?",
+  "answer": {
+    "id": "q_d8706faef72f",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0015,
+  "trace": {
+    "normalized_text": "hôm qua bán được nhiêu tiền vậy?",
+    "normalized_ascii": "hom qua ban duoc nhieu tien vay?",
+    "time_rule": "R6_yesterday",
+    "time_start": "2026-06-17",
+    "time_end": "2026-06-17",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

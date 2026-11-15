@@ -1,0 +1,22 @@
+{
+  "id": "q_d62edb3b5bc6",
+  "question": "Mình đang xem lại mùa hè, giựa tháng 6/2025, 7/2025 và 8/2025 thì tháng nào doanh thu cao nhất?",
+  "answer": {
+    "id": "q_d62edb3b5bc6",
+    "type": "date",
+    "answer": "2025-07"
+  },
+  "elapsed_sec": 0.0172,
+  "trace": {
+    "normalized_text": "mình đang xem lại mùa hè, giựa tháng 6/2025, 7/2025 và 8/2025 thì tháng nào doanh thu cao nhất?",
+    "normalized_ascii": "minh dang xem lai mua he, giua thang 6/2025, 7/2025 va 8/2025 thi thang nao doanh thu cao nhat?",
+    "time_rule": "R2b_month_list",
+    "time_start": "2025-06-01",
+    "time_end": "2025-08-31",
+    "entity_status": "not_needed",
+    "inferred_type": "date",
+    "fastpath_code": "pairs = [(revenue(p['start'], p['end']), p['label']) for p in T['periods']]\npairs = [x for x in pairs if x[0] > 0]\nfinal_result = max(pairs, key=lambda x: x[0])[1] if pairs else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

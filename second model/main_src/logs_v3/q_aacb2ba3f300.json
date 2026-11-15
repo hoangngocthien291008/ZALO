@@ -1,0 +1,19 @@
+{
+  "id": "q_aacb2ba3f300",
+  "question": "nhờ xíu, th11/2025 wan mik thu hoi dc bnhiu tien công nợ tu khach mua chiu",
+  "answer": {
+    "id": "q_aacb2ba3f300",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0005,
+  "trace": {
+    "normalized_text": "nhờ xíu, tháng 11/2025 quán mình thu hoi được bao nhiêu tien công nợ tu khach mua chịu",
+    "normalized_ascii": "nho xiu, thang 11/2025 quan minh thu hoi duoc bao nhieu tien cong no tu khach mua chiu",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-11-01",
+    "time_end": "2025-11-30",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

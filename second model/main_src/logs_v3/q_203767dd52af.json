@@ -1,0 +1,22 @@
+{
+  "id": "q_203767dd52af",
+  "question": "Trong tháng 3/2026, giờ cao điểm trong ngày của cửa hàng là mấy giờ?",
+  "answer": {
+    "id": "q_203767dd52af",
+    "type": "number",
+    "answer": 8
+  },
+  "elapsed_sec": 0.0146,
+  "trace": {
+    "normalized_text": "trong tháng 3/2026, giờ cao điểm trong ngày của cửa hàng là mấy giờ?",
+    "normalized_ascii": "trong thang 3/2026, gio cao diem trong ngay cua cua hang la may gio?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-03-01",
+    "time_end": "2026-03-31",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "final_result = peak_hour(T['start'], T['end'])",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

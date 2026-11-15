@@ -1,0 +1,22 @@
+{
+  "id": "q_837cd5892764",
+  "question": "Doanh thu tháng này so với cùng số ngày đầu tháng rồi tăng hay giảm mấy %?",
+  "answer": {
+    "id": "q_837cd5892764",
+    "type": "percent",
+    "answer": 0.49
+  },
+  "elapsed_sec": 0.0127,
+  "trace": {
+    "normalized_text": "doanh thu tháng này so với cùng số ngày đầu tháng rồi tăng hay giảm mấy%?",
+    "normalized_ascii": "doanh thu thang nay so voi cung so ngay dau thang roi tang hay giam may%?",
+    "time_rule": "R12_this_month",
+    "time_start": "2025-10-01",
+    "time_end": "2025-10-22",
+    "entity_status": "not_needed",
+    "inferred_type": "percent",
+    "fastpath_code": "r_curr = revenue(T['start'], T['end'], T['shift'])\nr_prev = revenue(T['cmp_start'], T['cmp_end'], T['shift'])\nfinal_result = growth(r_curr, r_prev) if (r_prev > 0 and r_curr > 0) else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

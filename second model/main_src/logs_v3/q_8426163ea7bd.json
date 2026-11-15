@@ -1,0 +1,22 @@
+{
+  "id": "q_8426163ea7bd",
+  "question": "Tuan truoc tong doanh thu duoc bao nhieu?",
+  "answer": {
+    "id": "q_8426163ea7bd",
+    "type": "number",
+    "answer": 67776600
+  },
+  "elapsed_sec": 0.014,
+  "trace": {
+    "normalized_text": "tuần trước tong doanh thu duoc bao nhiêu?",
+    "normalized_ascii": "tuan truoc tong doanh thu duoc bao nhieu?",
+    "time_rule": "R10_last_week",
+    "time_start": "2025-12-01",
+    "time_end": "2025-12-07",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "rev = revenue()\nfinal_result = rev if rev > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

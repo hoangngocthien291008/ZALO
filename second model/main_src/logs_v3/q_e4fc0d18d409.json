@@ -1,0 +1,22 @@
+{
+  "id": "q_e4fc0d18d409",
+  "question": "1-2026 bán được bao nhiêu chiếc Xiaomi Redmi Note 14?",
+  "answer": {
+    "id": "q_e4fc0d18d409",
+    "type": "number",
+    "answer": 6
+  },
+  "elapsed_sec": 0.0086,
+  "trace": {
+    "normalized_text": "1-2026 bán được bao nhiêu chiếc xiaomi redmi note 14?",
+    "normalized_ascii": "1-2026 ban duoc bao nhieu chiec xiaomi redmi note 14?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-01-01",
+    "time_end": "2026-01-31",
+    "entity_status": "fuzzy",
+    "inferred_type": "number",
+    "fastpath_code": "df = match_item(item_lines(), 'Xiaomi Redmi Note 14 128GB Đen')\nq = float(df['qty_base'].sum()) if not df.empty else 0.0\nfinal_result = (int(round(q)) if abs(q - round(q)) < 1e-6 else round(q, 2)) if q > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

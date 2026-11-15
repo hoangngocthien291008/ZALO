@@ -1,0 +1,19 @@
+{
+  "id": "q_279180641d59",
+  "question": "Tháng 7/2025 có bao nhiêu mặt hàng xuất hiện trong ít nhất 74 đơn hàng?",
+  "answer": {
+    "id": "q_279180641d59",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0035,
+  "trace": {
+    "normalized_text": "tháng 7/2025 có bao nhiêu mặt hàng xuất hiện trong ít nhất 74 đơn hàng?",
+    "normalized_ascii": "thang 7/2025 co bao nhieu mat hang xuat hien trong it nhat 74 don hang?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-07-01",
+    "time_end": "2025-07-31",
+    "entity_status": "not_found",
+    "inferred_type": "number",
+    "gate": "G3_entity_below_0.70"
+  }
+}

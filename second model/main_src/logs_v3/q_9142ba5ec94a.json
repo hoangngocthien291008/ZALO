@@ -1,0 +1,19 @@
+{
+  "id": "q_9142ba5ec94a",
+  "question": "xem jup mik, dthu shop mk tu mung 1 toi het hom nay so vs cung ky thang trc cao hay thap hon bnhiu %",
+  "answer": {
+    "id": "q_9142ba5ec94a",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0015,
+  "trace": {
+    "normalized_text": "xem jup mình, doanh thu shop mình tu mung 1 toi het hôm nay so so với cùng kỳ thang trước cao hay thap hon bao nhiêu%",
+    "normalized_ascii": "xem jup minh, doanh thu shop minh tu mung 1 toi het hom nay so so voi cung ky thang truoc cao hay thap hon bao nhieu%",
+    "time_rule": "R4_snapshot",
+    "time_start": null,
+    "time_end": "2025-08-08",
+    "entity_status": "not_needed",
+    "inferred_type": "percent",
+    "gate": "G4_safe_abstain"
+  }
+}

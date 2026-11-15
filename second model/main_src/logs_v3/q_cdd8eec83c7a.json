@@ -1,0 +1,19 @@
+{
+  "id": "q_cdd8eec83c7a",
+  "question": "Tuan truoc dthu ca chieu hon ca sang bnhiu % nhi?",
+  "answer": {
+    "id": "q_cdd8eec83c7a",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.001,
+  "trace": {
+    "normalized_text": "tuần trước doanh thu ca chiều hon ca sáng bao nhiêu% nhi?",
+    "normalized_ascii": "tuan truoc doanh thu ca chieu hon ca sang bao nhieu% nhi?",
+    "time_rule": "R10_last_week",
+    "time_start": "2025-09-22",
+    "time_end": "2025-09-28",
+    "entity_status": "not_needed",
+    "inferred_type": "percent",
+    "gate": "G4_safe_abstain"
+  }
+}

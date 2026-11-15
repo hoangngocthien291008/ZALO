@@ -1,0 +1,19 @@
+{
+  "id": "q_383e2d2f282a",
+  "question": "T6/2025 mặt hàng mô cho lời nhiều nhất?",
+  "answer": {
+    "id": "q_383e2d2f282a",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.001,
+  "trace": {
+    "normalized_text": "tháng 6/2025 mặt hàng nào cho lời nhiều nhất?",
+    "normalized_ascii": "thang 6/2025 mat hang nao cho loi nhieu nhat?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-06-01",
+    "time_end": "2025-06-30",
+    "entity_status": "not_needed",
+    "inferred_type": "string",
+    "gate": "G4_safe_abstain"
+  }
+}

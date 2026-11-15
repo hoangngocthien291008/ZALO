@@ -1,0 +1,22 @@
+{
+  "id": "q_d75952be2f51",
+  "question": "5-2026 dthu được bnhiu vậy?",
+  "answer": {
+    "id": "q_d75952be2f51",
+    "type": "number",
+    "answer": 912757000
+  },
+  "elapsed_sec": 0.0183,
+  "trace": {
+    "normalized_text": "5-2026 doanh thu được bao nhiêu vậy?",
+    "normalized_ascii": "5-2026 doanh thu duoc bao nhieu vay?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-05-01",
+    "time_end": "2026-05-31",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "rev = revenue()\nfinal_result = rev if rev > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

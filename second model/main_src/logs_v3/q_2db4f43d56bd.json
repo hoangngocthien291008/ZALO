@@ -1,0 +1,19 @@
+{
+  "id": "q_2db4f43d56bd",
+  "question": "Doanh thu thang nay tinh den hom nay so voi cung ky thang truoc thi tang giam bao nhieu %?",
+  "answer": {
+    "id": "q_2db4f43d56bd",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.001,
+  "trace": {
+    "normalized_text": "doanh thu tháng này tính đến hôm nay so voi cùng kỳ tháng trước thi tang giam bao nhiêu%?",
+    "normalized_ascii": "doanh thu thang nay tinh den hom nay so voi cung ky thang truoc thi tang giam bao nhieu%?",
+    "time_rule": "R4_snapshot",
+    "time_start": null,
+    "time_end": "2025-03-17",
+    "entity_status": "not_needed",
+    "inferred_type": "percent",
+    "gate": "G4_safe_abstain"
+  }
+}

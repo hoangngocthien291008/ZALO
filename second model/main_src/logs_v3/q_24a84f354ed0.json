@@ -1,0 +1,19 @@
+{
+  "id": "q_24a84f354ed0",
+  "question": "Thang nay tiem ban duoc may lon sua bot so 2, tat ca cac hang?",
+  "answer": {
+    "id": "q_24a84f354ed0",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0103,
+  "trace": {
+    "normalized_text": "tháng này tiem ban duoc may lon sua bot so 2, tat ca cac hang?",
+    "normalized_ascii": "thang nay tiem ban duoc may lon sua bot so 2, tat ca cac hang?",
+    "time_rule": "R12_this_month",
+    "time_start": "2026-06-01",
+    "time_end": "2026-06-30",
+    "entity_status": "exact",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

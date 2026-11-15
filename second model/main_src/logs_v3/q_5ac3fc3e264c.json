@@ -1,0 +1,19 @@
+{
+  "id": "q_5ac3fc3e264c",
+  "question": "Đơn chuyển khoản 7/25: dthu chiếm bnhiu % tổng dthu 7/25?",
+  "answer": {
+    "id": "q_5ac3fc3e264c",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0011,
+  "trace": {
+    "normalized_text": "đơn chuyển khoản 7/25: doanh thu chiếm bao nhiêu% tổng doanh thu 7/25?",
+    "normalized_ascii": "don chuyen khoan 7/25: doanh thu chiem bao nhieu% tong doanh thu 7/25?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-07-01",
+    "time_end": "2025-07-31",
+    "entity_status": "not_needed",
+    "inferred_type": "percent",
+    "gate": "G4_safe_abstain"
+  }
+}

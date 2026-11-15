@@ -1,0 +1,22 @@
+{
+  "id": "q_41a1d3818421",
+  "question": "Khách mua từ 6 đh trở lên chiếm bnhiu % số khách đã mua 08/2025 z?",
+  "answer": {
+    "id": "q_41a1d3818421",
+    "type": "percent",
+    "answer": 25.08
+  },
+  "elapsed_sec": 0.014,
+  "trace": {
+    "normalized_text": "khách mua từ 6 đơn hàng trở lên chiếm bao nhiêu% số khách đã mua 08/2025 vậy?",
+    "normalized_ascii": "khach mua tu 6 don hang tro len chiem bao nhieu% so khach da mua 08/2025 vay?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-08-01",
+    "time_end": "2025-08-31",
+    "entity_status": "not_needed",
+    "inferred_type": "percent",
+    "fastpath_code": "df = revenue_lines()\ndf = df[df['cust_key'] != ''] if not df.empty else df\nif df.empty:\n    final_result = None\nelse:\n    cnts = df.groupby('cust_key')['order_id'].nunique()\n    tot_c = len(cnts)\n    qual_c = int((cnts >= 6).sum())\n    final_result = pct(qual_c, tot_c) if tot_c > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "q_c9c0246005b6",
+  "question": "Có mấy ngày trong tháng 9/2025 cửa hàng bán được từ 15.000.000 đồng trở lên?",
+  "answer": {
+    "id": "q_c9c0246005b6",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.001,
+  "trace": {
+    "normalized_text": "có mấy ngày trong tháng 9/2025 cửa hàng bán được từ 15.000.000 đồng trở lên?",
+    "normalized_ascii": "co may ngay trong thang 9/2025 cua hang ban duoc tu 15.000.000 dong tro len?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-09-01",
+    "time_end": "2025-09-30",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

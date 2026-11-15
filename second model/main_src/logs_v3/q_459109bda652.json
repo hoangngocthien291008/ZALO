@@ -1,0 +1,19 @@
+{
+  "id": "q_459109bda652",
+  "question": "Tháng 10/2025 nhóm cà phê chiếm bao nhiêu % doanh thu?",
+  "answer": {
+    "id": "q_459109bda652",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0019,
+  "trace": {
+    "normalized_text": "tháng 10/2025 nhóm cà phê chiếm bao nhiêu% doanh thu?",
+    "normalized_ascii": "thang 10/2025 nhom ca phe chiem bao nhieu% doanh thu?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-10-01",
+    "time_end": "2025-10-31",
+    "entity_status": "not_needed",
+    "inferred_type": "percent",
+    "gate": "G4_safe_abstain"
+  }
+}

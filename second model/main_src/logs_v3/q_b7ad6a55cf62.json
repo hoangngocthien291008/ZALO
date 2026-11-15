@@ -1,0 +1,22 @@
+{
+  "id": "q_b7ad6a55cf62",
+  "question": "Trong tháng 9 năm 2025, bao nhiêu đơn có ít nhất một mặt hàng nhóm đồ ăn vặt?",
+  "answer": {
+    "id": "q_b7ad6a55cf62",
+    "type": "number",
+    "answer": 1649
+  },
+  "elapsed_sec": 0.0241,
+  "trace": {
+    "normalized_text": "trong tháng 9 năm 2025, bao nhiêu đơn có ít nhất một mặt hàng nhóm đồ ăn vặt?",
+    "normalized_ascii": "trong thang 9 nam 2025, bao nhieu don co it nhat mot mat hang nhom do an vat?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-09-01",
+    "time_end": "2025-09-30",
+    "entity_status": "exact",
+    "inferred_type": "number",
+    "fastpath_code": "df = revenue_lines()\nord_rev = df.groupby('order_id')['amount'].sum() if not df.empty else pd.Series(dtype=float)\nord_rev = ord_rev[ord_rev >= 0.0] if 0.0 > 0 else ord_rev\ncnt = int(len(ord_rev))\nfinal_result = cnt if cnt > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

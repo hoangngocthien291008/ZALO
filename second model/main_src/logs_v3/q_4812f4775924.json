@@ -1,0 +1,22 @@
+{
+  "id": "q_4812f4775924",
+  "question": "Th3/2025 bao nhieu khach mua it nhat 6 don?",
+  "answer": {
+    "id": "q_4812f4775924",
+    "type": "number",
+    "answer": 87
+  },
+  "elapsed_sec": 0.0167,
+  "trace": {
+    "normalized_text": "tháng 3/2025 bao nhiêu khach mua ít nhất 6 don?",
+    "normalized_ascii": "thang 3/2025 bao nhieu khach mua it nhat 6 don?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-03-01",
+    "time_end": "2025-03-31",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "df = revenue_lines()\ndf = df[df['cust_key'] != ''] if not df.empty else df\ncnts = df.groupby('cust_key')['order_id'].nunique() if not df.empty else pd.Series(dtype=int)\nqual_c = int((cnts >= 6).sum())\nfinal_result = qual_c if qual_c > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

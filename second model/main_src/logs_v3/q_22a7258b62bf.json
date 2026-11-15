@@ -1,0 +1,19 @@
+{
+  "id": "q_22a7258b62bf",
+  "question": "Dthu thang nay tinh toi hom nay so cung ky thang truoc hon kem may % z?",
+  "answer": {
+    "id": "q_22a7258b62bf",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0015,
+  "trace": {
+    "normalized_text": "doanh thu tháng này tinh toi hôm nay so cùng kỳ tháng trước hon kem may% vậy?",
+    "normalized_ascii": "doanh thu thang nay tinh toi hom nay so cung ky thang truoc hon kem may% vay?",
+    "time_rule": "R12_this_month",
+    "time_start": "2025-10-01",
+    "time_end": "2025-10-29",
+    "entity_status": "not_needed",
+    "inferred_type": "percent",
+    "gate": "G4_safe_abstain"
+  }
+}

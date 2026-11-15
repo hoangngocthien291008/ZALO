@@ -1,0 +1,22 @@
+{
+  "id": "q_5aad27b686f6",
+  "question": "Tuan truoc trung binh 1 don hang co doanh thu bao nhieu?",
+  "answer": {
+    "id": "q_5aad27b686f6",
+    "type": "number",
+    "answer": 125072
+  },
+  "elapsed_sec": 0.0201,
+  "trace": {
+    "normalized_text": "tuần trước trung bình 1 don hang co doanh thu bao nhiêu?",
+    "normalized_ascii": "tuan truoc trung binh 1 don hang co doanh thu bao nhieu?",
+    "time_rule": "R10_last_week",
+    "time_start": "2025-12-15",
+    "time_end": "2025-12-21",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "df = revenue_lines()\nif not df.empty and 'status' in df.columns:\n    df = df[~(df['status'].str.lower().str.contains('bảo hành|bao hanh', na=False) & (df['amount'] == 0))]\nn_ord = len(df['order_id'].unique()) if not df.empty else 0\ntot = float(df['amount'].sum()) if not df.empty else 0.0\nfinal_result = int((tot / n_ord) + 0.5) if (n_ord > 0 and tot > 0) else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

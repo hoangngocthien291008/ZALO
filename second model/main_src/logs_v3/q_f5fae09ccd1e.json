@@ -1,0 +1,19 @@
+{
+  "id": "q_f5fae09ccd1e",
+  "question": "Tháng 8/2025 có mấy bữa tiệm bán được từ 10 củ trở lên?",
+  "answer": {
+    "id": "q_f5fae09ccd1e",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0,
+  "trace": {
+    "normalized_text": "tháng 8/2025 có mấy bữa tiệm bán được từ 10 củ trở lên?",
+    "normalized_ascii": "thang 8/2025 co may bua tiem ban duoc tu 10 cu tro len?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-08-01",
+    "time_end": "2025-08-31",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

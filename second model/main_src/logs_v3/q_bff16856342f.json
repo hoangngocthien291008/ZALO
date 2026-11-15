@@ -1,0 +1,19 @@
+{
+  "id": "q_bff16856342f",
+  "question": "Tuần này tính tới hôm nay doanh thu cửa hàng là bao nhiêu?",
+  "answer": {
+    "id": "q_bff16856342f",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0,
+  "trace": {
+    "normalized_text": "tuần này tính tới hôm nay doanh thu cửa hàng là bao nhiêu?",
+    "normalized_ascii": "tuan nay tinh toi hom nay doanh thu cua hang la bao nhieu?",
+    "time_rule": "R9_this_week",
+    "time_start": "2026-05-04",
+    "time_end": "2026-05-08",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

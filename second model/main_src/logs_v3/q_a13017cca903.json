@@ -1,0 +1,22 @@
+{
+  "id": "q_a13017cca903",
+  "question": "Quý 1/2026 tiệm có tổng doanh thu bao nhiêu?",
+  "answer": {
+    "id": "q_a13017cca903",
+    "type": "number",
+    "answer": 2007153000
+  },
+  "elapsed_sec": 0.0052,
+  "trace": {
+    "normalized_text": "quý 1/2026 tiệm có tổng doanh thu bao nhiêu?",
+    "normalized_ascii": "quy 1/2026 tiem co tong doanh thu bao nhieu?",
+    "time_rule": "R11_quarter",
+    "time_start": "2026-01-01",
+    "time_end": "2026-03-31",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "rev = revenue()\nfinal_result = rev if rev > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

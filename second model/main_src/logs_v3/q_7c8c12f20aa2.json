@@ -1,0 +1,19 @@
+{
+  "id": "q_7c8c12f20aa2",
+  "question": "Máy bán ra tháng 8/2025, tới hnay có bao nhiêu máy đã mang lại bảo hành rồi?",
+  "answer": {
+    "id": "q_7c8c12f20aa2",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0017,
+  "trace": {
+    "normalized_text": "máy bán ra tháng 8/2025, tới hôm nay có bao nhiêu máy đã mang lại bảo hành rồi?",
+    "normalized_ascii": "may ban ra thang 8/2025, toi hom nay co bao nhieu may da mang lai bao hanh roi?",
+    "time_rule": "R5_today",
+    "time_start": "2025-10-01",
+    "time_end": "2025-10-01",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

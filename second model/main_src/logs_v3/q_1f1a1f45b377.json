@@ -1,0 +1,19 @@
+{
+  "id": "q_1f1a1f45b377",
+  "question": "Hôm qua quán bán được nhiêu tiền rứa?",
+  "answer": {
+    "id": "q_1f1a1f45b377",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0011,
+  "trace": {
+    "normalized_text": "hôm qua quán bán được nhiêu tiền vậy?",
+    "normalized_ascii": "hom qua quan ban duoc nhieu tien vay?",
+    "time_rule": "R6_yesterday",
+    "time_start": "2026-02-21",
+    "time_end": "2026-02-21",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

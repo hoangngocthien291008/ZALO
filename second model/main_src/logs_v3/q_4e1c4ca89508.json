@@ -1,0 +1,22 @@
+{
+  "id": "q_4e1c4ca89508",
+  "question": "Dịp Tết Nguyên đán 2026 mặt hàng chi bán chạy nhất rứa?",
+  "answer": {
+    "id": "q_4e1c4ca89508",
+    "type": "string",
+    "answer": "Kính cường lực 9D"
+  },
+  "elapsed_sec": 0.0599,
+  "trace": {
+    "normalized_text": "dịp tết nguyên đán 2026 mặt hàng chi bán chạy nhất vậy?",
+    "normalized_ascii": "dip tet nguyen dan 2026 mat hang chi ban chay nhat vay?",
+    "time_rule": "R1_tet",
+    "time_start": "2026-02-10",
+    "time_end": "2026-02-26",
+    "entity_status": "not_needed",
+    "inferred_type": "string",
+    "fastpath_code": "df = item_lines()\nfinal_result = top_k(df, value_col='qty_base', k=1, key_col='item_code', name_col='item_name')",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

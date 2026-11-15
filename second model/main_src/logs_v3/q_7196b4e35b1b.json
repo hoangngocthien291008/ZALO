@@ -1,0 +1,22 @@
+{
+  "id": "q_7196b4e35b1b",
+  "question": "9/2025 binh quan 1 don dc bao nhieu doanh thu?",
+  "answer": {
+    "id": "q_7196b4e35b1b",
+    "type": "number",
+    "answer": 173361
+  },
+  "elapsed_sec": 0.0174,
+  "trace": {
+    "normalized_text": "9/2025 bình quân 1 don được bao nhiêu doanh thu?",
+    "normalized_ascii": "9/2025 binh quan 1 don duoc bao nhieu doanh thu?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-09-01",
+    "time_end": "2025-09-30",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "df = revenue_lines()\nif not df.empty and 'status' in df.columns:\n    df = df[~(df['status'].str.lower().str.contains('bảo hành|bao hanh', na=False) & (df['amount'] == 0))]\nn_ord = len(df['order_id'].unique()) if not df.empty else 0\ntot = float(df['amount'].sum()) if not df.empty else 0.0\nfinal_result = int((tot / n_ord) + 0.5) if (n_ord > 0 and tot > 0) else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "q_d2f89e3c815d",
+  "question": "Th5/2026 nhom bia dong gop bnhiu % dthu?",
+  "answer": {
+    "id": "q_d2f89e3c815d",
+    "type": "percent",
+    "answer": 4.15
+  },
+  "elapsed_sec": 0.0249,
+  "trace": {
+    "normalized_text": "tháng 5/2026 nhom bia dong gop bao nhiêu% doanh thu?",
+    "normalized_ascii": "thang 5/2026 nhom bia dong gop bao nhieu% doanh thu?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-05-01",
+    "time_end": "2026-05-31",
+    "entity_status": "exact",
+    "inferred_type": "percent",
+    "fastpath_code": "df = revenue_lines()\ntot = float(df['amount'].sum()) if not df.empty else 0.0\ng_rev = float(df[df['item_group'].str.lower() == 'bia']['amount'].sum()) if not df.empty else 0.0\nfinal_result = pct(g_rev, tot) if tot > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

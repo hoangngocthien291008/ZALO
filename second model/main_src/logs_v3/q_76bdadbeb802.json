@@ -1,0 +1,20 @@
+{
+  "id": "q_76bdadbeb802",
+  "question": "Khách thân thiện nhất tháng 12/2025 là ai?",
+  "answer": {
+    "id": "q_76bdadbeb802",
+    "type": "unanswerable",
+    "reason": "Câu hỏi yêu cầu thông tin ngoài phạm vi sổ sách bán hàng hoặc mang tính đánh giá chủ quan/dự đoán."
+  },
+  "elapsed_sec": 0.0015,
+  "trace": {
+    "normalized_text": "khách thân thiện nhất tháng 12/2025 là ai?",
+    "normalized_ascii": "khach than thien nhat thang 12/2025 la ai?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-12-01",
+    "time_end": "2025-12-31",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "U1_out_of_scope"
+  }
+}

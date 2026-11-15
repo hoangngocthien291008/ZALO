@@ -1,0 +1,22 @@
+{
+  "id": "q_9b5377726889",
+  "question": "Quý 2/2025 quán có mấy đơn rứa?",
+  "answer": {
+    "id": "q_9b5377726889",
+    "type": "number",
+    "answer": 9935
+  },
+  "elapsed_sec": 0.0198,
+  "trace": {
+    "normalized_text": "quý 2/2025 quán có mấy đơn vậy?",
+    "normalized_ascii": "quy 2/2025 quan co may don vay?",
+    "time_rule": "R11_quarter",
+    "time_start": "2025-04-01",
+    "time_end": "2025-06-30",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "df = revenue_lines()\nord_rev = df.groupby('order_id')['amount'].sum() if not df.empty else pd.Series(dtype=float)\nord_rev = ord_rev[ord_rev >= 0.0] if 0.0 > 0 else ord_rev\ncnt = int(len(ord_rev))\nfinal_result = cnt if cnt > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

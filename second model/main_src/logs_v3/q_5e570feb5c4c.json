@@ -1,0 +1,19 @@
+{
+  "id": "q_5e570feb5c4c",
+  "question": "So với cùng tháng năm trước, doanh thu tháng 3 năm 2026 thay đổi mấy phần trăm?",
+  "answer": {
+    "id": "q_5e570feb5c4c",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0032,
+  "trace": {
+    "normalized_text": "so với cùng tháng năm trước, doanh thu tháng 3 năm 2026 thay đổi mấy phần trăm?",
+    "normalized_ascii": "so voi cung thang nam truoc, doanh thu thang 3 nam 2026 thay doi may phan tram?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-03-01",
+    "time_end": "2026-03-31",
+    "entity_status": "not_found",
+    "inferred_type": "percent",
+    "gate": "G3_entity_below_0.70"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "q_ae7e44a0dc30",
+  "question": "Thang nay tiem giao hang tong cong may dot?",
+  "answer": {
+    "id": "q_ae7e44a0dc30",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0,
+  "trace": {
+    "normalized_text": "tháng này tiem giao hang tong cong may dot?",
+    "normalized_ascii": "thang nay tiem giao hang tong cong may dot?",
+    "time_rule": "R12_this_month",
+    "time_start": "2026-06-01",
+    "time_end": "2026-06-10",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

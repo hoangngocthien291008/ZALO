@@ -1,0 +1,19 @@
+{
+  "id": "q_682e548226be",
+  "question": "Doanh thu 3 thang lien nhau tinh toi 3-2026, tung thang bao nhieu, xep tu thang cu toi thang gan nhat?",
+  "answer": {
+    "id": "q_682e548226be",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0015,
+  "trace": {
+    "normalized_text": "doanh thu 3 thang liền nhau tinh toi 3-2026, tung thang bao nhiêu, xep tu thang cu toi thang gan nhat?",
+    "normalized_ascii": "doanh thu 3 thang lien nhau tinh toi 3-2026, tung thang bao nhieu, xep tu thang cu toi thang gan nhat?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-03-01",
+    "time_end": "2026-03-31",
+    "entity_status": "not_needed",
+    "inferred_type": "list",
+    "gate": "G4_safe_abstain"
+  }
+}

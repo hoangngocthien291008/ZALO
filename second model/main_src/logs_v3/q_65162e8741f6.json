@@ -1,0 +1,19 @@
+{
+  "id": "q_65162e8741f6",
+  "question": "chị ơi, bữa 14/11/2025 mik tăng giá bo luc lac khoai tay tu 119k len 125k á, mún bít 7 ngay tu bua do so vs 7 ngay trc do bán nhìu hay ít hơn mí %",
+  "answer": {
+    "id": "q_65162e8741f6",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.002,
+  "trace": {
+    "normalized_text": "chị ơi, bữa 14/11/2025 mình tăng giá bo luc lac khoai tay tu 119 k len 125 k á, mún bít 7 ngay tu bua do so so với 7 ngay trước do bán nhiều hay ít hơn mí%",
+    "normalized_ascii": "chi oi, bua 14/11/2025 minh tang gia bo luc lac khoai tay tu 119 k len 125 k a, mun bit 7 ngay tu bua do so so voi 7 ngay truoc do ban nhieu hay it hon mi%",
+    "time_rule": "R8_exact_date",
+    "time_start": "2025-11-14",
+    "time_end": "2025-11-14",
+    "entity_status": "exact",
+    "inferred_type": "percent",
+    "gate": "G4_safe_abstain"
+  }
+}

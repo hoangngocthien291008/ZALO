@@ -1,0 +1,19 @@
+{
+  "id": "q_2362d5a2c101",
+  "question": "So cùng kỳ năm trước, doanh thu tháng 4/2026 tăng/giảm mấy phần trăm?",
+  "answer": {
+    "id": "q_2362d5a2c101",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.005,
+  "trace": {
+    "normalized_text": "so cùng kỳ năm trước, doanh thu tháng 4/2026 tăng / giảm mấy phần trăm?",
+    "normalized_ascii": "so cung ky nam truoc, doanh thu thang 4/2026 tang / giam may phan tram?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-04-01",
+    "time_end": "2026-04-30",
+    "entity_status": "not_found",
+    "inferred_type": "percent",
+    "gate": "G3_entity_below_0.70"
+  }
+}

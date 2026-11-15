@@ -1,0 +1,19 @@
+{
+  "id": "q_05cde771f4c3",
+  "question": "Th2/2026 không tính xe quay lại bảo hành, bình quân 1 phiếu sửa hết bnhiu tiền?",
+  "answer": {
+    "id": "q_05cde771f4c3",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.003,
+  "trace": {
+    "normalized_text": "tháng 2/2026 không tính xe quay lại bảo hành, bình quân 1 phiếu sửa hết bao nhiêu tiền?",
+    "normalized_ascii": "thang 2/2026 khong tinh xe quay lai bao hanh, binh quan 1 phieu sua het bao nhieu tien?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-02-01",
+    "time_end": "2026-02-28",
+    "entity_status": "exact",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

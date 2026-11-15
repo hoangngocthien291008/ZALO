@@ -1,0 +1,19 @@
+{
+  "id": "q_d3ed369d528c",
+  "question": "Đếm dúp các khách còn thiếu tiền đến hết 16/11/2025 được bao nhiêu người nhé?",
+  "answer": {
+    "id": "q_d3ed369d528c",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0012,
+  "trace": {
+    "normalized_text": "đếm dúp các khách còn thiếu tiền đến hết 16/11/2025 được bao nhiêu người nhé?",
+    "normalized_ascii": "dem dup cac khach con thieu tien den het 16/11/2025 duoc bao nhieu nguoi nhe?",
+    "time_rule": "R8_exact_date",
+    "time_start": "2025-11-16",
+    "time_end": "2025-11-16",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

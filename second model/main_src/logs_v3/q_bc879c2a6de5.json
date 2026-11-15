@@ -1,0 +1,19 @@
+{
+  "id": "q_bc879c2a6de5",
+  "question": "tíh tới ngày 6/9/2026, 3 khách nào đag nợ nhìu nhứt, mỗi ngừi kòn nợ bnhiu đó nghen",
+  "answer": {
+    "id": "q_bc879c2a6de5",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0017,
+  "trace": {
+    "normalized_text": "tíh tới ngày 6/9/2026, 3 khách nào đag nợ nhiều nhất, mỗi ngừi kòn nợ bao nhiêu đó nghen",
+    "normalized_ascii": "tih toi ngay 6/9/2026, 3 khach nao dag no nhieu nhat, moi ngui kon no bao nhieu do nghen",
+    "time_rule": "R8_exact_date",
+    "time_start": "2026-09-06",
+    "time_end": "2026-09-06",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

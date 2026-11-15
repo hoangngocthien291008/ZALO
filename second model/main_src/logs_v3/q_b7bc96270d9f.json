@@ -1,0 +1,19 @@
+{
+  "id": "q_b7bc96270d9f",
+  "question": "Đến hết ngày 02/07/2025, số khách còn công nợ với cửa hàng là bao nhiêu?",
+  "answer": {
+    "id": "q_b7bc96270d9f",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0012,
+  "trace": {
+    "normalized_text": "đến hết ngày 02/07/2025, số khách còn công nợ với cửa hàng là bao nhiêu?",
+    "normalized_ascii": "den het ngay 02/07/2025, so khach con cong no voi cua hang la bao nhieu?",
+    "time_rule": "R4_snapshot",
+    "time_start": null,
+    "time_end": "2025-07-02",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

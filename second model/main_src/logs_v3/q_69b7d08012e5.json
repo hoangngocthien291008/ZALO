@@ -1,0 +1,19 @@
+{
+  "id": "q_69b7d08012e5",
+  "question": "Tới ngày 27/03/2026 tiền khách nợ chưa thu còn bnhiu?",
+  "answer": {
+    "id": "q_69b7d08012e5",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0006,
+  "trace": {
+    "normalized_text": "tới ngày 27/03/2026 tiền khách nợ chưa thu còn bao nhiêu?",
+    "normalized_ascii": "toi ngay 27/03/2026 tien khach no chua thu con bao nhieu?",
+    "time_rule": "R8_exact_date",
+    "time_start": "2026-03-27",
+    "time_end": "2026-03-27",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

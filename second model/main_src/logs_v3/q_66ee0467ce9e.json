@@ -1,0 +1,22 @@
+{
+  "id": "q_66ee0467ce9e",
+  "question": "Hqua có bnhiu đh z?",
+  "answer": {
+    "id": "q_66ee0467ce9e",
+    "type": "number",
+    "answer": 55
+  },
+  "elapsed_sec": 0.005,
+  "trace": {
+    "normalized_text": "hôm qua có bao nhiêu đơn hàng vậy?",
+    "normalized_ascii": "hom qua co bao nhieu don hang vay?",
+    "time_rule": "R6_yesterday",
+    "time_start": "2025-03-29",
+    "time_end": "2025-03-29",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "df = revenue_lines()\nord_rev = df.groupby('order_id')['amount'].sum() if not df.empty else pd.Series(dtype=float)\nord_rev = ord_rev[ord_rev >= 0.0] if 0.0 > 0 else ord_rev\ncnt = int(len(ord_rev))\nfinal_result = cnt if cnt > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

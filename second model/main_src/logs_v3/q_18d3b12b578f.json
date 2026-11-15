@@ -1,0 +1,19 @@
+{
+  "id": "q_18d3b12b578f",
+  "question": "Tiffy Dey hộp 25 vỉ x 4 viên lên giá 1.200đ từ ngày 02/06/2025; so 14 ngày kể từ ngày tăng giá với 14 ngày ngay trước, lượng bán tính theo viên tăng hay giảm bao nhiêu phần trăm?",
+  "answer": {
+    "id": "q_18d3b12b578f",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.002,
+  "trace": {
+    "normalized_text": "tiffy dey hộp 25 vỉ x 4 viên lên giá 1.200 đ từ ngày 02/06/2025; so 14 ngày kể từ ngày tăng giá với 14 ngày ngay trước, lượng bán tính theo viên tăng hay giảm bao nhiêu phần trăm?",
+    "normalized_ascii": "tiffy dey hop 25 vi x 4 vien len gia 1.200 d tu ngay 02/06/2025; so 14 ngay ke tu ngay tang gia voi 14 ngay ngay truoc, luong ban tinh theo vien tang hay giam bao nhieu phan tram?",
+    "time_rule": "R8_exact_date",
+    "time_start": "2025-06-02",
+    "time_end": "2025-06-02",
+    "entity_status": "exact",
+    "inferred_type": "percent",
+    "gate": "G4_safe_abstain"
+  }
+}

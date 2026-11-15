@@ -1,0 +1,19 @@
+{
+  "id": "q_beed6d8924db",
+  "question": "Tiền bán hàng của nhân viên mã NV002 trong tháng 8 năm 2025 là bao nhiêu vậy?",
+  "answer": {
+    "id": "q_beed6d8924db",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.001,
+  "trace": {
+    "normalized_text": "tiền bán hàng của nhân viên mã nv 002 trong tháng 8 năm 2025 là bao nhiêu vậy?",
+    "normalized_ascii": "tien ban hang cua nhan vien ma nv 002 trong thang 8 nam 2025 la bao nhieu vay?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-08-01",
+    "time_end": "2025-08-31",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

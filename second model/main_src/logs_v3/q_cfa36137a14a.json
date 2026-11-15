@@ -1,0 +1,20 @@
+{
+  "id": "q_cfa36137a14a",
+  "question": "Th4 dthu khách nhóm thân thiết chiếm mấy phần trăm dthu cả tiệm z?",
+  "answer": {
+    "id": "q_cfa36137a14a",
+    "type": "unanswerable",
+    "reason": "Dữ liệu cửa hàng không có cột phân nhóm khách hàng."
+  },
+  "elapsed_sec": 0.0052,
+  "trace": {
+    "normalized_text": "tháng 4 doanh thu khách nhóm thân thiết chiếm mấy phần trăm doanh thu cả tiệm vậy?",
+    "normalized_ascii": "thang 4 doanh thu khach nhom than thiet chiem may phan tram doanh thu ca tiem vay?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-04-01",
+    "time_end": "2026-04-30",
+    "entity_status": "not_found",
+    "inferred_type": "percent",
+    "gate": "U2_missing_cust_group"
+  }
+}

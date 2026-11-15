@@ -1,0 +1,22 @@
+{
+  "id": "q_f0bb331484b7",
+  "question": "7 ngày gần nhất được bnhiu đơn gồi?",
+  "answer": {
+    "id": "q_f0bb331484b7",
+    "type": "number",
+    "answer": 575
+  },
+  "elapsed_sec": 0.0141,
+  "trace": {
+    "normalized_text": "7 ngày gần nhất được bao nhiêu đơn rồi?",
+    "normalized_ascii": "7 ngay gan nhat duoc bao nhieu don roi?",
+    "time_rule": "R7_n_days",
+    "time_start": "2026-03-12",
+    "time_end": "2026-03-18",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "df = revenue_lines()\nord_rev = df.groupby('order_id')['amount'].sum() if not df.empty else pd.Series(dtype=float)\nord_rev = ord_rev[ord_rev >= 0.0] if 0.0 > 0 else ord_rev\ncnt = int(len(ord_rev))\nfinal_result = cnt if cnt > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

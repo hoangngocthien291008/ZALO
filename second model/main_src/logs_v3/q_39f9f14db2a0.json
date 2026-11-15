@@ -1,0 +1,22 @@
+{
+  "id": "q_39f9f14db2a0",
+  "question": "Th2/2026 có mấy đơn huỷ z?",
+  "answer": {
+    "id": "q_39f9f14db2a0",
+    "type": "number",
+    "answer": 25
+  },
+  "elapsed_sec": 0.014,
+  "trace": {
+    "normalized_text": "tháng 2/2026 có mấy đơn huỷ vậy?",
+    "normalized_ascii": "thang 2/2026 co may don huy vay?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-02-01",
+    "time_end": "2026-02-28",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "sub = all_orders()\ncanc = len(sub[sub['status_norm'] == 'huy']['order_id'].unique()) if not sub.empty else 0\nfinal_result = int(canc)",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

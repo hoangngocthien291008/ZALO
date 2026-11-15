@@ -1,0 +1,26 @@
+{
+  "id": "q_54bbf080f0cd",
+  "question": "Liệt kê 3 mặt hàng bán chạy nhất tháng 6/2025.",
+  "answer": {
+    "id": "q_54bbf080f0cd",
+    "type": "list",
+    "answer": [
+      "Cà phê đen (M)",
+      "Trà đào cam sả (M)",
+      "Cà phê sữa (M)"
+    ]
+  },
+  "elapsed_sec": 0.0187,
+  "trace": {
+    "normalized_text": "liệt kê 3 mặt hàng bán chạy nhất tháng 6/2025.",
+    "normalized_ascii": "liet ke 3 mat hang ban chay nhat thang 6/2025.",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-06-01",
+    "time_end": "2025-06-30",
+    "entity_status": "not_needed",
+    "inferred_type": "list",
+    "fastpath_code": "df = item_lines()\nfinal_result = top_k(df, value_col='qty_base', k=3, key_col='item_code', name_col='item_name')",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

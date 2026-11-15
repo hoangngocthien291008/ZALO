@@ -1,0 +1,22 @@
+{
+  "id": "q_9ff971a2b435",
+  "question": "Th5/2025 có bnhiu đơn tiền hàng từ 130.000đ trở lên?",
+  "answer": {
+    "id": "q_9ff971a2b435",
+    "type": "number",
+    "answer": 60
+  },
+  "elapsed_sec": 0.0259,
+  "trace": {
+    "normalized_text": "tháng 5/2025 có bao nhiêu đơn tiền hàng từ 130.000 đ trở lên?",
+    "normalized_ascii": "thang 5/2025 co bao nhieu don tien hang tu 130.000 d tro len?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-05-01",
+    "time_end": "2025-05-31",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "df = revenue_lines()\nord_rev = df.groupby('order_id')['amount'].sum() if not df.empty else pd.Series(dtype=float)\nord_rev = ord_rev[ord_rev >= 130000.0] if 130000.0 > 0 else ord_rev\ncnt = int(len(ord_rev))\nfinal_result = cnt if cnt > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

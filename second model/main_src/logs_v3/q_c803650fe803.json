@@ -1,0 +1,19 @@
+{
+  "id": "q_c803650fe803",
+  "question": "Quý 2/2026 bnhiu nượt xe quay lại bảo hành?",
+  "answer": {
+    "id": "q_c803650fe803",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0062,
+  "trace": {
+    "normalized_text": "quý 2/2026 bao nhiêu nượt xe quay lại bảo hành?",
+    "normalized_ascii": "quy 2/2026 bao nhieu nuot xe quay lai bao hanh?",
+    "time_rule": "R11_quarter",
+    "time_start": "2026-04-01",
+    "time_end": "2026-06-30",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

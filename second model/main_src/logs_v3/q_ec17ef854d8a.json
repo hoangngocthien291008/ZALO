@@ -1,0 +1,19 @@
+{
+  "id": "q_ec17ef854d8a",
+  "question": "Khach nhom than thiet 3/26 mua tong cong bnhiu tien hang?",
+  "answer": {
+    "id": "q_ec17ef854d8a",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0036,
+  "trace": {
+    "normalized_text": "khach nhom than thiet 3/26 mua tong cong bao nhiêu tien hang?",
+    "normalized_ascii": "khach nhom than thiet 3/26 mua tong cong bao nhieu tien hang?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-03-01",
+    "time_end": "2026-03-31",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

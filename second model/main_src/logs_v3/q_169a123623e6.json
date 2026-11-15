@@ -1,0 +1,22 @@
+{
+  "id": "q_169a123623e6",
+  "question": "Trong so khach mua th6/2025, may % co tu 3 don tro len?",
+  "answer": {
+    "id": "q_169a123623e6",
+    "type": "percent",
+    "answer": 49.71
+  },
+  "elapsed_sec": 0.0086,
+  "trace": {
+    "normalized_text": "trong so khach mua tháng 6/2025, may% co tu 3 don trở lên?",
+    "normalized_ascii": "trong so khach mua thang 6/2025, may% co tu 3 don tro len?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-06-01",
+    "time_end": "2025-06-30",
+    "entity_status": "not_needed",
+    "inferred_type": "percent",
+    "fastpath_code": "df = revenue_lines()\ndf = df[df['cust_key'] != ''] if not df.empty else df\nif df.empty:\n    final_result = None\nelse:\n    cnts = df.groupby('cust_key')['order_id'].nunique()\n    tot_c = len(cnts)\n    qual_c = int((cnts >= 3).sum())\n    final_result = pct(qual_c, tot_c) if tot_c > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

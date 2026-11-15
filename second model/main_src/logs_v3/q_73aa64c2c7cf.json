@@ -1,0 +1,22 @@
+{
+  "id": "q_73aa64c2c7cf",
+  "question": "Thang 7/2025 dem giup so ngay dthu tu 38.000.000 dong tro len?",
+  "answer": {
+    "id": "q_73aa64c2c7cf",
+    "type": "number",
+    "answer": 1129348300
+  },
+  "elapsed_sec": 0.0229,
+  "trace": {
+    "normalized_text": "thang 7/2025 dem giúp so ngay doanh thu tu 38.000.000 dong trở lên?",
+    "normalized_ascii": "thang 7/2025 dem giup so ngay doanh thu tu 38.000.000 dong tro len?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-07-01",
+    "time_end": "2025-07-31",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "rev = revenue()\nfinal_result = rev if rev > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

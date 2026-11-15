@@ -1,0 +1,22 @@
+{
+  "id": "q_c65b4afeafd1",
+  "question": "e ơi dthu shop mik th5/2025 so vs thang lien trc do tang hay giam mí % z nghen",
+  "answer": {
+    "id": "q_c65b4afeafd1",
+    "type": "percent",
+    "answer": 16.18
+  },
+  "elapsed_sec": 0.0259,
+  "trace": {
+    "normalized_text": "e ơi doanh thu shop mình tháng 5/2025 so so với thang liền trước do tang hay giam mí% vậy nghen",
+    "normalized_ascii": "e oi doanh thu shop minh thang 5/2025 so so voi thang lien truoc do tang hay giam mi% vay nghen",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-05-01",
+    "time_end": "2025-05-31",
+    "entity_status": "not_needed",
+    "inferred_type": "percent",
+    "fastpath_code": "r_curr = revenue(T['start'], T['end'], T['shift'])\nr_prev = revenue(T['cmp_start'], T['cmp_end'], T['shift'])\nfinal_result = growth(r_curr, r_prev) if (r_prev > 0 and r_curr > 0) else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

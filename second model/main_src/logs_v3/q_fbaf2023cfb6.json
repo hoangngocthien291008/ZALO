@@ -1,0 +1,19 @@
+{
+  "id": "q_fbaf2023cfb6",
+  "question": "Thang 6 nam 2025 nhap ve bnhiu vien Tiffy Dey hop 25 vi x 4 vien?",
+  "answer": {
+    "id": "q_fbaf2023cfb6",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.001,
+  "trace": {
+    "normalized_text": "thang 6 nam 2025 nhap ve bao nhiêu vien tiffy dey hop 25 vi x 4 vien?",
+    "normalized_ascii": "thang 6 nam 2025 nhap ve bao nhieu vien tiffy dey hop 25 vi x 4 vien?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-06-01",
+    "time_end": "2025-06-30",
+    "entity_status": "exact",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

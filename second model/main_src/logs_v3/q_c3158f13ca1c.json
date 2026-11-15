@@ -1,0 +1,19 @@
+{
+  "id": "q_c3158f13ca1c",
+  "question": "Th9/2025 đến hết th11/2025 tiệm có bnhiu xe khách quen, tức xe vô sửa từ 2 lần trở lên z?",
+  "answer": {
+    "id": "q_c3158f13ca1c",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.006,
+  "trace": {
+    "normalized_text": "tháng 9/2025 đến hết tháng 11/2025 tiệm có bao nhiêu xe khách quen, tức xe vô sửa từ 2 lần trở lên vậy?",
+    "normalized_ascii": "thang 9/2025 den het thang 11/2025 tiem co bao nhieu xe khach quen, tuc xe vo sua tu 2 lan tro len vay?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-09-01",
+    "time_end": "2025-09-30",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

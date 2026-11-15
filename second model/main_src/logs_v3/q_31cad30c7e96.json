@@ -1,0 +1,22 @@
+{
+  "id": "q_31cad30c7e96",
+  "question": "Tổng dthu tháng 2/26 là bnhiu hè?",
+  "answer": {
+    "id": "q_31cad30c7e96",
+    "type": "number",
+    "answer": 103895500
+  },
+  "elapsed_sec": 0.0077,
+  "trace": {
+    "normalized_text": "tổng doanh thu tháng 2/26 là bao nhiêu hè?",
+    "normalized_ascii": "tong doanh thu thang 2/26 la bao nhieu he?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-02-01",
+    "time_end": "2026-02-28",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "rev = revenue()\nfinal_result = rev if rev > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

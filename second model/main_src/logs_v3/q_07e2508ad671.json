@@ -1,0 +1,19 @@
+{
+  "id": "q_07e2508ad671",
+  "question": "check jum, shop mik thang nay bn chiec SH Mode khac nhau zo sua hen",
+  "answer": {
+    "id": "q_07e2508ad671",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.1193,
+  "trace": {
+    "normalized_text": "check giúp, shop mình tháng này bao nhiêu chiec sh mode khac nhau zo sua hen",
+    "normalized_ascii": "check giup, shop minh thang nay bao nhieu chiec sh mode khac nhau zo sua hen",
+    "time_rule": "R12_this_month",
+    "time_start": "2026-08-01",
+    "time_end": "2026-08-31",
+    "entity_status": "not_found",
+    "inferred_type": "number",
+    "gate": "G3_entity_below_0.70"
+  }
+}

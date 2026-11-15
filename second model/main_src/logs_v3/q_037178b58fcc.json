@@ -1,0 +1,22 @@
+{
+  "id": "q_037178b58fcc",
+  "question": "Từ đầu năm tới hnay tiệm có bnhiu đơn hàng rồi?",
+  "answer": {
+    "id": "q_037178b58fcc",
+    "type": "number",
+    "answer": 6134
+  },
+  "elapsed_sec": 0.0165,
+  "trace": {
+    "normalized_text": "từ đầu năm tới hôm nay tiệm có bao nhiêu đơn hàng rồi?",
+    "normalized_ascii": "tu dau nam toi hom nay tiem co bao nhieu don hang roi?",
+    "time_rule": "R3_ytd",
+    "time_start": "2026-01-01",
+    "time_end": "2026-03-16",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "df = revenue_lines()\nord_rev = df.groupby('order_id')['amount'].sum() if not df.empty else pd.Series(dtype=float)\nord_rev = ord_rev[ord_rev >= 0.0] if 0.0 > 0 else ord_rev\ncnt = int(len(ord_rev))\nfinal_result = cnt if cnt > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

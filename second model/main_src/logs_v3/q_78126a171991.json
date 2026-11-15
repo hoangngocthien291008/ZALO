@@ -1,0 +1,19 @@
+{
+  "id": "q_78126a171991",
+  "question": "Doanh thu bữa ni của tiệm được bao nhiêu?",
+  "answer": {
+    "id": "q_78126a171991",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0054,
+  "trace": {
+    "normalized_text": "doanh thu bữa ni của tiệm được bao nhiêu?",
+    "normalized_ascii": "doanh thu bua ni cua tiem duoc bao nhieu?",
+    "time_rule": "none",
+    "time_start": "2025-10-17",
+    "time_end": "2025-10-17",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G2_missing_time"
+  }
+}

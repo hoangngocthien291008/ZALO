@@ -1,0 +1,19 @@
+{
+  "id": "q_bfecad2e9a15",
+  "question": "Tháng 5/2025 có mấy mặt hàng được gọi chong ít nhất 172 đơn?",
+  "answer": {
+    "id": "q_bfecad2e9a15",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0011,
+  "trace": {
+    "normalized_text": "tháng 5/2025 có mấy mặt hàng được gọi chong ít nhất 172 đơn?",
+    "normalized_ascii": "thang 5/2025 co may mat hang duoc goi chong it nhat 172 don?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-05-01",
+    "time_end": "2025-05-31",
+    "entity_status": "exact",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "q_d3b768308def",
+  "question": "Doanh thu tháng 4/2026 tăng dảm bao nhiêu % xo với tháng liền trước?",
+  "answer": {
+    "id": "q_d3b768308def",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0053,
+  "trace": {
+    "normalized_text": "doanh thu tháng 4/2026 tăng dảm bao nhiêu% xo với tháng liền trước?",
+    "normalized_ascii": "doanh thu thang 4/2026 tang dam bao nhieu% xo voi thang lien truoc?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-04-01",
+    "time_end": "2026-04-30",
+    "entity_status": "not_needed",
+    "inferred_type": "percent",
+    "gate": "G4_safe_abstain"
+  }
+}

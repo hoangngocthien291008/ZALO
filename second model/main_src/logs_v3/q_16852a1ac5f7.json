@@ -1,0 +1,19 @@
+{
+  "id": "q_16852a1ac5f7",
+  "question": "Den ngay 13/03/2026 co may khach tra gop con no ky gop qua han?",
+  "answer": {
+    "id": "q_16852a1ac5f7",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0024,
+  "trace": {
+    "normalized_text": "den ngay 13/03/2026 co may khach trả góp còn nợ ky gop qua han?",
+    "normalized_ascii": "den ngay 13/03/2026 co may khach tra gop con no ky gop qua han?",
+    "time_rule": "R8_exact_date",
+    "time_start": "2026-03-13",
+    "time_end": "2026-03-13",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "q_60022421ae73",
+  "question": "Vitamin C 500mg Quapharco hop 10 vi x 10 vien thang 9 nam 2025: lay so vien nhap vo tru so vien ban ra thi duoc bao nhieu?",
+  "answer": {
+    "id": "q_60022421ae73",
+    "type": "number",
+    "answer": 580
+  },
+  "elapsed_sec": 0.0547,
+  "trace": {
+    "normalized_text": "vitamin c 500 mg quapharco hop 10 vi x 10 vien thang 9 nam 2025: lay so vien nhap vo tru so vien ban ra thi duoc bao nhiêu?",
+    "normalized_ascii": "vitamin c 500 mg quapharco hop 10 vi x 10 vien thang 9 nam 2025: lay so vien nhap vo tru so vien ban ra thi duoc bao nhieu?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-09-01",
+    "time_end": "2025-09-30",
+    "entity_status": "exact",
+    "inferred_type": "number",
+    "fastpath_code": "df = match_item(item_lines(), 'Vitamin C 500mg Quapharco hộp 10 vỉ x 10 viên')\nq = float(df['qty_base'].sum()) if not df.empty else 0.0\nfinal_result = (int(round(q)) if abs(q - round(q)) < 1e-6 else round(q, 2)) if q > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

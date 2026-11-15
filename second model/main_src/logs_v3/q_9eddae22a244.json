@@ -1,0 +1,22 @@
+{
+  "id": "q_9eddae22a244",
+  "question": "Tính đến hôm nay, trong mọi đơn bán chịu, có bao nhiêu đơn có ngày phải trả ghi trên sổ muộn hơn hôm nay?",
+  "answer": {
+    "id": "q_9eddae22a244",
+    "type": "number",
+    "answer": 2826
+  },
+  "elapsed_sec": 0.0082,
+  "trace": {
+    "normalized_text": "tính đến hôm nay, trong mọi đơn bán chịu, có bao nhiêu đơn có ngày phải trả ghi trên sổ muộn hơn hôm nay?",
+    "normalized_ascii": "tinh den hom nay, trong moi don ban chiu, co bao nhieu don co ngay phai tra ghi tren so muon hon hom nay?",
+    "time_rule": "R4_snapshot",
+    "time_start": null,
+    "time_end": "2025-04-15",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "df = revenue_lines()\nord_rev = df.groupby('order_id')['amount'].sum() if not df.empty else pd.Series(dtype=float)\nord_rev = ord_rev[ord_rev >= 0.0] if 0.0 > 0 else ord_rev\ncnt = int(len(ord_rev))\nfinal_result = cnt if cnt > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

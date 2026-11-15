@@ -1,0 +1,26 @@
+{
+  "id": "q_0641a621b596",
+  "question": "Kể giúp dthu 3 tháng liền từ T4/2025 tới T6/2025, theo thứ tự thời gian.",
+  "answer": {
+    "id": "q_0641a621b596",
+    "type": "list",
+    "answer": [
+      233818700,
+      248568700,
+      237185200
+    ]
+  },
+  "elapsed_sec": 0.0348,
+  "trace": {
+    "normalized_text": "kể giúp doanh thu 3 tháng liền từ tháng 4/2025 tới tháng 6/2025, theo thứ tự thời gian.",
+    "normalized_ascii": "ke giup doanh thu 3 thang lien tu thang 4/2025 toi thang 6/2025, theo thu tu thoi gian.",
+    "time_rule": "R2b_month_range",
+    "time_start": "2025-04-01",
+    "time_end": "2025-06-30",
+    "entity_status": "not_needed",
+    "inferred_type": "list",
+    "fastpath_code": "revs = [revenue(p['start'], p['end']) for p in T['periods']]\nfinal_result = revs if (revs and all(r > 0 for r in revs)) else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

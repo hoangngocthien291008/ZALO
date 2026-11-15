@@ -1,0 +1,22 @@
+{
+  "id": "q_a2ed59a92ab8",
+  "question": "Tong tien ban hom nay?",
+  "answer": {
+    "id": "q_a2ed59a92ab8",
+    "type": "number",
+    "answer": 38584000
+  },
+  "elapsed_sec": 0.0162,
+  "trace": {
+    "normalized_text": "tong tien ban hôm nay?",
+    "normalized_ascii": "tong tien ban hom nay?",
+    "time_rule": "R5_today",
+    "time_start": "2025-05-17",
+    "time_end": "2025-05-17",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "rev = revenue()\nfinal_result = rev if rev > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

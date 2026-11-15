@@ -1,0 +1,22 @@
+{
+  "id": "q_dec759a2f085",
+  "question": "Tháng 4/2026 bán ra bao nhiêu ly Latte (M)?",
+  "answer": {
+    "id": "q_dec759a2f085",
+    "type": "number",
+    "answer": 118
+  },
+  "elapsed_sec": 0.0365,
+  "trace": {
+    "normalized_text": "tháng 4/2026 bán ra bao nhiêu ly latte (m)?",
+    "normalized_ascii": "thang 4/2026 ban ra bao nhieu ly latte (m)?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-04-01",
+    "time_end": "2026-04-30",
+    "entity_status": "exact",
+    "inferred_type": "number",
+    "fastpath_code": "df = match_item(item_lines(), 'Latte (M)')\nq = float(df['qty_base'].sum()) if not df.empty else 0.0\nfinal_result = (int(round(q)) if abs(q - round(q)) < 1e-6 else round(q, 2)) if q > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

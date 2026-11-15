@@ -1,0 +1,22 @@
+{
+  "id": "q_0a3308eb76bb",
+  "question": "Hom qua tiem ban dc may don?",
+  "answer": {
+    "id": "q_0a3308eb76bb",
+    "type": "number",
+    "answer": 10
+  },
+  "elapsed_sec": 0.9658,
+  "trace": {
+    "normalized_text": "hôm qua tiem ban được may don?",
+    "normalized_ascii": "hom qua tiem ban duoc may don?",
+    "time_rule": "R6_yesterday",
+    "time_start": "2026-06-09",
+    "time_end": "2026-06-09",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "df = revenue_lines()\nord_rev = df.groupby('order_id')['amount'].sum() if not df.empty else pd.Series(dtype=float)\nord_rev = ord_rev[ord_rev >= 0.0] if 0.0 > 0 else ord_rev\ncnt = int(len(ord_rev))\nfinal_result = cnt if cnt > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

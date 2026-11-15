@@ -1,0 +1,22 @@
+{
+  "id": "q_be4ad5df428d",
+  "question": "Tính từ 1/1 tới hết hôm nay, năm nay quán bán được bao nhiêu tiền ha?",
+  "answer": {
+    "id": "q_be4ad5df428d",
+    "type": "number",
+    "answer": 3095292500
+  },
+  "elapsed_sec": 0.0297,
+  "trace": {
+    "normalized_text": "tính từ 1/1 tới hết hôm nay, năm nay quán bán được bao nhiêu tiền ha?",
+    "normalized_ascii": "tinh tu 1/1 toi het hom nay, nam nay quan ban duoc bao nhieu tien ha?",
+    "time_rule": "R4_snapshot",
+    "time_start": null,
+    "time_end": "2025-04-10",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "rev = revenue()\nfinal_result = rev if rev > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

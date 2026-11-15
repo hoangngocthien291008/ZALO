@@ -1,0 +1,22 @@
+{
+  "id": "q_de54a69c7dce",
+  "question": "10/2025 có mấy khách mua từ 8 đơn trở lên vậy?",
+  "answer": {
+    "id": "q_de54a69c7dce",
+    "type": "number",
+    "answer": 55
+  },
+  "elapsed_sec": 0.024,
+  "trace": {
+    "normalized_text": "10/2025 có mấy khách mua từ 8 đơn trở lên vậy?",
+    "normalized_ascii": "10/2025 co may khach mua tu 8 don tro len vay?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-10-01",
+    "time_end": "2025-10-31",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "df = revenue_lines()\ndf = df[df['cust_key'] != ''] if not df.empty else df\ncnts = df.groupby('cust_key')['order_id'].nunique() if not df.empty else pd.Series(dtype=int)\nqual_c = int((cnts >= 8).sum())\nfinal_result = qual_c if qual_c > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

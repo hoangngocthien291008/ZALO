@@ -1,0 +1,22 @@
+{
+  "id": "q_18b0cb2e9c4c",
+  "question": "8/2025 đếm giùm mấy đh dthu từ 180.000đ trở lên",
+  "answer": {
+    "id": "q_18b0cb2e9c4c",
+    "type": "number",
+    "answer": 428
+  },
+  "elapsed_sec": 0.0153,
+  "trace": {
+    "normalized_text": "8/2025 đếm giùm mấy đơn hàng doanh thu từ 180.000 đ trở lên",
+    "normalized_ascii": "8/2025 dem gium may don hang doanh thu tu 180.000 d tro len",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-08-01",
+    "time_end": "2025-08-31",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "df = revenue_lines()\nord_rev = df.groupby('order_id')['amount'].sum() if not df.empty else pd.Series(dtype=float)\nord_rev = ord_rev[ord_rev >= 180000.0] if 180000.0 > 0 else ord_rev\ncnt = int(len(ord_rev))\nfinal_result = cnt if cnt > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

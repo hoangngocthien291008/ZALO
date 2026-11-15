@@ -1,0 +1,22 @@
+{
+  "id": "q_17743de8e260",
+  "question": "6-2026 bị huỷ mấy đơn nhỉ?",
+  "answer": {
+    "id": "q_17743de8e260",
+    "type": "number",
+    "answer": 36
+  },
+  "elapsed_sec": 0.0172,
+  "trace": {
+    "normalized_text": "6-2026 bị huỷ mấy đơn nhỉ?",
+    "normalized_ascii": "6-2026 bi huy may don nhi?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-06-01",
+    "time_end": "2026-06-30",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "sub = all_orders()\ncanc = len(sub[sub['status_norm'] == 'huy']['order_id'].unique()) if not sub.empty else 0\nfinal_result = int(canc)",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

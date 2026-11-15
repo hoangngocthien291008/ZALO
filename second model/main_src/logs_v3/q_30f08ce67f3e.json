@@ -1,0 +1,21 @@
+{
+  "id": "q_30f08ce67f3e",
+  "question": "check jum th6/2025 wan mik nhap hang cuar ncc nao nhiu tien nhut do ha",
+  "answer": {
+    "id": "q_30f08ce67f3e",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0033,
+  "trace": {
+    "normalized_text": "check giúp tháng 6/2025 quán mình nhập hàng của nhà cung cấp nao nhiều tien nhất do ha",
+    "normalized_ascii": "check giup thang 6/2025 quan minh nhap hang cua nha cung cap nao nhieu tien nhat do ha",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-06-01",
+    "time_end": "2025-06-30",
+    "entity_status": "not_needed",
+    "inferred_type": "string",
+    "fastpath_code": "final_result = top_supplier_by_amount(T['start'], T['end'], k=1)",
+    "fastpath_ok": false,
+    "gate": "G4_safe_abstain"
+  }
+}

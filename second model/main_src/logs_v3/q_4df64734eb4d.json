@@ -1,0 +1,22 @@
+{
+  "id": "q_4df64734eb4d",
+  "question": "Th1/2025 bao nhieu don co dthu tu 410.000 dong tro lne?",
+  "answer": {
+    "id": "q_4df64734eb4d",
+    "type": "number",
+    "answer": 843
+  },
+  "elapsed_sec": 0.0289,
+  "trace": {
+    "normalized_text": "tháng 1/2025 bao nhiêu don co doanh thu tu 410.000 dong tro lne?",
+    "normalized_ascii": "thang 1/2025 bao nhieu don co doanh thu tu 410.000 dong tro lne?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-01-01",
+    "time_end": "2025-01-31",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "df = revenue_lines()\nord_rev = df.groupby('order_id')['amount'].sum() if not df.empty else pd.Series(dtype=float)\nord_rev = ord_rev[ord_rev >= 410000.0] if 410000.0 > 0 else ord_rev\ncnt = int(len(ord_rev))\nfinal_result = cnt if cnt > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

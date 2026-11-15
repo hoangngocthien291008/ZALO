@@ -1,0 +1,22 @@
+{
+  "id": "q_ba477e8e6161",
+  "question": "04/2025 dthu so voi thang truoc tang hay giam may %?",
+  "answer": {
+    "id": "q_ba477e8e6161",
+    "type": "percent",
+    "answer": -4.27
+  },
+  "elapsed_sec": 0.0128,
+  "trace": {
+    "normalized_text": "04/2025 doanh thu so voi tháng trước tang hay giam may%?",
+    "normalized_ascii": "04/2025 doanh thu so voi thang truoc tang hay giam may%?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-04-01",
+    "time_end": "2025-04-30",
+    "entity_status": "not_needed",
+    "inferred_type": "percent",
+    "fastpath_code": "r_curr = revenue(T['start'], T['end'], T['shift'])\nr_prev = revenue(T['cmp_start'], T['cmp_end'], T['shift'])\nfinal_result = growth(r_curr, r_prev) if (r_prev > 0 and r_curr > 0) else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

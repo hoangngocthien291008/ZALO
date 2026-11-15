@@ -1,0 +1,19 @@
+{
+  "id": "q_d1c95d7db2ae",
+  "question": "Hqua bán đc mấy gói?",
+  "answer": {
+    "id": "q_d1c95d7db2ae",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.001,
+  "trace": {
+    "normalized_text": "hôm qua bán được mấy gói?",
+    "normalized_ascii": "hom qua ban duoc may goi?",
+    "time_rule": "R6_yesterday",
+    "time_start": "2025-10-04",
+    "time_end": "2025-10-04",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "q_a79c3c340077",
+  "question": "So voi T4/2025 thi T4/2026 doanh thu tang truong bao nhieu %?",
+  "answer": {
+    "id": "q_a79c3c340077",
+    "type": "percent",
+    "answer": 10.7
+  },
+  "elapsed_sec": 0.0294,
+  "trace": {
+    "normalized_text": "so voi tháng 4/2025 thi tháng 4/2026 doanh thu tang truong bao nhiêu%?",
+    "normalized_ascii": "so voi thang 4/2025 thi thang 4/2026 doanh thu tang truong bao nhieu%?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-04-01",
+    "time_end": "2025-04-30",
+    "entity_status": "not_needed",
+    "inferred_type": "percent",
+    "fastpath_code": "r_curr = revenue(T['start'], T['end'], T['shift'])\nr_prev = revenue(T['cmp_start'], T['cmp_end'], T['shift'])\nfinal_result = growth(r_curr, r_prev) if (r_prev > 0 and r_curr > 0) else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

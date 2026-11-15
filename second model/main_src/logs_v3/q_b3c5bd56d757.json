@@ -1,0 +1,22 @@
+{
+  "id": "q_b3c5bd56d757",
+  "question": "5-2026 huỷ mất mấy đơn z?",
+  "answer": {
+    "id": "q_b3c5bd56d757",
+    "type": "number",
+    "answer": 52
+  },
+  "elapsed_sec": 0.0158,
+  "trace": {
+    "normalized_text": "5-2026 huỷ mất mấy đơn vậy?",
+    "normalized_ascii": "5-2026 huy mat may don vay?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-05-01",
+    "time_end": "2026-05-31",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "sub = all_orders()\ncanc = len(sub[sub['status_norm'] == 'huy']['order_id'].unique()) if not sub.empty else 0\nfinal_result = int(canc)",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

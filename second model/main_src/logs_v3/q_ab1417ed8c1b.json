@@ -1,0 +1,22 @@
+{
+  "id": "q_ab1417ed8c1b",
+  "question": "Tháng 5/2026 có bao nhiêu đơn hàng có doanh thu từ 1.800.000 đồng trở lên?",
+  "answer": {
+    "id": "q_ab1417ed8c1b",
+    "type": "number",
+    "answer": 208
+  },
+  "elapsed_sec": 0.0093,
+  "trace": {
+    "normalized_text": "tháng 5/2026 có bao nhiêu đơn hàng có doanh thu từ 1.800.000 đồng trở lên?",
+    "normalized_ascii": "thang 5/2026 co bao nhieu don hang co doanh thu tu 1.800.000 dong tro len?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-05-01",
+    "time_end": "2026-05-31",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "df = revenue_lines()\nord_rev = df.groupby('order_id')['amount'].sum() if not df.empty else pd.Series(dtype=float)\nord_rev = ord_rev[ord_rev >= 1800000.0] if 1800000.0 > 0 else ord_rev\ncnt = int(len(ord_rev))\nfinal_result = cnt if cnt > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

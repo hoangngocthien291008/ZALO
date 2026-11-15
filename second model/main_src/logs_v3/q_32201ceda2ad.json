@@ -1,0 +1,22 @@
+{
+  "id": "q_32201ceda2ad",
+  "question": "Tổng dthu th3/2025 của quán là nhiêu z?",
+  "answer": {
+    "id": "q_32201ceda2ad",
+    "type": "number",
+    "answer": 233122000
+  },
+  "elapsed_sec": 0.0142,
+  "trace": {
+    "normalized_text": "tổng doanh thu tháng 3/2025 của quán là nhiêu vậy?",
+    "normalized_ascii": "tong doanh thu thang 3/2025 cua quan la nhieu vay?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-03-01",
+    "time_end": "2025-03-31",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "rev = revenue()\nfinal_result = rev if rev > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

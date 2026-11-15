@@ -1,0 +1,22 @@
+{
+  "id": "q_040d437fdf09",
+  "question": "trung binh moi don shop mik th1/2025 gia tri dc bnhiu z nhi",
+  "answer": {
+    "id": "q_040d437fdf09",
+    "type": "number",
+    "answer": 70324
+  },
+  "elapsed_sec": 0.0201,
+  "trace": {
+    "normalized_text": "trung bình moi don shop mình tháng 1/2025 gia tri được bao nhiêu vậy nhi",
+    "normalized_ascii": "trung binh moi don shop minh thang 1/2025 gia tri duoc bao nhieu vay nhi",
+    "time_rule": "R13_specific_month",
+    "time_start": "2025-01-01",
+    "time_end": "2025-01-31",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "df = revenue_lines()\nif not df.empty and 'status' in df.columns:\n    df = df[~(df['status'].str.lower().str.contains('bảo hành|bao hanh', na=False) & (df['amount'] == 0))]\nn_ord = len(df['order_id'].unique()) if not df.empty else 0\ntot = float(df['amount'].sum()) if not df.empty else 0.0\nfinal_result = int((tot / n_ord) + 0.5) if (n_ord > 0 and tot > 0) else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "q_7d043dbd4908",
+  "question": "Dthu 3 tháng 7/2025, 8/2025, 9/2025 lần lượt từng tháng là bnhiu?",
+  "answer": {
+    "id": "q_7d043dbd4908",
+    "type": "list",
+    "answer": [
+      288932500,
+      294011600,
+      267298900
+    ]
+  },
+  "elapsed_sec": 0.0358,
+  "trace": {
+    "normalized_text": "doanh thu 3 tháng 7/2025, 8/2025, 9/2025 lần lượt từng tháng là bao nhiêu?",
+    "normalized_ascii": "doanh thu 3 thang 7/2025, 8/2025, 9/2025 lan luot tung thang la bao nhieu?",
+    "time_rule": "R2b_month_list",
+    "time_start": "2025-07-01",
+    "time_end": "2025-09-30",
+    "entity_status": "not_needed",
+    "inferred_type": "list",
+    "fastpath_code": "revs = [revenue(p['start'], p['end']) for p in T['periods']]\nfinal_result = revs if (revs and all(r > 0 for r in revs)) else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

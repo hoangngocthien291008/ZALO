@@ -1,0 +1,19 @@
+{
+  "id": "q_7d236c308111",
+  "question": "Bỉm Bobby tháng này chiếm bao nhiêu phần trăm tổng số bịch bỉm bán ra, gộp mọi size?",
+  "answer": {
+    "id": "q_7d236c308111",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0148,
+  "trace": {
+    "normalized_text": "bỉm bobby tháng này chiếm bao nhiêu phần trăm tổng số bịch bỉm bán ra, gộp mọi size?",
+    "normalized_ascii": "bim bobby thang nay chiem bao nhieu phan tram tong so bich bim ban ra, gop moi size?",
+    "time_rule": "R12_this_month",
+    "time_start": "2026-06-01",
+    "time_end": "2026-06-30",
+    "entity_status": "not_found",
+    "inferred_type": "percent",
+    "gate": "G3_entity_below_0.70"
+  }
+}

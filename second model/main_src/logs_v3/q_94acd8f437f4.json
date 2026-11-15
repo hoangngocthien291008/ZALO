@@ -1,0 +1,21 @@
+{
+  "id": "q_94acd8f437f4",
+  "question": "T5/2026 sp nao lai gop nhieu nhat?",
+  "answer": {
+    "id": "q_94acd8f437f4",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0034,
+  "trace": {
+    "normalized_text": "tháng 5/2026 sản phẩm nao lãi gộp nhiều nhất?",
+    "normalized_ascii": "thang 5/2026 san pham nao lai gop nhieu nhat?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-05-01",
+    "time_end": "2026-05-31",
+    "entity_status": "not_needed",
+    "inferred_type": "string",
+    "fastpath_code": "final_result = top_gross_profit_item(T['start'], T['end'], k=1)",
+    "fastpath_ok": true,
+    "gate": "G4_safe_abstain"
+  }
+}

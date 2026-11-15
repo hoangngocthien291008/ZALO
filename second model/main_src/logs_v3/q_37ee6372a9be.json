@@ -1,0 +1,22 @@
+{
+  "id": "q_37ee6372a9be",
+  "question": "Dthu bình quân một đh T2/2026 được bnhiu?",
+  "answer": {
+    "id": "q_37ee6372a9be",
+    "type": "number",
+    "answer": 476528
+  },
+  "elapsed_sec": 0.0111,
+  "trace": {
+    "normalized_text": "doanh thu bình quân một đơn hàng tháng 2/2026 được bao nhiêu?",
+    "normalized_ascii": "doanh thu binh quan mot don hang thang 2/2026 duoc bao nhieu?",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-02-01",
+    "time_end": "2026-02-28",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "df = revenue_lines()\nif not df.empty and 'status' in df.columns:\n    df = df[~(df['status'].str.lower().str.contains('bảo hành|bao hanh', na=False) & (df['amount'] == 0))]\nn_ord = len(df['order_id'].unique()) if not df.empty else 0\ntot = float(df['amount'].sum()) if not df.empty else 0.0\nfinal_result = int((tot / n_ord) + 0.5) if (n_ord > 0 and tot > 0) else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

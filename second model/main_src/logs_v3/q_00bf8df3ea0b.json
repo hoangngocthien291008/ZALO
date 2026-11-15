@@ -1,0 +1,22 @@
+{
+  "id": "q_00bf8df3ea0b",
+  "question": "Rieng ngay hom nay doanh thu quan la bao nhieu?",
+  "answer": {
+    "id": "q_00bf8df3ea0b",
+    "type": "number",
+    "answer": 4533000
+  },
+  "elapsed_sec": 0.0123,
+  "trace": {
+    "normalized_text": "rieng ngay hôm nay doanh thu quan la bao nhiêu?",
+    "normalized_ascii": "rieng ngay hom nay doanh thu quan la bao nhieu?",
+    "time_rule": "R5_today",
+    "time_start": "2025-03-04",
+    "time_end": "2025-03-04",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "rev = revenue()\nfinal_result = rev if rev > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

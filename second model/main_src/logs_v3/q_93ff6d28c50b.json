@@ -1,0 +1,19 @@
+{
+  "id": "q_93ff6d28c50b",
+  "question": "ad ơi tíh tới hết ngày 9/6/2025 á, tien khach kòn nợ o nhug don dat hon 7 ngay chua tra het la bnhiu",
+  "answer": {
+    "id": "q_93ff6d28c50b",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.0006,
+  "trace": {
+    "normalized_text": "ad ơi tíh tới hết ngày 9/6/2025 á, tien khach kòn nợ o nhug don dat hon 7 ngay chua tra het la bao nhiêu",
+    "normalized_ascii": "ad oi tih toi het ngay 9/6/2025 a, tien khach kon no o nhug don dat hon 7 ngay chua tra het la bao nhieu",
+    "time_rule": "R8_exact_date",
+    "time_start": "2025-06-09",
+    "time_end": "2025-06-09",
+    "entity_status": "exact",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

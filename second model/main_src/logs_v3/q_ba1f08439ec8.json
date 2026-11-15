@@ -1,0 +1,22 @@
+{
+  "id": "q_ba1f08439ec8",
+  "question": "Giua th1/2026, th2/2026 va th3/2026 thi thang nao doanh thu cao nhat z?",
+  "answer": {
+    "id": "q_ba1f08439ec8",
+    "type": "date",
+    "answer": "2026-03"
+  },
+  "elapsed_sec": 0.0173,
+  "trace": {
+    "normalized_text": "giua tháng 1/2026, tháng 2/2026 va tháng 3/2026 thi thang nao doanh thu cao nhất vậy?",
+    "normalized_ascii": "giua thang 1/2026, thang 2/2026 va thang 3/2026 thi thang nao doanh thu cao nhat vay?",
+    "time_rule": "R2b_month_list",
+    "time_start": "2026-01-01",
+    "time_end": "2026-03-31",
+    "entity_status": "not_needed",
+    "inferred_type": "date",
+    "fastpath_code": "pairs = [(revenue(p['start'], p['end']), p['label']) for p in T['periods']]\npairs = [x for x in pairs if x[0] > 0]\nfinal_result = max(pairs, key=lambda x: x[0])[1] if pairs else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

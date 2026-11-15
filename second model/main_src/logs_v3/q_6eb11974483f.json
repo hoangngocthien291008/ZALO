@@ -1,0 +1,22 @@
+{
+  "id": "q_6eb11974483f",
+  "question": "Dthu năm nay tính từ ngày 1/1 đến hết hnay là bao nhiêu?",
+  "answer": {
+    "id": "q_6eb11974483f",
+    "type": "number",
+    "answer": 813735300
+  },
+  "elapsed_sec": 0.0206,
+  "trace": {
+    "normalized_text": "doanh thu năm nay tính từ ngày 1/1 đến hết hôm nay là bao nhiêu?",
+    "normalized_ascii": "doanh thu nam nay tinh tu ngay 1/1 den het hom nay la bao nhieu?",
+    "time_rule": "R3_ytd",
+    "time_start": "2026-01-01",
+    "time_end": "2026-04-12",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "rev = revenue()\nfinal_result = rev if rev > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}

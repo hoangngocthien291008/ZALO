@@ -1,0 +1,19 @@
+{
+  "id": "q_827cb0083082",
+  "question": "Đếm giùm mấy ngày trong th1/2026 dthu cả ngày từ 9.300.000 đồng trở lên nha",
+  "answer": {
+    "id": "q_827cb0083082",
+    "type": "abstain"
+  },
+  "elapsed_sec": 0.001,
+  "trace": {
+    "normalized_text": "đếm giùm mấy ngày trong tháng 1/2026 doanh thu cả ngày từ 9.300.000 đồng trở lên nha",
+    "normalized_ascii": "dem gium may ngay trong thang 1/2026 doanh thu ca ngay tu 9.300.000 dong tro len nha",
+    "time_rule": "R13_specific_month",
+    "time_start": "2026-01-01",
+    "time_end": "2026-01-31",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "gate": "G4_safe_abstain"
+  }
+}

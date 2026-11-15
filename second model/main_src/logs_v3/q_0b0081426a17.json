@@ -1,0 +1,22 @@
+{
+  "id": "q_0b0081426a17",
+  "question": "Riêng hôm nay cửa hàng có doanh thu bao nhiêu?",
+  "answer": {
+    "id": "q_0b0081426a17",
+    "type": "number",
+    "answer": 12823000
+  },
+  "elapsed_sec": 0.0085,
+  "trace": {
+    "normalized_text": "riêng hôm nay cửa hàng có doanh thu bao nhiêu?",
+    "normalized_ascii": "rieng hom nay cua hang co doanh thu bao nhieu?",
+    "time_rule": "R5_today",
+    "time_start": "2025-02-25",
+    "time_end": "2025-02-25",
+    "entity_status": "not_needed",
+    "inferred_type": "number",
+    "fastpath_code": "rev = revenue()\nfinal_result = rev if rev > 0 else None",
+    "fastpath_ok": true,
+    "gate": "OK_fastpath"
+  }
+}
